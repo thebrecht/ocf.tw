@@ -193,7 +193,7 @@ textarea { overflow: auto; }
 .main .partner-wrap { padding: 0 70px 30px 70px; height: 100%;  position: relative; overflow: hidden; z-index: 100; }
 .slider-holder2 { position: relative; overflow: hidden; }
 #partners-slider { overflow: hidden; position: relative; }
-#partners-slider img { margin: 0px; float: left; height: 100px; }
+#partners-slider .slider-holder2 div { margin: 0px; float: left; height: 100px; }
 
 .slider-arr a.arr-btn { background: url(images/slider-b-arr.png) no-repeat 0 0; width: 30px; height: 30px; display: block; position: absolute; top: 10px;}
 .slider-arr a.prev-arr { left: 32px; }
