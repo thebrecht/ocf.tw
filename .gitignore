@@ -1,2 +1,3 @@
 html/default/home.html.bak
 *.sw*
+.DS_Store
