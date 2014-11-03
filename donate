@@ -9,6 +9,6 @@
 	  ga('create', 'UA-379894-19', 'auto');
 	  ga('send', 'pageview');
 	  
-	  window.location.replace(“http://www.new-url.com");
+	  window.location.replace(“https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=1");
   </script>
 </head>
