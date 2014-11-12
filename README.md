@@ -1,3 +1,3 @@
 for ocf.tw web site 
 
-please modify gh-pages directly
+Here is the HEAD brahch, please modify gh-pages branch directly. 
