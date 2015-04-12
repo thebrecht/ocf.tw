@@ -185,7 +185,7 @@ textarea { overflow: auto; }
 .main .post-cnt ul li a:hover { text-decoration: none; }
 
 .main .content { padding-left: 32px; padding-right: 32px; }
-.main .content span { text-decoration: underline; }
+/* .main .content span { text-decoration: underline; }  暫時關掉 */
 
 .main #partners-slider { height: 104px; }
 
