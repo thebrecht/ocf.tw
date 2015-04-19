@@ -21,12 +21,12 @@ while read -r LINE ; do
     ITEM="${ITEM}.html"
     if [ -f "${ITEM}" ]; then
       cat "${ITEM}" >> $RESULT
-      echo "\n" >> $RESULT
+   #   echo "\n" >> $RESULT
     fi
   else
     echo "$LINE" >> $RESULT
   fi
 done <${PAGE}.raw.html
 
-git commit -m "auto commit by go.sh"
+git commit -a -m "auto commit by go.sh"
 git push
