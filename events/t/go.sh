@@ -27,3 +27,6 @@ while read -r LINE ; do
     echo "$LINE" >> $RESULT
   fi
 done <${PAGE}.raw.html
+
+git commit -m "auto commit by go.sh"
+git push
