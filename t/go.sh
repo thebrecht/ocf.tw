@@ -18,7 +18,7 @@ while read -r LINE ; do
 #      ITEM="${PAGE}-body"
 #    fi
 
-    ITEM="../${ITEM}.html"
+    ITEM="${ITEM}.html"
     if [ -f "${ITEM}" ]; then
       cat "${ITEM}" >> $RESULT
    #   echo "\n" >> $RESULT
