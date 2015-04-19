@@ -184,6 +184,10 @@ textarea { overflow: auto; }
 .main .post-cnt ul li a { text-decoration: underline; }
 .main .post-cnt ul li a:hover { text-decoration: none; }
 
+.main ol, .main ul {
+  padding-left: 4em;
+}
+
 .main .content { padding-left: 32px; padding-right: 32px; }
 /* .main .content span { text-decoration: underline; }  暫時關掉 */
 
