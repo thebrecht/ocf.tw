@@ -4,9 +4,17 @@
 
 <body>
 <div class="wrapper">
+    
     {% include navi_header.html %}
-    {{ content }}
+    
+    <div class="shell">
+        <div class="main">
+            {{ content }}
+        </div><!--end of main -->
+    </div>
+    
     {% include footer.html %}
-</div>
+    
+</div><!-- end of wrapper -->
 </body>
 </html>
