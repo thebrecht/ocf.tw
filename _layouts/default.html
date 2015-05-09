@@ -1,7 +1,12 @@
+<html>
+    
 {% include header.html %}
 
-    <h1>{{ page.title }}</h1>
-
+<body>
+<div class="wrapper">
+    {% include navi_header.html %}
     {{ content }}
-
-{% include footer.html %}
+    {% include footer.html %}
+</div>
+</body>
+</html>
