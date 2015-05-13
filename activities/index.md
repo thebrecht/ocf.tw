@@ -4,6 +4,7 @@ title: ocf 活動紀錄
 og_description: 開放文化基金會::活動紀錄 
 og_image: http://ocf.tw/images/ocf-logo-2.jpg
 ---
+<section class="content" id="">
 #### 2015
 * 2015-12-4 (五) ~ 2015-12-5(六) JCConf 
 * 2015-08-03 ~ 2015-08-06 SITCON 夏令營
@@ -28,6 +29,6 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
 
 <br>
 <br>
-
+</section>
 
 
