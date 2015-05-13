@@ -16,11 +16,13 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
 * 2015-02-10 Taiwan Open Data Center 台灣開放資料中心 會議記錄
 * 2015-02-10 活動修正與展望 (需權限)
 * 2015-02-07 烤山豬餐會紀錄 : 20150207 Party
-* 2015-02-05 新境界文教基金會 : 地方政府 open data 策略建議 (草稿) 會議記錄: https://smartcity.hackpad.com/A.-Hackathon--VEDXba5WDu4
+* 2015-02-05 新境界文教基金會 : 地方政府 open data 策略建議 (草稿), [會議記錄](https://smartcity.hackpad.com/A.-Hackathon--VEDXba5WDu4) 
 * 2015-01-12 Ben's Open Data Center 會議記錄
+
 #### 2014
 * 2014-12-12 g0v 美東松
-* [舉辦 Introduction to Apache Spark 演講](http://ocftw.kktix.cc/events/0924spark) [錄影](https://www.youtube.com/watch?v=HV5UecjI4hI&feature=youtu.be&list=PLuW7NCGvKlyVGjKlW9w8oxDiQFMaJ0JZN)
+* 2014 9 24 活動檢討
+* 2014-09-24 [舉辦 Introduction to Apache Spark 演講](http://ocftw.kktix.cc/events/0924spark) ,  [錄影](https://www.youtube.com/watch?v=HV5UecjI4hI&feature=youtu.be&list=PLuW7NCGvKlyVGjKlW9w8oxDiQFMaJ0JZN)
 
 
 
