@@ -24,6 +24,8 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
 * 2014 9 24 活動檢討
 * 2014-09-24 [舉辦 Introduction to Apache Spark 演講](http://ocftw.kktix.cc/events/0924spark) ,  [錄影](https://www.youtube.com/watch?v=HV5UecjI4hI&feature=youtu.be&list=PLuW7NCGvKlyVGjKlW9w8oxDiQFMaJ0JZN)
 
+<br>
+<br>
 
 
 
