@@ -12,7 +12,7 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
     
     台灣 Java 社群主辦, 開放文化基金會協辦
 
-    &nbsp;
+    &nbsp;.
     
 * 2015-08-03 ~ 2015-08-06
     
