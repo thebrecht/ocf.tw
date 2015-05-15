@@ -4,7 +4,7 @@ title: ocf 活動紀錄
 og_description: 開放文化基金會::活動紀錄 
 og_image: http://ocf.tw/images/ocf-logo-2.jpg
 ---
-#### 2015
+## 2015
 
 * 2015-12-4 ~ 2015-12-5 
     
@@ -108,7 +108,9 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
 
 * 2015-02-07 
         
-    烤山豬餐會紀錄 : 20150207 Party
+    募款餐會::[烤山豬餐會紀錄](https://ocf-tw.hackpad.com/2015-02-07-Party--REAMH2Ulrbx)
+    
+    <br>
     
 * 2015-02-05 
     
@@ -116,8 +118,11 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
     
     地方政府 open data 策略建議 (草稿), [會議記錄](https://smartcity.hackpad.com/A.-Hackathon--VEDXba5WDu4) 
 
+<br>
+--------
+<br>
 
-#### 2014
+## 2014
 * 2014-12-12 
         
     [g0v 美東松分享會](http://ocftw.kktix.cc/events/1212ocf)
