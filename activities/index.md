@@ -30,7 +30,7 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
     
     董事長 李柏鋒 主講 : <TBD>
     
-* 2015-06-05/06/07  (五/六/日) 
+* 2015-06-05 ~ 2015-06-07
    
     PyCON APAC 
     
@@ -55,6 +55,7 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
         
     台北市政府資訊局主辦, 網絡行動科技協辦, 合作夥伴: 開放文化基金會, 資料科學愛好者年會, g0v 揪松團
     
+    <br>
 
 * 2015-04-20 
         
