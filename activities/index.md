@@ -48,7 +48,7 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
     
 * 2015-06-04 
     
-    [OCF 國際交流計畫分享會: 資助學生向世界一流高手近身學習 / Embedded Linux Conference 分享會 (新竹)](http://ocf.tw/events/elc2015/)
+    [OCF 國際交流分享會: 資助學生向世界一流高手近身學習 / Embedded Linux Conference 分享會 (新竹)](http://ocf.tw/events/elc2015/)
     
     開放文化基金會主辦, OSSF 協辦, skymier , VMFive 贊助
 
@@ -56,8 +56,7 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
     
 * 2015-05-24 
     
-    [OCF 國際交流計畫: 資助學生向世界一流高手近身學習 / Embedded Linux Conference 分享會
-(台北)](http://ocf.tw/events/elc2015/)
+    [OCF 國際交流分享會: 資助學生向世界一流高手近身學習 / Embedded Linux Conference 分享會 (台北)](http://ocf.tw/events/elc2015/)
 
     開放文化基金會主辦, OSSF 協辦, skymier , VMFive 贊助
     
