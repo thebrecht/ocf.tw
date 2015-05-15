@@ -92,6 +92,7 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
 * 2015-03-19 
 
     ![IgniteOD](https://lh3.googleusercontent.com/-zKkxBNsehQU/VRgnqAbTvXI/AAAAAAAAANI/toincSgLOi4/w816-h545-no/DSC_1841.JPG)
+    
     點燃開放資料之夜 Ignite Open Data
     
     開放文化基金會、英國貿易文化辦事處、經濟部工業局、COSCUP 開源人年會共同舉辦 
@@ -114,13 +115,21 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
 #### 2014
 * 2014-12-12 
         
-    g0v 美東松分享會
+    [g0v 美東松分享會](http://ocftw.kktix.cc/events/1212ocf)
+    
+    開放文化基金會主辦, 場地贊助：Coworking Taiwan 台灣共用工作空間交流協會
+    
+    <br>
     
 * 2014-09-24 
         
-    [舉辦 Introduction to Apache Spark 演講](http://ocftw.kktix.cc/events/0924spark) , 
+    [Introduction to Apache Spark 演講](http://ocftw.kktix.cc/events/0924spark)
 
-[錄影](https://www.youtube.com/watch?v=HV5UecjI4hI&feature=youtu.be&list=PLuW7NCGvKlyVGjKlW9w8oxDiQFMaJ0JZN)
+    主辦單位：自由軟體鑄造場、OCF開放文化基金會
+    
+    [錄影](https://www.youtube.com/watch?v=HV5UecjI4hI&feature=youtu.be&list=PLuW7NCGvKlyVGjKlW9w8oxDiQFMaJ0JZN)
+    
+    <br>
 
 <br>
 <br>
