@@ -92,6 +92,8 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
 
     ![IgniteOD](https://lh3.googleusercontent.com/-zKkxBNsehQU/VRgnqAbTvXI/AAAAAAAAANI/toincSgLOi4/w816-h545-no/DSC_1841.JPG)
     
+    ![logos](https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/11008067_1548953028713961_4503813259168192084_n.jpg?oh=a4b07d126f0a7943dbff341b7f589dc4&oe=55C09172&__gda__=1443249186_104899d8579fba4ebb2da10453a75d36)
+    
     點燃開放資料之夜 Ignite Open Data
     
     開放文化基金會、英國貿易文化辦事處、經濟部工業局、COSCUP 開源人年會共同舉辦 
@@ -108,6 +110,8 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
 
 * 2015-02-07 
         
+    ![烤山豬](https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/p720x720/10959591_10202326260596791_1631272429997435210_n.jpg?oh=7992318623be9937059606e4ff338742&oe=55C7477A&__gda__=1440098668_e8c4912d69bb45886df37ddb9b4d53b7)
+
     募款餐會::[烤山豬餐會紀錄](https://ocf-tw.hackpad.com/2015-02-07-Party--REAMH2Ulrbx)
     
     <br>
@@ -130,7 +134,15 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
     開放文化基金會主辦, 場地贊助：Coworking Taiwan 台灣共用工作空間交流協會
     
     <br>
+
+* 2014-11-08 ~ 2014-11-09
     
+    [零時政府年會(g0v summit 2014)](http://summit.g0v.tw/zh-TW/)
+
+    g0v 社群主辦, 中央研究院社會學研究所, 開放文化基金會 共同協辦
+    
+
+
 * 2014-09-24 
         
     [Introduction to Apache Spark 演講](http://ocftw.kktix.cc/events/0924spark)
