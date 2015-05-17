@@ -97,13 +97,13 @@ textarea { overflow: auto; }
 	letter-spacing: -5px;
 	font-weight: normal;
 	color: #f5f5f5;
-	line-height: 70px; 
+	line-height: 70px;
 	text-shadow: 0 0 2px rgba(0,0,0,0.5);
 	width: 420px;
 	left: 32px;
 	background: url(../images/slider-h3-border.png) repeat-x 0 bottom;
 	top: 91px;
-	padding-bottom: 13px; 
+	padding-bottom: 13px;
 	margin: 0 0 18px;
 }
 
@@ -116,12 +116,12 @@ textarea { overflow: auto; }
 	left: 32px;
 	top: 181px;
 	margin: 0;
-	line-height: 26px; 
+	line-height: 26px;
 }
 #carousel a.green-btn {
 	color: #fff;
 	font-size: 18px;
-	font-weight: bold; 
+	font-weight: bold;
 	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 	text-decoration: none;
 	text-align: center;
@@ -137,7 +137,7 @@ textarea { overflow: auto; }
 
 }
 #carousel a:hover {
-	background-position: -1px -54px; 
+	background-position: -1px -54px;
 }
 
 #prev, #next {
@@ -156,7 +156,7 @@ textarea { overflow: auto; }
 
 #next {
 	right: 434px;
-	background-position: right 0; 
+	background-position: right 0;
 }
 
 .pagination { position: absolute; bottom: 15px; left: 50%; margin-left: -44px; width: 88px; }
@@ -189,6 +189,7 @@ textarea { overflow: auto; }
 }
 
 .main .content { padding-left: 32px; padding-right: 32px; }
+.main .content img {max-width: 100%;}
 /* .main .content span { text-decoration: underline; }  暫時關掉 */
 
 .main #partners-slider { height: 104px; }
@@ -206,7 +207,7 @@ textarea { overflow: auto; }
 .slider-arr a.next-arr:hover { background-position: right -31px; }
 
 
-.socials { background: url(../images/socials-pattern.png) repeat 0 0; height: 50px; padding: 0 17px;  margin: 0 32px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -o-border-radius: 4px;  
+.socials { background: url(../images/socials-pattern.png) repeat 0 0; height: 50px; padding: 0 17px;  margin: 0 32px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -o-border-radius: 4px;
 	box-shadow: 0px 0px 7px rgba(0,0,0,0.2) inset; -moz-box-shadow: 0px 0px 7px rgba(0,0,0,0.2) inset; -webkit-box-shadow: 0px 0px 7px rgba(0,0,0,0.2) inset; -o-box-shadow: 0px 0px 7px rgba(0,0,0,0.2) inset; }
 
 .socials p { float: left; line-height: 50px; font-size: 16px; }
@@ -286,19 +287,19 @@ textarea { overflow: auto; }
 	#carousel img.img-front {
 		left: 476px;
 		width: 230px  !important;
-		height: 390px;  
+		height: 390px;
 	}
 
 	#carousel img.img-mid {
 		left: 425px;
 		width: 192px  !important;
-		height: 309px; 
+		height: 309px;
 	}
 
 	#carousel img.img-back {
 		left: 366px;
 		width: 141px  !important;
-		height: 238px; 
+		height: 238px;
 	}
 
 	#prev { left: 290px; }
@@ -309,7 +310,7 @@ textarea { overflow: auto; }
 	.main .cols .col { width: 200px; }
 	.main .cols .col img { float: none; display: block; margin: 0 auto; width: 73px;  margin-bottom: 14px; }
 	.main .cols .col .col-cnt { float: none; display: block;  text-align: center; }
-	
+
 	.main .post { padding-left: 20px; padding-right: 20px; }
 	.main .post h2 { font-size: 21px;  }
 	.main .post img { width: 274px; height: 274px; }
@@ -328,11 +329,11 @@ textarea { overflow: auto; }
 
 }
 
-	
-@media only screen and ( max-width: 767px) { 
+
+@media only screen and ( max-width: 767px) {
 	body { min-width: 320px; }
 	.shell { max-width: 320px; }
-	.header .shell { padding: 0 0 0 0; background: url(../images/m-header-shell.png) no-repeat 0 0; } 
+	.header .shell { padding: 0 0 0 0; background: url(../images/m-header-shell.png) no-repeat 0 0; }
 	.header-top { padding: 12px 0 0px 0; }
 	#logo { margin: 0 auto; float: none; display: block; }
 
@@ -340,15 +341,15 @@ textarea { overflow: auto; }
 	#navigation a.nav-btn { display: block; height: 32px; padding-left: 13px; line-height: 32px; width: 286px; margin: 0 auto; background: url(../images/nav-btn.png) no-repeat right 0;
 		font-size: 15px; color: #fff; font-size: 17px; font-weight: 400; position: relative; z-index: 100;}
 	#navigation a.nav-btn:hover { text-decoration: none; }
-	#navigation a.nav-btn span { background: url(../images/nav-arr.png) no-repeat 0 0; width: 10px; height: 7px; position: absolute; top: 13px; right: 13px; } 
+	#navigation a.nav-btn span { background: url(../images/nav-arr.png) no-repeat 0 0; width: 10px; height: 7px; position: absolute; top: 13px; right: 13px; }
 	#navigation a.nav-btn span.active { background-position: 0 bottom;  }
 
 	#navigation ul { display: none; position: absolute; width: 298px; background: #100f11; top: 22px; left: 0px; padding-top: 20px; border-radius: 0 0 7px 7px; -moz-border-radius: 0 0 7px 7px; -webkit-border-radius: 0 0 7px 7px; -o-border-radius: 0 0 7px 7px; }
 	#navigation ul li { float: none; display: block; padding-left: 0; padding-bottom: 8px; }
 	#navigation ul li a { display: block; padding-left: 10px; }
-	#navigation ul li.home { display: none;  } 
+	#navigation ul li.home { display: none;  }
 	#header { background: url(../images/m-header.png) repeat-x 0 0; height: 218px; width: 100%; }
-	
+
 	.slider, #carousel, #carousel > div {
 		width: 300px;
 		height: 436px;
@@ -380,14 +381,14 @@ textarea { overflow: auto; }
 		top : 140px;
 		left: 80px;
 		width: 110px  !important;
-		height: 198px; 
+		height: 198px;
 	}
 
 	#carousel img.img-back {
 		top: 160px;
 		left: 40px;
 		width: 90px  !important;
-		height: 155px; 
+		height: 155px;
 	}
 
 	.pagination { bottom: 8px; left: 155px; }
@@ -399,7 +400,7 @@ textarea { overflow: auto; }
 	.main .cols .col + .col { padding: 20px 0 0;  }
 	.main .cols .col img { float: none; display: block; margin: 0 auto; width: 73px;  margin-bottom: 14px; }
 	.main .cols .col .col-cnt { float: none; display: block;  text-align: center; }
-	
+
 	.main .post { padding-left: 20px; padding-right: 20px; }
 	.main .post h2 { font-size: 21px;  }
 	.main .post img { width: 274px; height: 274px; }
@@ -411,7 +412,7 @@ textarea { overflow: auto; }
 	.main .content { padding-left: 20px; padding-right: 20px; }
 
 	.main #partners-slider { height: 104px; }
-	.main .partners { padding: 0 40px 12px; position: relative; margin-top: -20px; } 
+	.main .partners { padding: 0 40px 12px; position: relative; margin-top: -20px; }
 	#partners-slider img { margin: 0px 10px; }
 	.slider-arr a.prev-arr { left: 10px; }
 	.slider-arr a.next-arr { right: 10px; background-position: right 0; }
@@ -427,7 +428,7 @@ textarea { overflow: auto; }
 	#footer .footer-bottom p.copy { float: none; display: block; clear: both; }
 }
 
-@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min--moz-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 240dpi)  { 
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min--moz-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 240dpi)  {
 
 	#logo a { background: url(../images/logo@2x.png) no-repeat 0 0;   -webkit-background-size: 142px 57px; -moz-background-size: 142px 57px; background-size: 142px 57px; }
 	#navigation { background: url(../images/navigation@2x.png) no-repeat 0 0;  -webkit-background-size: 298px 32px; -moz-background-size: 298px 32px; background-size: 298px 32px;  }
@@ -435,4 +436,3 @@ textarea { overflow: auto; }
 	.pagination a { background: url(../images/pagination@2x.png) no-repeat 0 1px; -webkit-background-size: 18px 40px; -moz-background-size: 18px 40px; background-size: 18px 40px; }
 	.main section { background: url(../images/section@2x.png) no-repeat center bottom; -webkit-background-size: 300px 10px; -moz-background-size: 300px 10px; background-size: 300px 10px;  }
 }
-
