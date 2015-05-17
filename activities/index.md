@@ -137,11 +137,13 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
 
 * 2014-11-08 ~ 2014-11-09
     
+    ![g0v.summit](https://scontent-sjc.xx.fbcdn.net/hphotos-xpa1/t31.0-8/p720x720/10583067_793660514008570_2933450257237484784_o.png)
+    
     [零時政府年會(g0v summit 2014)](http://summit.g0v.tw/zh-TW/)
 
     g0v 社群主辦, 中央研究院社會學研究所, 開放文化基金會 共同協辦
     
-
+    <br>
 
 * 2014-09-24 
         
