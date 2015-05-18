@@ -15,8 +15,11 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
     <br>
     
 * 2015-08-15 ~ 2015-08-16
-    COSCUP
+
+    [COSCUP](http://coscup.org)
+
     台灣開源社群聯合主辦, 開放文化基金會協辦
+
     <br>
 
 * 2015-08-03 ~ 2015-08-06
