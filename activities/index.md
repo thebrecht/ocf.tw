@@ -5,8 +5,6 @@ og_description: 開放文化基金會::活動紀錄
 og_image: http://ocf.tw/images/ocf-logo-2.jpg
 ---
 
-<section id="2015" class="content">
-
 ## 2015
 
 * 2015-12-4 ~ 2015-12-5
@@ -136,8 +134,6 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
 <br>
 --------
 <br>
-</section>
-<section id="2014" class="content">
 
 ## 2014
 * 2014-12-12
@@ -203,4 +199,3 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
     <br>
 <br>
 <br>
-</section>
