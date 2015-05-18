@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single_section
 title: ocf 活動紀錄
 og_description: 開放文化基金會::活動紀錄
 og_image: http://ocf.tw/images/ocf-logo-2.jpg
