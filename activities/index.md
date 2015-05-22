@@ -48,11 +48,9 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
     <br>
     
 * 2015-06-14 
-
+    
     State of Citizen Participation 公民參與大亂鬥
-    
-    ![SOCP](https://t.kfs.io/organization_resource_files/5640/3070/sq.jpg)
-    
+     
     共同主辦: 開放文化基金會, 美國在台協會, 國發會, 台灣微軟 
     
      <br>
