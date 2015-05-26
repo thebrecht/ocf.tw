@@ -109,6 +109,12 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
 
     <br>
 
+* 2015-05-14 
+    
+    出席 中央研究院 人文社會科學研究中心 健康統計區建置-專家會議
+
+    <br>
+
 * 2015-04-20
 
     [104年「非營利組織資訊科技運用」座談會](http://apply.frontier.org.tw/2015/introduce.htm)
