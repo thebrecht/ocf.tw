@@ -73,9 +73,11 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
 
 * 2015-05-25
     
-    出席 [智慧局公布著作權法修正草案第二稿徵求各界意見](https://www.tipo.gov.tw/ct.asp?xItem=549150&ctNode=7127&mp=1)
+    出席 [著作權法修正草案第二稿公聽會](https://www.tipo.gov.tw/ct.asp?xItem=549150&ctNode=7127&mp=1)
 
     錄影: [https://youtu.be/vR4wQc0Hpfc](https://youtu.be/vR4wQc0Hpfc)
+    
+    [智慧局報告投影片](https://drive.google.com/file/d/0B1uXLsanO-xAN3VsZ19xRTB1X2M/view?usp=sharing)
     
     相關發言:
     
