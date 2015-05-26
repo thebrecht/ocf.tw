@@ -436,3 +436,17 @@ textarea { overflow: auto; }
 	.pagination a { background: url(../images/pagination@2x.png) no-repeat 0 1px; -webkit-background-size: 18px 40px; -moz-background-size: 18px 40px; background-size: 18px 40px; }
 	.main section { background: url(../images/section@2x.png) no-repeat center bottom; -webkit-background-size: 300px 10px; -moz-background-size: 300px 10px; background-size: 300px 10px;  }
 }
+
+/* Embed hackpad specific style */
+.hackpad-wrapper ul.comment {
+  display: none;
+}
+.hackpad-wrapper h2 {
+  margin: 1.0em 0;
+  padding: 0;
+}
+.hackpad-wrapper p > b {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #555;
+}
