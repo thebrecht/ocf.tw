@@ -71,6 +71,24 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
 
     <br>
 
+* 2015-05-25
+    
+    出席 [智慧局公布著作權法修正草案第二稿徵求各界意見](https://www.tipo.gov.tw/ct.asp?xItem=549150&ctNode=7127&mp=1)
+
+    錄影: [https://youtu.be/vR4wQc0Hpfc](https://youtu.be/vR4wQc0Hpfc)
+    
+    相關發言:
+    
+    Lucien 第一次: [https://youtu.be/vR4wQc0Hpfc?t=1h7m6s](https://youtu.be/vR4wQc0Hpfc?t=1h7m6s)
+    
+    nchild 第一次: [https://youtu.be/vR4wQc0Hpfc?t=2h17m5s](https://youtu.be/vR4wQc0Hpfc?t=2h17m5s)
+    
+    pofeng 第一次: [https://youtu.be/vR4wQc0Hpfc?t=2h47m30s](https://youtu.be/vR4wQc0Hpfc?t=2h47m30s)
+    
+    nchild 第二次: [https://youtu.be/vR4wQc0Hpfc?t=3h23m18s](https://youtu.be/vR4wQc0Hpfc?t=3h23m18s)
+    
+    <br>
+
 * 2015-05-24
 
     [OCF 國際交流分享會: 資助學生向世界一流高手近身學習 / Embedded Linux Conference 分享會 (台北)](http://ocf.tw/events/elc2015/)
