@@ -187,6 +187,16 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
     g0v 社群主辦, 中央研究院社會學研究所, 開放文化基金會 共同協辦
 
     <br>
+    
+* 2014-10-26 ~ 2014-10-27
+    
+    [Asia Data BootCamp, Singapore](http://singapore.dbootcamp.org/)
+
+    主辦 : Infocomm Development Authority of Singapore and The World Bank
+    
+    協辦 : 開放文化基金會, dataScienceSG, datakind-sg, NewsplexAsia 
+
+    <br>
 
 * 2014-09-24
 
