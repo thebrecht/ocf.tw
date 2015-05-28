@@ -7,21 +7,17 @@ og_image: http://ocf.tw/images/ocf-logo-2.jpg
 
 <form  action="/civicrm/profile/create" method="post" name="Edit" id="Edit" >
 
-
-<div><input name="postURL" type="hidden" value="http://ocf.tw/subscribe/confirm.html" />
+<input name="postURL" type="hidden" value="http://ocf.tw/subscribe/confirm.html" />
 <input name="cancelURL" type="hidden" value="http://ocf.tw" />
 <input name="_qf_default" type="hidden" value="Edit:cancel" />
-</div>
 
-	電子郵件: <input maxlength="64" size="30" name="email-Primary" type="text" id="email-Primary" class="form-text big required" />
-	
+電子郵件: <input maxlength="64" size="30" name="email-Primary" type="text" id="email-Primary" class="form-text big required" />
+<br>
 請於下方框框打勾, 以訂閱 ocf 電子報, 了解基金會最新消息 訂閱後您可隨時至系統取消訂閱
+<br>
+訂閱 OCF 電子報 ? <input type="hidden" name="group[2]" value="" />
+<input skiplabel="1" id="group[2]" name="group[2]" type="checkbox" value="1" class="form-checkbox            checked" />電子報
 
-	<label>  訂閱 OCF 電子報 ?
-     
-<input type="hidden" name="group[2]" value="" />
-<input skiplabel="1" id="group[2]" name="group[2]" type="checkbox" value="1" class="form-checkbox            checked" />電子報</strong><br />
-						
 <input class="form-submit default" name="_qf_Edit_next" value="送出" type="submit" id="_qf_Edit_next" />
 <input class="form-submit default" name="_qf_Edit_cancel" value="取消" type="submit" id="_qf_Edit_cancel" />
 
