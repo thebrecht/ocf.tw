@@ -1,0 +1,16 @@
+body {
+  font-family: Lato, 'LiHei Pro', '微軟正黑體', 'Microsoft JhengHei', sans-serif;
+}
+.wrapper {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+
+.grid.cards .card > .content {
+  font-size: 16px;
+}
+.grid.cards .card > .content .list {
+  height: 200px;
+}
