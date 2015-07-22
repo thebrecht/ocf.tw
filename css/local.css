@@ -18,3 +18,7 @@ body {
 #header {
   background-color: #333;
 }
+
+#header .ui.menu .item>img {
+  margin: 0;
+}
