@@ -16,6 +16,6 @@ body {
   margin: 0;
 }
 
-#footer {
+#footer .footer {
   background: url(../images/footer.png) repeat 0 0;
 }
