@@ -14,3 +14,7 @@ body {
 .grid.cards .card > .content .list {
   height: 200px;
 }
+
+#header {
+  background-color: #333;
+}
