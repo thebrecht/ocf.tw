@@ -15,6 +15,14 @@ body {
   padding-bottom: 1rem;
 }
 
+.float.right {
+  float: right;
+}
+
+.float.left {
+  float: left;
+}
+
 #header {
   background-color: #333;
 }
@@ -22,6 +30,7 @@ body {
 #header .ui.menu .item>img {
   margin: 0;
 }
+
 
 #footer .footer {
   background: url(../images/footer.png) repeat 0 0;
