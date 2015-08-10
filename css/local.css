@@ -42,7 +42,7 @@ body {
 
 .ui.cards > .card > .image:not(.ui) > img {
   border: medium none;
-  height: 10rem;
+  height: 8rem;
   width: 100%;
   object-fit: cover;
 }
