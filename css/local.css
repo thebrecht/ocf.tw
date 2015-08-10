@@ -40,6 +40,13 @@ body {
   margin-left: 0.5em;
 }
 
+.ui.cards > .card > .image:not(.ui) > img {
+  border: medium none;
+  height: 10rem;
+  width: 100%;
+  object-fit: cover;
+}
+
 
 .desktop, .laptop, .tablet, .phone {
   display: none !important;
