@@ -56,6 +56,9 @@ h1, h2, h3, h4, h5, h6, .ui.header, .ui.menu, .ui.button {
   object-fit: cover;
 }
 
+.ui.menu .item > img:not(.ui) {
+ width: 11em; 
+}
 
 .desktop, .laptop, .tablet, .phone {
   display: none !important;
