@@ -6,6 +6,9 @@ h1, h2, h3, h4, h5, h6, .header, .ui.menu {
  font-family: Lato, 'LiHei Pro', '微軟正黑體', 'Microsoft JhengHei', sans-serif;
 }
 
+.ui.card > .content > .header, .ui.cards > .card > .content > .header {
+  font-family: Lato, 'LiHei Pro', '微軟正黑體', 'Microsoft JhengHei', sans-serif;
+}
 
 .wrapper {
   width: 100%;
