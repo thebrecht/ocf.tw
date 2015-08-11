@@ -1,13 +1,14 @@
 body {
-  font-family: Lato, 'LiHei', '微軟正黑體', 'Microsoft JhengHei', sans-serif;
+  font-family: Lato,Noto sans,"Helvetica Neue",Arial,Helvetica '微軟正黑體', 'Microsoft JhengHei', sans-serif;
 }
 
+
 h1, h2, h3, h4, h5, h6, .ui.header, .ui.menu, .ui.button {
- font-family: Lato, 'LiHei', '微軟正黑體', 'Microsoft JhengHei', sans-serif;
+ font-family: Lato,Noto sans,"Helvetica Neue",Arial,Helvetica '微軟正黑體', 'Microsoft JhengHei', sans-serif;
 }
 
 .ui.card > .content > .header, .ui.cards > .card > .content > .header {
-  font-family: Lato, 'LiHei', '微軟正黑體', 'Microsoft JhengHei', sans-serif;
+  font-family: Lato,Noto sans,"Helvetica Neue",Arial,Helvetica '微軟正黑體', 'Microsoft JhengHei', sans-serif;
 }
 
 .wrapper {
