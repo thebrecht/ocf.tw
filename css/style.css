@@ -35,7 +35,7 @@ textarea { overflow: auto; }
 .header-top { height: 72px;  }
 
 #logo { width: 142px; font-size: 0; line-height: 0; float: left; }
-#logo a { height: 57px; display: block;  background: url(../images/logo-white.png) no-repeat 0 0; text-indent: -4000px; }
+#logo a { height: 57px; display: block;  background: url(../images/logo-2015.png) no-repeat 0 0; text-indent: -4000px; }
 
 #navigation { float: right; padding-top: 13px; }
 #navigation ul { list-style: none; list-style-position: outside; font-size: 17px; font-weight: 400;  }
@@ -430,7 +430,7 @@ textarea { overflow: auto; }
 
 @media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min--moz-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 240dpi)  {
 
-	#logo a { background: url(../images/logo-white.png) no-repeat 0 0;   -webkit-background-size: 142px 57px; -moz-background-size: 142px 57px; background-size: 142px 57px; }
+	#logo a { background: url(../images/logo-2015@2x.png) no-repeat 0 0;   -webkit-background-size: 142px 57px; -moz-background-size: 142px 57px; background-size: 142px 57px; }
 	#navigation { background: url(../images/navigation@2x.png) no-repeat 0 0;  -webkit-background-size: 298px 32px; -moz-background-size: 298px 32px; background-size: 298px 32px;  }
 	#navigation a.nav-btn span { background: url(../images/nav-arr@2x.png) no-repeat 0 0; -webkit-background-size: 10px 15px; -moz-background-size: 10px 15px; background-size: 10px 15px; }
 	.pagination a { background: url(../images/pagination@2x.png) no-repeat 0 1px; -webkit-background-size: 18px 40px; -moz-background-size: 18px 40px; background-size: 18px 40px; }
