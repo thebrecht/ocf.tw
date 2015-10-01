@@ -33,6 +33,12 @@ h1, h2, h3, h4, h5, h6, .ui.header, .ui.menu, .ui.button {
   float: left;
 }
 
+.ui.tab img {
+max-width:100%;
+}
+
+
+
 #header {
   background-color: #333;
 }
