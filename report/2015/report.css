@@ -1,5 +1,7 @@
-.annual-report .item .content,
-.annual-report .item .image {
+.annual-report .ui.items>.item>.content,
+.annual-report .ui.items>.item>.image 
+{
   width: 50%;
+  min-height:300px;
   margin: 0;
 }
