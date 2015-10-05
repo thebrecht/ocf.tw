@@ -5,3 +5,15 @@
   min-height:300px;
   margin: 0;
 }
+
+.annual-title {
+  margin-bottom: 10px;
+}
+.annual-title .content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.annual-title .ui.horizontal.divider {
+  max-width: 200px;
+  margin: 0 auto;
+}
