@@ -1,19 +1,51 @@
-.annual-report .ui.items>.item>.content,
+.annual-report .ui.items {
+  margin: 10px;
+}
+.annual-report .ui.items>.item {
+  display: table;
+}
+.annual-report .ui.items>.item>.block,
 .annual-report .ui.items>.item>.image 
 {
   width: 50%;
-  min-height:300px;
   margin: 0;
+  display: table-cell;
+  vertical-align: middle;
+}
+.annual-report .ui.items>.item>.block {
+  text-align: center;
+  padding: 40px;
 }
 
 .annual-title {
-  margin-bottom: 10px;
+  min-height: 350px;
+  display: table;
+  width: 100%;
+  border-spacing: 10px 0;
+  margin: 10px 0;
 }
+.annual-title .inner {
+  display: table-cell;
+  vertical-align: middle;
+  background: #37AAB0;
+  color: #FFF;
+  margin: 10px;
+}
+.annual-title h1.header {
+  font-size: 5em;
+}
+.annual-title h1.header,
 .annual-title .content {
   max-width: 960px;
   margin: 0 auto;
+  text-align: center;
 }
 .annual-title .ui.horizontal.divider {
   max-width: 200px;
   margin: 0 auto;
+}
+
+/* intro */
+.annual-title.intro {
+  min-height:550px;
 }
