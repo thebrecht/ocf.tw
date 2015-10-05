@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5, h6, .ui.header, .ui.menu, .ui.button {
   max-width: 1024px;
   margin: 0 auto;
 }
+.wrapper-fluid {
+  width: 100%;
+  margin: 0;
+}
 .horizontal.padding {
   padding-left: 1rem;
   padding-right: 1rem;

@@ -1,0 +1,5 @@
+.annual-report .item .content,
+.annual-report .item .image {
+  width: 50%;
+  margin: 0;
+}
