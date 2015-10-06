@@ -4,3 +4,5 @@ nbproject
 _site
 *.lock
 Gemfile
+
+donate/em-course.html
