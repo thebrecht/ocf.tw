@@ -10,8 +10,8 @@ var renderPage = function(data, tabletop){
       var name = row_data['姓名'] || '';
       var amount = row_data['金額'] || '';
       var context = {amount: amount, name: name}
-      var $row_dataitem_element = $(row_dataitem(context));
-      $('[data-name="donators"] .segment').append($row_dataitem_element);
+      var $list_item_element = $(list_item(context));
+      $('[data-name="donators"] .segment').append($list_item_element);
     });
   }
   Tabletop.init({
