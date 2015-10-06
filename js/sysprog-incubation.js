@@ -1,6 +1,3 @@
-<script src="js/handlebars-v4.0.2.js"></script>
-<script src="js/tabletop-v1.4.2.js"></script>
-<script src='js/sysprog-incubation.js'>
 $(document).ready(function() {
 var renderPage = function(data, tabletop){
     // prepare handlebars template
