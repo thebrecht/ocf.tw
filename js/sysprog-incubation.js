@@ -11,7 +11,7 @@ var renderPage = function(data, tabletop){
       var amount = row_data['金額'] || '';
       var context = {amount: amount, name: name}
       var $list_item_element = $(list_item(context));
-      $('[data-name="donators"] .segment').append($list_item_element);
+      $('[data-name="donators"] .segment .list').append($list_item_element);
     });
   }
   Tabletop.init({
