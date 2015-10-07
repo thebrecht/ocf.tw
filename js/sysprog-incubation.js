@@ -1,7 +1,7 @@
 $(document).ready(function() {
 var renderPage = function(data, tabletop){
     // prepare handlebars template
-    var list_item_source = '<div class="item"><h4 class="ui icon header"><i class="circular user icon"></i>{{name}},{{amount}}</h4></div>';
+    var list_item_source = '<div class="item"><h4 class="ui icon header"><i class="circular user icon"></i>{{name}}<br/>{{amount}}</h4></div>';
     var list_item = Handlebars.compile(list_item_source);
     // prepare data
     var list = tabletop.sheets('donators').all();
