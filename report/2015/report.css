@@ -49,3 +49,41 @@
 .annual-title.intro {
   min-height:550px;
 }
+
+/* media query */
+@media (max-width: 960px) {
+  .annual-report .ui.items>.item {
+    position: relative;
+  }
+  .annual-report .ui.items>.item>.block {
+    width: 100%;
+    display: block;
+    font-size: 1.15em;
+    /*
+    position: absolute;
+    top: 0;
+    left: 0;
+    */
+    background: rgb(128,128,128, 0.5);
+  }
+  
+  .annual-report .ui.items>.item>.image {
+    width: 100%;
+    vertical-align: middle;
+    display: block;
+  }
+  .ui.items>.item>.image, .ui.items>.item>.image>img {
+    max-height: 2000px !important;
+    width: 100% !important;
+  }
+
+  .annual-title.intro {
+    min-height: 350px;
+  }
+  .annual-title.intro .inner {
+    padding: 20px;
+  }
+  .annual-title .content {
+    font-size: 1.2em;
+  }
+}
