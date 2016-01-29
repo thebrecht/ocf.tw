@@ -49,7 +49,7 @@ og_image: http://placehold.it/400x300
       <div class="ui image right">
         <img src="http://ocf.tw/images/g0v-hackthon.png">
       </div>
-      <div class="block left">
+      <div class="block left" id="first">
         <h3 class="ui huge header">協辦 <b style="color: rgb(255, 80, 80);">g0v 黑客松</b> 與<b style="color: rgb(255, 80, 80);"> 臺北市政府開放資料黑客松</b></h3>
         <div class="sub header">你今天開源了嗎？
           </br></br>
@@ -344,5 +344,22 @@ $(document).ready(function(){
       $(this).fadeTo(1500, 0.9);
     }
   });
+  // calculate height
+  function calculateHeight(){
+    $('.annual-report .block.left').each(function(){
+      var blockheight = $(this).height();
+      var imgheight = $(this).parent().find('.ui.image').height();
+      if(imgheight && imgheight > blockheight){
+        var margintop = (imgheight - blockheight)/4;
+        $(this).css('margin-top', margintop+ 'px');
+      }
+    });
+  }
+  $(window).resize(function(){
+    calculateHeight();
+  });
+  setTimeout(function(){
+    calculateHeight();
+  }, 500);
 });
 </script>

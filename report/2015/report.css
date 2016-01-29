@@ -3,6 +3,7 @@
 }
 .annual-report .ui.items>.item {
   display: table;
+  table-layout: fixed;
 }
 .annual-report .ui.items>.item>.block,
 .annual-report .ui.items>.item>.image,
@@ -27,11 +28,10 @@
   float: right;
 }
 
-
-
 .annual-title {
   min-height: 350px;
   display: table;
+  table-layout: fixed;
   width: 100%;
   border-spacing: 10px 0;
   margin: 10px 0;
@@ -42,6 +42,8 @@
   background: #37AAB0;
   color: #FFF;
   margin: 10px;
+  min-height: 350px;
+  height: 350px;
 }
 .annual-title h1.header {
   font-size: 5em;
@@ -51,6 +53,9 @@
   max-width: 960px;
   margin: 0 auto;
   text-align: center;
+}
+.annual-title .content {
+  font-size: 1.2em;
 }
 .annual-title .ui.horizontal.divider {
   max-width: 200px;
@@ -71,26 +76,31 @@
     width: 100%;
     display: block;
     font-size: 1.15em;
-    /*
-    position: absolute;
-    top: 0;
-    left: 0;
-    */
-    background: rgb(128,128,128, 0.5);
   }
-  
   .annual-report .ui.items>.item>.image {
     width: 100%;
     vertical-align: middle;
     display: block;
   }
+  .annual-report .ui.items>.item>.block.left,
+  .annual-report .ui.items>.item>.image.right {
+    float: none;
+    width: 100%;
+    display: block;
+    font-size: 1.15em;
+    margin-top: 0 !important;
+  }
+  
   .ui.items>.item>.image, .ui.items>.item>.image>img {
     max-height: 2000px !important;
     width: 100% !important;
   }
 
+  .annual-title .inner{
+    min-height: 150px;
+  }
   .annual-title.intro {
-    min-height: 350px;
+    min-height: 150px;
   }
   .annual-title.intro .inner {
     padding: 20px;
