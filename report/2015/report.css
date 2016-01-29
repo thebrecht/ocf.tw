@@ -1,3 +1,6 @@
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, 'Heiti TC', 'Apple LiGothic Medium', 微軟正黑體, sans-serif;
+}
 .annual-report .ui.items {
   margin: 10px;
 }
