@@ -5,17 +5,29 @@
   display: table;
 }
 .annual-report .ui.items>.item>.block,
-.annual-report .ui.items>.item>.image 
+.annual-report .ui.items>.item>.image,
+.annual-report .ui.items>.item>.block.left,
+.annual-report .ui.items>.item>.image.right 
 {
   width: 50%;
   margin: 0;
   display: table-cell;
   vertical-align: middle;
 }
-.annual-report .ui.items>.item>.block {
+.annual-report .ui.items>.item>.block,
+.annual-report .ui.items>.item>.block.left
+{
   text-align: center;
   padding: 40px;
 }
+.annual-report .ui.items>.item>.block.left {
+  float: left;
+}
+.annual-report .ui.items>.item>.image.right {
+  float: right;
+}
+
+
 
 .annual-title {
   min-height: 350px;
