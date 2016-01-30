@@ -9,12 +9,24 @@ og_image: http://placehold.it/400x300
   <div class="inner">
     <h1 class="header">2015 回顧</h1>
     <div class="ui horizontal divider"></div>
-    <div class="content">2015 參與基金會協辦活動的總人數：10,000+, 協辦 6 場大型的社群會議, 2 個夏令營, 7 場教育訓練, 聯合 3 個使館，邀請 11 位國際講者 … 
+    <div class="content">2015 參與基金會協辦活動的總人數：10,000+, 協辦 6 場大型的社群會議, 2 個夏令營, 7 場教育訓練, 聯合 3 個使館，邀請 11 位國際講者 …
     </div>
-    <div class="navicon"><i class="big angle double down icon"></i></div>
+    <div class="navicon in-page-nav" data="1"><i class="big angle double down icon"></i></div>
   </div>
 </div><!--end annual title-->
-
+<div class="annual-menu desktop">
+  <div class="ui inverted segment">
+    <div class="ui inverted secondary pointing menu"></div>
+  </div>
+</div>
+<div class="annual-menu mobile">
+  <div class="ui inverted segment">
+    <div class="ui simple dropdown item">
+      <i class="dropdown icon"></i>
+      <div class="menu"></div>
+    </div>
+  </div>
+</div>
 <div class="annual-title">
   <div class="inner">
     <h1 class="header">連結社群</h1>
@@ -31,7 +43,7 @@ og_image: http://placehold.it/400x300
       <div class="block">
         <h3 class="ui huge header">協辦了 <b style="color: rgb(255, 80, 80);">6</b> 場大型的社群會議、 <b style="color: rgb(255, 80, 80);">2</b> 個夏令營</h3>
         <div class="sub header">
-          10,000+ 參與者共襄盛舉台灣各類型社群：SITCON 2015、PyCON APAC 2015、SITCON CAMP 1 & 2、COSCUP 2015、台灣資料科學愛好者年會、台灣開放街圖研討會、openSUSE Asia Summit、JCConf 
+          10,000+ 參與者共襄盛舉台灣各類型社群：SITCON 2015、PyCON APAC 2015、SITCON CAMP 1 & 2、COSCUP 2015、台灣資料科學愛好者年會、台灣開放街圖研討會、openSUSE Asia Summit、JCConf
           </br></br>
 
           |&nbsp<a href="http://ocf.tw/partner/" target="_blank">我們的協力成果</a>&nbsp|
@@ -347,7 +359,7 @@ og_image: http://placehold.it/400x300
           </div>
           <div class="ui hidden divider"></div>
          <iframe width="620.5" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1Jr2ZdSrQNlDrbUwS2K3lEAS8-GrLrzRXoRlsOdWYjks/pubchart?oid=1299303155&amp;format=interactive"></iframe>
-      </div>  
+      </div>
       <div class="block">
         <h3 class="ui huge header">2015 年度行政基金總支出</h3>
         <h1 class="sub header">
@@ -357,7 +369,7 @@ og_image: http://placehold.it/400x300
             社群專款專用支出 NT$3,291,587
           </div>
           <div class="ui hidden divider"></div>
-         <iframe width="620.5" height="371" seamless frameborder="0" scrolling="no" 
+         <iframe width="620.5" height="371" seamless frameborder="0" scrolling="no"
          src="https://docs.google.com/spreadsheets/d/1Jr2ZdSrQNlDrbUwS2K3lEAS8-GrLrzRXoRlsOdWYjks/pubchart?oid=150446632&amp;format=interactive"></iframe>
       </div>
     </div>
@@ -365,13 +377,14 @@ og_image: http://placehold.it/400x300
 </div>
 <div class="annual-title">
   <div class="inner">
+    <h1 class="ui huge header" style="display:none">支持我們</h1>
     <h3 class="ui center aligned inverted header">感謝社群夥伴去年的鼎力相助，讓我們僅使用小部分的經費，就能支援各活動背後龐大的行政工作，</h3>
     <h2 class="ui center aligned inverted header">2016年，我們熱情邀請你參與「募集！！開源300壯士！」的活動，一起促進台灣的開源文化！</h2>
     <div class="ui hidden divider"></div>
     <div class="ui grid">
     <div class="fourteen wide center aligned centered column">
       <a class="ui large primary button" href="/300.html">
-        募集！！開源300壯士！ 
+        募集！！開源300壯士！
         <i class="right chevron icon"></i>
       </a>
     </div>
@@ -410,11 +423,30 @@ jQuery(document).ready(function($){
   setTimeout(function(){
     calculate();
   }, 500);
-  
-  $('.navicon').click(function(e){
-    var nextHeight = $('.annual-title:eq(1)').offset().top;
+  $('a[href^=http]').attr('target', '_blank');
+
+  $('.annual-title h1.header').each(function(i){
+    if(i){
+      var title = $(this).text();
+      $(".annual-menu .menu").append('<a class="item in-page-nav" data="'+i+'">'+title+'</a>');
+    }
+  });
+
+  $('.in-page-nav').on('click', function(e){
+    var target = $(this).attr('data');
+    var nextHeight = $('.annual-title:eq('+target+')').offset().top;
     $('html, body').animate({scrollTop: nextHeight}, 500);
     e.preventDefault();
+  });
+
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll >= window.innerHeight) {
+      $('.annual-menu').addClass("fixed");
+    }
+    else {
+      $('.annual-menu').removeClass("fixed");
+    }
   });
 });
 </script>

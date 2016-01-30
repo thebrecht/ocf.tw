@@ -65,6 +65,31 @@ body {
   margin: 0 auto;
 }
 
+.annual-menu {
+  width: 100%;
+  top:0;
+  z-index: 999;
+  display: table;
+  border-spacing: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #AAA;
+  background: #FFF;
+}
+.annual-menu .ui.segment{
+  border-radius: 0 !important;
+  padding: 0 50px;
+}
+.annual-menu .item {
+  color: #BEE9E4 !important;
+}
+.annual-menu.desktop .menu{
+  width: 700px;
+  margin: 0 auto !important;
+}
+.annual-menu.fixed {
+  position: fixed;
+}
+
 /* intro */
 .annual-title.intro {
   height:680px;
@@ -123,6 +148,9 @@ body {
   .annual-title .content {
     font-size: 1.2em;
   }
+  .annual-menu.desktop {
+    display: none;
+  }
 }
 /* mobile first */
 @media (min-width: 960px) {
@@ -131,5 +159,8 @@ body {
   }
   .annual-title.intro .inner .navicon {
     font-size: 25px;
+  }
+  .annual-menu.mobile {
+    display: none;
   }
 }
