@@ -149,7 +149,7 @@ body {
     font-size: 1.2em;
   }
   .annual-menu.desktop {
-    display: none;
+    display: none !important;
   }
 }
 /* mobile first */
@@ -161,6 +161,6 @@ body {
     font-size: 25px;
   }
   .annual-menu.mobile {
-    display: none;
+    display: none !important;
   }
 }
