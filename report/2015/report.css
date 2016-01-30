@@ -67,11 +67,23 @@ body {
 
 /* intro */
 .annual-title.intro {
+  height:680px;
   min-height:550px;
+  background: url('https://c2.staticflickr.com/4/3954/15572442465_5c457c594e.jpg') no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  border-spacing: 0;
+}
+.annual-title.intro .inner {
+  background: rgba(63, 76, 182, 0.57);
+}
+.annual-title.intro .inner .navicon {
+  margin-top: 20px;
+  text-align: center;
 }
 
 /* media query */
-@media (max-width: 960px) {
+@media (max-width: 959px) {
   .annual-report .ui.items>.item {
     position: relative;
   }
@@ -110,5 +122,14 @@ body {
   }
   .annual-title .content {
     font-size: 1.2em;
+  }
+}
+/* mobile first */
+@media (min-width: 960px) {
+  .annual-title.intro {
+    background-image: url('https://c2.staticflickr.com/4/3954/15572442465_19dbe82440_h.jpg');
+  }
+  .annual-title.intro .inner .navicon {
+    font-size: 25px;
   }
 }

@@ -9,7 +9,9 @@ og_image: http://placehold.it/400x300
   <div class="inner">
     <h1 class="header">2015 回顧</h1>
     <div class="ui horizontal divider"></div>
-    <div class="content">2015 參與基金會協辦活動的總人數：10,000+, 協辦 6 場大型的社群會議, 2 個夏令營, 7 場教育訓練, 聯合 3 個使館，邀請 11 位國際講者 … </div>
+    <div class="content">2015 參與基金會協辦活動的總人數：10,000+, 協辦 6 場大型的社群會議, 2 個夏令營, 7 場教育訓練, 聯合 3 個使館，邀請 11 位國際講者 … 
+    </div>
+    <div class="navicon"><i class="big angle double down icon"></i></div>
   </div>
 </div><!--end annual title-->
 
@@ -379,7 +381,7 @@ og_image: http://placehold.it/400x300
 <div class="ui hidden divider"></div>
 <script>
 // lazy load image
-$(document).ready(function(){
+jQuery(document).ready(function($){
   $('.annual-report .block').css('opacity', 0.1);
   $('.annual-report .block').visibility({
     once: false,
@@ -388,7 +390,7 @@ $(document).ready(function(){
     }
   });
   // calculate height
-  function calculateHeight(){
+  function calculate(){
     $('.annual-report .block.left').each(function(){
       var blockheight = $(this).height();
       var imgheight = $(this).parent().find('.ui.image').height();
@@ -397,12 +399,22 @@ $(document).ready(function(){
         $(this).css('margin-top', margintop+ 'px');
       }
     });
+    $('.annual-title.intro').each(function(){
+      var newheight =  window.innerHeight - $('#header').height() - 20;
+      $(this).css('height', newheight);
+    });
   }
   $(window).resize(function(){
-    calculateHeight();
+    calculate();
   });
   setTimeout(function(){
-    calculateHeight();
+    calculate();
   }, 500);
+  
+  $('.navicon').click(function(e){
+    var nextHeight = $('.annual-title:eq(1)').offset().top;
+    $('html, body').animate({scrollTop: nextHeight}, 500);
+    e.preventDefault();
+  });
 });
 </script>
