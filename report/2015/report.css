@@ -4,6 +4,9 @@ body {
 .annual-report a {
   color: #0080FF;
 }
+.annual-report a:hover {
+  border-bottom: 1px dashed #0080FF;
+}
 .annual-report .ui.items {
   margin: 10px;
 }
