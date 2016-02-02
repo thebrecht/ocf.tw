@@ -655,11 +655,14 @@ jQuery(document).ready(function($){
   });
 
   $('.in-page-nav').on('click', function(e){
+    $('.annual-menu.mobile .ui.simple.dropdown .menu').hide();
     var target = $(this).attr('data');
     var nextHeight = $('.annual-title:eq('+target+')').offset().top;
     $('html, body').animate({scrollTop: nextHeight}, 500);
-    $('.ui.simple.dropdown').dropdown('hide');
     e.preventDefault();
+  });
+  $('.annual-menu.mobile .menu-top').on('click', function(){
+    $('.annual-menu.mobile .ui.simple.dropdown .menu').show();
   });
 
   $(window).scroll(function() {
