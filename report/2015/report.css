@@ -96,6 +96,27 @@ body {
 .annual-menu.fixed {
   position: fixed;
 }
+.annual-menu.mobile .ui.segment {
+  padding: 0;
+  text-align: center;
+}
+.annual-menu.mobile .ui.simple.dropdown {
+  width: 100%;
+  text-align: center;
+}
+.annual-menu.mobile .menu-top {
+  font-size: 18px;
+  padding: 5px 0;
+}
+.annual-menu.mobile .menu-top .menu{
+  background: #1B1C1D;
+,}
+.annual-menu.mobile .ui.simple.dropdown .menu{
+  background: #1B1C1D;
+  width: 100%;
+  border-radius: 0 !important;
+  font-size: 0.85em;
+}
 
 /* intro */
 .annual-title.intro {
