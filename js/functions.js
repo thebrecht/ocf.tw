@@ -14,19 +14,22 @@ $(function() {
         imgBack: -990,
         h3: -990,
         h5: -990,
-        p: -990
+        p: -990,
+        a: -990,
     }
     var current = {
         imgBack: 498,
         h3: 32,
         h5: 32,
-        p: 32
+        p: 32,
+        a: 32,
     }
     var right = {
         imgBack: 990,
         h3: 990,
         h5: 990,
-        p: 990
+        p: 990,
+        a: 990,
     }
 
     carouselInit();
@@ -37,21 +40,24 @@ $(function() {
                 imgBack: 366,
                 h3: 10,
                 h5: 10,
-                p: 10
+                p: 10,
+                a: 10
             }
         } else if ($(window).width() < 767) {
             current = {
                 imgBack: 40,
                 h3: 10,
                 h5: 10,
-                p: 10
+                p: 10,
+                a: 10
             }
         } else {
             current = {
                 imgBack: 498,
                 h3: 32,
                 h5: 32,
-                p: 32
+                p: 32,
+                a: 32,
             }
         }
 
@@ -78,6 +84,11 @@ $(function() {
                 items.find('p')
                     .css({
                         left: current.p
+                    });
+
+                items.find('a.donate-btn')
+                    .css({
+                        left: current.a
                     });
 
             });
@@ -148,6 +159,12 @@ $(function() {
                             left: right.p
                         });
 
+                    oldI.find('a.donate-btn')
+                        .delay(400)
+                        .animate({
+                            left: right.a
+                        });
+
                 },
                 onAfter: function(oldI, newI) {
 
@@ -169,6 +186,11 @@ $(function() {
                     oldI.find('p')
                         .css({
                             left: current.p
+                        });
+
+                    oldI.find('a.donate-btn')
+                        .css({
+                            left: current.a
                         });
 
                     newI.find('img.img-back')
@@ -203,6 +225,14 @@ $(function() {
                         }).delay(500)
                         .animate({
                             left: current.p
+                        });
+
+                    newI.find('a.donate-btn')
+                        .css({
+                            left: left.a
+                        }).delay(400)
+                        .animate({
+                            left: current.a
                         });
 
                 }
@@ -242,6 +272,12 @@ $(function() {
                             left: left.p
                         });
 
+                    oldI.find('a.donate-btn')
+                        .delay(100)
+                        .animate({
+                            left: left.a
+                        });
+
                 },
                 onAfter: function(oldI, newI) {
 
@@ -263,6 +299,11 @@ $(function() {
                     oldI.find('p')
                         .css({
                             left: current.p
+                        });
+
+                    oldI.find('a.donate-btn')
+                        .css({
+                            left: current.a
                         });
 
                     newI.find('img.img-back')
@@ -295,6 +336,17 @@ $(function() {
                         }).delay(200)
                         .animate({
                             left: current.p
+                        }, function() {
+                            isScrolling = false;
+                        });
+
+
+                    newI.find('a.donate-btn')
+                        .css({
+                            left: right.a
+                        }).delay(100)
+                        .animate({
+                            left: current.a
                         }, function() {
                             isScrolling = false;
                         });

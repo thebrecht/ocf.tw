@@ -118,6 +118,26 @@ textarea { overflow: auto; }
 	margin: 0;
 	line-height: 26px;
 }
+
+#carousel a.donate-btn {
+	color: #fff;
+	font-size: 18px;
+	border-radius: 10px;
+	font-weight: bold;
+	text-shadow: 0px -2px #3f6800;
+	text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+	outline: none;
+	display: block;
+	background-color: #72ae13;
+	border-bottom: 5px solid #3f6800;
+	width: 170px;
+	left: 32px;
+	top: 221px;
+
+}
+
 #carousel a.green-btn {
 	color: #fff;
 	font-size: 18px;
@@ -155,11 +175,11 @@ textarea { overflow: auto; }
 }
 
 #next {
-	right: 434px;
+	right: 415px;
 	background-position: right 0;
 }
 
-.pagination { position: absolute; bottom: 15px; left: 50%; margin-left: -44px; width: 88px; }
+.pagination { position: absolute; bottom: 15px; left: 50%; margin-left: -44px; width: 120px; }
 .pagination a { background: url(../images/pagination.png) no-repeat 0 0; width: 20px; height: 20px; display: inline-block; font-size: 0; line-height: 0; text-indent: -4000px; cursor: default; }
 .pagination a.selected { background-position: 0 -20px; }
 
