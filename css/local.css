@@ -45,12 +45,16 @@ max-width:100%;
 
 #header {
   background-color: #333;
+  background: url(../images/header.png) repeat 0 0;
 }
 
 #header .ui.menu .item>img {
   margin: 0;
 }
 
+#header .ui.inverted.menu {
+  background: url(../images/header-shell.png) no-repeat center 0;
+}
 
 #footer .footer {
   background: url(../images/footer.png) repeat 0 0;
