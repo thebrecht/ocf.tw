@@ -58,6 +58,13 @@ max-width:100%;
 
 #footer .footer {
   background: url(../images/footer.png) repeat 0 0;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+#footer .wrapper {
+  background: url(../images/footer-shell.png) repeat 0 0;
+  padding-bottom: 1rem;
 }
 
 #footer .icon.button {
