@@ -1,0 +1,62 @@
+---
+layout: semantic-ui
+title: MakerConf 2016
+og_description: MakerConf 2016
+og_image: https://t.kfs.io/upload_images/53034/makerconf-2016_large.png
+---
+
+<div class="ui aligned segment">
+  <div class="ui hidden divider"></div>
+  <h1 class="ui center aligned header">MakerConf 2016</h1>
+
+  <div class="ui hidden divider"></div>
+    <div class="ui horizontal divider">
+      <i class="heart icon"></i>
+    </div>
+
+
+<!--Paragraph Title-->
+<h2 class="ui teal header">
+  <i class="icon coffee"></i>
+  <div class="content">MakerConf 2016</div>
+</h2>
+
+<!--Main Content-->
+<div class="content" >
+<p>
+  XXXX
+</p>
+</div>
+
+<h2 class="ui teal header">
+  <i class="icon calendar"></i>
+  <div class="content">YYYYYYYYY</div>
+</h2>
+
+<!--Main Content-->
+<div class="content" >
+<p>
+  
+</div>
+
+<h2 class="ui teal header">
+  <i class="icon lightbulb"></i>
+  <div class="content">ZZZZZZ</div>
+</h2>
+
+<!--Main Content-->
+<div class="content" >
+  
+</div>
+
+
+<h2 class="ui teal header">
+  <i class="icon bullhorn"></i>
+  <div class="content">ZZZZZZ</div>
+</h2>
+
+<!--Main Content-->
+<div class="content" >
+</div>
+
+</div><!-- end of wrapper -->
