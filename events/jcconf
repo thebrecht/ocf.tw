@@ -1,0 +1,128 @@
+---
+layout: semantic-ui
+title: JCConf 2015 徵稿中
+og_description: JCConf 2015 徵稿中
+og_image: http://jcconf.tw/assets/img/snap01.jpg
+---
+
+<div class="ui aligned segment">
+  <div class="ui hidden divider"></div>
+  <h1 class="ui center aligned header">JCConf 2015 Call for Proposals</h1>
+
+  <div class="ui hidden divider"></div>
+    <div class="ui horizontal divider">
+      <i class="heart icon"></i>
+    </div>
+
+
+<!--Paragraph Title-->
+<h2 class="ui teal header">
+  <i class="icon coffee"></i>
+  <div class="content">關於 JCConf Taiwan</div>
+</h2>
+
+<!--Main Content-->
+<div class="content" >
+<p>
+  Java Community Conference Taiwan 是由社群主辦的 Java 開發者年會，以提供更多機會讓開發人員之間能夠互相交流。
+  分享內容的程度不論初階到進階，只要和 Java 程式語言、框架、JVM 及虛擬化相關技術、移動裝置、開發工具、開發流程...等等，
+  任何你認為可以分享的主題都歡迎您的投稿，歡迎分享你的發現、研究或各種實際案例經驗給大家。</p>
+  <p>
+  你也可以到我們的 <a href="http://jcconf.tw">官方網站</a> 和 <a href="http://jcconf.tw/2014">2014紀錄</a> 了解更多。
+
+</p>
+</div>
+
+<h2 class="ui teal header">
+  <i class="icon calendar"></i>
+  <div class="content">投稿時程</div>
+</h2>
+
+<!--Main Content-->
+<div class="content" >
+<p>
+  公開徵稿：2015年8月1日(六) ~ 2015年9月3日(四) 晚上11:59<br>
+  結果通知：2015年10月2日(五)前
+</div>
+
+<h2 class="ui teal header">
+  <i class="icon lightbulb"></i>
+  <div class="content">歡迎投稿下列主題</div>
+</h2>
+
+<!--Main Content-->
+<div class="content" >
+  <table style="text-align:left; font-size: 18px; font-weight: 200;">
+                      <tbody><tr>
+                          <th style="padding: 15px">主題</th>
+                          <th style="padding: 0 15px 0 0;">說明</th>
+                      </tr>
+                      <tr>
+                          <td style="background: #ECECEC;padding: 15px;">Java &amp; JVM</td>
+                          <td style="background: #ECECEC;padding: 0 15px 0 0;">Java SE, Java EE, JavaME, JavaFX and Other languages on the JVM (Scala,
+                              Groovy,
+                              Clojure, JRuby, etc.)
+                          </td>
+                      </tr>
+                      <tr>
+                          <td style="padding: 15px;">Web</td>
+                          <td style="padding: 0 15px 0 0;">Web frameworks, HTML5, CSS3 and JavaScript ES6</td>
+                      </tr>
+                      <tr>
+                          <td style="background: #ECECEC;padding: 15px;">Mobile</td>
+                          <td style="background: #ECECEC;padding: 0 15px 0 0">Android and mobile web</td>
+                      </tr>
+                      <tr>
+                          <td style="padding: 15px;">Cloud</td>
+                          <td style="padding: 0 15px 0 0;">Architecture, Big Data and NoSQL</td>
+                      </tr>
+                      <tr>
+                          <td style="background: #ECECEC;padding: 15px;">Internet of Things</td>
+                          <td style="background: #ECECEC;padding: 0 15px 0 0">Java in the Internet of things, robotics, domotics</td>
+                      </tr>
+                      <tr>
+                          <td style="padding: 15px;">Methodology, Agile and DevOps</td>
+                          <td style="padding: 0 15px 0 0;">Lean, Kanban, continuous integration, continuous delivery, eXtreme
+                              Programming
+                          </td>
+                      </tr>
+                      <tr>
+                          <td style="background: #ECECEC;padding: 15px;">Others</td>
+                          <td style="background: #ECECEC;padding: 0 15px 0 0">Anything you think java developer should know.
+                          </td>
+                      </tr>
+                  </tbody></table>
+</div>
+
+
+<h2 class="ui teal header">
+  <i class="icon bullhorn"></i>
+  <div class="content">歡迎投稿下列主題</div>
+</h2>
+
+<!--Main Content-->
+<div class="content" >
+  <table style="text-align:left; font-size: 18px; font-weight: 200;">
+                      <tbody><tr>
+                          <th style="padding: 15px">形式</th>
+                          <th style="padding: 0 15px 0 0;">說明</th>
+                      </tr>
+                      <tr>
+                          <td style="background: #ECECEC;padding: 15px;">演講</td>
+                          <td style="background: #ECECEC;padding: 0 15px 0 0;">每場 50 分鐘，講者免費入場
+                          </td>
+                      </tr>
+                      <tr>
+                          <td style="padding: 15px;">快講</td>
+                          <td style="padding: 0 15px 0 0;">每場 15 分鐘，講者購票時有 50% 優惠</td>
+                      </tr>
+                      <tr>
+                          <td style="padding: 15px;">工作坊/課程</td>
+                          <td style="padding: 0 15px 0 0;">每場 180 分鐘 (含中場休息 30 分鐘)，講者免費入場</td>
+                      </tr>
+                  </tbody></table>
+</div>
+<div class="ui animated fade botton attached button" style="width:80%; display: block;margin-left: auto; margin-right: auto; margin-top: 30px;">
+              <a class="btn ui" role="button" href="http://twjug.kktix.cc/events/jcconf2015-cfp"><h2>投稿</h2></a>
+</div>
+</div><!-- end of wrapper -->
