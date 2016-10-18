@@ -1,12 +1,10 @@
-OCF.TW Pages
+OCF.TW 開放文化基金會官方網站
 ================
-<<<<<<< HEAD
-OCF.TW 網站頁面
-=======
 
-for github page 
+preview: [ocf.tw](http://ocf.tw/)
 
-
-ocf.tw web page is here 
-https://github.com/thebrecht/ocf.tw
->>>>>>> pofeng/master
+development:
+```
+$ gem install jekyll
+$ jekyll serve
+```
