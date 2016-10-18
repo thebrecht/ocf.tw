@@ -1,2 +1,2 @@
-source:      _source
-destination: .
+source:      .
+destination: _deploy
