@@ -17,23 +17,32 @@ $ jekyll serve
 
 Web Content
 
-- about
-- people
-- projects
-- news
-- mediakit
+- about/
+- people/
+- projects/
+- news/
+- mediakit/
+- index.html
 
 Global Files
 
-- img
-- css
-- js
+- assets/
+- img/
 
 Jekyll Files
 
-- _deploy
-- _includes
-- _layouts
+- _deploy/
+- _includes/
+- _layouts/
+- _config.yml
+
+Github Pages Files
+
+- CNAME
+
+Semantic UI Sources
+
+- _source
 
 ### Legacy Folders
 
