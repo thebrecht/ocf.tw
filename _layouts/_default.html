@@ -1,0 +1,43 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+  <div class="wrapper">
+
+    {% include navi_header.html %}
+
+    <div class="shell">
+      <div class="main">
+
+        {{ content }}
+
+        <div class="socials">
+          <p>聯絡我們： <span><a href="mailto:hi@ocf.tw">hi@ocf.tw</a></span> </p>
+
+          <ul>
+            <li><a href="https://www.facebook.com/www.ocf.tw" class="facebook-ico">facebook-ico</a>
+            </li>
+            <li><a href="" class="twitter-ico">twitter-ico</a>
+            </li>
+            <li><a href="" class="skype-ico">skype-ico</a>
+            </li>
+            <li><a href="http://blog.ocf.tw/" class="rss-ico">rss-ico</a>
+            </li>
+          </ul>
+        </div>
+      </div><!--end of main -->
+    </div><!--end of shell -->
+
+    {% include footer.html %}
+
+  </div><!-- end of wrapper -->
+
+  {% include ga.html %}
+
+</body>
+</html>

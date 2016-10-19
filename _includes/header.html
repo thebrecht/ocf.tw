@@ -1,20 +1,41 @@
-<head>
-    <meta charset="utf-8" />
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
-
-    <meta property="og:url" content="http://ocf.tw{{ page.url }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="og:image" content="{{ page.og_image }}" /> 
-    <meta property="og:description" content="{{ page.og_description}}" /> 
+<header class="header" id="header">
+  <div class="wrapper">
+    <div class="desktop laptop">
+      <div class="ui large borderless inverted menu">
+        <div class="item">
+          <a href="http://ocf.tw" class="image"><img src="/images/ocf-logo-white.png" style="height:35px"></a>
+        </div>
+        
+        <div class="right menu">
+          <a class="item" href="http://ocf.tw/#whoweare">認識我們</a>
+          <a class="item" href="http://ocf.tw/staff/" >工作夥伴</a>
+          <a class="item" href="http://ocf.tw/donate/" >線上捐款</a>
+          <a class="item" href="http://ocf.tw/partner/" >協力社群成果</a>
+          <a class="item" href="http://ocf.tw/activities/">活動記錄</a>
+          
+        </div>
+      </div>
+    </div>
     
-    <meta name="twitter:title" content="{{ page.title }}" />
-    <meta name="twitter:description" content="{{ page.og_description}}"/>
-    <meta name="twitter:image:src" content="{{ page.og_image }}" />
+    <div class="tablet phone">
+      <div class="ui large borderless inverted menu">
+        <div class="item">
+          <a href="http://ocf.tw"><img src="/images/logo-white.png" style="height:35px"></a>
+        </div>
+        
+        <div class="ui simple dropdown item">
+          開放文化基金會
+          <i class="dropdown icon"></i>
+          <div class="menu">
+            <a class="item" href="http://ocf.tw/#whoweare">認識我們</a>
+            <a class="item" href="http://ocf.tw/board/" >董事簡介</a>
+            <a class="item" href="http://ocf.tw/donate/" >線上捐款</a>
+            <a class="item" href="http://ocf.tw/partner/" >協力社群成果</a>
+            <a class="item" href="http://ocf.tw/activities/" >活動記錄</a>
+          </div>
+        </div>
+      </div>
+    </div>
     
-    <title>{{ page.title }}</title>
-    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
-    <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
-
-</head>
+  </div>
+</header>    
