@@ -12,7 +12,7 @@ html, body, h1, h2, h3, h4, h5, h6, button {
   background: url(/img/cover.png) no-repeat center center;
   */
   background-clip: border-box;
-  margin-top: 0
+  margin: 0;
 }
 
 #hero .ui.secondary.pointing.borderless.menu {
@@ -28,7 +28,7 @@ html, body, h1, h2, h3, h4, h5, h6, button {
 }
 
 .ui.stripe.container {
-  margin: 2rem 0
+  margin: 2rem 0;
 }
 
 .ui.grid .float.column.left {
@@ -38,8 +38,6 @@ html, body, h1, h2, h3, h4, h5, h6, button {
 .ui.grid .float.column.right {
   float: right;
 }
-
-
 
 
 
