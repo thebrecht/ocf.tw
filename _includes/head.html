@@ -17,7 +17,15 @@
 
   <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
   <link rel="stylesheet" href="/assets/semantic.min.css"/>
+
+  {% if page.head %}
+  {% include {{ page.head }} %}
+  {% endif %}
+
   <link rel="stylesheet" href="/assets/default.css"/>
-  {% if page.css %}<link rel="stylesheet" href="{{ page.css }}"/>{% endif %}
+
+  {% if page.css %}
+  <link rel="stylesheet" href="{{ page.css }}"/>
+  {% endif %}
 
 </head>

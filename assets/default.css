@@ -6,27 +6,6 @@ html, body, h1, h2, h3, h4, h5, h6, button {
   font-family: Lato, Noto sans, "Helvetica Neue" ,Arial,Helvetica, '微軟正黑體', 'Microsoft JhengHei', sans-serif;
 }
 
-#hero {
-  background-color: #333;
-  /*
-  background: url(/img/cover.png) no-repeat center center;
-  */
-  background-clip: border-box;
-  margin: 0;
-}
-
-#hero .ui.secondary.pointing.borderless.menu {
-  border: none;
-}
-
-#hero .ui.menu .logo.item {
-  padding: 0;
-}
-
-#hero .ui.menu .logo.image {
-  height: 2.5rem;
-}
-
 .ui.stripe.container {
   margin: 2rem 0;
 }
@@ -38,8 +17,6 @@ html, body, h1, h2, h3, h4, h5, h6, button {
 .ui.grid .float.column.right {
   float: right;
 }
-
-
 
 #header {
   background-color: #333;

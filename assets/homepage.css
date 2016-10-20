@@ -1,0 +1,38 @@
+
+#hero {
+  background-color: #333;
+  /*
+  background: url(/img/cover.png) no-repeat center center;
+  */
+  background-clip: border-box;
+  margin: 0;
+}
+
+#hero .ui.secondary.pointing.borderless.menu {
+  border: none;
+}
+
+#hero .ui.menu .logo.item {
+  padding: 0;
+}
+
+#hero .ui.menu .logo.image {
+  height: 2.5rem;
+}
+
+cite {
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.5em;
+}
+
+#what_they_say .slick .ui.items .item {
+  width: 100%;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.reference.image {
+  width: 5rem;
+  height: 5rem;
+}
