@@ -18,6 +18,10 @@ html, body, h1, h2, h3, h4, h5, h6, button {
   float: right;
 }
 
+.vertical.padding {
+  padding: 1rem 0;
+}
+
 #header {
   background-color: #333;
   background: url(/img/header.png) repeat 0 0;

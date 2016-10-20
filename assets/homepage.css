@@ -24,15 +24,52 @@ cite {
   text-align: center;
   font-size: 0.8rem;
   line-height: 1.5em;
+  opacity: 0.5;
+  display: inline-block;
 }
 
-#what_they_say .slick .ui.items .item {
+cite:hover {
+  opacity: 1;
+}
+
+#what_they_say .slick .small.container {
   width: 100%;
   max-width: 40rem;
   margin: 0 auto;
 }
 
-.reference.image {
+.ui.reference.image {
   width: 5rem;
   height: 5rem;
+  display: inline-block;
+}
+
+.blockquote {
+  position: relative;
+}
+
+.blockquote:before, .blockquote:after {
+  opacity: 0.5;
+  display: inline-block;
+  font-family: Icons;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  width: 1em;
+  height: 1em;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+  speak: none;
+}
+
+.blockquote:before {
+  content: "\f10d";
+  margin-right: 0.5rem;
+}
+
+.blockquote:after {
+  content: "\f10e";
+  margin-left: 0.5rem;
 }
