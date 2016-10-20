@@ -20,6 +20,19 @@
   height: 2.5rem;
 }
 
+.sentence {
+  display: inline-block;
+  margin: 0 0.5em;
+}
+
+.sentence:first-child {
+  margin-left: 0;
+}
+
+.sentence:last-child {
+  margin-right: 0;
+}
+
 cite {
   text-align: center;
   font-size: 0.8rem;
@@ -46,11 +59,13 @@ cite:hover {
 
 .blockquote {
   position: relative;
+  display: inline-block;
 }
 
 .blockquote:before, .blockquote:after {
   opacity: 0.5;
-  display: inline-block;
+  position: absolute;
+  top: 0;
   font-family: Icons;
   font-style: normal;
   font-weight: 400;
@@ -66,10 +81,10 @@ cite:hover {
 
 .blockquote:before {
   content: "\f10d";
-  margin-right: 0.5rem;
+  left: -1.5em;
 }
 
 .blockquote:after {
   content: "\f10e";
-  margin-left: 0.5rem;
+  right: -1.5em;
 }

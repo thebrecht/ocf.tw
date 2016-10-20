@@ -19,8 +19,15 @@ html, body, h1, h2, h3, h4, h5, h6, button {
 }
 
 .vertical.padding {
-  padding: 1rem 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
+
+.horizontal.padding {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 
 #header {
   background-color: #333;
