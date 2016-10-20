@@ -2,6 +2,7 @@
 
 <script>
 $(document).ready(function(){
+
   $('.slick').slick({
     autoplay: true,
     autoplaySpeed: 3000,
@@ -11,6 +12,9 @@ $(document).ready(function(){
     speed: 500,
     cssEase: 'linear'
   });
+
+  $('.ui.sidebar').sidebar('attach events', '.toggle.sidebar');
+
 });
 </script>
 

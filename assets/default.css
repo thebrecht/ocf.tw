@@ -10,12 +10,20 @@ html, body, h1, h2, h3, h4, h5, h6, button {
   margin: 2rem 0;
 }
 
-.ui.grid .float.column.left {
+.floated.left {
   float: left;
 }
 
-.ui.grid .float.column.right {
+.floated.right {
   float: right;
+}
+
+.left.aligned {
+  text-align: left;
+}
+
+.right.aligned {
+  text-align: right;
 }
 
 .vertical.padding {
@@ -27,6 +35,36 @@ html, body, h1, h2, h3, h4, h5, h6, button {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
+/* for semantic ui sidebar on ios */
+html.ios {
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+html.ios,
+html.ios body {
+  height: initial !important;
+}
+
+
+.ui.menu .item.toggle.sidebar {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+
+.ui.menu .desktop.item {
+  display: none;
+}
+
+.ui.menu .item.toggle.sidebar {
+  display: block;
+}
+
+}
+
+
+
 
 
 #header {

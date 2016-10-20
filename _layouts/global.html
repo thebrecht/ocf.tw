@@ -6,11 +6,20 @@ layout: compress
 {% include head.html %}
 
 <body>
-    
-{{ content }}
 
-{% include footer.html %}
-{% include script.html %}
-{% include ga.html %}
+  <div class="ui right inverted vertical menu sidebar">
+        <a href="/about" class="item">關於</a>
+        <a href="/people" class="item">工作夥伴</a>
+        <a href="/projects" class="item">專案與成果</a>
+        <a href="/news" class="item">電子報</a>
+        <a href="/mediakit" class="item">媒體專區</a>
+  </div>
+  <div class="pusher">
+    {{ content }}
+    {% include footer.html %}
+  </div>
+
+  {% include script.html %}
+  {% include ga.html %}
 </body>
 </html>

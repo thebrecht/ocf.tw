@@ -25,14 +25,6 @@
   margin: 0 0.5em;
 }
 
-.sentence:first-child {
-  margin-left: 0;
-}
-
-.sentence:last-child {
-  margin-right: 0;
-}
-
 cite {
   text-align: center;
   font-size: 0.8rem;
@@ -88,3 +80,20 @@ cite:hover {
   content: "\f10e";
   right: -1.5em;
 }
+
+@media only screen and (max-width: 767px) {
+
+#what_we_do .ui.stackable.grid, #what_is_happening .ui.stackable.grid {
+    width: auto;
+    margin-left: -1em!important;
+    margin-right: -1em!important;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2.ui.header {
+  text-align: center;
+}
+
+}
+
