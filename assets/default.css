@@ -6,6 +6,10 @@ html, body, h1, h2, h3, h4, h5, h6, button {
   font-family: Lato, Noto sans, "Helvetica Neue" ,Arial,Helvetica, '微軟正黑體', 'Microsoft JhengHei', sans-serif;
 }
 
+.ui.marginless.segment {
+  margin: 0;
+}
+
 .ui.stripe.container {
   margin: 2rem 0;
 }
