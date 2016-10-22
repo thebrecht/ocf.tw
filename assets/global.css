@@ -75,14 +75,14 @@ html.ios body {
   font-size: 0.8rem;
 }
 
-/* for semantic ui list in footer */
+/* for semantic ui list in footer and landing page partners logo */
 
-#footer .ui.horizontal.list>.item {
+.ui.horizontal.list>.item {
   margin-left: 0;
   margin-right: 1em;
 }
 
-#footer .ui.horizontal.list>.item:last-child {
+.ui.horizontal.list>.item:last-child {
   margin-right: 0;
 }
 
