@@ -80,7 +80,11 @@ cite:hover {
   right: -1.5em;
 }
 
-.partners.logo {
+#partners .ui.horizontal.list {
+  text-align: center;
+}
+
+#partners .logo {
   width: auto;
   height: 5rem;
 }
