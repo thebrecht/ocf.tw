@@ -48,31 +48,34 @@ og_image: ../images/cover.png
                 <div class="content">
                   <div class="ui list">
                     <div class="item">
-                    <i class="orange smile icon"></i>
-                    受益者：OpenLab. Taipei
+                      <i class="orange smile icon"></i>
+                      <div class="content">受益者：OpenLab. Taipei</div>
                     </div>
                     <div class="item">
-                    <i class="orange calendar icon"></i>
-                    募款期間：2016/10 - 2017/09
+                      <i class="orange calendar icon"></i>
+                      <div class="content">募款期間：2016/10 - 2017/09</div>
                     </div>
                     <div class="item">
-                    <i class="orange idea icon"></i>
-                    計劃主持人：鄭鴻旗 (Honki)
+                      <i class="orange idea icon"></i>
+                      <div class="content">計劃主持人：鄭鴻旗 (Honki)</div>
                     </div>
                     <div class="item">
-                    <i class="orange checkered flag icon"></i>
-                    募款目標：NTD 132,000
+                      <i class="orange checkered flag icon"></i>
+                      <div id="crm_cpid_15_amt_hi" class="content"></div>
                     </div>
                     <div class="item">
-                    <i class="orange money icon"></i>
-                    已募款金額：NTD 11,487
+                      <i class="orange money icon"></i>
+                      <div id="crm_cpid_15_amt_raised" class="content"></div>
+                    </div>
+                    <div class="item">
+                      <i class="orange heart icon"></i>
+                      <div id="crm_cpid_15_donors" class="content"></div>
                     </div>
                   </div>
-                  <div class="ui indicating progress active" data-percent="8.7">
-                    <div class="bar" style="transition-duration: 300ms; width: 8.7%;"></div>
-                    <div class="label">9% Funded</div>
+                  <div id="crm_cpid_15_amt_fill" class="ui indicating progress">
+                    <div class="bar"></div>
+                    <div class="label"></div>
                   </div>
-                  <p>(已募款金額統計至 2016/10/16)</p>
                 </div>
               </div>
               <div class="ui green segment">
@@ -257,3 +260,56 @@ og_image: ../images/cover.png
     </div>
   </div>
 </div>
+
+<!-- Widget script begin -->
+<script type="text/javascript">
+/* create onDomReady Event */
+window.onDomReady = DomReady;
+
+/* Setup the event */
+function DomReady(fn) { /* W3C */
+  if(document.addEventListener) {
+    document.addEventListener("DOMContentLoaded", fn, false);
+  } else { /* IE */
+    document.onreadystatechange = function(){readyState(fn)};
+  }
+}
+
+/* IE execute function */
+function readyState(fn) {
+  /* dom is ready for interaction */
+  if(document.readyState == "interactive") {
+    fn();
+  }
+}
+
+window.onDomReady(onReady);
+
+function onReady( ) {
+  var crmCurrency = jsondata.currencySymbol;
+  var cpid        = 15;
+
+  if ( jsondata.money_target > 0 ) {
+    document.getElementById('crm_cpid_'+cpid+'_amt_hi').innerHTML       = jsondata.money_target_display;
+  }
+  document.getElementById('crm_cpid_'+cpid+'_amt_raised').innerHTML   = jsondata.money_raised.replace(/已募得/, "已募得金額:");
+  document.getElementById('crm_cpid_'+cpid+'_donors').innerHTML       = "支持人數："+jsondata.num_donors;
+  if ( jsondata.money_raised_percentage ) {
+    var percent = jsondata.money_raised_percentage.replace(/%/, "");
+    document.getElementById('crm_cpid_'+cpid+'_amt_fill').setAttribute("data-percent", percent);
+    $('#crm_cpid_'+cpid+'_amt_fill').progress({
+      percent: percent,
+      text: {
+        active: "{percent}% Funding",
+        success: "Complete!"
+      }
+    });
+  }
+
+}
+
+
+</script>
+
+<script type="text/javascript" src="https://ocf.neticrm.tw/sites/all/modules/civicrm//extern/widget.php?cpageId=15&widgetId=3"></script>
+                  <!-- Widget script end -->
