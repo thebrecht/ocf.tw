@@ -10,6 +10,10 @@ html, body, h1, h2, h3, h4, h5, h6, button {
   margin: 0;
 }
 
+.ui.paddingless.segment {
+  padding: 0;
+}
+
 .ui.stripe.container {
   margin: 2rem 0;
 }
@@ -71,6 +75,10 @@ html.ios body {
 
 /* for footer */
 
+#footer {
+  background: url(/img/footer.png) repeat 0 0;
+}
+
 #footer .ui.grid.container, #footer .ui.list>.item {
   font-size: 0.8rem;
 }
@@ -88,28 +96,18 @@ html.ios body {
 
 
 
-
 #header {
   background-color: #333;
   background: url(/img/header.png) repeat 0 0;
+  background: url(/img/header-shell.png) repeat center 0;
 }
 
-#header .ui.menu .item>img {
+#header .ui.menu .logo.item {
+  padding: 0.5em;
+}
+
+#header .ui.menu .logo.image {
   margin: 0;
-}
-
-#header .ui.inverted.menu {
-  background: url(/img/header-shell.png) no-repeat center 0;
-}
-
-#footer .footer {
-  background: url(/img/footer.png) repeat 0 0;
-  padding: 0;
-  margin-top: 1rem;
-}
-
-#footer .wrapper {
-  background: url(/img/footer-shell.png) repeat 0 0;
-  padding-bottom: 2rem;
+  height: 1.5em;
 }
 

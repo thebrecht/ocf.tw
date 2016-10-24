@@ -1,0 +1,20 @@
+
+.ui.cards>.card .avatar.image {
+  text-align: center;
+  padding: 1rem 0;
+  line-height: 0;
+}
+
+.ui.cards>.card .avatar.image img {
+  width: 5rem;
+  height: 5rem;
+  display: inline-block;
+}
+
+.ui.cards>.card>.content>.people.header {
+  margin-top: 0;
+  line-height: 1.4285em;
+}
+.ui.cards>.card .header .small {
+  font-size: 0.8em;
+}
