@@ -36,9 +36,13 @@ cite:hover {
   opacity: 1;
 }
 
-#what_we_do .items>.item>.bordered.icon {
-  margin-right: 1rem;
-  width: 5em
+#what_we_do .items>.item>.image:not(.ui) {
+  width: 8rem;
+}
+
+#what_we_do .items>.item .bordered.icon {
+  margin-right: 0;
+  width: 100%;
 }
 
 #what_they_say .slick .small.container {
