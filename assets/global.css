@@ -101,12 +101,8 @@ html.ios body {
   background: url(/img/header-shell.png) repeat center 0;
 }
 
-#header .ui.transparent.menu {
-  background: none;
-}
-
 #header .ui.menu .logo.item {
-  padding: 0.5em;
+  padding: 0.5em 1em 0.5em 0;
 }
 
 #header .ui.menu .logo.image {
