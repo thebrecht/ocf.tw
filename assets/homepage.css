@@ -36,6 +36,11 @@ cite:hover {
   opacity: 1;
 }
 
+#what_we_do .items>.item>.bordered.icon {
+  margin-right: 1rem;
+  width: 5em
+}
+
 #what_they_say .slick .small.container {
   width: 100%;
   max-width: 40rem;
