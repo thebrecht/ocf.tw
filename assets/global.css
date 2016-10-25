@@ -98,8 +98,11 @@ html.ios body {
 
 #header {
   background-color: #333;
-  background: url(/img/header.png) repeat 0 0;
   background: url(/img/header-shell.png) repeat center 0;
+}
+
+#header .ui.transparent.menu {
+  background: none;
 }
 
 #header .ui.menu .logo.item {

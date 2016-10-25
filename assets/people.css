@@ -1,3 +1,7 @@
+.ui.pagination.menu {
+  margin-top: 1rem;
+  background-color: #efefef;
+}
 
 .ui.cards>.card .avatar.image {
   text-align: center;
@@ -12,8 +16,8 @@
 }
 
 .ui.cards>.card>.content>.people.header {
-  margin-top: 0;
-  line-height: 1.4285em;
+/*  margin-top: 0;
+  line-height: 1.4285em;*/
 }
 .ui.cards>.card .header .small {
   font-size: 0.8em;
