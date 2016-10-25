@@ -44,6 +44,26 @@ html, body, h1, h2, h3, h4, h5, h6, button {
   padding-right: 1rem;
 }
 
+/* for header */
+
+#header .ui.secondary.pointing.menu {
+  border: none;
+}
+
+#header {
+  background-color: #333;
+  background: url(/img/header-shell.png) repeat center 0;
+}
+
+#header .ui.menu .logo.item {
+  padding: 0.5em 1em 0.5em 0;
+}
+
+#header .ui.menu .logo.image {
+  margin: 0;
+  height: 1.5em;
+}
+
 /* for semantic ui sidebar */
 
 .ui.menu .item.toggle.sidebar {
@@ -92,21 +112,5 @@ html.ios body {
 
 #footer .ui.horizontal.list>.item:last-child {
   margin-right: 0;
-}
-
-
-
-#header {
-  background-color: #333;
-  background: url(/img/header-shell.png) repeat center 0;
-}
-
-#header .ui.menu .logo.item {
-  padding: 0.5em 1em 0.5em 0;
-}
-
-#header .ui.menu .logo.image {
-  margin: 0;
-  height: 1.5em;
 }
 

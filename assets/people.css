@@ -3,10 +3,13 @@
   background-color: #efefef;
 }
 
-.ui.cards>.card .avatar.image {
+.ui.cards>.card .image {
   text-align: center;
-  padding: 1rem 0;
+  padding: 1rem;
   line-height: 0;
+}
+
+.ui.cards>.card .avatar.image {
 }
 
 .ui.cards>.card .avatar.image img {
@@ -15,10 +18,19 @@
   display: inline-block;
 }
 
-.ui.cards>.card>.content>.people.header {
-/*  margin-top: 0;
-  line-height: 1.4285em;*/
-}
 .ui.cards>.card .header .small {
   font-size: 0.8em;
+}
+
+.ui.cards>.card .logo.image {
+  background: none;
+  height: 7rem;
+}
+
+.ui.cards>.card>.logo.image>img {
+  max-height: 5rem; 
+  max-width: 100%;
+  width: auto;
+  display: inline-block;
+  border-radius: 0;
 }
