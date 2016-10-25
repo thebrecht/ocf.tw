@@ -45,11 +45,13 @@ cite:hover {
   width: 100%;
 }
 
+
 #what_they_say .slick .small.container {
   width: 100%;
   max-width: 40rem;
   margin: 0 auto;
 }
+
 
 .ui.reference.image {
   width: 5rem;
@@ -98,9 +100,13 @@ cite:hover {
   height: 5rem;
 }
 
+#ads .ui.inverted.segment {
+  background-color: #333;
+}
+
 @media only screen and (max-width: 767px) {
 
-#what_we_do .ui.stackable.grid, #what_is_happening .ui.stackable.grid {
+#what_is_happening .ui.stackable.grid {
     width: auto;
     margin-left: -1em!important;
     margin-right: -1em!important;
@@ -109,7 +115,16 @@ cite:hover {
 }
 
 h2.ui.header {
+  display: block;
   text-align: center;
+}
+
+#what_we_do hr.ui.hidden.divider {
+  display: none;
+}
+
+#what_we_do .items>.item>.image {
+  width: 100%!important;
 }
 
 }
