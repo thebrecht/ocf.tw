@@ -14,22 +14,22 @@ og_description: 2014 年 6 月，多個台灣開源社群共同發起開放文�
   </h1>
 
   <nav class="ui pagination borderless menu">
-    <a class="item" href="#board">董事</a>
-    <a class="item" href="#consultants">顧問</a>
     <a class="item" href="#staff">工作人員</a>
+    <a class="item" href="#consultants">顧問</a>
     <a class="item" href="#alumni">校友</a>
     <a class="item" href="#volunteers">志工</a>
+    <a class="item" href="#board">董事</a>
     <a class="item" href="#partners">合作夥伴</a>
     <a class="item" href="#sponsors">贊助夥伴</a>
     <a class="item" href="#donors">捐助人</a>
   </nav>
 </div>
 
-<section id="board">
+<section id="staff">
   <div class="ui stripe container">
-    <h2 class="ui header">董事</h2>
+    <h2 class="ui header">工作人員</h2>
     <div class="ui three stackable cards">
-      {% for person in site.data.people.board %}
+      {% for person in site.data.people.staff %}
       <div class="card">
         <div class="avatar image">
           <img src="{{ person.avatar }}">
@@ -71,47 +71,6 @@ og_description: 2014 年 6 月，多個台灣開源社群共同發起開放文�
     <h2 class="ui header">顧問</h2>
     <div class="ui three stackable cards">
       {% for person in site.data.people.consultants %}
-      <div class="card">
-        <div class="avatar image">
-          <img src="{{ person.avatar }}">
-        </div>
-        <div class="content">
-          <span class="ui pointing below label">
-            {{ person.role }}
-          </span>
-          <div class="header">{{ person.name }} 
-            <span class="small">
-              ({{ person.name_en }})
-            </span>
-          </div>
-          <div class="meta">
-            <div>{{ person.id }}</div>
-          </div>
-          <div class="description">
-            <p>{{ person.description }}</p>
-          </div>
-        </div>
-        <div class="extra content">
-          <div class="ui link divided relaxed list">
-            {% for link in person.link %}
-            <a class="item" target="_blank" href="{{ link.url }}">
-              <i class="icon globe"></i>
-              {{ link.title }}
-            </a>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<section id="staff">
-  <div class="ui stripe container">
-    <h2 class="ui header">工作人員</h2>
-    <div class="ui three stackable cards">
-      {% for person in site.data.people.staff %}
       <div class="card">
         <div class="avatar image">
           <img src="{{ person.avatar }}">
@@ -194,6 +153,47 @@ og_description: 2014 年 6 月，多個台灣開源社群共同發起開放文�
     <h2 class="ui header">熱血志工</h2>
     <div class="ui three stackable cards">
       {% for person in site.data.people.volunteers %}
+      <div class="card">
+        <div class="avatar image">
+          <img src="{{ person.avatar }}">
+        </div>
+        <div class="content">
+          <span class="ui pointing below label">
+            {{ person.role }}
+          </span>
+          <div class="header">{{ person.name }} 
+            <span class="small">
+              ({{ person.name_en }})
+            </span>
+          </div>
+          <div class="meta">
+            <div>{{ person.id }}</div>
+          </div>
+          <div class="description">
+            <p>{{ person.description }}</p>
+          </div>
+        </div>
+        <div class="extra content">
+          <div class="ui link divided relaxed list">
+            {% for link in person.link %}
+            <a class="item" target="_blank" href="{{ link.url }}">
+              <i class="icon globe"></i>
+              {{ link.title }}
+            </a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="board">
+  <div class="ui stripe container">
+    <h2 class="ui header">董事</h2>
+    <div class="ui three stackable cards">
+      {% for person in site.data.people.board %}
       <div class="card">
         <div class="avatar image">
           <img src="{{ person.avatar }}">
