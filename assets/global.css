@@ -114,3 +114,14 @@ html.ios body {
   margin-right: 0;
 }
 
+/* for semantic ui list in partner sections */
+
+#partners .ui.horizontal.list, #sponsors .ui.horizontal.list {
+  text-align: center;
+}
+
+#partners .logo, #sponsors .logo {
+  width: auto;
+  height: 5rem;
+}
+

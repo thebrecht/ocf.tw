@@ -91,15 +91,6 @@ cite:hover {
   right: -1.5em;
 }
 
-#partners .ui.horizontal.list {
-  text-align: center;
-}
-
-#partners .logo {
-  width: auto;
-  height: 5rem;
-}
-
 #ads .ui.inverted.segment {
   background-color: #333;
 }

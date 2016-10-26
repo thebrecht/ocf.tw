@@ -230,73 +230,34 @@ og_description: 2014 年 6 月，多個台灣開源社群共同發起開放文�
   </div>
 </section>
 
-
 <section id="partners">
   <div class="ui stripe container">
     <h2 class="ui header">合作夥伴</h2>
-    <div class="ui three stackable cards">
-      {% for org in site.data.people.partners %}
-      <div class="card">
-        <div class="logo image">
-          <img src="{{ org.logo }}">
-        </div>
-        <div class="content">
-          <div class="header">{{ org.name }} 
-          </div>
-          <div class="meta">
-            <div>{{ org.name_en }}</div>
-          </div>
-          <div class="description">
-            <p>{{ org.description }}</p>
-          </div>
-        </div>
-        <div class="extra content">
-          <div class="ui link divided relaxed list">
-            {% for link in org.link %}
-            <a class="item" target="_blank" href="{{ link.url }}">
-              <i class="icon globe"></i>
-              {{ link.title }}
-            </a>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
+    <div class="ui horizontal center aligned list">
+    {% for org in site.data.people.partners %}
+      <a class="item" target="_blank" href="{{ org.link[1].url }}">
+        <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
+      </a>
+    {% endfor %}
   </div>
 </section>
 
 <section id="sponsors">
   <div class="ui stripe container">
     <h2 class="ui header">贊助夥伴</h2>
-    <div class="ui three stackable cards">
-      {% for org in site.data.people.sponsors %}
-      <div class="card">
-        <div class="logo image">
-          <img src="{{ org.logo }}">
-        </div>
-        <div class="content">
-          <div class="header">{{ org.name }} 
-          </div>
-          <div class="meta">
-            <div>{{ org.name_en }}</div>
-          </div>
-          <div class="description">
-            <p>{{ org.description }}</p>
-          </div>
-        </div>
-        <div class="extra content">
-          <div class="ui link divided relaxed list">
-            {% for link in org.link %}
-            <a class="item" target="_blank" href="{{ link.url }}">
-              <i class="icon globe"></i>
-              {{ link.title }}
-            </a>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
+    <div class="ui horizontal center aligned list">
+    {% for org in site.data.people.sponsors %}
+      <a class="item" target="_blank" href="{{ org.link[1].url }}">
+        <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
+      </a>
+    {% endfor %}
+
+  </div>
+</section>
+
+<section id="donors">
+  <div class="ui stripe container">
+    <h2 class="ui header">捐助人</h2>
+
   </div>
 </section>
