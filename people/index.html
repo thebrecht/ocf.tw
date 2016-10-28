@@ -239,6 +239,7 @@ og_description: 2014 年 6 月，多個台灣開源社群共同發起開放文�
         <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
       </a>
     {% endfor %}
+    </div>
   </div>
 </section>
 
@@ -251,13 +252,17 @@ og_description: 2014 年 6 月，多個台灣開源社群共同發起開放文�
         <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
       </a>
     {% endfor %}
-
+    </div>
   </div>
 </section>
 
 <section id="donors">
   <div class="ui stripe container">
     <h2 class="ui header">捐助人</h2>
-
+    <div class="ui labels">
+    {% for person in site.data.people.donors %}
+      <span class="ui label">{{ person }}</span>
+    {% endfor %}
+    </div>
   </div>
 </section>
