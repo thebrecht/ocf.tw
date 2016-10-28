@@ -1,15 +1,7 @@
-.ui.cards {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 .ui.cards>.card .image {
   text-align: center;
   padding: 1rem;
   line-height: 0;
-}
-
-.ui.cards>.card .avatar.image {
 }
 
 .ui.cards>.card .avatar.image img {

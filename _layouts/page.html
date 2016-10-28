@@ -1,6 +1,12 @@
 ---
 layout: global
 ---
-{% include header.html %}
+<header id="header" class="ui segment inverted basic marginless paddingless">
+  <div class="ui container">
+    <nav class="ui secondary inverted pointing menu">
+    {% include header_menu.html %}
+    </nav>
+  </div>
+</header>
     
 {{ content }}

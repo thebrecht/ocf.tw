@@ -15,7 +15,7 @@ og_description: 2014 年 6 月，多個台灣開源社群共同發起開放文�
 
   <div id="submenu">
 
-  <nav data-context="desktop" class="ui pagination borderless menu">
+    <nav data-context="desktop" class="ui pagination borderless menu">
       <a class="item" href="#staff">工作人員</a>
       <a class="item" href="#consultants">顧問</a>
       <a class="item" href="#alumni">校友</a>
@@ -74,12 +74,12 @@ og_description: 2014 年 6 月，多個台灣開源社群共同發起開放文�
         </div>
         <div class="extra content">
           <div class="ui link divided relaxed list">
-            {% for link in person.link %}
+          {% for link in person.link %}
             <a class="item" target="_blank" href="{{ link.url }}">
               <i class="icon globe"></i>
               {{ link.title }}
             </a>
-            {% endfor %}
+          {% endfor %}
           </div>
         </div>
       </div>

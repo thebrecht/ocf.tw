@@ -7,15 +7,16 @@
   margin: 0;
 }
 
-#hero .ui.secondary.pointing.menu {
-  border: none;
+#header {
+  background-color: none;
+  background: none;
 }
 
-#hero .ui.menu .logo.item {
-  padding: 0;
+#header .ui.menu .logo.item {
+  margin: -0.85714286em -1.14285714em;
 }
 
-#hero .ui.menu .logo.image {
+#header .ui.menu .logo.image {
   height: 2.5rem;
 }
 

@@ -6,6 +6,11 @@ html, body, h1, h2, h3, h4, h5, h6, button {
   font-family: Lato, Noto sans, "Helvetica Neue" ,Arial,Helvetica, '微軟正黑體', 'Microsoft JhengHei', sans-serif;
 }
 
+.ui.cards {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .ui.marginless.segment {
   margin: 0;
 }
@@ -48,19 +53,38 @@ html, body, h1, h2, h3, h4, h5, h6, button {
   padding-right: 1rem;
 }
 
+/* for container */
+
+.ui.container {
+  width: 100%;
+  max-width: 1280px!important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+
+.ui.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+}
+
 /* for header */
+
+#header {
+  background: url(/img/header-shell.png) repeat center 0;
+}
 
 #header .ui.secondary.pointing.menu {
   border: none;
 }
 
-#header {
-  background-color: #333;
-  background: url(/img/header-shell.png) repeat center 0;
-}
-
 #header .ui.menu .logo.item {
-  padding: 0.5em 1em 0.5em 0;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  margin-left: -1.14285714em;
 }
 
 #header .ui.menu .logo.image {
@@ -70,17 +94,21 @@ html, body, h1, h2, h3, h4, h5, h6, button {
 
 /* for semantic ui sidebar */
 
-.ui.menu .item.toggle.sidebar {
+#header .ui.menu .item[data-display="mobile"] {
   display: none;
+  margin-right: -1.14285714em;
 }
 
+#header .ui.menu .item[data-display="mobile"] i.icon {
+  margin-right: 0;
+}
 @media only screen and (max-width: 767px) {
 
-.ui.menu .desktop.item {
+#header .ui.menu .item[data-display="desktop"] {
   display: none;
 }
 
-.ui.menu .item.toggle.sidebar {
+#header .ui.menu .item[data-display="mobile"] {
   display: block;
 }
 

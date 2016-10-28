@@ -1,0 +1,25 @@
+- name: OSDC
+  name_en: 
+  abbr: OSDC
+  cover: /projects/2014/osdc/og.png
+  description: 
+  link:
+    - title: 官方網站
+      url: 
+      target: _blank
+  tag:
+    - 大型研討會
+    - 定期活動
+  id: osdc
+  type_id:
+    - community
+  topic_id:
+    - source
+  field_id:
+    - it
+  board_id:
+    - pofeng
+  staff_id: 
+    - singing
+  host_id:
+    - osdc

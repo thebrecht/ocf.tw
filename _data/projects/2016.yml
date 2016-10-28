@@ -2,13 +2,20 @@
   name_en: Administration Center
   abbr: 
   cover: /projects/2016/admin/og.png
-  description: 開設獨立帳戶、收款取款、對帳、製作報表、開立收據……一點都不迷人的繁瑣的行政庶務，卻是在幕後默默支援所有專案、不可或缺的基礎建設。行政中心奠定營運基石，讓所有專案共同受益。
+  description: 開設獨立帳戶、收款取款、對帳、製作報表、開立收據、流程諮詢、彙整資料、成果發表、活動規劃、網站維護……一點都不迷人的繁瑣的行政庶務，卻是在幕後默默支援所有專案、不可或缺的基礎建設。行政中心奠定營運基石，讓所有專案共同受益。
   link:
     - title: 專案介紹
       url: /projects/2016/admin/
       target: _self
-  tags:
-  id: admin2016
+  action:
+    - title: 單筆捐款
+      url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=8
+      target: _blank
+    - title: 三百壯士方案
+      url: /projects/2016/admin/300
+      target: _self
+  tag:
+  id: admin
   type_id:
     - misc
   topic_id:
@@ -26,12 +33,16 @@
   name_en: 
   abbr: 
   cover: /projects/2016/intl/og.jpg
-  description: 廣結高手、搭橋牽線、舉辦活動、補助旅費……透過多樣的交流形式，建立本地社群與國際社群的連結，催生相互認識與合作的機會，讓更多台灣的開放文化貢獻者，站上國際舞台。
+  description: 廣結高手、搭橋牽線、舉辦活動、補助旅費……透過多樣的交流形式，建立本地社群與國際社群的連結，催生相互認識與合作的機會，同時也希望能協助更多學生開拓國際視野，站上國際舞台，主動分享開源成果，並於回國後分享心得，為下一位受益者募集旅費，擴善計劃效益。
   link:
     - title: 專案介紹
       url: /projects/2016/intl/
       target: _self
-  tags:
+  action:
+    - title: 國際開源會議盤纏計畫 - 學生方案申請書
+      url: https://ocftw.typeform.com/to/e9i57X
+      target: _blank
+  tag:
     - 盤纏申請
   id: intl
   type_id:
@@ -52,16 +63,25 @@
   name_en: 
   abbr: 
   cover: /projects/2016/movie/og.png
-  description: 資訊自由鬥士 Aaron Swartz 精彩生平、開源之源、開放的自造世界……等精心拍攝的電影，凝聚了全球開放文化精華。本計畫洽談影片授權、翻譯、製作字幕、上映，讓國人一睹風采。
+  description: 資訊自由鬥士 Aaron Swartz 精彩生平、開源之源、開放的自造世界...，開放文化的風在全球各地吹起，精心拍攝的電影、紀錄片，凝聚了箇中精華。本計畫洽談影片授權、翻譯成正體中文、製作字幕並上映，讓國人一睹開放文化的風采。
   link:
     - title: 專案介紹
-      url: /projects/2016/movie
+      url: /projects/2016/movie/
       target: _self
-  tags:
+  action:
+    - title: 贊助專案
+      url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=10
+      target: _blank
+    - title: 加入志工
+      url: https://ocf.neticrm.tw/civicrm/profile/create?gid=23&reset=1
+      target: _blank
+  tag:
     - 電影
   id: movie
-  type_id: misc
-  topic_id: misc
+  type_id:
+    - misc
+  topic_id:
+    - misc
   field_id: 
     - it
   board_id:
@@ -70,7 +90,6 @@
     - singing
   host_id:
     - ocf
-
 
 - name: COSCUP 開源人年會
   name_en: Conference for Open Source Coders, Users and Promoters
@@ -81,13 +100,16 @@
     - title: 官方網站
       url: http://coscup.org/2016/
       target: _blank
-  tags:
+  tag:
     - 大型研討會
     - 定期活動
-  id: coscup2016
-  type_id: community
-  topic_id: source
-  field_id: it
+  id: coscup
+  type_id:
+    - community
+  topic_id:
+    - source
+  field_id:
+    - it
   board_id:
     - bobchao
   staff_id: 
@@ -98,54 +120,83 @@
 - name: 啥米零時政府
   name_en: G0V Summit
   abbr: 
-  type: community
+  cover: /projects/2016/g0vsummit/og.png
   description: g0v.tw 2012年底 g0v 社群運作逐漸成形，從那時起 g0v 零時政府社群便以數位世代的思維，以開源方式號召群眾參與著手開發新工具、新組織型態、新合作關係。經過多方共同努力，透過 g0v 的開放特性作為平台，與 NGO 和政府建立了多方互動，但需要更長遠的跨領域交流，為此籌辦 g0v.tw summit 零時政府高峰會，希望有更多深入的溝通與交流，與有志運用科技改變社會的各界共同參與，期待開放力量成為實際改變的動能。
-  logo: /people/partners/g0v_logo.png
-  logo-horizontal: 
-  cover:
   link:
     - title: 官方網站
       url: http://g0v.tw/
+      target: _blank
+  tag:
+    - 大型研討會
+    - 定期活動
+  id: g0vsummit
+  type_id:
+    - community
+  topic_id:
+    - data
+    - government
+    - source
+  field_id:
+    - legal
+    - it
+  board_id:
+    - clkao
+  staff_id:
+    - ttcat
+  host_id:
+    - G0V Summit
 
-
-- name: PyCON 台灣
-  name_en:
-  abbr: 
-  type: community
-  description: 
-  logo: /people/partners/PyConTW_logo_2016.png
-  logo-horizontal: 
-  cover:
+- name: PyCon 台灣
+  name_en: PyCon Taiwan
+  abbr: PyCon TW
+  cover: /projects/2016/pycon/og.png
+  description: PyCon Taiwan 為一年一度由愛好者舉辦、討論並提倡使用 Python 程式語言的會議，聚焦在 Python 技術與其多樣的可能應用的交流。我們歡迎所有對 Python 有興趣的朋友一同加入 PyCon Taiwan 來分享所學、交換想法、並且認識更多同好。
   link:
     - title: 官方網站
       url: http://pycon.tw/
-
-
-- name: OSDC
-  name_en:
-  abbr: 
-  type: community
-  description: 
-  logo: /people/partners/OSDC_logo.png
-  logo-horizontal: 
-  cover:
-  link:
-    - title:
-      url: 
-
+      target: _blank
+  tag:
+    - 大型研討會
+    - 定期活動
+  id: pycon
+  type_id:
+    - community
+  topic_id:
+    - source
+  field_id:
+    - it
+  board_id:
+    - pofeng
+  staff_id:
+    - rock
+  host_id:
+    - g0vsummit
 
 - name: SITCON 學生計算機年會
   name_en: Students’ Information Technology Conference
   abbr: SITCON
-  type: community
-  description: 
-  logo: /people/partners/SITCON_logo.png
-  logo-horizontal: 
-  cover:
+  cover: /projects/2016/sitcon/og.png
+  description: SITCON 學生計算機年會係一學生自發組成的研討會，秉持著以學生為主軸的核心價值，藉以凝聚與傳遞學生的力量。希望藉由提供一個經驗交流與資訊技術實務分享的平台，使已有成就者能夠傳承己身經驗，嶄露頭角者在激盪中獲得靈感與啟發，並同時讓初入茅廬者得以對資訊科學有更深入的了解；進而達到「學以致用、教學相長」的目標。
   link:
     - title: 官方網站
       url: http://sitcon.org/
-
+      target: _blank
+  tag:
+    - 大型研討會
+    - 定期活動
+  id: sitcon
+  type_id:
+    - community
+  topic_id:
+    - source
+  field_id:
+    - it
+  board_id:
+    - pofeng
+  staff_id:
+    - singing
+  host_id:
+    - sitcon
 
 - name: Java Community Conference Taiwan
   name_en:
