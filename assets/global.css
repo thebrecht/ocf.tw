@@ -57,9 +57,14 @@ html, body, h1, h2, h3, h4, h5, h6, button {
 
 .ui.container {
   width: 100%;
-  max-width: 1280px!important;
+  max-width: 1200px!important;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.ui.grid.container {
+  width: 100%!important;
+  max-width: 1200px!important;
 }
 
 @media only screen and (max-width: 767px) {
@@ -69,6 +74,16 @@ html, body, h1, h2, h3, h4, h5, h6, button {
   padding-right: 0;
 }
 
+}
+
+/* for grid */
+
+.ui.grid>.column.left {
+  padding-left: 0
+}
+
+.ui.grid>.column.right {
+  padding-right: 0
 }
 
 /* for header */

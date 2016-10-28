@@ -30,7 +30,7 @@ cite {
   font-size: 0.8rem;
   line-height: 1.5em;
   opacity: 0.5;
-  display: inline-block;
+  display: block;
 }
 
 cite:hover {
