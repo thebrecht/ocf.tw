@@ -3,6 +3,11 @@
   background-color: #efefef;
 }
 
+.ui.cards {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .ui.cards>.card .image {
   text-align: center;
   padding: 1rem;
@@ -33,4 +38,10 @@
   width: auto;
   display: inline-block;
   border-radius: 0;
+}
+
+@media only screen and (max-width: 767px) {
+
+
+
 }

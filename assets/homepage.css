@@ -105,11 +105,6 @@ cite:hover {
     margin-bottom: 0;
 }
 
-h2.ui.header {
-  display: block;
-  text-align: center;
-}
-
 #what_we_do hr.ui.hidden.divider {
   display: none;
 }

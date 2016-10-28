@@ -9,20 +9,42 @@ og_description: 2014 年 6 月，多個台灣開源社群共同發起開放文�
 <div class="ui center aligned stripe container">
 
   <h1 class="ui center aligned icon header">
-  <i class="circular users icon"></i>
-  工作夥伴
+    <i class="circular users icon"></i>
+    工作夥伴
   </h1>
 
-  <nav class="ui pagination borderless menu">
-    <a class="item" href="#staff">工作人員</a>
-    <a class="item" href="#consultants">顧問</a>
-    <a class="item" href="#alumni">校友</a>
-    <a class="item" href="#volunteers">志工</a>
-    <a class="item" href="#board">董事</a>
-    <a class="item" href="#partners">合作夥伴</a>
-    <a class="item" href="#sponsors">贊助夥伴</a>
-    <a class="item" href="#donors">捐助人</a>
-  </nav>
+  <div id="submenu">
+
+  <nav data-context="desktop" class="ui pagination borderless menu">
+      <a class="item" href="#staff">工作人員</a>
+      <a class="item" href="#consultants">顧問</a>
+      <a class="item" href="#alumni">校友</a>
+      <a class="item" href="#volunteers">志工</a>
+      <a class="item" href="#board">董事</a>
+      <a class="item" href="#partners">合作夥伴</a>
+      <a class="item" href="#sponsors">贊助夥伴</a>
+      <a class="item" href="#donors">捐助人</a>
+    </nav>
+
+    <nav data-context="mobile" class="hidden ui one item menu">
+      <div class="ui dropdown item">
+        <span data-content="current">跳至...</span>
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          <a class="item" href="#staff">工作人員</a>
+          <a class="item" href="#consultants">顧問</a>
+          <a class="item" href="#alumni">校友</a>
+          <a class="item" href="#volunteers">志工</a>
+          <a class="item" href="#board">董事</a>
+          <a class="item" href="#partners">合作夥伴</a>
+          <a class="item" href="#sponsors">贊助夥伴</a>
+          <a class="item" href="#donors">捐助人</a>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+
 </div>
 
 <section id="staff">
@@ -234,11 +256,11 @@ og_description: 2014 年 6 月，多個台灣開源社群共同發起開放文�
   <div class="ui stripe container">
     <h2 class="ui header">合作夥伴</h2>
     <div class="ui horizontal center aligned list">
-    {% for org in site.data.people.partners %}
+      {% for org in site.data.people.partners %}
       <a class="item" target="_blank" href="{{ org.link[1].url }}">
         <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
       </a>
-    {% endfor %}
+      {% endfor %}
     </div>
   </div>
 </section>
@@ -247,11 +269,11 @@ og_description: 2014 年 6 月，多個台灣開源社群共同發起開放文�
   <div class="ui stripe container">
     <h2 class="ui header">贊助夥伴</h2>
     <div class="ui horizontal center aligned list">
-    {% for org in site.data.people.sponsors %}
+      {% for org in site.data.people.sponsors %}
       <a class="item" target="_blank" href="{{ org.link[1].url }}">
         <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
       </a>
-    {% endfor %}
+      {% endfor %}
     </div>
   </div>
 </section>
@@ -259,10 +281,10 @@ og_description: 2014 年 6 月，多個台灣開源社群共同發起開放文�
 <section id="donors">
   <div class="ui stripe container">
     <h2 class="ui header">捐助人</h2>
-    <div class="ui labels">
-    {% for person in site.data.people.donors %}
+    <div class="ui center aligned labels">
+      {% for person in site.data.people.donors %}
       <span class="ui label">{{ person }}</span>
-    {% endfor %}
+      {% endfor %}
     </div>
   </div>
 </section>

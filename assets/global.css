@@ -30,6 +30,10 @@ html, body, h1, h2, h3, h4, h5, h6, button {
   text-align: left;
 }
 
+.center.aligned {
+  text-align: center;
+}
+
 .right.aligned {
   text-align: right;
 }
@@ -91,6 +95,39 @@ html.ios {
 html.ios,
 html.ios body {
   height: initial !important;
+}
+
+/* for submenu */
+
+#submenu [data-context="mobile"] {
+  display: none;
+}
+
+#submenu [data-context="mobile"] .menu .item {
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+
+#submenu [data-context="desktop"] {
+  display: none;
+}
+
+#submenu [data-context="mobile"] {
+  display: block;
+}
+
+}
+
+/* for headings */
+
+@media only screen and (max-width: 767px) {
+
+h2.ui.header {
+  display: block;
+  text-align: center;
+}
+
 }
 
 /* for footer */
