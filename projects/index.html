@@ -4,11 +4,130 @@ title: 開放文化基金會::捐款專案
 og_description: 線上捐款 — 支持開放文化基金會 (OCF)
 og_image: ../images/cover.png
 ---
-<div class="horizontal vertical padding" style="position: relative;">
-<h1 class="ui horizontal divider header"><i class="money icon"></i>捐款專案</h1>
-  <div class="" style="position: absolute; z-index: 10; top: 1rem; right: 1rem; padding-left: 1rem; background: white;">
-  <a href="http://blog.ocf.tw/search/label/%E6%8D%90%E6%AC%BE%E5%BE%B5%E4%BF%A1?" target="_blank" class="ui labeled icon gray button">捐款徵信<i class="icon external square"></i></a>
+<div class="ui center aligned stripe container">
+
+  <h1 class="ui center aligned icon header">
+    <i class="circular rocket icon"></i>
+    專案與成果
+  </h1>
+
+  <div id="submenu">
+
+  <nav data-context="desktop" class="ui pagination borderless menu">
+      <div class="ui dropdown item">
+        <span data-content="type">所有類型</span>
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          <a class="item" data-type="all">所有類型</a>
+          <a class="item" data-type="communities">社群支援</a>
+          <a class="item" data-type="organization">組織合作</a>
+          <a class="item" data-type="overseas">跨國交流</a>
+          <a class="item" data-type="consultanting">顧問諮詢</a>
+        </div>
+      </div>
+
+      <div class="ui dropdown item">
+        <span data-content="topic">所有議題</span>
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          <a class="item" data-topic="all">所有議題</a>
+          <a class="item" data-topic="source">開放源碼</a>
+          <a class="item" data-topic="data">開放資料</a>
+          <a class="item" data-topic="government">開放政府</a>
+          <a class="item" data-topic="misc">其他</a>
+        </div>
+      </div>
+
+      <div class="ui dropdown item">
+        <span data-content="field">所有領域</span>
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          <a class="item" data-field="all">所有領域</a>
+          <a class="item" data-field="it">資訊科技</a>
+          <a class="item" data-field="legal">法律</a>
+          <a class="item" data-field="education">教育</a>
+          <a class="item" data-field="misc">其他</a>
+        </div>
+      </div>
+
+    </nav>
+
+    <nav data-context="mobile" class="ui one item menu">
+      <div class="ui dropdown item">
+        <span data-content="type">所有類型</span>
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          <a class="item" data-type="all">所有類型</a>
+          <a class="item" data-type="communities">社群支援</a>
+          <a class="item" data-type="organization">組織合作</a>
+          <a class="item" data-type="overseas">跨國交流</a>
+          <a class="item" data-type="consultanting">顧問諮詢</a>
+          <a class="item" data-type="misc">其他</a>
+        </div>
+      </div>
+
+      <div class="ui dropdown item">
+        <span data-content="topic">所有議題</span>
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          <a class="item" data-topic="all">所有議題</a>
+          <a class="item" data-topic="source">開放源碼</a>
+          <a class="item" data-topic="data">開放資料</a>
+          <a class="item" data-topic="government">開放政府</a>
+          <a class="item" data-topic="misc">其他</a>
+        </div>
+      </div>
+
+      <div class="ui dropdown item">
+        <span data-content="field">所有領域</span>
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          <a class="item" data-field="all">所有領域</a>
+          <a class="item" data-field="it">資訊科技</a>
+          <a class="item" data-field="legal">法律</a>
+          <a class="item" data-field="education">教育</a>
+          <a class="item" data-field="misc">其他</a>
+        </div>
+      </div>
+    </nav>
+
   </div>
+
+</div>
+
+<div id="projects">
+
+    <div class="ui three column stackable grid cards">
+    {% for project in site.data.projects.2016 %}
+
+      <div class="card">
+        <div class="image">
+          <img src="{{ project.cover }}">
+        </div>
+        <div class="content">
+          <h3 class="header">{{ project.name }}</h3>
+          <div class="description">{{ project.description }}
+          </div>
+        </div>
+        <div class="extra content">
+        {% for link in project.link %}
+
+          <a class="item" target="{{ link.target }}" href="{{ link.url }}">
+            {{ link.title }}
+            <i class="right arrow icon"></i>
+          </a>
+
+        {% endfor %}
+        </div>
+      </div>
+
+    {% endfor %}
+    </div>
+
+</div>
+
+<div class="horizontal vertical padding" style="position: relative;">
+
   <div class="ui three doubling stackable cards">
       <div class="card">
         <a href="https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=8" target="_blank" class="image"><img src="../images/cover.png"></a>

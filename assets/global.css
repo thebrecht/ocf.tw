@@ -99,6 +99,11 @@ html.ios body {
 
 /* for submenu */
 
+#submenu .ui.menu {
+  margin-top: 1rem;
+  background-color: rgba(0,0,0,0.03);
+}
+
 #submenu [data-context="mobile"] {
   display: none;
 }

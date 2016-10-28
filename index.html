@@ -291,55 +291,32 @@ og_description: 2014 年 6 月，多個台灣開源社群共同發起開放文�
     <h2 class="ui header">正在加速進行中</h2>
 
     <div class="ui three column stackable grid cards">
+    {% for project in site.data.projects.2016 %}
+    {% if project.host_id[0] == "ocf" %}
 
       <div class="card">
         <div class="image">
-          <img src="/projects/admin/og.png" alt="created by Muka, owner by OCF.tw">
+          <img src="{{ project.cover }}">
         </div>
         <div class="content">
-          <h3 class="header">行政中心</h3>
-          <div class="description">開設獨立帳戶、收款取款、對帳、製作報表、開立收據……一點都不迷人的繁瑣的行政庶務，卻是在幕後默默支援所有專案、不可或缺的基礎建設。行政中心奠定營運基石，讓所有專案共同受益。
+          <h3 class="header">{{ project.name }}</h3>
+          <div class="description">{{ project.description }}
           </div>
         </div>
         <div class="extra content">
-          <a href="/projects/admin">進一步瞭解
+        {% for link in project.link %}
+
+          <a class="item" target="{{ link.target }}" href="{{ link.url }}">
+            {{ link.title }}
             <i class="right arrow icon"></i>
           </a>
+
+        {% endfor %}
         </div>
       </div>
 
-      <div class="card">
-        <div class="image">
-          <img src="/projects/intl/og.jpg" alt="created by Muka, owned by OCF.tw">
-        </div>
-        <div class="content">
-          <h3 class="header">國際交流計劃</h3>
-          <div class="description">廣結高手、搭橋牽線、舉辦活動、補助旅費……透過多樣的交流形式，建立本地社群與國際社群的連結，催生相互認識與合作的機會，讓更多台灣的開放文化貢獻者，站上國際舞台。
-          </div>
-        </div>
-        <div class="extra content">
-          <a href="/projects/intl">進一步瞭解
-            <i class="right arrow icon"></i>
-          </a>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="image">
-          <img src="/projects/movie/og.png" alt="creat by [TODO] ___, owned by OCF.tw">
-        </div>
-        <div class="content">
-          <h3 class="header">開放文化影展</h3>
-          <div class="description">資訊自由鬥士 Aaron Swartz 精彩生平、開源之源、開放的自造世界……等精心拍攝的電影，凝聚了全球開放文化精華。本計畫洽談影片授權、翻譯、製作字幕、上映，讓國人一睹風采。
-          </div>
-        </div>
-        <div class="extra content">
-          <a href="/projects/movie">進一步瞭解
-            <i class="right arrow icon"></i>
-          </a>
-        </div>
-      </div>
-
+    {% endif %}
+    {% endfor %}
     </div>
 
   </div>

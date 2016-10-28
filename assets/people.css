@@ -1,8 +1,3 @@
-.ui.pagination.menu {
-  margin-top: 1rem;
-  background-color: #efefef;
-}
-
 .ui.cards {
   margin-top: 0;
   margin-bottom: 0;
@@ -38,10 +33,4 @@
   width: auto;
   display: inline-block;
   border-radius: 0;
-}
-
-@media only screen and (max-width: 767px) {
-
-
-
 }
