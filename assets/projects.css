@@ -1,0 +1,9 @@
+.display-none {
+  display: none!important;
+}
+
+@media only screen and (max-width: 767px) {
+.ui.stackable.cards>.card.display-none {
+  display: none!important;
+}  
+}

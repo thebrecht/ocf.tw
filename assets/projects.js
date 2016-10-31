@@ -29,8 +29,8 @@ var runFilter = function () {
 
   $('#filter_count').text($selectedCards.length);
   
-  $selectedCards.show();
-  $('#current .card').not($selectedCards).hide();
+  $selectedCards.removeClass("display-none");
+  $('#current .card').not($selectedCards).addClass("display-none");
 }
 
 // bind events
