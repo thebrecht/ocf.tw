@@ -43,6 +43,14 @@ html, body, h1, h2, h3, h4, h5, h6, button {
   text-align: right;
 }
 
+.top.margin {
+  margin-top: 1rem;
+}
+
+.bottom.margin {
+  margin-bottom: 1rem;
+}
+
 .vertical.padding {
   padding-top: 1rem;
   padding-bottom: 1rem;

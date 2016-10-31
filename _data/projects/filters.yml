@@ -1,0 +1,39 @@
+- id: type
+  name: 類型
+  items:
+    - id: community
+      name: 社群支援
+    - id: organization
+      name: 組織合作
+    - id: overseas
+      name: 跨國交流
+    - id: consultanting
+      name: 顧問諮詢
+    - id: misc
+      name: 其他
+- id: topic
+  name: 議題
+  items:
+    - id: source
+      name: 開放源碼
+    - id: data
+      name: 開放資料
+    - id: government
+      name: 開放政府
+    - id: misc
+      name: 其他
+- id: field
+  name: 領域
+  items:
+    - id: it
+      name: 資訊科技
+    - id: legal
+      name: 法律
+    - id: media
+      name: 媒體
+    - id: geo
+      name: 地理
+    - id: education
+      name: 教育
+    - id: misc
+      name: 其他

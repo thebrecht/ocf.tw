@@ -1,8 +1,9 @@
 ---
 layout: page
-title: 開放文化基金會::捐款專案
-og_description: 線上捐款 — 支持開放文化基金會 (OCF)
-og_image: ../images/cover.png
+title: 專案總覽
+og_description: 
+og_image: /img/og.png
+js: /assets/projects.js
 ---
 <div class="ui center aligned stripe container">
 
@@ -13,87 +14,43 @@ og_image: ../images/cover.png
 
   <div id="submenu">
 
-  <nav data-context="desktop" class="ui pagination borderless menu">
+    <nav data-context="desktop" class="ui pagination borderless menu">
+    {% for filter in site.data.projects.filters %}
+
       <div class="ui dropdown item">
-        <span data-content="type">所有類型</span>
+        <span data-content="{{ filter.id }}">所有{{ filter.name }}</span>
         <i class="dropdown icon"></i>
         <div class="menu">
-          <a class="item" data-type="all">所有類型</a>
-          <a class="item" data-type="communities">社群支援</a>
-          <a class="item" data-type="organization">組織合作</a>
-          <a class="item" data-type="overseas">跨國交流</a>
-          <a class="item" data-type="consultanting">顧問諮詢</a>
+          <a class="item" data-{{ filter.id }}="all">所有{{ filter.name }}</a>
+          {% for item in filter.items %}
+          <a class="item" data-{{ filter.id }}="{{ item.id }}">{{ item.name }}</a>
+          {% endfor %}
         </div>
       </div>
 
-      <div class="ui dropdown item">
-        <span data-content="topic">所有議題</span>
-        <i class="dropdown icon"></i>
-        <div class="menu">
-          <a class="item" data-topic="all">所有議題</a>
-          <a class="item" data-topic="source">開放源碼</a>
-          <a class="item" data-topic="data">開放資料</a>
-          <a class="item" data-topic="government">開放政府</a>
-          <a class="item" data-topic="misc">其他</a>
-        </div>
-      </div>
-
-      <div class="ui dropdown item">
-        <span data-content="field">所有領域</span>
-        <i class="dropdown icon"></i>
-        <div class="menu">
-          <a class="item" data-field="all">所有領域</a>
-          <a class="item" data-field="it">資訊科技</a>
-          <a class="item" data-field="legal">法律</a>
-          <a class="item" data-field="media">媒體</a>
-          <a class="item" data-field="geo">地理</a>
-          <a class="item" data-field="education">教育</a>
-          <a class="item" data-field="misc">其他</a>
-        </div>
-      </div>
-
+    {% endfor %}
     </nav>
 
     <nav data-context="mobile" class="ui one item menu">
+    {% for filter in site.data.projects.filters %}
+
       <div class="ui dropdown item">
-        <span data-content="type">所有類型</span>
+        <span data-content="{{ filter.id }}">所有{{ filter.name }}</span>
         <i class="dropdown icon"></i>
         <div class="menu">
-          <a class="item" data-type="all">所有類型</a>
-          <a class="item" data-type="communities">社群支援</a>
-          <a class="item" data-type="organization">組織合作</a>
-          <a class="item" data-type="overseas">跨國交流</a>
-          <a class="item" data-type="consultanting">顧問諮詢</a>
-          <a class="item" data-type="misc">其他</a>
+          <a class="item" data-{{ filter.id }}="all">所有{{ filter.name }}</a>
+          {% for item in filter.items %}
+          <a class="item" data-{{ filter.id }}="{{ item.id }}">{{ item.name }}</a>
+          {% endfor %}
         </div>
       </div>
 
-      <div class="ui dropdown item">
-        <span data-content="topic">所有議題</span>
-        <i class="dropdown icon"></i>
-        <div class="menu">
-          <a class="item" data-topic="all">所有議題</a>
-          <a class="item" data-topic="source">開放源碼</a>
-          <a class="item" data-topic="data">開放資料</a>
-          <a class="item" data-topic="government">開放政府</a>
-          <a class="item" data-topic="misc">其他</a>
-        </div>
-      </div>
-
-      <div class="ui dropdown item">
-        <span data-content="field">所有領域</span>
-        <i class="dropdown icon"></i>
-        <div class="menu">
-          <a class="item" data-field="all">所有領域</a>
-          <a class="item" data-field="it">資訊科技</a>
-          <a class="item" data-field="legal">法律</a>
-          <a class="item" data-field="education">教育</a>
-          <a class="item" data-field="misc">其他</a>
-        </div>
-      </div>
+    {% endfor %}
     </nav>
 
   </div>
+
+  <p class="top margin">這裡有 <span id="filter_count"></span> 個專案正在加速進行中！</p>
 
 </div>
 
@@ -101,7 +58,7 @@ og_image: ../images/cover.png
     <div class="ui three stackable cards">
     {% for project in site.data.projects.2016 %}
 
-      <div class="card">
+      <div class="card" data-type="{% for id in project.type_id %}{{ id }} {% endfor %}" data-topic="{% for id in project.topic_id %}{{ id }} {% endfor %}" data-field="{% for id in project.field_id %}{{ id }} {% endfor %}">
         <div class="image">
           <img src="{{ project.cover }}">
         </div>
