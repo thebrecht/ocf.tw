@@ -247,20 +247,6 @@
   host_id:
     - jcconf
 
-
-- name: 台灣開放街圖研討會 SotM Taiwan
-  name_en:
-  abbr: 
-  type: 
-  description: 
-  logo: /people/partners/SOTM_TW_logo.png
-  logo-horizontal: 
-  cover:
-  link:
-    - title: 官方網站
-      url: http://openstreetmap.tw/
-
-
 - name: openSUSE Taiwan
   name_en:
   abbr: 
