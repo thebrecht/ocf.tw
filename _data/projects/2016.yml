@@ -12,7 +12,7 @@
       url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=8
       target: _blank
     - title: 三百壯士方案
-      url: /projects/2016/admin/300
+      url: /projects/2016/admin/300/
       target: _self
   tag:
   id: admin
@@ -124,7 +124,7 @@
   description: g0v.tw 2012年底 g0v 社群運作逐漸成形，從那時起 g0v 零時政府社群便以數位世代的思維，以開源方式號召群眾參與著手開發新工具、新組織型態、新合作關係。經過多方共同努力，透過 g0v 的開放特性作為平台，與 NGO 和政府建立了多方互動，但需要更長遠的跨領域交流，為此籌辦 g0v.tw summit 零時政府高峰會，希望有更多深入的溝通與交流，與有志運用科技改變社會的各界共同參與，期待開放力量成為實際改變的動能。
   link:
     - title: 官方網站
-      url: http://g0v.tw/
+      url: http://summit.g0v.tw/2016/
       target: _blank
   tag:
     - 大型研討會
@@ -144,7 +144,7 @@
   staff_id:
     - ttcat
   host_id:
-    - G0V Summit
+    - g0vsummit
 
 - name: PyCon 台灣
   name_en: PyCon Taiwan
@@ -153,7 +153,7 @@
   description: PyCon Taiwan 為一年一度由愛好者舉辦、討論並提倡使用 Python 程式語言的會議，聚焦在 Python 技術與其多樣的可能應用的交流。我們歡迎所有對 Python 有興趣的朋友一同加入 PyCon Taiwan 來分享所學、交換想法、並且認識更多同好。
   link:
     - title: 官方網站
-      url: http://pycon.tw/
+      url: https://tw.pycon.org/2016/
       target: _blank
   tag:
     - 大型研討會
@@ -170,7 +170,7 @@
   staff_id:
     - rock
   host_id:
-    - g0vsummit
+    - pycon
 
 - name: SITCON 學生計算機年會
   name_en: Students’ Information Technology Conference
@@ -179,7 +179,7 @@
   description: SITCON 學生計算機年會係一學生自發組成的研討會，秉持著以學生為主軸的核心價值，藉以凝聚與傳遞學生的力量。希望藉由提供一個經驗交流與資訊技術實務分享的平台，使已有成就者能夠傳承己身經驗，嶄露頭角者在激盪中獲得靈感與啟發，並同時讓初入茅廬者得以對資訊科學有更深入的了解；進而達到「學以致用、教學相長」的目標。
   link:
     - title: 官方網站
-      url: http://sitcon.org/
+      url: http://sitcon.org/2016/
       target: _blank
   tag:
     - 大型研討會
@@ -198,17 +198,54 @@
   host_id:
     - sitcon
 
+- name: SITCON 夏令營
+  name_en: Students’ Information Technology Conference Camp
+  abbr: SITCON Camp
+  cover: /projects/2016/sitconcamp/og.png
+  description: 2016 年度，以「墜入資訊夢，喚醒開源魂」為主軸，SITCON 夏令營將於中央大學舉辦，新創開源鄉的概念，配合豐富的課程、座談會及社群闖關，讓學員在程式編寫管理、演算法思維、團隊合作等架構下學習；今年將更進一步把故事和營隊整合，完整營造整體感，務求讓學員擁有截然不同的營隊體驗。
+  link:
+    - title: 官方網站
+      url: http://sitcon.camp/2016/
+      target: _blank
+  tag:
+  id: sitconcamp
+  type_id:
+    - community
+  topic_id:
+    - source
+  field_id:
+    - it
+  board_id:
+    - pofeng
+  staff_id:
+    - singing
+  host_id:
+    - sitcon
+
 - name: Java Community Conference Taiwan
   name_en:
   abbr: JCConf
-  type: 
-  description: 
-  logo: /people/partners/JCConf_logo.png
-  logo-horizontal: 
-  cover:
+  cover: /projects/2016/jcconf/og.png
+  description: Java Community Conference Taiwan 是由社群主辦的 Java 開發者年會，以提供更多機會讓開發人員之間能夠互相交流。分享內容的程度不論初階到進階，只要和 Java 程式語言、框架、JVM 及虛擬化相關技術、移動裝置、開發工具、開發流程...等等，任何你認為可以分享的主題都歡迎您的投稿，歡迎分享你的發現、研究或各種實際案例經驗給大家。 
   link:
     - title: 官方網站
-      url: http://jcconf.tw/
+      url: http://jcconf.tw/2016/
+      target: _blank
+  tag:
+    - language
+  id: jcconf
+  type_id:
+    - community
+  topic_id:
+    - source
+  field_id:
+    - it
+  board_id:
+    - pofeng
+  staff_id:
+    - singing
+  host_id:
+    - jcconf
 
 
 - name: 台灣開放街圖研討會 SotM Taiwan
@@ -236,19 +273,29 @@
     - title: 
       url: https://zh-tw.opensuse.org
 
-
 - name: MakerConf
-  name_en:
+  name_en: 
   abbr: 
-  type: 
-  description: 
-  logo: /people/partners/MakerConf_logo.png
-  logo-horizontal: 
-  cover:
+  cover: /projects/2016/makerconf/og.png
+  description: MakerConf 自 2014 年開始，呼應國內外吹起的自造者風氣，籌辦了第一屆的 MakerConf，廣結台灣在地的自造者聚集起來，彼此交流關於開放硬體與自造經驗分享。但是 Conf 畢竟只是 Conf，身為一個 Maker，沒有動手做一切都是，假的。所以！今年！Conf 不再只是 Conf，讓我們一起帶著電腦和雙手，到 MakerConf，一起動起來自造吧！
   link:
     - title: 官方網站
-      url: http://www.makerconf.tw/
-
+      url: http://www.makerconf.tw/?p=207
+      target: _blank
+  tag:
+  id: makerconf
+  type_id:
+    - community
+  topic_id:
+    - source
+  field_id:
+    - it
+  board_id:
+    - pofeng
+  staff_id: 
+    - singing
+  host_id:
+    - makerconf
 
 - name: 智新資通
   name_en:
