@@ -20,12 +20,12 @@ current: 2016
     {% for filter in site.data.projects.filters %}
 
       <div class="ui dropdown item">
-        <span data-content="{{ filter.id }}">所有{{ filter.name }}</span>
+        <span data-content="{{ filter[0] }}">所有{{ filter[1].name }}</span>
         <i class="dropdown icon"></i>
         <div class="menu">
-          <a class="item" data-{{ filter.id }}="all">所有{{ filter.name }}</a>
-          {% for item in filter.items %}
-          <a class="item" data-{{ filter.id }}="{{ item.id }}">{{ item.name }}</a>
+          <a class="item" data-{{ filter[0] }}="all">所有{{ filter[1].name }}</a>
+          {% for item in filter[1].items %}
+          <a class="item" data-{{ filter[0] }}="{{ item[0] }}">{{ item[1] }}</a>
           {% endfor %}
         </div>
       </div>
@@ -37,12 +37,12 @@ current: 2016
     {% for filter in site.data.projects.filters %}
 
       <div class="ui dropdown item">
-        <span data-content="{{ filter.id }}">所有{{ filter.name }}</span>
+        <span data-content="{{ filter[0] }}">所有{{ filter[1].name }}</span>
         <i class="dropdown icon"></i>
         <div class="menu">
-          <a class="item" data-{{ filter.id }}="all">所有{{ filter.name }}</a>
-          {% for item in filter.items %}
-          <a class="item" data-{{ filter.id }}="{{ item.id }}">{{ item.name }}</a>
+          <a class="item" data-{{ filter[0] }}="all">所有{{ filter[1].name }}</a>
+          {% for item in filter[1].items %}
+          <a class="item" data-{{ filter[0] }}="{{ item[0] }}">{{ item[1] }}</a>
           {% endfor %}
         </div>
       </div>
@@ -67,6 +67,17 @@ current: 2016
         </div>
         <div class="content">
           <h3 class="header">{{ project.name }}</h3>
+          <div class="neta">
+            {% for id in project.type_id %}
+              <span class="ui label">{{ site.data.projects.filters.type.items[id] }}</span>
+            {% endfor %}
+            {% for id in project.topic_id %}
+              <span class="ui label">{{ site.data.projects.filters.topic.items[id] }}</span>
+            {% endfor %}
+            {% for id in project.field_id %}
+              <span class="ui label">{{ site.data.projects.filters.field.items[id] }}</span>
+            {% endfor %}
+          </div>
           <div class="description">{{ project.description }}
           </div>
         </div>
