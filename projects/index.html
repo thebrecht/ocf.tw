@@ -67,15 +67,21 @@ current: 2016
         </div>
         <div class="content">
           <h3 class="header">{{ project.name }}</h3>
-          <div class="neta">
+          <div class="meta ui horizontal labels">
             {% for id in project.type_id %}
+            {% if id != "misc" %}
               <span class="ui label">{{ site.data.projects.filters.type.items[id] }}</span>
+            {% endif %}
             {% endfor %}
             {% for id in project.topic_id %}
+            {% if id != "misc" %}
               <span class="ui label">{{ site.data.projects.filters.topic.items[id] }}</span>
+            {% endif %}
             {% endfor %}
             {% for id in project.field_id %}
+            {% if id != "misc" %}
               <span class="ui label">{{ site.data.projects.filters.field.items[id] }}</span>
+            {% endif %}
             {% endfor %}
           </div>
           <div class="description">{{ project.description }}
@@ -103,6 +109,8 @@ current: 2016
 
 </section>
 
+<div class="ui horizontal divider">歷年成果</div>
+
 <section id="past" class="ui stripe container">
   <div class="ui items">
     <div class="item">
@@ -124,7 +132,7 @@ current: 2016
   </div>
 </section>
 
-<div class="horizontal vertical padding" style="position: relative;">
+<div class="horizontal vertical padding display-none" style="position: relative;">
 
   <div class="ui three doubling stackable cards">
 

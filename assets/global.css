@@ -177,6 +177,10 @@ html.ios body {
 
 /* for headings */
 
+.ui.cards>.card h3.header {
+  margin-bottom: 0;
+}
+
 @media only screen and (max-width: 767px) {
 
 h2.ui.header {

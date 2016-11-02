@@ -1,3 +1,5 @@
+/* for cards */
+
 .display-none {
   display: none!important;
 }
@@ -7,3 +9,14 @@
   display: none!important;
 }  
 }
+
+/* for labels */
+
+.ui.cards>.card .meta.ui.horizontal.labels {
+  margin-top: 0.5em;
+}
+
+.ui.cards>.card .meta.ui.horizontal.labels .label {
+  margin-bottom: 0.5em;
+}
+

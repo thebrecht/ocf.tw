@@ -1,24 +1,24 @@
 type:
-    name: 類型
-    items:
-        community: 社群支援
-        organization: 組織合作
-        overseas: 跨國交流
-        consultanting: 顧問諮詢
-        misc: 其他
+  name: 類型
+  items:
+    community: 社群支援
+    organization: 組織合作
+    overseas: 跨國交流
+    consultanting: 顧問諮詢
+    misc: 其他
 topic:
-    name: 議題
-    items:
-        source: 開放源碼
-        data: 開放資料
-        government: 開放政府
-        misc: 其他
+  name: 議題
+  items:
+    source: 開放源碼
+    data: 開放資料
+    government: 開放政府
+    misc: 其他
 field:
-    name: 領域
-    items:
-        it: 資訊科技
-        legal: 法律
-        media: 媒體
-        geo: 地理
-        education: 教育
-        misc: 其他
+  name: 領域
+  items:
+    it: 資訊科技
+    legal: 法律
+    media: 媒體
+    geo: 地理
+    education: 教育
+    misc: 其他
