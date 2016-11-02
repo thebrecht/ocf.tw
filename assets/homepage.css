@@ -98,14 +98,6 @@ cite:hover {
 
 @media only screen and (max-width: 767px) {
 
-#what_is_happening .ui.stackable.grid {
-    width: auto;
-    margin-left: -1em!important;
-    margin-right: -1em!important;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 #what_we_do hr.ui.hidden.divider {
   display: none;
 }
