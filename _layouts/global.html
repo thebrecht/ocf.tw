@@ -3,59 +3,43 @@ layout: compress
 ---
 <!DOCTYPE html>
 <html>
-{% include head.html %}
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="{{ page.og_description }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
+
+  <meta property="og:url" content="http://ocf.tw{{ page.url }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:image" content="{{ page.og_image }}" /> 
+  <meta property="og:description" content="{{ page.og_description}}" /> 
+  
+  <meta name="twitter:title" content="{{ page.title }}" />
+  <meta name="twitter:description" content="{{ page.og_description }}"/>
+  <meta name="twitter:image:src" content="{{ page.og_image }}" />
+
+  <title>{{ page.title }} | OCF 開放文化基金會</title>
+
+  <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
+  <link rel="stylesheet" href="/assets/semantic.min.css"/>
+
+  {% if page.head %}
+  {% include {{ page.head }} %}
+  {% endif %}
+
+  <link rel="stylesheet" href="/assets/global.css"/>
+
+  {% if page.css %}
+  <link rel="stylesheet" href="{{ page.css }}"/>
+  {% endif %}
+
+</head>
 
 <body>
 
   <nav class="ui right inverted vertical menu sidebar">
-    <a href="/" class="item">首頁</a>
-    <a href="/about" class="item">關於</a>
-    <a href="/people" class="item">工作夥伴</a>
-    <a href="/projects" class="item">專案與成果</a>
-    <a href="/mediakit" class="item">媒體專區</a>
-    <a class="item">En</a>
-    <div class="item">
-      訂閱
-      <div class="menu">
-        <a class="item" target="_blank" href="/news">
-          <i class="newspaper icon"></i>
-          電子報
-        </a>
-        <a class="item" target="_blank" href="http://blog.ocf.tw/">
-          <i class="rss icon"></i>
-          部落格
-        </a>
-        <a class="item" target="_blank" href="https://www.facebook.com/www.ocf.tw">
-          <i class="facebook icon"></i>
-          Facebook
-        </a>
-        <a class="item" target="_blank" href="https://www.google.com/+OcfTw">
-          <i class="google plus icon"></i>
-          Google+
-        </a>
-        <a class="item" target="_blank" href="https://www.youtube.com/c/OcfTw">
-          <i class="youtube play icon"></i>
-          YouTube
-        </a>
-      </div>
-    </div>
-    <div class="item">
-      參與
-      <div class="menu">
-        <a class="item" target="_blank" href="https://groups.google.com/forum/#!forum/ocf-general">
-          <i class="comments icon"></i>
-          Google Group
-        </a>
-        <a class="item" target="_blank" href="https://ocf-tw.hackpad.com">
-          <i class="text file icon"></i>
-          Hackpad
-        </a>
-        <a class="item" target="_blank" href="https://github.com/ocftw">
-          <i class="github icon"></i>
-          GitHub
-        </a>
-      </div>
-    </div>
+    {% include sidebar.html %}
   </nav>
 
   <div class="pusher">
@@ -63,7 +47,19 @@ layout: compress
     {% include footer.html %}
   </div>
 
-  {% include script.html %}
+  <script src="/assets/jquery-3.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
+  <script src="/assets/semantic.min.js"></script>
+  <script src="/assets/global.js"></script>
+
+  {% if page.script %}
+  {% include {{ page.script }} %}
+  {% endif %}
+
+  {% if page.js %}
+  <script src="{{ page.js }}"></script>
+  {% endif %}
+
   {% include ga.html %}
 </body>
 </html>
