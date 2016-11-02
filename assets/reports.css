@@ -1,0 +1,26 @@
+.ui.segment h2.ui.header {
+  margin-top: 1rem;
+}
+
+.ui.inverted.header .bordered.icon {
+  box-shadow: 0 0 0 .1em rgba(255,255,255,.5) inset;
+}
+
+.flex-swap {
+  order: 2;
+}
+
+.ui.two.column.grid .column:first-child {
+  padding-right: 0;
+}
+
+.ui.two.column.grid .column:last-child {
+  padding-left: 0;
+}
+
+@media only screen and (max-width: 767px) {
+.ui.stackable.grid {
+  margin-left: -1rem!important;
+  margin-right: -1rem!important;
+}
+}

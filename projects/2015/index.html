@@ -1,20 +1,101 @@
 ---
-layout: semantic-ui-fluid
-title: 2015年度成果報告::開放文化基金會
-css: /report/2015/report.css
-og_description: 感謝社群夥伴 2015 年的鼎力相助，使開放文化基金會以精簡的人力與經費，支援各活動背後龐大的行政工作。去年，我們協助 10000+ 朋友參與開放文化，協辦 7 場大型社群會議、2 個夏令營、7 場教育訓練、聯合 3 個使館邀請 11 位國際講者...
-og_image: https://c2.staticflickr.com/6/5831/23616328271_02662b9b6b_k.jpg
+layout: page
+title: {{ site.data.reports.2015.title }}
+og_description: {{ site.data.reports.2015.description }}
+og_image: /projects/2015/concom/23616328271_02662b9b6b_k.jpg
+css: /assets/reports.css
+js: 
+year: 2015
 ---
-<div class="annual-title intro">
-  <div class="inner">
-    <h1 class="header">2015 回顧</h1>
-    <div class="ui horizontal divider"></div>
-    <div class="content">
-      開放文化基金會，最想要的就是協助、服務各方開放、開源的社群與朋友。2015 年是我們的第一年，雖然第一年剛開始總受限於人力、經費的限制，但因為有各方開放社群大力支持，OCF 還是協助了<strong>10,000+</strong>的朋友參與開放文化，協辦 7 場大型的社群會議、2 個夏令營、7 場教育訓練，及聯合 3 個使館邀請 11 位國際講者...
-    </div>
-    <div class="navicon in-page-nav" data="1"><i class="big angle double down icon"></i></div>
+
+{% assign year = page.year | append: '' %}
+
+<div class="ui center aligned stripe container">
+  <h1 class="ui icon header">
+    <i class="circular trophy icon"></i>
+    {{ site.data.reports[ year ].title }}
+  </h1>
+  <p>
+    {{ site.data.reports[ year ].description }}
+  </p>
+</div>
+
+{% for item in site.data.reports[ year ].items %}
+  {% if item.type == "header" %}
+
+<div class="ui basic very padded segment marginless inverted {{ item.background_color }}">
+  <div class="ui center aligned stripe container">
+    <h2 class="ui inverted header">
+      {% if item.icon %}
+      <i class="{{ item.icon }} icon bordered"></i>
+      {% endif %}
+      {{ item.title }}
+    </h2>
   </div>
-</div><!--end annual title-->
+</div>
+
+  {% endif %}
+  {% if item.type == "content" %}
+
+<div class="ui two column stackable grid">
+
+    {% for column in item.columns %}
+      {% if column.type == "image" %}
+
+  <div class="column{% if item.swap %} flex-swap{% endif %}">
+    <img class="ui fluid image" src="{{ column.url }}" />
+  </div>
+
+      {% endif %}
+      {% if column.type == "article" %}
+
+  <div class="column">
+    <div class="ui center aligned stripe container">
+
+      <h3 class="ui header">
+        {{ column.title }}
+        {% if column.subtitle %}
+        <div class="sub header">
+          {{ column.subtitle }}
+        </div>
+        {% endif %}          
+      </h3>
+
+        {% if column.description %}
+      <p>
+        {{ column.description }}
+      </p>
+        {% endif %}          
+
+        {% if column.items %}
+      <div class="ui list">
+          {% for link in column.items %}
+            {% if link.project_id %}
+        <div class="item">
+          
+        </div>
+            {% endif %}
+            {% if !link.project_id %}
+        <div class="item">
+          
+        </div>
+            {% endif %}
+          {% endfor %}
+      </div>
+        {% endif %}
+
+
+    </div>
+  </div>
+
+      {% endif %}
+    {% endfor %}
+
+</div>
+
+  {% endif %}
+{% endfor %}
+
 <div class="annual-menu desktop">
   <div class="ui inverted segment">
     <div class="ui inverted secondary pointing menu"></div>
