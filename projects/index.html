@@ -147,23 +147,35 @@ js: /assets/projects.js
 
 <div class="ui horizontal divider">歷年成果</div>
 
-<section id="past" class="ui stripe container">
+<section id="results" class="ui stripe container">
   <div class="ui items">
+
+{% for year in site.data.reports %}
+  {% if year[0] != current %}
+    {% assign data = year[1] %}
     <div class="item">
-      <div class="image"></div>
+      <div class="image">
+        <img src="{{ data.cover }}">
+      </div>
       <div class="content">
-        <a class="header">2015 年成果報告</a>
+        <a class="header">{{ data.title }}</a>
         <div class="meta">
-          <span>Description</span>
+          <span></span>
         </div>
         <div class="description">
-          <p></p>
+          <p>{{ data.description }}</p>
         </div>
         <div class="extra">
-          Additional Details
+          <a href="/projects/{{ year[0] }}">
+            瀏覽報告
+            <i class="right arrow icon"></i>
+          </a>
         </div>
       </div>
     </div>
+
+  {% endif %}
+{% endfor %}
 
   </div>
 </section>
