@@ -70,11 +70,6 @@ html, body, h1, h2, h3, h4, h5, h6, button {
   padding-right: 1rem;
 }
 
-.ui.grid.container {
-  width: 100%!important;
-  max-width: 1200px!important;
-}
-
 @media only screen and (max-width: 767px) {
 
 .ui.container {
@@ -86,13 +81,6 @@ html, body, h1, h2, h3, h4, h5, h6, button {
 
 /* for grid */
 
-.ui.grid>.column.left {
-  padding-left: 0
-}
-
-.ui.grid>.column.right {
-  padding-right: 0
-}
 
 /* for header */
 

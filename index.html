@@ -8,16 +8,19 @@ og_image: /img/cover.png
 og_description: 2014 年 6 月，多個台灣開源社群共同發起開放文化基金會（Open Culture Foundation，簡稱 OCF），以法人組織的力量推廣開放文化。除了支援民間社群舉辦活動外，也協助企業、政府、非營利及學術單位導入開放文化的知識及精神，期望在產、官、學之間激起開放協作的火花。
 ---
 
-<section id="hero" class="ui inverted center aligned basic segment marginless">
+{% assign current = site.data.projects.settings.current %}
 
+<div id="homepage">
+
+<section id="hero" class="ui inverted center aligned basic segment marginless">
   <header id="header" class="ui container">
     <nav class="ui large secondary inverted pointing menu">
-      {% include header_menu.html %}
+
+{% include header_menu.html %}
+
     </nav>
   </header>
-
   <div class="ui hidden section divider"></div>
-
   <div class="ui stripe container">
     <h2 class="ui inverted header">
       <span class="sentence">OCF 開放文化基金會</span>
@@ -28,41 +31,40 @@ og_description: 2014 年 6 月，多個台灣開源社群共同發起開放文�
   <div class="ui stripe container">
     <a class="ui huge teal button" href="/projects/admin/300">加入<i class="right arrow icon"></i></a>
   </div>
-
 </section>
 
 <section id="about" class="ui vertical segment">
-  <div class="ui two column stackable grid stripe container">
-    <div class="column">
-      <h2 class="ui header">什麼是開放文化</h2>
-      <p>開放原始碼的開發機制，讓軟體界快速蓬勃發展，至今深深影響每個人的生活。近年來，這套開放的機制跨出了軟體開發領域，往文藝、政治、教育等領域擴散，形成一股新興的文化，為許多社會議題帶來新的視野。</p>
-      <h2 class="ui header">開放文化基金會的起源</h2>
-      <p>2014 年，多個台灣開源社群共同發起開放文化基金會（Open Culture Foundation，簡稱 OCF），期望以法人組織的力量推廣開放文化，在產、官、學、民之間激起開放協作的火花。</p>
+  <div class="ui stripe container">
+    <div class="ui two column stackable grid">
+      <div class="column">
+        <h2 class="ui header">什麼是開放文化</h2>
+        <p>開放原始碼的開發機制，讓軟體界快速蓬勃發展，至今深深影響每個人的生活。近年來，這套開放的機制跨出了軟體開發領域，往文藝、政治、教育等領域擴散，形成一股新興的文化，為許多社會議題帶來新的視野。</p>
+        <h2 class="ui header">開放文化基金會的起源</h2>
+        <p>2014 年，多個台灣開源社群共同發起開放文化基金會（Open Culture Foundation，簡稱 OCF），期望以法人組織的力量推廣開放文化，在產、官、學、民之間激起開放協作的火花。</p>
+      </div>
+      <div class="center aligned column">
+        <img class="ui fluid image" src="img/121212_2_OpenSwissKnife.png" alt="By Johannes Spielhagen, Bamberg, Germany [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons">
+          <!--
+          <figcaption>隨著軟體產業革命的成功，開放原始碼模式逐漸廣為人知，並在各種領域散播開來。</figcaption>
+        -->
+        <cite>
+          By Johannes Spielhagen, Bamberg, Germany<br /> [<a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>], <a href="https://commons.wikimedia.org/wiki/File%3A121212_2_OpenSwissKnife.png">via Wikimedia Commons
+          </a>
+        </cite>
+      </div>
     </div>
-    <div class="center aligned column">
-      <img class="ui fluid image" src="img/121212_2_OpenSwissKnife.png" alt="By Johannes Spielhagen, Bamberg, Germany [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons">
-        <!--
-        <figcaption>隨著軟體產業革命的成功，開放原始碼模式逐漸廣為人知，並在各種領域散播開來。</figcaption>
-      -->
-      <cite>
-        By Johannes Spielhagen, Bamberg, Germany<br /> [<a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>], <a href="https://commons.wikimedia.org/wiki/File%3A121212_2_OpenSwissKnife.png">via Wikimedia Commons
-      </a>
-    </cite>
   </div>
-</div>
 
-<div class="ui center aligned stripe container">
-  <a class="ui button" href="/about">進一步瞭解<i class="right arrow icon"></i></a>
-</div>
+  <div class="ui center aligned stripe container">
+    <a class="ui button" href="/about">進一步瞭解<i class="right arrow icon"></i></a>
+  </div>
 
 </section>
 
 <section id="what_we_do" class="ui vertical segment">
   <div class="ui stripe container">
-
     <h2 class="ui header">我們在做些什麼</h2>
     <hr class="ui hidden divider" />
-
     <div class="ui two column stackable divided grid">
       <div class="column">
         <div class="ui divided relaxed items">
@@ -162,20 +164,14 @@ og_description: 2014 年 6 月，多個台灣開源社群共同發起開放文�
           </div>
 
         </div>
-
       </div>
-
     </div>
-
-
   </div>
 </section>
 
 <section id="what_they_say" class="ui vertical segment">
   <div class="ui stripe container">
-
     <h2 class="ui header">大家怎麼說</h2>
-
     <div class="slick">
 
       <blockquote>
@@ -242,48 +238,45 @@ og_description: 2014 年 6 月，多個台灣開源社群共同發起開放文�
       </blockquote>
 
     </div>
-
   </div>
 </section>
 
 <section id="partners" class="ui vertical segment">
   <div class="ui stripe container">
-
     <h2 class="ui header">合作與贊助夥伴</h2>
     <div class="ui horizontal center aligned list">
 
-      {% for org in site.data.people.partners %}
+{% for org in site.data.people.partners %}
+
       <a class="item" target="_blank" href="{{ org.link[1].url }}">
         <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
       </a>
-      {% endfor %}
 
-      {% for org in site.data.people.sponsors %}
+{% endfor %}
+{% for org in site.data.people.sponsors %}
+
       <a class="item" target="_blank" href="{{ org.link[1].url }}">
         <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
       </a>
-      {% endfor %}
 
+{% endfor %}
 
       <!--
       <a class="item" target="_blank" href="">
         <img class="logo" src="/people/partners/" alt="" />
       </a>-->
     </div>
-
-
   </div>
 </section>
 
-
 <section id="what_is_happening" class="ui vertical segment">
   <div class="ui stripe container">
-
     <h2 class="ui header">正在加速進行中</h2>
-
     <div class="ui three column stackable cards">
-      {% for project in site.data.projects.2016 %}
-      {% if project.host_id[0] == "ocf" %}
+
+{% for project_hash in site.data.projects[current] %}
+  {% assign project = project_hash[1] %}
+  {% if project.host_id[0] == "ocf" %}
 
       <div class="card">
         <div class="image">
@@ -295,19 +288,22 @@ og_description: 2014 年 6 月，多個台灣開源社群共同發起開放文�
           </div>
         </div>
         <div class="extra content">
-          {% for link in project.link %}
+
+    {% for link in project.link %}
 
           <a class="item" target="{{ link.target }}" href="{{ link.url }}">
             {{ link.title }}
             <i class="right arrow icon"></i>
           </a>
 
-          {% endfor %}
+    {% endfor %}
+
         </div>
       </div>
 
-      {% endif %}
-      {% endfor %}
+  {% endif %}
+{% endfor %}
+
     </div>
 
   </div>
@@ -322,11 +318,8 @@ og_description: 2014 年 6 月，多個台灣開源社群共同發起開放文�
 
 <section id="ads" class="ui vertical segment">
   <div class="ui stripe container">
-    <div class="ui inverted center aligned basic segment marginless">
-      <p>每月 300 元，支持我們繼續走下去
-      </p>
-      <a class="ui small teal button" href="/projects/admin/300">加入三百壯士<i class="right arrow icon"></i></a>
-
-    </div>
+    {% include cta.html %}
   </div>
 </section>
+
+</div>

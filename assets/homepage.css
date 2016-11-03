@@ -1,4 +1,4 @@
-#hero {
+#homepage #hero {
   background-color: #333;
   /*
   background: url(/img/cover.png) no-repeat center center;
@@ -7,25 +7,25 @@
   margin: 0;
 }
 
-#header {
+#homepage #header {
   background-color: none;
   background: none;
 }
 
-#header .ui.menu .logo.item {
+#homepage #header .ui.menu .logo.item {
   margin: -0.85714286em -1.14285714em;
 }
 
-#header .ui.menu .logo.image {
+#homepage #header .ui.menu .logo.image {
   height: 2.5rem;
 }
 
-.sentence {
+#homepage .sentence {
   display: inline-block;
   margin: 0 0.5em;
 }
 
-cite {
+#homepage cite {
   text-align: center;
   font-size: 0.8rem;
   line-height: 1.5em;
@@ -33,39 +33,37 @@ cite {
   display: block;
 }
 
-cite:hover {
+#homepage cite:hover {
   opacity: 1;
 }
 
-#what_we_do .items>.item>.image:not(.ui) {
+#homepage #what_we_do .items>.item>.image:not(.ui) {
   width: 8rem;
 }
 
-#what_we_do .items>.item .bordered.icon {
+#homepage #what_we_do .items>.item .bordered.icon {
   margin-right: 0;
   width: 100%;
 }
 
-
-#what_they_say .slick .small.container {
+#homepage #what_they_say .slick .small.container {
   width: 100%;
   max-width: 40rem;
   margin: 0 auto;
 }
 
-
-.ui.reference.image {
+#homepage .ui.reference.image {
   width: 5rem;
   height: 5rem;
   display: inline-block;
 }
 
-.blockquote {
+#homepage .blockquote {
   position: relative;
   display: inline-block;
 }
 
-.blockquote:before, .blockquote:after {
+#homepage .blockquote:before, .blockquote:after {
   opacity: 0.5;
   position: absolute;
   top: 0;
@@ -82,27 +80,27 @@ cite:hover {
   speak: none;
 }
 
-.blockquote:before {
+#homepage .blockquote:before {
   content: "\f10d";
   left: -1.5em;
 }
 
-.blockquote:after {
+#homepage .blockquote:after {
   content: "\f10e";
   right: -1.5em;
 }
 
-#ads .ui.inverted.segment {
+#homepage #ads .ui.inverted.segment {
   background-color: #333;
 }
 
 @media only screen and (max-width: 767px) {
 
-#what_we_do hr.ui.hidden.divider {
+#homepage #what_we_do hr.ui.hidden.divider {
   display: none;
 }
 
-#what_we_do .items>.item>.image {
+#homepage #what_we_do .items>.item>.image {
   width: 100%!important;
 }
 
