@@ -1,14 +1,10 @@
 ---
 layout: page
-title: {{ site.data.reports.2015.title }}
-og_description: {{ site.data.reports.2015.description }}
-og_image: /projects/2015/concom/23616328271_02662b9b6b_k.jpg
-css: /assets/reports.css
-js: 
-year: 2015
 ---
 
 {% assign year = page.year | append: '' %}
+
+<div id="report">
 
 <header class="ui center aligned stripe container">
   <h1 class="ui icon header">
@@ -112,6 +108,14 @@ year: 2015
       </div>
 
         {% endif %}
+        {% if column.action %}
+
+      <a class="ui basic button" href="{{ column.action.url }}" target="_blank">
+        {{ column.action.title }}
+        <i class="right arrow icon"></i>
+      </a>
+
+        {% endif %}
 
     </div>
   </div>
@@ -125,3 +129,5 @@ year: 2015
 {% endfor %}
 
 {% include cta.html %}
+
+</div>

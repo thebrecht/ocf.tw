@@ -1,7 +1,6 @@
-title: 2015 回顧
+title: 2016 回顧
 description: 開放文化基金會，最想要的就是協助、服務各方開放、開源的社群與朋友。2015 年是我們的第一年，雖然第一年剛開始總受限於人力、經費的限制，但因為有各方開放社群大力支持，OCF 還是協助了10,000+的朋友參與開放文化，協辦 7 場大型的社群會議、2 個夏令營、7 場教育訓練，及聯合 3 個使館邀請 11 位國際講者...
 cover: /projects/2015/cover.jpg
-url: /projects/2015/
 items:
   - type: header
     title: 社群支援
@@ -17,15 +16,13 @@ items:
         subtitle: 10,000+ 參與者共襄盛舉台灣各類社群活動
         description: blah blah blah blah blah blah blah blah blah blah blah blah blah 
         items:
-          - project_id: jcconf
-          - project_id: dbootcamp
-          - project_id: sotm
+          - project_id: coscup
+          - project_id: pycon
+          - project_id: g0vsummit
+          - project_id: sitcon
           - title: blah
             url: blah
             month: 6
-        action:
-          title: 認識我們的合作夥伴
-          url: /people/#partners
   - type: content
     swap: true
     columns:
@@ -54,9 +51,10 @@ items:
         subtitle: 10,000+ 參與者共襄盛舉台灣各類社群活動
         description: blah blah blah blah blah blah blah blah blah blah blah blah blah 
         items:
-          - project_id: jcconf
-          - project_id: dbootcamp
-          - project_id: sotm
+          - project_id: coscup
+          - project_id: pycon
+          - project_id: g0vsummit
+          - project_id: sitcon
           - title: blah
             url: blah
             month: 6
@@ -74,9 +72,6 @@ items:
         description: blah blah blah blah blah blah blah blah blah blah blah blah blah 
         items:
           - project_id: jcconf
-        action:
-          title: 認識我們的合作夥伴
-          url: /people/#partners
   - type: header
     title: 跨國交流
     icon: plane
@@ -91,15 +86,13 @@ items:
         subtitle: 10,000+ 參與者共襄盛舉台灣各類社群活動
         description: blah blah blah blah blah blah blah blah blah blah blah blah blah 
         items:
-          - project_id: jcconf
-          - project_id: dbootcamp
-          - project_id: sotm
+          - project_id: coscup
+          - project_id: pycon
+          - project_id: g0vsummit
+          - project_id: sitcon
           - title: blah
             url: blah
             month: 6
-        action:
-          title: 認識我們的合作夥伴
-          url: /people/#partners
   - type: content
     swap: true
     columns:
@@ -128,9 +121,10 @@ items:
         subtitle: 10,000+ 參與者共襄盛舉台灣各類社群活動
         description: blah blah blah blah blah blah blah blah blah blah blah blah blah 
         items:
-          - project_id: jcconf
-          - project_id: dbootcamp
-          - project_id: sotm
+          - project_id: coscup
+          - project_id: pycon
+          - project_id: g0vsummit
+          - project_id: sitcon
           - title: blah
             url: blah
             month: 6
@@ -149,8 +143,6 @@ items:
         items:
           - project_id: jcconf
         action:
-          title: 認識我們的合作夥伴
-          url: /people/#partners
   - type: header
     title: 財務報告
     icon: dollar
@@ -165,9 +157,10 @@ items:
         subtitle: 10,000+ 參與者共襄盛舉台灣各類社群活動
         description: blah blah blah blah blah blah blah blah blah blah blah blah blah 
         items:
-          - project_id: jcconf
-          - project_id: dbootcamp
-          - project_id: sotm
+          - project_id: coscup
+          - project_id: pycon
+          - project_id: g0vsummit
+          - project_id: sitcon
           - title: blah
             url: blah
             month: 6
