@@ -20,3 +20,9 @@
   margin-bottom: 0.5em;
 }
 
+/* for reports */
+
+#projects #results .ui.items>.item>.image>img {
+  object-fit: cover;
+  min-height: 100%;
+}
