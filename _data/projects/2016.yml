@@ -302,7 +302,7 @@ umaker:
   type: 
   description: 
   month: x
-  logo: /people/partners/steps_logo.png
+  cover: /people/partners/steps_logo.png
   logo-horizontal: 
   cover:
   link:

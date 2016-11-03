@@ -3,48 +3,110 @@ layout: compress
 ---
 <!DOCTYPE html>
 <html>
-
 <head>
+
+{% if page.layout == "report" %}
+  {% assign year = page.year | append: "" %}
+  {% assign og_url = page.url %}
+  {% assign og_title = site.data.reports[year].title %}
+  {% assign og_image = site.data.reports[year].cover %}
+  {% assign og_description = site.data.reports[year].description %}
+
+{% elsif page.layout == "project" %}
+  {% assign year = page.year | append: "" %}
+  {% assign og_url = page.url %}
+  {% assign og_title = site.data.projects[year][project_id].name %}
+  {% assign og_image = site.data.projects[year][project_id].cover %}
+  {% assign og_description = site.data.projects[year][project_id].description %}
+
+{% elsif page.layout == "redirect" %}
+  {% assign og_url = page.og_url %}
+
+  {% if page.data == "projects" %}
+    {% assign year = page.year | append: "" %}
+    {% assign id = page.project_id | append: "" %}
+    {% assign og_title = site.data.projects[year][id].name %}
+    {% assign og_image = site.data.projects[year][id].cover %}
+    {% assign og_description = site.data.projects[year][id].description %}
+  {% elsif page.data == "reports" %}
+    {% assign year = page.year | append: "" %}
+    {% assign og_title = site.data.reports[year].title %}
+    {% assign og_image = site.data.reports[year].cover %}
+    {% assign og_description = site.data.reports[year].description %}
+  {% else %}
+    {% assign og_title = page.og_title %}
+    {% assign og_image = page.og_image %}
+    {% assign og_description = page.og_description %}
+  {% endif %}
+
+  <meta http-equiv="refresh" content="0; url={{ og_url }}" />
+
+{% else %}
+  {% assign og_url = page.og_url %}
+  {% assign og_title = page.og_title %}
+  {% assign og_image = page.og_image %}
+  {% assign og_description = page.og_description %}
+
+{% endif %}
+
   <meta charset="utf-8" />
-  <meta name="description" content="{{ page.og_description }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
 
-  <meta property="og:url" content="http://ocf.tw{{ page.url }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="{{ page.title }}" />
-  <meta property="og:image" content="{{ page.og_image }}" /> 
-  <meta property="og:description" content="{{ page.og_description}}" /> 
-  
-  <meta name="twitter:title" content="{{ page.title }}" />
-  <meta name="twitter:description" content="{{ page.og_description }}"/>
-  <meta name="twitter:image:src" content="{{ page.og_image }}" />
+  <meta name="description" content="{{ og_description }}" />
 
-  <title>{{ page.title }} | OCF 開放文化基金會</title>
+  <meta property="og:url" content="http://ocf.tw{{ og_url }}" />
+  <meta property="og:title" content="{{ og_title }} | OCF 開放文化基金會" />
+  <meta property="og:description" content="{{ og_description}}" /> 
+  <meta property="og:image" content="{{ og_image }}" /> 
+
+  <meta name="twitter:title" content="{{ og_title }} | OCF 開放文化基金會" />
+  <meta name="twitter:description" content="{{ og_description }}"/>
+  <meta name="twitter:image:src" content="{{ og_image }}" />
+
+  <title>{{ og_title }} | OCF 開放文化基金會</title>
 
   <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
+
+{% if page.layout != "redirect" %}
+
   <link rel="stylesheet" href="/assets/semantic.min.css"/>
 
   {% if page.head %}
-  {% include {{ page.head }} %}
+    {% include {{ page.head }} %}
   {% endif %}
 
   <link rel="stylesheet" href="/assets/global.css"/>
+
+  {% if page.layout == "report" %}
+  <link rel="stylesheet" href="/assets/report.css"/>
+  {% endif %}
 
   {% if page.css %}
   <link rel="stylesheet" href="{{ page.css }}"/>
   {% endif %}
 
-</head>
+{% endif %}
 
+</head>
 <body>
 
-  <nav class="ui right inverted vertical menu sidebar">
-    {% include sidebar.html %}
-  </nav>
+{% if page.layout == "redirect" %}
 
+    {{ content }}
+
+{% else %}
+
+  <nav class="ui right inverted vertical menu sidebar">
+
+  {% include sidebar.html %}
+
+  </nav>
   <div class="pusher">
     {{ content }}
-    {% include footer.html %}
+
+  {% include footer.html %}
+
   </div>
 
   <script src="/assets/jquery-3.1.1.min.js"></script>
@@ -53,13 +115,16 @@ layout: compress
   <script src="/assets/global.js"></script>
 
   {% if page.script %}
-  {% include {{ page.script }} %}
+    {% include {{ page.script }} %}
   {% endif %}
-
   {% if page.js %}
-  <script src="{{ page.js }}"></script>
-  {% endif %}
 
+  <script src="{{ page.js }}"></script>
+
+  {% endif %}
   {% include ga.html %}
+
+{% endif %}
+
 </body>
 </html>
