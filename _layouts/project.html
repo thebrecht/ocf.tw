@@ -1,0 +1,37 @@
+---
+layout: page
+---
+
+{% assign year = page.year | append: "" %}
+{% assign id = page.project_id | append: "" %}
+{% assign project = site.data.projects[year][id] %}
+
+<div id="project">
+
+<section id="hero" class="ui inverted {{ page.color }} center aligned basic segment marginless">
+  <img class="cover image" src="{{ project.cover }}" />
+  <div class="cover"></div>
+  <hr class="ui hidden section divider" />
+  <div class="ui stripe relative container">
+    <h1 class="ui inverted header">
+      {{ project.name }}
+    </h1>
+    <p>
+      {{ project.tagline }}
+    </p>
+  </div>
+  <hr class="ui hidden section divider" />
+</section>
+<div class="ui container">
+  <section class="ui inverted bottom attached {{ page.color }} segment borderless">
+    <p>{{ project.description }}</p>
+  </section>
+</div>
+
+<div class="ui container">
+
+{{ content }}
+
+</div>
+
+</div>

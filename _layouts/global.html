@@ -14,10 +14,11 @@ layout: compress
 
 {% elsif page.layout == "project" %}
   {% assign year = page.year | append: "" %}
+  {% assign id = page.project_id | append: "" %}
   {% assign og_url = page.url %}
-  {% assign og_title = site.data.projects[year][project_id].name %}
-  {% assign og_image = site.data.projects[year][project_id].cover %}
-  {% assign og_description = site.data.projects[year][project_id].description %}
+  {% assign og_title = site.data.projects[year][id].name %}
+  {% assign og_image = site.data.projects[year][id].cover %}
+  {% assign og_description = site.data.projects[year][id].description %}
 
 {% elsif page.layout == "redirect" %}
   {% assign og_url = page.og_url %}
@@ -80,6 +81,10 @@ layout: compress
 
   {% if page.layout == "report" %}
   <link rel="stylesheet" href="/assets/report.css"/>
+  {% endif %}
+
+  {% if page.layout == "project" %}
+  <link rel="stylesheet" href="/assets/project.css"/>
   {% endif %}
 
   {% if page.css %}

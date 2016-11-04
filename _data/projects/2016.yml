@@ -2,6 +2,7 @@ admin:
   name: 行政中心
   name_en: Administration Center
   abbr: 
+  tagline: 
   cover: /projects/2016/admin/og.png
   description: 開設獨立帳戶、收款取款、對帳、製作報表、開立收據、流程諮詢、彙整資料、成果發表、活動規劃、網站維護……一點都不迷人的繁瑣的行政庶務，卻是在幕後默默支援所有專案、不可或缺的基礎建設。行政中心奠定營運基石，讓所有專案共同受益。
   month: x
@@ -34,6 +35,7 @@ intl:
   name: 國際交流計劃
   name_en: 
   abbr: 
+  tagline: 邀請講者訪台交流　贊助青年國際盤纏
   cover: /projects/2016/intl/og.jpg
   description: 廣結高手、搭橋牽線、舉辦活動、補助旅費……透過多樣的交流形式，建立本地社群與國際社群的連結，催生相互認識與合作的機會，同時也希望能協助更多學生開拓國際視野，站上國際舞台，主動分享開源成果，並於回國後分享心得，為下一位受益者募集旅費，擴善計劃效益。
   month: x
@@ -65,6 +67,7 @@ movie:
   name: 開放文化影展
   name_en: 
   abbr: 
+  tagline: 
   cover: /projects/2016/movie/og.png
   description: 資訊自由鬥士 Aaron Swartz 精彩生平、開源之源、開放的自造世界...，開放文化的風在全球各地吹起，精心拍攝的電影、紀錄片，凝聚了箇中精華。本計畫洽談影片授權、翻譯成正體中文、製作字幕並上映，讓國人一睹開放文化的風采。
   month: x
@@ -98,6 +101,7 @@ coscup:
   name: COSCUP 開源人年會
   name_en: Conference for Open Source Coders, Users and Promoters
   abbr: COSCUP 2016
+  tagline: 
   cover: /projects/2016/coscup/og.png
   description: “ It’s BETTER when it’s SHARED. ” 「分享」一直以來都是 COSCUP 的主軸，我們相信，唯有透過分享、討論與眾人的再創造，才能真正落實 open source 的精神與信念，帶給這個世界更多的可能。 人生不該被侷限在任何規則裡。除去你想像中的限制與框架，你會驚訝地發現，被激發的火花也許比你想像要多很多。不管你是迫不及待分享你過去試圖打破產業／方法間界限的貢獻與經驗，，亦或想在此盛會中聆聽交流、激發自己更多潛力，將未成形的想法付諸實現，甚至是以一個新手的身份體驗何謂 open source 的分享精神，從老手身上交接一個新的世代，我們都歡迎你前來共襄盛舉，參與一年一度 COSCUP 開源人年會。
   month: x
@@ -125,6 +129,7 @@ g0vsummit:
   name: 啥米零時政府
   name_en: G0V Summit
   abbr: G0V Summit 2016
+  tagline: 
   cover: /projects/2016/g0vsummit/og.png
   description: g0v.tw 2012年底 g0v 社群運作逐漸成形，從那時起 g0v 零時政府社群便以數位世代的思維，以開源方式號召群眾參與著手開發新工具、新組織型態、新合作關係。經過多方共同努力，透過 g0v 的開放特性作為平台，與 NGO 和政府建立了多方互動，但需要更長遠的跨領域交流，為此籌辦 g0v.tw summit 零時政府高峰會，希望有更多深入的溝通與交流，與有志運用科技改變社會的各界共同參與，期待開放力量成為實際改變的動能。
   month: x
@@ -155,6 +160,7 @@ pycon:
   name: PyCon 台灣
   name_en: PyCon Taiwan
   abbr: PyCon TW 2016
+  tagline: 
   cover: /projects/2016/pycon/og.png
   description: PyCon Taiwan 為一年一度由愛好者舉辦、討論並提倡使用 Python 程式語言的會議，聚焦在 Python 技術與其多樣的可能應用的交流。我們歡迎所有對 Python 有興趣的朋友一同加入 PyCon Taiwan 來分享所學、交換想法、並且認識更多同好。
   month: x
@@ -182,6 +188,7 @@ sitcon:
   name: SITCON 學生計算機年會
   name_en: Students’ Information Technology Conference
   abbr: SITCON 2016
+  tagline: 
   cover: /projects/2016/sitcon/og.png
   description: SITCON 學生計算機年會係一學生自發組成的研討會，秉持著以學生為主軸的核心價值，藉以凝聚與傳遞學生的力量。希望藉由提供一個經驗交流與資訊技術實務分享的平台，使已有成就者能夠傳承己身經驗，嶄露頭角者在激盪中獲得靈感與啟發，並同時讓初入茅廬者得以對資訊科學有更深入的了解；進而達到「學以致用、教學相長」的目標。
   month: x
@@ -209,6 +216,7 @@ sitconcamp:
   name: SITCON 夏令營
   name_en: Students’ Information Technology Conference Camp
   abbr: SITCON Camp 2016
+  tagline: 
   cover: /projects/2016/sitconcamp/og.png
   description: 2016 年度，以「墜入資訊夢，喚醒開源魂」為主軸，SITCON 夏令營將於中央大學舉辦，新創開源鄉的概念，配合豐富的課程、座談會及社群闖關，讓學員在程式編寫管理、演算法思維、團隊合作等架構下學習；今年將更進一步把故事和營隊整合，完整營造整體感，務求讓學員擁有截然不同的營隊體驗。
   month: x
@@ -234,6 +242,7 @@ jcconf:
   name: Java Community Conference Taiwan
   name_en:
   abbr: JCConf 2016
+  tagline: 
   cover: /projects/2016/jcconf/og.png
   description: Java Community Conference Taiwan 是由社群主辦的 Java 開發者年會，以提供更多機會讓開發人員之間能夠互相交流。分享內容的程度不論初階到進階，只要和 Java 程式語言、框架、JVM 及虛擬化相關技術、移動裝置、開發工具、開發流程...等等，任何你認為可以分享的主題都歡迎您的投稿，歡迎分享你的發現、研究或各種實際案例經驗給大家。 
   month: x
@@ -260,6 +269,7 @@ suse:
   name: openSUSE Taiwan
   name_en:
   abbr: 
+  tagline: 
   type: 
   description: 
   month: x
@@ -274,6 +284,7 @@ makerconf:
   name: MakerConf
   name_en: 
   abbr: 
+  tagline: 
   cover: /projects/2016/makerconf/og.png
   description: MakerConf 自 2014 年開始，呼應國內外吹起的自造者風氣，籌辦了第一屆的 MakerConf，廣結台灣在地的自造者聚集起來，彼此交流關於開放硬體與自造經驗分享。但是 Conf 畢竟只是 Conf，身為一個 Maker，沒有動手做一切都是，假的。所以！今年！Conf 不再只是 Conf，讓我們一起帶著電腦和雙手，到 MakerConf，一起動起來自造吧！
   month: x
@@ -299,6 +310,7 @@ umaker:
   name: 智新資通
   name_en:
   abbr: 
+  tagline: 
   type: 
   description: 
   month: x
@@ -313,6 +325,7 @@ cctw:
   name: 台灣創用 CC 計畫
   name_en:
   abbr: 
+  tagline: 
   type: 
   description: 
   month: x
@@ -322,4 +335,30 @@ cctw:
   link:
     - title: 官方網站
       url: http://creativecommons.tw/
+
+otspace:
+  name: OpenLab. Taipei 空間營運計劃
+  name_en: 
+  abbr: OT Space
+  tagline: FLOSS + Art = OpenLab. Taipei
+  cover: /projects/2016/otspace/og.jpg
+  description: OpenLab. Taipei 可以說是臺灣自造者空間最一開始的雛形，提供一個空間讓大家可以在這裡製作東西、一起討論、交流。2013、2014以來自造者運動（Maker Movement）於台灣漸成規模，各地自造者空間如雨後春筍般出現；作為台灣自造者運動的先驅，OpenLab.Taipei 從 2010 年座落寶藏巖，可謂篳路藍縷地見證著了國內自造者圈的成長。 
+  month: 
+  link:
+    - title: 專案介紹
+      url: /projects/2016/otspace
+      target: _self
+  tag:
+  type_id:
+    - community
+  topic_id:
+    - hardware
+  field_id:
+    - misc
+  board_id:
+    - pofeng
+  staff_id: 
+    - singing
+  host_id:
+    - openlab
 

@@ -19,6 +19,10 @@ html, body, h1, h2, h3, h4, h5, h6, button {
   padding: 0;
 }
 
+.ui.borderless.segment {
+  border: none;
+}
+
 .ui.stripe.container {
   margin: 2rem 0;
 }
