@@ -8,17 +8,9 @@ color: teal
 {% assign year = page.year | append: "" %}
 {% assign id = page.project_id | append: "" %}
 {% assign project = site.data.projects[year][id] %}
-{% assign achievements = site.data.projects.achievements[id] %}
+{% assign achievements = site.data.achievements[id] %}
 
 <div class="ui two column stackable grid">
-
-  <div class="six wide column">
-    <div class="ui sticky secondary basic segment">
-
-    {% include meta.html %}
-
-    </div>
-  </div>
 
   <div class="ten wide column">
 
@@ -46,5 +38,15 @@ color: teal
     </div> 
 
   </div>
+
+  <div class="six wide column">
+    <div class="ui sticky secondary basic segment">
+
+    {% include meta.html %}
+
+    </div>
+  </div>
+
+
 </div>
 
