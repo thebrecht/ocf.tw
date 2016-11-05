@@ -122,6 +122,11 @@ layout: compress
   {% if page.script %}
     {% include {{ page.script }} %}
   {% endif %}
+  {% if page.layout == "project" %}
+
+  <script src="/assets/project.js"></script>
+
+  {% endif %}
   {% if page.js %}
 
   <script src="{{ page.js }}"></script>

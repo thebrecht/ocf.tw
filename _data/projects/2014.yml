@@ -23,5 +23,9 @@ osdc:
     - pofeng
   staff_id: 
     - singing
-  host_id:
+  partner_id:
     - osdc
+  host_id:
+    - ocf
+  coordinator_id:
+    - clkao

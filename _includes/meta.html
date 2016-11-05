@@ -1,0 +1,61 @@
+<h2 class="ui center aligned small icon header">
+  <i class="info circle icon"></i>
+  {{ project.name }}
+  <span class="sub header">小檔案</span>
+</h2>
+
+<div class="ui celled list">
+
+  {% if project.coordinator_id %}
+  <div class="item">
+    <span class="ui horizontal label">召集人</span>
+    {% for coordinator in project.coordinator_id %}
+      {{ coordinator }}, 
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if project.staff_id %}
+  <div class="item">
+    <span class="ui horizontal label">工作夥伴</span>
+    {% for staff in project.staff_id %}
+      {{ staff }}, 
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if project.partner_id %}
+  <div class="item">
+    <span class="ui horizontal label">合作單位</span>
+    {% for partner in project.partner_id %}
+      {{ partner }}, 
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% for item in project.meta %}
+  <div class="item">
+    <span class="ui horizontal label">{{ item.label }}</span>
+    {{ item.content }}
+  </div>
+  {% endfor %}
+
+</div>
+
+{% for action in project.action %}
+
+<p>
+  <a class="ui {{ action.color }} fluid button" href="{{ action.url }}" target="_blank">
+    <i class="{{action.icon}} icon"></i>
+    {{ action.title }}
+  </a>
+</p>
+
+{% endfor %}
+
+<!--
+<div class="ui indicating progress active" data-percent="75">
+  <div class="bar" style="transition-duration: 300ms; width: 75%;"></div>
+  <div class="label"> 74.8% Funded</div>
+</div>
+-->

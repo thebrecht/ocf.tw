@@ -146,7 +146,7 @@ items:
   - type: header
     title: 財務報告
     icon: dollar
-    background_color: purple
+    background_color: pink
   - type: content
     swap: false
     columns:

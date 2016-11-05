@@ -1,4 +1,5 @@
-- name: 新竹物流
+hct:
+  name: 新竹物流
   name_en: 
   abbr: 
   type: cooperation
@@ -10,7 +11,8 @@
     - title: 官方網站
       url: https://www.hct.com.tw
 
-- name: 財團法人RC文化藝術基金會
+rc:
+  name: 財團法人RC文化藝術基金會
   name_en: 
   abbr: 
   type: non-profit

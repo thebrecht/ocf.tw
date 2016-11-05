@@ -12,6 +12,7 @@ topic:
     source: 開放源碼
     data: 開放資料
     government: 開放政府
+    hardware: 開放硬體
     misc: 其他
 field:
   name: 領域

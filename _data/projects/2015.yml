@@ -22,8 +22,12 @@ dbootcamp:
     - pofeng
   staff_id: 
     - singing
-  host_id:
+  partner_id:
     - dbootcamp
+  host_id:
+    - ocf
+  coordinator_id:
+    - clkao
 
 jcconf:
   name: Java Community Conference Taiwan
@@ -49,8 +53,12 @@ jcconf:
     - pofeng
   staff_id:
     - singing
-  host_id:
+  partner_id:
     - jcconf
+  host_id:
+    - ocf
+  coordinator_id:
+    - clkao
 
 sotm:
   name: SotM Taiwan 台灣開放街圖研討會
@@ -75,8 +83,12 @@ sotm:
     - pofeng
   staff_id: 
     - singing
-  host_id:
+  partner_id:
     - sotm
+  host_id:
+    - ocf
+  coordinator_id:
+    - clkao
 
 project_id:
   name: 
@@ -101,5 +113,9 @@ project_id:
     - pofeng
   staff_id: 
     - singing
-  host_id:
+  partner_id:
     - project_id
+  host_id:
+    - ocf
+  coordinator_id:
+    - clkao

@@ -53,7 +53,8 @@ css: /assets/people.css
   <div class="ui stripe container">
     <h2 class="ui header">工作人員</h2>
     <div class="ui three stackable cards">
-      {% for person in site.data.people.staff %}
+      {% for person_hash in site.data.people.staff %}
+      {% assign person = person_hash[1] %}
       <div class="card">
         <div class="avatar image">
           <img src="{{ person.avatar }}">
@@ -94,7 +95,8 @@ css: /assets/people.css
   <div class="ui stripe container">
     <h2 class="ui header">顧問</h2>
     <div class="ui three stackable cards">
-      {% for person in site.data.people.consultants %}
+      {% for person_hash in site.data.people.consultants %}
+      {% assign person = person_hash[1] %}
       <div class="card">
         <div class="avatar image">
           <img src="{{ person.avatar }}">
@@ -135,7 +137,8 @@ css: /assets/people.css
   <div class="ui stripe container">
     <h2 class="ui header">校友</h2>
     <div class="ui three stackable cards">
-      {% for person in site.data.people.alumni %}
+      {% for person_hash in site.data.people.alumni %}
+      {% assign person = person_hash[1] %}
       <div class="card">
         <div class="avatar image">
           <img src="{{ person.avatar }}">
@@ -176,7 +179,8 @@ css: /assets/people.css
   <div class="ui stripe container">
     <h2 class="ui header">熱血志工</h2>
     <div class="ui three stackable cards">
-      {% for person in site.data.people.volunteers %}
+      {% for person_hash in site.data.people.volunteers %}
+      {% assign person = person_hash[1] %}
       <div class="card">
         <div class="avatar image">
           <img src="{{ person.avatar }}">
@@ -217,7 +221,8 @@ css: /assets/people.css
   <div class="ui stripe container">
     <h2 class="ui header">董事</h2>
     <div class="ui three stackable cards">
-      {% for person in site.data.people.board %}
+      {% for person_hash in site.data.people.board %}
+      {% assign person = person_hash[1] %}
       <div class="card">
         <div class="avatar image">
           <img src="{{ person.avatar }}">

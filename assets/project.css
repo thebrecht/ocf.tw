@@ -15,13 +15,13 @@
   right: 0;
 }
 #project #hero .cover.image {
-  opacity: 0.9;
+  opacity: 0.98;
 }
-#project #hero .relative {
+#project .relative {
   position: relative;
 }
 
-#project {
-  
+#project .items .item .ui.horizontal.labels .label{
+  margin-bottom: .5em;
 }
 

@@ -1,0 +1,60 @@
+<div class="ui divided items">
+
+{% for item in achievements %}
+
+  <div class="item">
+
+  {% if item.cover %}
+    <div class="image">
+      <img src="{{ item.cover }}">
+    </div>
+  {% endif %}
+
+    <div class="content">
+      <h3 class="ui header">{{ item.title }}
+
+      {% if item.subtitle %}
+        {% for subtitle in item.subtitle %}
+        <span class="sub header">{{ subtitle }}</span>
+        {% endfor %}
+      {% endif %}
+
+      </h3>
+
+  {% if item.label %}
+      <div class="meta">
+        <div class="ui horizontal labels">
+
+    {% for label in item.label %}
+          <span class="ui label {{ label.color }}">{{ label.title }}</span>
+    {% endfor %}
+
+        </div>
+      </div>
+  {% endif %}
+
+
+  {% for meta in item.meta %}
+      <div class="meta">{{ meta }}</div>
+  {% endfor %}
+
+      <div class="description">
+        <p>{{ item.description }}</p>
+      </div>
+      <div class="extra">
+
+  {% for link in item.link %}
+        <a href="{{ link.url }}" target="_blank">
+          <i class="globe icon"></i>
+          {{ link.title }}
+        </a>
+  {% endfor %}
+
+      </div>
+
+    </div>
+  </div>
+
+{% endfor %}
+
+</div>
