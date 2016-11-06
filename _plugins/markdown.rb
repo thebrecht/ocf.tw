@@ -9,14 +9,40 @@
 =end
 module Jekyll
   class MarkdownTag < Liquid::Tag
-    def initialize(tag_name, text, tokens)
+
+    VARIABLE_SYNTAX = %r!
+      (?<variable>[^{]*(\{\{\s*[\w\-\.]+\s*(\|.*)?\}\}[^\s{}]*)+)
+      (?<params>.*)
+    !x
+
+    def initialize(tag_name, markup, tokens)
       super
-      @text = text.strip
+      matched = markup.strip.match(VARIABLE_SYNTAX)
+      if matched
+        @file = matched["variable"].strip
+        @params = matched["params"].strip
+      else
+        @file, @params = markup.strip.split(%r!\s+!, 2)
+      end
+      @tag_name = tag_name
     end
+
+    def render_variable(context)
+      if @file.match(VARIABLE_SYNTAX)
+        partial = context.registers[:site]
+          .liquid_renderer
+          .file("(variable)")
+          .parse(@file)
+        partial.render!(context)
+      end
+    end
+
     require "kramdown"
     def render(context)
-      tmpl = File.read File.join Dir.pwd, "", @text
       site = context.registers[:site]
+      file = render_variable(context) || @file
+
+      tmpl = File.read File.join Dir.pwd, "", file
       tmpl = (Liquid::Template.parse tmpl).render site.site_payload
       html = Kramdown::Document.new(tmpl).to_html
     end
