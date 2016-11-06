@@ -42,7 +42,24 @@
 
 </div>
 
-{% for action in project.action %}
+{% if project.progress %}
+
+<div class="ui indicating progress active" data-percent="{{ project.progress }}">
+  <div class="bar" style="width: {{ project.progress }}%;">
+    <div class="progress">{{ project.progress }} % Funded</div>
+  </div>
+</div>
+
+{% endif %}
+
+{% if project.action %}
+
+<div class="ui horizontal divider">
+  <i class="heart icon"></i>
+  加入！
+</div>
+
+  {% for action in project.action %}
 
 <p>
   <a class="ui {{ action.color }} fluid button" href="{{ action.url }}" target="_blank">
@@ -51,11 +68,5 @@
   </a>
 </p>
 
-{% endfor %}
-
-<!--
-<div class="ui indicating progress active" data-percent="75">
-  <div class="bar" style="transition-duration: 300ms; width: 75%;"></div>
-  <div class="label"> 74.8% Funded</div>
-</div>
--->
+  {% endfor %}
+{% endif %}
