@@ -24,7 +24,11 @@ layout: compress
   {% assign og_url = page.og_url %}
 
   {% if page.data == "projects" %}
-    {% assign year = page.year | append: "" %}
+    {% if page.year == "current" %}
+      {% assign year = site.data.settings.current | append: "" %}
+    {% else %}
+      {% assign year = page.year | append: "" %}
+    {% endif %}
     {% assign id = page.project_id | append: "" %}
     {% assign og_title = site.data.projects[year][id].name %}
     {% assign og_image = site.data.projects[year][id].cover %}
@@ -40,7 +44,7 @@ layout: compress
     {% assign og_description = page.og_description %}
   {% endif %}
 
-  <meta http-equiv="refresh" content="0; url={{ og_url }}" />
+  <meta http-equiv="refresh" content="0; url=/projects/{{ year }}/{{id}}" />
 
 {% else %}
   {% assign og_url = page.og_url %}
