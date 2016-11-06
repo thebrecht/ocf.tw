@@ -85,9 +85,9 @@ intl:
       content: NTD 300,000
     - label: 已募款金額
       content: NTD 224,622
-    - label: 更新時間
-      content: 2016/02/29
-  progress: 74.8
+  progress:
+    percent: 74.8
+    updated: 2016/02/29
 
 movie:
   name: 開放文化影展

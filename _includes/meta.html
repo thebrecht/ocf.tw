@@ -43,11 +43,13 @@
 </div>
 
 {% if project.progress %}
+{% assign progress = project.progress %}
 
-<div class="ui indicating progress active" data-percent="{{ project.progress }}">
-  <div class="bar" style="width: {{ project.progress }}%;">
-    <div class="progress">{{ project.progress }} % Funded</div>
+<div class="ui indicating progress active" data-percent="{{ progress.percent }}">
+  <div class="bar" style="width: {{ progress.percent }}%;">
+    <div class="progress">{{ progress.percent }} % Funded</div>
   </div>
+  <div class="label" style="font-weight: normal; opacity: 0.5;">於 {{ progress.updated }} 更新</div>
 </div>
 
 {% endif %}
@@ -56,7 +58,7 @@
 
 <div class="ui horizontal divider">
   <i class="heart icon"></i>
-  加入！
+  加入我們
 </div>
 
   {% for action in project.action %}
