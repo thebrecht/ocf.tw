@@ -6,7 +6,6 @@ layout: page
 {% assign id = page.project_id | append: "" %}
 {% assign project = site.data.projects[year][id] %}
 {% assign achievements = site.data.achievements[id] %}
-{% assign gsheet = page.gsheet %}
 
 <div id="project">
 
@@ -36,17 +35,22 @@ layout: page
   <div class="ui two column stackable grid">
     <div class="ten wide column">
 
-      {% markdown {{ page.article }} %}
+      {% markdown {{ page.intro }} %}
 
       {% if achievements %}
       <h2 class="ui dividing header">計畫成果</h2>
       {% include achievements.html %}
       {% endif %}
 
-      {% if gsheet %}
+      {% if page.budget %}
+      <h2 class="ui header">預算表</h2>
+      {% markdown {{ page.budget }} %}
+      {% endif %}
+
+      {% if page.gsheet %}
       <h2 class="ui header">收支明細</h2>
       <div class="ui basic paddingless segment">
-        <iframe src="{{ gsheet }}"></iframe>
+        <iframe src="{{ page.gsheet }}"></iframe>
       </div>
       {% endif %}
 

@@ -83,7 +83,7 @@ suse:
   description: 
   logo: /people/partners/opensuse_taiwan_cover.png
   link:
-    - title: 
+    - title: 官方網站
       url: https://zh-tw.opensuse.org
 
 makerconf:
@@ -119,3 +119,13 @@ cctw:
     - title: 官方網站
       url: http://creativecommons.tw/
 
+openlab:
+  name: OpenLab. Taipei 社群
+  name_en: OpenLab. Taipei
+  abbr: 
+  type: community
+  description: 
+  logo: /people/partners/openlab_logo.jpg
+  link:
+    - title: 臉書社團
+      url: https://www.facebook.com/groups/openlab.taipei/

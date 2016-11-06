@@ -23,29 +23,30 @@
 
 <div class="ui celled list">
 
+  {% if project.partner_id %}
   <div class="item">
-    {% if project.partner_id %}
     <span class="ui horizontal label">主辦</span>
-      {% for partner_id in project.partner_id %}
-        {% assign item = site.data.people.partners[partner_id] %}
-        {{ item.name }} 
-      {% endfor %}
+    {% for partner_id in project.partner_id %}
+      {% assign item = site.data.people.partners[partner_id] %}
+      {{ item.name }} 
+    {% endfor %}
+  </div>
+  {% endif %}
 
-    {% elsif project.coordinator_id %}
+  <div class="item">
     <span class="ui horizontal label">召集人</span>
-      {% for coordinator_id in project.coordinator_id %}
-        {% assign item = site.data.people.coordinators[coordinator_id] %}
-        {{ item.name }} ({{ item.nick }}) 
-      {% endfor %}
+  {% if project.coordinator_id %}
+    {% for coordinator_id in project.coordinator_id %}
+      {% assign item = site.data.people.coordinators[coordinator_id] %}
+      {{ item.name }} ({{ item.nick }}) 
+    {% endfor %}
 
-    {% else %}
-    <span class="ui horizontal label">召集人</span>
-      {% for board_id in project.board_id %}
-        {% assign item = site.data.people.board[board_id] %}
-        {{ item.name }} ({{ item.nick }}) 
-      {% endfor %}
-
-    {% endif %}
+  {% else %}
+    {% for board_id in project.board_id %}
+      {% assign item = site.data.people.board[board_id] %}
+      {{ item.name }} ({{ item.nick }}) 
+    {% endfor %}
+  {% endif %}
   </div>
 
   {% if project.staff_id %}
@@ -72,11 +73,15 @@
 
 <div class="ui indicating progress active" data-percent="{{ progress.percent }}">
   <div class="bar" style="width: {{ progress.percent }}%;">
-    <div class="progress">{{ progress.percent }} % Funded</div>
+    <div class="progress">{{ progress.percent }} %</div>
   </div>
-  <div class="label" style="font-weight: normal; opacity: 0.5;">於 {{ progress.updated }} 更新</div>
-</div>
 
+  {% if progress.updated %}
+  <div class="label" style="font-weight: normal; opacity: 0.5;">於 {{ progress.updated }} 更新
+  </div>
+  {% endif %}
+
+</div>
 {% endif %}
 
 {% if project.action %}

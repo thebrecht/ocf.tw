@@ -54,7 +54,7 @@
 
 參考賣家：（本欄位僅供參考，列出知名拍賣平台上最低價業者）
 
-- http://goods.ruten.com.tw/item/show?21311291699138
+- [http://goods.ruten.com.tw/item/show?21311291699138](http://goods.ruten.com.tw/item/show?21311291699138){:target="_blank"}
 
 ##### 需求數量：
 
@@ -93,8 +93,8 @@
 
 參考賣家：（本欄位僅供參考，列出知名拍賣平台上最低價業者，真實採購情況將考量賣家信譽與評價）
 
-- http://goods.ruten.com.tw/item/show?21308219343343
-- http://goods.ruten.com.tw/item/show?21205090705977
+- [http://goods.ruten.com.tw/item/show?21308219343343](http://goods.ruten.com.tw/item/show?21308219343343){:target="_blank"}
+- [http://goods.ruten.com.tw/item/show?21205090705977](http://goods.ruten.com.tw/item/show?21205090705977){:target="_blank"}
 
 ##### 需求數量：
 
@@ -114,50 +114,50 @@
 
 2014年春季班
 
-- 第1組 (2G手機)                                 --2000
+- [第1組](http://wiki.csie.ncku.edu.tw/embedded/os-team2014-1){:target="_blank"} (2G手機)                                 --2000
   - gsm based band board                         --1500
-- 第2組 (電吉他調音器) [4]
+- [第2組](http://wiki.csie.ncku.edu.tw/embedded/os-team2014-2){:target="_blank"} (電吉他調音器) [4]
   - adc module                                      --1000
-- 第3組 (robot arm)
+- [第3組](http://wiki.csie.ncku.edu.tw/embedded/os-team2014-3){:target="_blank"} (robot arm)
   - mechnical parts                                       --3000
   - step motor and driver                            --2000
-- 第4組 (F9 microkernel 的 driver model)
+- [第4組](http://wiki.csie.ncku.edu.tw/embedded/os-team2014-4){:target="_blank"} (F9 microkernel 的 driver model)
   - Software Project                                     --N/A
-- 第5組 (高精度繪圖機) [2]
+- [第5組](http://wiki.csie.ncku.edu.tw/embedded/os-team2014-5){:target="_blank"} (高精度繪圖機) [2]
   - mechnical parts                                       --3500
   - step motor and driver                            --1500
-- 第6組 (防盜攝影機) [3]
+- [第6組](http://wiki.csie.ncku.edu.tw/embedded/os-team2014-6){:target="_blank"} (防盜攝影機) [3]
   - camara module                                       --800
   - motor and driver                                     --1000
-- 第7組 (空氣烏克麗麗) [6]
+- [第7組](http://wiki.csie.ncku.edu.tw/embedded/os-team2014-7){:target="_blank"} (空氣烏克麗麗) [6]
   - receiver and transmitter                        --300
   - flex sensor or other solution                --2000
-- 第9組 (自動翻書機) [7]
+- [第9組](http://wiki.csie.ncku.edu.tw/embedded/os-team2014-9){:target="_blank"} (自動翻書機) [7]
   - step motor and driver                            --1500
   - mechnical parts                                       --3500
 
 2014年秋季班
 
-- 第1組 (2G手機附加照相功能) [1]
+- [第1組](http://wiki.csie.ncku.edu.tw/embedded/team2014-1){:target="_blank"} (2G手機附加照相功能) [1]
   - gsm based band board                 --1500
   - camara module                        --800
-- 第2組 (電吉他效果器) [6]
+- [第2組](http://wiki.csie.ncku.edu.tw/embedded/team2014-2){:target="_blank"} (電吉他效果器) [6]
   - adc module                                     --1000
   - dac module                                     --1000
   - power module                                --500
-- 第5組 (自動繪圖機) [7]
+- [第5組](http://wiki.csie.ncku.edu.tw/embedded/team2014-5){:target="_blank"} (自動繪圖機) [7]
   - motor and driver                            --2500
   - mechnical                                        --2500
-- 第6組 (自動骨牌車) [9]
+- [第6組](http://wiki.csie.ncku.edu.tw/embedded/team2014-6){:target="_blank"} (自動骨牌車) [9]
   - motor and driver                            --1500
   - mechnical                                        --2500
-- 第8組 (行動鬧鐘) [8]
+- [第8組](http://wiki.csie.ncku.edu.tw/embedded/team2014-8){:target="_blank"} (行動鬧鐘) [8]
   - motor and driver                            --1500
   - mechnical                                        --1500
-- 第9組 (教育用程式流程控制方塊) [4]
+- [第9組](http://wiki.csie.ncku.edu.tw/embedded/team2014-9){:target="_blank"} (教育用程式流程控制方塊) [4]
   - PCB fee                                   --2000
   - IC                                             --2000
-- 第10組(改進UrsusPilot效能) [3]
+- [第10組](http://wiki.csie.ncku.edu.tw/embedded/team2014-10){:target="_blank"}(改進UrsusPilot效能) [3]
   - Flight control board ＆ Qudro         --6000
 
 ### 設備單品採購與更新
@@ -192,19 +192,3 @@
 當涉及數位邏輯或者傳輸界面時，邏輯分析儀能可觀的加速學生除錯與學習。然而此類設備有著一定價位，入門款的USB設備也須數千台票。
 
 然而目前本課程能使用到的邏輯分析儀 數量 ：零 
-
-## 預算表
-
-{:.ui.table}
-| 分類 | 名稱 | 數量 | 成本 | 預算 |
-| --- | --- | --- | --- | --- |
-| 開發版相關 | STM32F429 | 70 | NT$1,000 | 87,000 |
-| | UART連接線 | 70 | NT$1,00 |  |
-| | 雜項費用 | 1 | NT$10,000 |  |
-| 學生專案經費 | 分組專案 | 10 | NT$6,000 | 60,000 |
-| 學生成果展預算 | 場地租借費用 | 1 | NT$5,000 | 25,000 |
-| | 貴賓邀請車馬費 | 1 | NT$10,000 |  |
-| | 雜費 | 1 | NT$10,000 |  |
-| 行政經費 | OCF行政經費 | 10% | NT$20,000 | 20,000 |
-| --- | --- | --- | --- | --- |
-| 總預算 |  |  |  | 192,000 |
