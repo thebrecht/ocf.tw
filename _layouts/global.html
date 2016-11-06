@@ -33,18 +33,26 @@ layout: compress
     {% assign og_title = site.data.projects[year][id].name %}
     {% assign og_image = site.data.projects[year][id].cover %}
     {% assign og_description = site.data.projects[year][id].description %}
+
+  <meta http-equiv="refresh" content="0; url=/projects/{{ year }}/{{id}}" />
+
   {% elsif page.data == "reports" %}
     {% assign year = page.year | append: "" %}
     {% assign og_title = site.data.reports[year].title %}
     {% assign og_image = site.data.reports[year].cover %}
     {% assign og_description = site.data.reports[year].description %}
+
+  <meta http-equiv="refresh" content="0; url=/projects/{{ year }}" />
+
   {% else %}
     {% assign og_title = page.og_title %}
     {% assign og_image = page.og_image %}
     {% assign og_description = page.og_description %}
+
+  <meta http-equiv="refresh" content="0; url={{ og_url }}" />
+
   {% endif %}
 
-  <meta http-equiv="refresh" content="0; url=/projects/{{ year }}/{{id}}" />
 
 {% else %}
   {% assign og_url = page.og_url %}
