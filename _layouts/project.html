@@ -5,6 +5,7 @@ layout: page
 {% assign year = page.year | append: "" %}
 {% assign id = page.project_id | append: "" %}
 {% assign project = site.data.projects[year][id] %}
+{% assign achievements = site.data.achievements[id] %}
 
 <div id="project">
 
@@ -31,9 +32,30 @@ layout: page
 
 <div class="ui container">
   <div class="ui hidden divider"></div>
+  <div class="ui two column stackable grid">
+    <div class="ten wide column">
 
-  {{ content }}
+      {% markdown /projects/2016/intl/article.md %}
+      <!-- {% markdown {{ page.article }} %} -->
 
+      {% if achievements %}
+      <h2 class="ui dividing header">計畫成果</h2>
+      {% include achievements.html %}
+      {% endif %}
+
+      {{ content }}
+
+    </div>
+
+    <div class="six wide column">
+      <div class="ui sticky secondary basic segment">
+
+      {% include meta.html %}
+
+      </div>
+    </div>
+
+  </div>
   <div class="ui hidden divider"></div>
 </div>
 
