@@ -5,8 +5,6 @@ hct:
   type: cooperation
   description: 
   logo: /people/sponsors/hct_logistics_logo.png
-  logo-horizontal: 
-  cover: 
   link:
     - title: 官方網站
       url: https://www.hct.com.tw
@@ -18,8 +16,6 @@ rc:
   type: non-profit
   description: 
   logo: /people/sponsors/rc_logo.png
-  logo-horizontal: 
-  cover: 
   link:
     - title: 
       url: 

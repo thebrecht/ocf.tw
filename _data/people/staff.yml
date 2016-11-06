@@ -1,6 +1,7 @@
 singing: 
   name: 李欣穎
   name_en: Singing Li
+  nick: singing
   role: 專業貓奴
   position: 執行秘書
   description: 一位專業的貓奴，喜好自由與分享的文化。2009年開始參與 COSCUP 與 MozTW 至今，擔任過 COSCUP, HITCON, MOPCON, OSDC..等技術社群研討會的志工。2015 加入 OCF，希望能與志同道合的朋友一起為開放文化貢獻心力。
@@ -13,6 +14,7 @@ singing:
 rock: 
   name: 洪華超
   name_en: Rock
+  nick: rock
   role: 墨菲斯
   position: 
   description: 曾任職於中央研究院自由軟體鑄造場 (Open Source Software Foundry)，國內唯一針對全台大專院校以上的學校進行自由軟體推廣的研究與推廣型計畫，專注於開源軟體概念推廣、開源社群協力有十年的歷史。ROCK 自 2009 年進入開放軟體社群的領域，秉持著對於開放文化的興趣和理念，自黑髮做到白髮，數年如一日不離不棄。
@@ -25,6 +27,7 @@ rock:
 ttcat: 
   name: 吳銘軒
   name_en: 
+  nick: ttcat
   role: 二當家
   position: 
   description: 阿端，前綠黨中執委，社運份子，參與多年廢核、性別與人權運動。專長為創意企劃、溝通設計與 PHP 程式設計。在 g0v 社群提供社運觀點與橫向聯繫。
@@ -36,11 +39,25 @@ ttcat:
 
 mglee: 
   name: 李梅君
-  name_en: 
+  name_en: mglee
+  nick: mglee
   role: 田野研究員
   position: 
   description: 美國加州大學戴維斯分校人類學博士候選人。擅長觀察路人、挖掘八卦、寫寫廢文，在 g0v 當沒有人。關注公民科技、開放文化，為了做研究而潛入 OCF 擔任掃地僧。
   avatar: /people/staff/mglee.jpg
+  link:
+  log: 
+    - date: 
+      action: 到職
+
+afi: 
+  name: 曾柏瑜
+  name_en: 
+  nick: afi
+  role: 
+  position: 
+  description: 
+  avatar: /people/staff/
   link:
   log: 
     - date: 

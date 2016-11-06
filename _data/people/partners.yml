@@ -1,12 +1,10 @@
- coscup:
+coscup:
   name: COSCUP 開源人年會
   name_en: Conference for Open Source Coders, Users and Promoters
   abbr: COSCUP
   type: community
   description: COSCUP 希望藉由每一屆的年度會議，讓世界各地的 FLOSS 愛好者齊聚一堂，並邀請世界各地的專家上台分享經驗，想法與新的技術，來共同的激發國內外的愛好者更加踴躍投入 FLOSS 的開發與使用。
   logo: /people/partners/coscup_logo.png
-  logo-horizontal: /people/partners/coscup_logo_horizontal.png
-  cover: 
   link:
     - title: 官方網站
       url: http://coscup.org/
@@ -18,8 +16,6 @@ g0vsummit:
   type: community
   description: g0v.tw 2012年底 g0v 社群運作逐漸成形，從那時起 g0v 零時政府社群便以數位世代的思維，以開源方式號召群眾參與著手開發新工具、新組織型態、新合作關係。經過多方共同努力，透過 g0v 的開放特性作為平台，與 NGO 和政府建立了多方互動，但需要更長遠的跨領域交流，為此籌辦 g0v.tw summit 零時政府高峰會，希望有更多深入的溝通與交流，與有志運用科技改變社會的各界共同參與，期待開放力量成為實際改變的動能。
   logo: /people/partners/g0v_logo.png
-  logo-horizontal: 
-  cover:
   link:
     - title: 官方網站
       url: http://g0v.tw/
@@ -31,8 +27,6 @@ pycon:
   type: community
   description: 
   logo: /people/partners/pycontw_logo_2016.png
-  logo-horizontal: 
-  cover:
   link:
     - title: 官方網站
       url: http://pycon.tw/
@@ -44,8 +38,6 @@ osdc:
   type: community
   description: 
   logo: /people/partners/osdc_logo.png
-  logo-horizontal: 
-  cover:
   link:
     - title:
       url: 
@@ -57,8 +49,6 @@ sitcon:
   type: community
   description: 
   logo: /people/partners/sitcon_logo.png
-  logo-horizontal: 
-  cover:
   link:
     - title: 官方網站
       url: http://sitcon.org/
@@ -67,11 +57,9 @@ jcconf:
   name: Java Community Conference Taiwan
   name_en:
   abbr: JCConf
-  type: 
+  type: community
   description: 
   logo: /people/partners/jcconf_logo.png
-  logo-horizontal: 
-  cover:
   link:
     - title: 官方網站
       url: http://jcconf.tw/
@@ -80,11 +68,9 @@ sotm:
   name: 台灣開放街圖研討會 SotM Taiwan
   name_en:
   abbr: 
-  type: 
+  type: community
   description: 
   logo: /people/partners/sotm_tw_logo.png
-  logo-horizontal: 
-  cover:
   link:
     - title: 官方網站
       url: http://openstreetmap.tw/
@@ -93,11 +79,9 @@ suse:
   name: openSUSE Taiwan
   name_en:
   abbr: 
-  type: 
+  type: community
   description: 
   logo: /people/partners/opensuse_taiwan_cover.png
-  logo-horizontal: 
-  cover:
   link:
     - title: 
       url: https://zh-tw.opensuse.org
@@ -106,11 +90,9 @@ makerconf:
   name: MakerConf
   name_en:
   abbr: 
-  type: 
+  type: community
   description: 
   logo: /people/partners/makerconf_logo.png
-  logo-horizontal: 
-  cover:
   link:
     - title: 官方網站
       url: http://www.makerconf.tw/
@@ -119,11 +101,9 @@ steps:
   name: 智新資通
   name_en:
   abbr: 
-  type: 
+  type: cooperation
   description: 
   logo: /people/partners/steps_logo.png
-  logo-horizontal: 
-  cover:
   link:
     - title: 官方網站
       url: http://www.steps.com.tw/
@@ -132,11 +112,9 @@ cctw:
   name: 台灣創用 CC 計畫
   name_en:
   abbr: 
-  type: 
+  type: non-profit
   description: 
   logo: /people/partners/cctw_logo.png
-  logo-horizontal: 
-  cover:
   link:
     - title: 官方網站
       url: http://creativecommons.tw/

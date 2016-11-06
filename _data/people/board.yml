@@ -1,6 +1,7 @@
 clkao: 
   name: 高嘉良
   name_en: Chia-liang Kao
+  nick: clkao
   role: 村長
   position: 
   description: clkao (Chia-liang Kao) has been an active open source software developer since 2000. He is best known for creating SVK, a distributed version control system based on Subversion. He co-founded the g0v.tw initiative in 2012. g0v.tw is an online community that advocates information transparency, focusing on developing tools for improving citizen participation.
@@ -19,6 +20,7 @@ clkao:
 bobchao: 
   name: 趙柏強
   name_en: Bob Chao
+  nick: bobchao
   role: King Bob
   position: 
   description: Bob Chao is the KKITX (part of KKBOX) project manager now, and he is best known as an active contributor in MozTW community and the chief coordinator of COSCUP.
@@ -35,6 +37,7 @@ bobchao:
 honki: 
   name: 鄭鴻旗
   name_en: 
+  nick: honki
   role: 開源藝術家
   position: 
   description: honki 是台灣早期推廣 arduino 與三維印表機的先驅。他創立了 OpenLab Taipei 並致力提供一個給愛好新媒體藝術、數位藝術創作的同好互相交流的場域。
@@ -51,6 +54,7 @@ honki:
 jimyhuang: 
   name: 黃雋
   name_en: Jimmy Huang
+  nick: jimyhuang
   role: 小黃狗的主人
   position: 
   description: 黃雋是網絡行動科技 (NETivism) 的共同創辦人。網絡行動科技是台灣社會企業的先驅之一， 並致力成為非營利組織的軍火庫，讓非營利組織有足夠的資源，在網路戰場上衝鋒陷陣。
@@ -69,6 +73,7 @@ jimyhuang:
 pofeng: 
   name: 李柏鋒
   name_en: Pofeng Lee
+  nick: pofeng
   role: 宅醫
   position: 
   description: 李柏鋒是一位立志成為鋼鐵人，但一直被 ipa 叫做綠巨人的阿宅兒科醫師。他常在空閒時幫忙推廣開放源碼的相關活動，並設立了科斯高有限公司來幫忙 COSCUP, PyCON Taiwan, MOPCON 等會議處理金流問題，現在希望能協調科斯高與開放文化基金會共同推廣開放源碼與開放文化的相關活動。

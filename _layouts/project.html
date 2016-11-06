@@ -6,6 +6,7 @@ layout: page
 {% assign id = page.project_id | append: "" %}
 {% assign project = site.data.projects[year][id] %}
 {% assign achievements = site.data.achievements[id] %}
+{% assign gsheet = page.gsheet %}
 
 <div id="project">
 
@@ -42,12 +43,19 @@ layout: page
       {% include achievements.html %}
       {% endif %}
 
+      {% if gsheet %}
+      <h2 class="ui header">收支明細</h2>
+      <div class="ui basic paddingless segment">
+        <iframe src="{{ gsheet }}"></iframe>
+      </div>
+      {% endif %}
+
       {{ content }}
 
     </div>
 
     <div class="six wide column">
-      <div class="ui sticky secondary basic segment">
+      <div id="meta" class="ui sticky secondary basic segment">
 
       {% include meta.html %}
 

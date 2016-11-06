@@ -25,3 +25,12 @@
   margin-bottom: .5em;
 }
 
+#project #meta .ui.header:not(.icon) {
+  margin-top: 1rem;
+}
+
+#project iframe {
+  width: 100%;
+  height: 30rem;
+  border: none;
+}

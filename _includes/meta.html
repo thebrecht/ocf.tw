@@ -1,34 +1,59 @@
+{% if page.logo %}
+<img class="ui fluid image" src="{{ page.logo }}">
+<h2 class="ui center aligned small header">
+
+{% elsif project.partner_id %}
+{% assign partner = project.partner_id[0] %}
+<img class="ui fluid image" src="{{ site.data.people.partners[partner].logo }}">
+<h2 class="ui center aligned small header">
+
+{% elsif project.coordinator_id %}
+{% assign coordinator = project.coordinator_id[0] %}
+<img class="ui fluid image" src="{{ site.data.people.coordinators[coordinator].logo }}">
+<h2 class="ui center aligned small header">
+
+{% else %}
 <h2 class="ui center aligned small icon header">
   <i class="info circle icon"></i>
+{% endif %}
+
   {{ project.name }}
   <span class="sub header">小檔案</span>
 </h2>
 
 <div class="ui celled list">
 
-  {% if project.coordinator_id %}
   <div class="item">
+    {% if project.partner_id %}
+    <span class="ui horizontal label">主辦</span>
+      {% for partner_id in project.partner_id %}
+        {% assign item = site.data.people.partners[partner_id] %}
+        {{ item.name }} 
+      {% endfor %}
+
+    {% elsif project.coordinator_id %}
     <span class="ui horizontal label">召集人</span>
-    {% for coordinator in project.coordinator_id %}
-      {{ coordinator }}, 
-    {% endfor %}
+      {% for coordinator_id in project.coordinator_id %}
+        {% assign item = site.data.people.coordinators[coordinator_id] %}
+        {{ item.name }} ({{ item.nick }}) 
+      {% endfor %}
+
+    {% else %}
+    <span class="ui horizontal label">召集人</span>
+      {% for board_id in project.board_id %}
+        {% assign item = site.data.people.board[board_id] %}
+        {{ item.name }} ({{ item.nick }}) 
+      {% endfor %}
+
+    {% endif %}
   </div>
-  {% endif %}
 
   {% if project.staff_id %}
   <div class="item">
     <span class="ui horizontal label">工作夥伴</span>
-    {% for staff in project.staff_id %}
-      {{ staff }}, 
-    {% endfor %}
-  </div>
-  {% endif %}
-
-  {% if project.partner_id %}
-  <div class="item">
-    <span class="ui horizontal label">合作單位</span>
-    {% for partner in project.partner_id %}
-      {{ partner }}, 
+    {% for staff_id in project.staff_id %}
+      {% assign item = site.data.people.staff[staff_id] %}
+      {{ item.name }} ({{ item.nick }}) 
     {% endfor %}
   </div>
   {% endif %}
@@ -43,7 +68,7 @@
 </div>
 
 {% if project.progress %}
-{% assign progress = project.progress %}
+  {% assign progress = project.progress %}
 
 <div class="ui indicating progress active" data-percent="{{ progress.percent }}">
   <div class="bar" style="width: {{ progress.percent }}%;">
@@ -55,13 +80,13 @@
 {% endif %}
 
 {% if project.action %}
-
 <div class="ui horizontal divider">
   <i class="heart icon"></i>
   加入我們
 </div>
 
   {% for action in project.action %}
+    {% if action.url %}
 
 <p>
   <a class="ui {{ action.color }} fluid button" href="{{ action.url }}" target="_blank">
@@ -69,6 +94,12 @@
     {{ action.title }}
   </a>
 </p>
+
+    {% else %}
+
+<p>{{ action }}</p>
+
+    {% endif %}
 
   {% endfor %}
 {% endif %}
