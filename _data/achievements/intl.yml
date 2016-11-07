@@ -1,8 +1,30 @@
-- title: Citizen Online：社會運動的數位危機與轉機
-  cover: /projects/2016/intl/co0929.jpg
+- title: 南特。開放政府的新實踐
+  subtitle:
+    - 
+  label:
   meta:
-    - 2016/9/29
-    - Dr. Ronald J. Deibert, 雨蒼, 呂守箴
+    - 2016/10/13
+    - 台南社區大學、開放文化基金會、法國在台協會 聯合主辦
+  description: 
+  link: 
+    - title: 活動頁
+      url: https://www.facebook.com/events/1813037798952398/
+  cover: 
+
+- title: 法國南特經驗─城市的公共治理（從文化到能源轉型）
+  subtitle:
+    - 
+  label:
+  meta:
+    - 2016-10-12
+    - 哲學星期五、開放文化基金會、法國在台協會 聯合主辦
+  description: 
+  link: 
+    - title: 活動頁
+      url: https://www.facebook.com/events/1813037798952398/
+  cover: 
+
+- title: Citizen Online：社會運動的數位危機與轉機
   label:
     - title: 邀講
       color:
@@ -10,75 +32,87 @@
       color:
     - title: 加拿大駐台北貿易辦事處
       color:
+  meta:
+    - 2016/9/29
+    - Dr. Ronald J. Deibert, 雨蒼, 呂守箴
   description: 
   link: 
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/citizenonline
+    - title: 影音記錄
+      url: https://www.youtube.com/watch?v=UsM7_veun4M
+    - title: 活動共筆
+      url: https://ocf-tw.hackpad.com/Citizen-Online--7PQf8kFCHNX
+  cover: /projects/2016/intl/co0929.jpg
+
 - title: useR! 2016 Conference 會後分享
-  cover: /projects/2016/intl/user0713.jpg
-  meta:
-    - 2016/7/13
-    - Ting-Wei Lin / 林庭蔚 (National Taiwan University)
   label:
     - title: 盤纏
       color:
+  meta:
+    - 2016/7/13
+    - Ting-Wei Lin / 林庭蔚 (National Taiwan University)
   description: 
   link: 
     - title: 影音紀錄
       url: https://www.youtube.com/watch?v=iokv1yX-chU
+  cover: /projects/2016/intl/user0713.jpg
+
 - title: Open Networking Summit (ONS)- Linux Foundation 會後分享
   subtitle:
     - 台南場
-  cover: /projects/2016/intl/ons0519.jpg
+  label:
+    - title: 盤纏
+      color: 
   meta:
     - 2016/5/22
     - Ping-Chun Huang / 黃秉鈞 (National Chiao Tung University)
     - 分享主題：Global SDN-IP Deployment at NCTU
+  description: 
+  link: 
+  cover: /projects/2016/intl/ons0519.jpg
+
+- title: Open Networking Summit (ONS)- Linux Foundation 會後分享
+  subtitle:
+    - 新竹交大場
   label:
     - title: 盤纏
       color: 
-  description: 
-  link: 
-- title: Open Networking Summit (ONS)- Linux Foundation 會後分享
-  subtitle:
-    - 新竹場
-  cover: /projects/2016/intl/ons0519.jpg
   meta:
     - 2016/5/19
     - Ping-Chun Huang / 黃秉鈞 (National Chiao Tung University)
     - 分享主題：Global SDN-IP Deployment at NCTU
-  label:
-    - title: 盤纏
-      color: 
   description: 
   link: 
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/onos-nctu0519
     - title: 影音紀錄
       url: https://www.youtube.com/playlist?list=PLFuYOsppHDrnPMNtoRPFz0DyR04vmGJEd
+  cover: /projects/2016/intl/ons0519.jpg
+
 - title: Fossasia 2016 會後分享
-  cover: /projects/2016/intl/fossasia0501.jpg
-  meta: 
-    - 2016/5/1
-    - Menghsuan Tsai / 蔡孟軒 (National Cheng Kung University)
-    - 分享主題：How to Share Open Source
   label:
     - title: 盤纏
       color:
+  meta: 
+    - 2016/5/1
+    - Menghsuan Tsai / 蔡孟軒 (National Cheng Kung University)
+    - 分享主題：How to Share Open Source, Bake to TFG - experience sharing
   description: 
   link: 
     - title: 影音紀錄
       url: https://www.youtube.com/watch?v=ORr-z4xTBjI
+  cover: /projects/2016/intl/fossasia0501.jpg
+
 - title: Loomio、審議、動民主
-  cover: /projects/2015/intl/blulu1209.png
-  meta: 
-    - 2015/12/9
-    - Benjamin Knight, Richard Bartlett, 呂家華, ETBlue
   label:
     - title: 邀講
       color:
     - title: Loomio 創辦人來台
       color:
+  meta: 
+    - 2015/12/9
+    - Benjamin Knight, Richard Bartlett, 呂家華, ETBlue
   description: 
   link: 
     - title: 活動頁
@@ -87,14 +121,12 @@
       url: https://ocf-tw.hackpad.com/Loomio-l8fikCsKHiG
     - title: 影音紀錄
       url: https://www.youtube.com/playlist?list=PLFuYOsppHDrnsqfUhKAs9tFkqyCVIoaSy
+  cover: /projects/2015/intl/blulu1209.png
+
 - title: 工作坊：身份識別、隱私權與自由
   subtitle:
     - Workshop：Identity, Privacy and Freedom
     - Seth Schoen 訪台系列
-  cover: /projects/2015/intl/ipf1130_og.png
-  meta: 
-    - 2015/11/30
-    - Seth Schoen, 莊庭瑞, 唐鳳 (audreyt), 邱伊翎 (E-Ling Chiu), 何明諠
   label:
     - title: 邀講
       color:
@@ -104,63 +136,75 @@
       color:
     - title: 台灣人權促進會
       color:
+  meta: 
+    - 2015/11/30
+    - Seth Schoen, 莊庭瑞, 唐鳳 (audreyt), 邱伊翎 (E-Ling Chiu), 何明諠
+    - "主辦單位: 中研院法律所、中研院資訊所、台灣人權促進會、開放文化基金會"
   description: 
   link: 
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/ipf
     - title: 影音紀錄
       url: https://www.youtube.com/playlist?list=PLFuYOsppHDrlHvIPzWAWxPLqdxtuIJnqm
+  cover: /projects/2015/intl/ipf1130_og.png
+
 - title: 專家講座：資訊與人權的交會
   subtitle:
     - Seth Schoen 訪台系列
-  cover: /projects/2015/intl/ipf1130_og.png
-  meta: 
-    - 2015/11/27
   label:
     - title: 邀講
       color:
     - title: 電子前鋒基金會 (EFF)
       color:
+  meta: 
+    - 2015/11/27
   description: 
   link: 
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/imhp
+  cover: /projects/2015/intl/ipf1130_og.png
+
 - title: 新科技新民主
   subtitle:
     - New Technologies and New Democracy
-  cover: /projects/2015/intl/ntnd1004.png
-  meta: 
-    - 2015/10/4
   label:
     - title: 邀講
       color:
+  meta: 
+    - 2015/10/4
   description: 
   link: 
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/ntnd
     - title: 影音紀錄
       url: https://www.youtube.com/playlist?list=PLFuYOsppHDrnXBJdYpf4BoNfY-vhBoRYC
+    - title: 活動照片
+      url: 
+  cover: /projects/2015/intl/ntnd1004.png
+
 - title: 民主直接點？數位空間
   subtitle:
     - Democracy à la Carte? Digital spaces
-  cover: /projects/2015/intl/dalc0827.jpg
-  meta: 
-    - 2015/8/27
   label:
     - title: 合作
       color:
     - title: 法國在台協會
       color:
+  meta: 
+    - 2015/8/27
+    - Julien Antelin, 台北市政府資訊局  李維斌 局長
+    - 開放文化基金會、法國在台協會共同舉辦
   description: 
   link: 
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/dalc
     - title: 影音紀錄
       url: https://www.youtube.com/playlist?list=PLFuYOsppHDrmLoqdOHON3dpRWsUNB8Png
+    - title: 活動共筆
+      url:
+  cover: /projects/2015/intl/dalc0827.jpg
+
 - title: d|Bootcamp Taipei 資料新聞實戰營 
-  cover: /projects/2015/dbootcamp/og.png
-  meta: 
-    - 2015/8
   label:
     - title: 合作
       color:
@@ -168,69 +212,81 @@
       color:
     - title: 世銀集團
       color:
+  meta: 
+    - 2015/8
   description: 
   link: 
     - title: 官方網站
       url: http://dbootcamp.taipei/zh/
+  cover: /projects/2015/dbootcamp/og.png
+
 - title: 公民參與大亂鬥
   subtitle:
     - State of Citizen Participation
-  cover: /projects/2015/intl/socp0614.jpg
-  meta: 
-    - 2015/6/14
   label:
     - title: 邀講
       color:
     - title: 美國國務院講者訪台
       color:
+  meta: 
+    - 2015/6/14
+    - "共同主辦: 開放文化基金會, 美國在台協會, 國發會, 台灣微軟"
   description: 
   link: 
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/socp
     - title: 影音紀錄
       url: https://www.youtube.com/playlist?list=PLFuYOsppHDrljeF9tUWJR9nrY2CfIqP0k
+    - title: 活動照片
+      url: 
+  cover: /projects/2015/intl/socp0614.jpg
+
 - title: Embedded Linux Conference（ELC）- Linux Foundation 會後分享
   subtitle:
     - 新竹場
-  cover: /projects/2015/elc/elc0524.jpg
+  label:
+    - title: 盤纏
+      color:
   meta: 
     - 2015/6/4
     - Jeff Liaw / 廖健富 (National Cheng Kung University)
     - 演講主題：Optimize uClinux for ARM Cortex-M4
-  label:
-    - title: 盤纏
-      color:
+    - "開放文化基金會主辦, OSSF 協辦, skymier , VMFive 贊助"
   description: 
   link: 
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/elc2015-hsz
+  cover: /projects/2015/elc/elc0524.jpg
+
 - title: Embedded Linux Conference（ELC）- Linux Foundation 會後分享
   subtitle:
     - 台北場
-  cover: /projects/2015/elc/elc0604.jpg
+  label:
+    - title: 盤纏
+      color:
   meta: 
     - 2015/5/24
     - Jeff Liaw / 廖健富 (National Cheng Kung University)
     - jserv, ggm, Peter Chang
     - 演講主題：Optimize uClinux for ARM Cortex-M4
-  label:
-    - title: 盤纏
-      color:
+    - "開放文化基金會主辦, OSSF 協辦, skymier , VMFive 贊助"
   description: 
   link: 
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/elc2015
+  cover: /projects/2015/elc/elc0604.jpg
+
 - title: 點燃開放資料之夜
   subtitle:
     - Ignite Open Data
-  cover: /projects/2015/intl/ignite0319.jpg
-  meta: 
-    - 2015/3/19
   label:
     - title: 合作
       color:
     - title: 英國開放資料訪台
       color:
+  meta: 
+    - 2015/3/19
+    - "開放文化基金會、英國在台辦事處 (原: 英國貿易文化辦事處)、經濟部工業局、COSCUP 開源人年會共同舉辦"
   description: 
   link: 
     - title: 活動頁
@@ -239,12 +295,12 @@
       url: http://ocftw.kktix.cc/events/ignite-od-cft
     - title: 影音紀錄
       url: https://www.youtube.com/playlist?list=PLFuYOsppHDrlzoWQ0G8Txt545FXEm6pBR
+    - title: 活動照片
+      url: 
+  cover: /projects/2015/intl/ignite0319.jpg
+
 - title: 跳躍吧！火燙燙的 g0v 美東松 功力灌頂！
   subtitle:
-  cover: /projects/2014/intl/g0vus1212.jpg
-  meta: 
-    - 2014/12/12
-    - LY (yhsiang), 游知澔
   label:
     - title: 盤纏
       color:
@@ -252,9 +308,13 @@
       color:
     - title: g0v 零時政府
       color:
+  meta: 
+    - 2014/12/12
+    - LY (yhsiang), 游知澔
   description: 
   link: 
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/1212ocf
     - title: 影音紀錄
       url: https://www.youtube.com/playlist?list=PLdwQWxpS513AwgH-wfEamTGP2dOAhKc-J
+  cover: /projects/2014/intl/g0vus1212.jpg

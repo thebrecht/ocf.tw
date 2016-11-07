@@ -1,30 +1,289 @@
+- title: 拜會唐鳳政委
+  subtitle:
+  label:
+  meta:
+    - 2016/10/25
+  description: 
+  link: 
+    - title: 會議記錄
+      url: https://sayit.archive.tw/2016-10-25-%E9%96%8B%E6%94%BE%E6%96%87%E5%8C%96%E5%9F%BA%E9%87%91%E6%9C%83%E8%88%87%E5%94%90%E6%94%BF%E5%A7%94%E4%BA%A4%E6%B5%81
+  cover: 
+
+- title: JCConf Taiwan 2016
+  subtitle:
+  label:
+  meta:
+    - 2016-10-14 ~ 2016-10-15
+    - Taiwan Java User Group 社群 主辦
+    - 開放文化基金會 協辦
+  description: 
+  link: 
+    - title: 大會官方網站
+      url: http://jcconf.tw/2016/
+  cover: 
+
+- title: HadoopCon 2016
+  subtitle:
+  label:
+  meta:
+    - 2016-09-09 ~ 2016-09-10
+    - Hadoop.tw 社群 主辦
+    - 開放文化基金會 協辦
+  description: 
+  link: 
+    - title: 大會官方網站
+      url: http://2016.hadoopcon.org/wp/
+  cover: 
+
+- title: MakerConf 2016
+  subtitle:
+  label:
+  meta:
+    - 2016-09-03
+    - 台灣樹莓派 主辦
+    - 開放文化基金會 協辦
+  description: 
+  link: 
+    - title: 大會官方部落格
+      url: http://www.makerconf.tw/?p=207
+  cover: 
+
+- title: COSCUP 2016 開源人年會
+  subtitle:
+  label:
+  meta:
+    - 2016-08-20 ~ 2016-08-21
+    - 台灣開源社群 主辦
+    - 開放文化基金會 協辦
+  description: 
+  link: 
+  cover: 
+
+- title: SITCON2016 夏令營
+  subtitle:
+  label:
+  meta:
+    - 2016-08-02 ~ 2016-08-05
+    - SITCON 學生計算機年會  主辦
+    - 開放文化基金會、 中央大學電子計算機中心  協辦
+  description: 
+  link: 
+  cover: 
+
+- title: 資訊主管聯席會中央部會分組 105 年度第 2 次會議
+  subtitle:
+  label:
+  meta:
+    - 2016-07-22
+    - 國發會、開放文化基金會 聯合主辦
+  description: 
+  link: 
+  cover: 
+
+- title: PyCon Taiwan 2016
+  subtitle:
+  label:
+  meta:
+    - 2016-06-03 ~ 2016-06-05
+    - 台灣 Python 社群 主辦
+    - 開放文化基金會 協辦
+  description: 
+  link: 
+  cover: 
+
+- title: 謝開源夏季啤酒趴 [照片紀錄]
+  subtitle:
+  label:
+  meta:
+    - 2016-05-29
+    - Mouse, Singing 主辦
+    - 開放文化基金會 協辦
+  description: 
+  link: 
+  cover: 
+
+- title: 協助 OpenLab Taipei 於 Maker Fair 義賣
+  subtitle:
+  label:
+  meta:
+    - 2016-05-07 ~ 2016-05-08
+  description: 
+  link: 
+  cover: 
+
+- title: 參與 智慧財產局-TPP與智慧財產權修法配套公聽會
+  subtitle:
+  label:
+  meta:
+    - 2016-04-29
+  description: 
+  link: 
+  cover: 
+
+- title: 協助 openSUSE 正體中文社群 募款 
+  subtitle:
+  label:
+  meta:
+    - 2016-04
+  description: 
+  link: 
+  cover: 
+
+- title: 協助 Apache Spark@Hsinchu 於交大舉辦活動 
+  subtitle:
+  label:
+  meta:
+    - 2016-04
+  description: 
+  link: 
+  cover: 
+
+- title: 協助 OpenLab.Taiepi 募款
+  subtitle:
+  label:
+  meta:
+    - 2016-03-25
+  description: 
+  link: 
+    - title: 會議記錄
+      url: 
+    - title: 協助籌備 OH:RepRap Festival（開放硬體：3DP大拜拜）
+      url:
+    - title: 協尋空間
+      url:
+  cover: 
+
+- title: 參與 司改會全民司改運動第一次籌備會議
+  subtitle:
+  label:
+  meta:
+    - 2016-03-12
+  description: 
+  link: 
+  cover: 
+
+- title: 學生計算機年會 (SITCON)
+  subtitle:
+  label:
+  meta:
+    - 2016-02-27
+    - 學生計算機年會主辦, 開放文化基金會共同主辦
+  description: 
+  link: 
+  cover: 
+
+- title: 參與 國民健康署資訊專家會議
+  subtitle:
+  label:
+  meta:
+    - 2016-01-20 
+  description: 
+  link: 
+  cover: 
+
 - title: CONCOM X OCF 2015
   subtitle:
-    - 
-  cover: 
+  label:
   meta:
     - 2015/12
-  label:
-    - title: 
-      color: 
   description: 
   link: 
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/concom2015
     - title: 影音紀錄
       url: 
+  cover: 
+
 - title: 
   subtitle:
-    - 
-  cover: 
-  meta:
-    - 
   label:
-    - title: 
-      color: 
+  meta:
   description: 
   link: 
-    - title: 活動頁
-      url: 
-    - title: 影音紀錄
-      url: 
+  cover: 
+
+- title: 
+  subtitle:
+  label:
+  meta:
+  description: 
+  link: 
+  cover: 
+
+- title: 
+  subtitle:
+  label:
+  meta:
+  description: 
+  link: 
+  cover: 
+
+- title: 
+  subtitle:
+  label:
+  meta:
+  description: 
+  link: 
+  cover: 
+
+- title: 
+  subtitle:
+  label:
+  meta:
+  description: 
+  link: 
+  cover: 
+
+- title: 
+  subtitle:
+  label:
+  meta:
+  description: 
+  link: 
+  cover: 
+
+- title: 
+  subtitle:
+  label:
+  meta:
+  description: 
+  link: 
+  cover: 
+
+- title: 
+  subtitle:
+  label:
+  meta:
+  description: 
+  link: 
+  cover: 
+
+- title: 
+  subtitle:
+  label:
+  meta:
+  description: 
+  link: 
+  cover: 
+
+- title: 
+  subtitle:
+  label:
+  meta:
+  description: 
+  link: 
+  cover: 
+
+- title: 籌備會議
+  subtitle:
+    - 2014/4/7
+  label:
+  meta:
+  description: 
+  link: 
+    - title: 捐助人會議記錄
+      url: https://ocf-tw.hackpad.com/MYzSdIkHe0X
+    - title: 董事籌備會紀錄
+      url: https://ocf-tw.hackpad.com/hX7x0JLv1sb
+  cover: 
+
