@@ -11,12 +11,14 @@ admin:
       url: /projects/2016/admin
       target: _self
   action:
-    - title: 單筆捐款
+    - title: 單次捐款
       url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=8
-      target: _blank
-    - title: 三百壯士方案
+      color: yellow
+      icon: dollar
+    - title: 長期認養：成為三百壯士
       url: /projects/2016/admin/300
-      target: _self
+      color: green
+      icon: dollar
   tag:
   type_id:
     - misc
@@ -46,11 +48,11 @@ intl:
   action:
     - title: 贊助專案
       url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=11&_ga=1.194098027.715222481.1473081200
-      color: orange
+      color: green
       icon: dollar
     - title: 申請學生方案
       url: https://ocftw.typeform.com/to/e9i57X
-      color: green
+      color: blue
       icon: hand paper
   tag:
     - 盤纏申請
@@ -98,8 +100,12 @@ movie:
   action:
     - title: 贊助專案
       url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=10
+      color: green
+      icon: dollar
     - title: 加入志工
       url: https://ocf.neticrm.tw/civicrm/profile/create?gid=23&reset=1
+      color: blue
+      icon: hand paper
   tag:
     - 電影
   type_id:
@@ -114,6 +120,51 @@ movie:
     - singing
   partner_id:
   coordinator_id:
+
+g0vdathon:
+  name: g0v 雙月定期大黑客松
+  name_en: G0V Hackathons
+  abbr: 
+  tagline: 
+  cover: /projects/2016/g0vdathon/og.png
+  description: g0v 零時政府發源地——固定雙月月底舉辦的 g0v 大黑客松，聚集了工程師、設計師、律師、學者、NGO 工作者、公務員... 一起動手改變世界，現場提供源源不絕的食物，讓大家盡情 hack、eat、hack！
+  month: x
+  link:
+    - title: 專案介紹
+      url: /projects/2016/g0vdathon
+      target: _self
+  action:
+    - title: 購買黑客松香油票
+      url: http://g0v-jothon.kktix.cc/events/g0v-dathon
+      color: green
+      icon: dollar
+    - title: 單次贊助
+      url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=23
+      color: teal
+      icon: dollar
+    - title: 長期認養：成為六百壯士
+      url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=18
+      color: blue
+      icon: dollar
+  tag:
+    - 定期活動
+  type_id:
+    - community
+  topic_id:
+    - data
+    - government
+    - source
+  field_id:
+    - legal
+    - it
+  board_id:
+    - clkao
+  staff_id:
+    - ttcat
+  partner_id:
+    - g0vjothon
+  coordinator_id:
+    - ipa
 
 sysprogram:
   name: 系統軟體走向國際
@@ -130,7 +181,7 @@ sysprogram:
   action:
     - title: 贊助專案
       url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=13&_ga=1.194098027.715222481.1473081200
-      color: orange
+      color: green
       icon: dollar
     - 如果你想捐贈我們正需要的教材、儀器設備，請與我們聯絡 ( hi@ocf.tw)。
   tag:
@@ -199,7 +250,7 @@ otspace:
   action:
     - title: 贊助專案
       url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=15&_ga=1.131472073.715222481.1473081200
-      color: orange
+      color: green
       icon: dollar
     - 如果你有全新或二手的工具設備想轉贈給社群空間共同使用，請與 OCF 聯絡 ( hi@ocf.tw )。
   tag:
@@ -287,8 +338,9 @@ g0vsummit:
   staff_id:
     - ttcat
   partner_id:
-    - g0vsummit
+    - g0v
   coordinator_id:
+    - yhsiang
 
 pycon:
   name: PyCon 台灣
