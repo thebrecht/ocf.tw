@@ -1,3 +1,15 @@
+- title: 自由時報：〈全球觀測站〉自造工坊 傳承銀髮族技藝
+  subtitle:
+    - 2016
+  cover: 
+  meta:
+  label:
+    - title: 媒體報導
+      color: 
+  description: 
+  link: 
+    - title: 新聞連結
+      url: http://news.ltn.com.tw/news/supplement/paper/963407
 - title: 赤皮仔藝術 maker自學課程
   subtitle:
     - 2016
@@ -32,7 +44,31 @@
   link: 
     - title: 敲敲打打再生派對
       url: http://www.lovelytaiwan.org.tw/web/news_detail.php?id=278
-- title: 
+- title: "Openlab Taipei: Connecting the Maker Community"
+  subtitle:
+    - 2015
+  cover: 
+  meta:
+  label:
+    - title: 媒體報導
+      color: 
+  description: 
+  link: 
+    - title: 專訪連結
+      url: https://medium.com/@yahsinhuangtw/openlab-taipei-connecting-the-maker-community-611ee54acd9c#.l6hc6g3s9
+- title: 數位時代：台灣 Maker 來了
+  subtitle:
+    - 2015
+  cover: 
+  meta:
+  label:
+    - title: 媒體報導
+      color: 
+  description: 
+  link: 
+    - title: 專訪連結
+      url: http://www.bnext.com.tw/article/view/id/36407
+- title: 108大眼仔、轉不停機器人
   subtitle:
     - 2015
   cover: 
@@ -42,9 +78,7 @@
       color: 
   description: 
   link: 
-    - title: 
-      url: 
-- title: 
+- title: Arduino Day
   subtitle:
     - 2015
   cover: 
@@ -54,9 +88,7 @@
       color: 
   description: 
   link: 
-    - title: 
-      url: 
-- title: 
+- title: IBM Watson Humix 分享
   subtitle:
     - 2015
   cover: 
@@ -66,9 +98,7 @@
       color: 
   description: 
   link: 
-    - title: 
-      url: 
-- title: 
+- title: 國美館展覽：蛋生音
   subtitle:
     - 2015
   cover: 
@@ -78,9 +108,7 @@
       color: 
   description: 
   link: 
-    - title: 
-      url: 
-- title: 
+- title: 3D列印媽媽展
   subtitle:
     - 2015
   cover: 
@@ -90,5 +118,97 @@
       color: 
   description: 
   link: 
-    - title: 
-      url: 
+    - title: 蘋果日報報導
+      url: http://www.appledaily.com.tw/realtimenews/article/new/20150924/698317/
+- title: Power Maker 搞飛機講座
+  subtitle:
+    - 2015
+  cover: 
+  meta:
+  label:
+    - title: 活動
+      color: 
+  description: 
+  link: 
+- title: 自造者國際論壇
+  subtitle:
+    - 2015
+  cover: 
+  meta:
+  label:
+    - title: 活動
+      color: 
+  description: 
+  link: 
+    - title: 自由時報報導
+      url: http://news.ltn.com.tw/news/life/breakingnews/1327634
+- title: 週二來一招
+  subtitle:
+    - 2015
+  cover: 
+  meta:
+  label:
+    - title: 活動
+      color: 
+  description: 
+  link: 
+    - title: 2015 回顧與展望
+      url: http://gogoprivateryan.blogspot.tw/2016/01/2015-ot-meetup.html
+- title: 科技報橘：自爽經濟學：當 Maker 只是好玩！—— 專訪 OpenLab.Taipei 共同創辦人鄭鴻旗
+  subtitle:
+    - 2014
+  cover: 
+  meta:
+  label:
+    - title: 媒體報導
+      color: 
+  description: 
+  link: 
+    - title: 專訪連結
+      url: http://buzzorange.com/techorange/2014/03/17/openlab-taipei-arduino/
+- title: MakerConf
+  subtitle:
+    - 2014
+  cover: 
+  meta:
+  label:
+    - title: 活動
+      color: 
+  description: 
+  link: 
+    - title: 自由軟體鑄造廠報導
+      url: http://www.openfoundry.org/tw/foss-news/9270-makerconf
+- title: 太陽花鋁罐燈
+  subtitle:
+    - 2014
+  cover: 
+  meta:
+  label:
+    - title: 活動
+      color: 
+  description: 
+  link: 
+    - title: 活動照片
+      url: https://hackpad-attachments.s3.amazonaws.com/hackpad.com_rNjkp2kzMVH_p.211398_1428569241633_1957724_10152031230381375_1740066020_o.jpg
+- title: 寫字機器人、Plotclock
+  subtitle:
+    - 2014
+  cover: 
+  meta:
+  label:
+    - title: 活動
+      color: 
+  description: 
+  link: 
+- title: TechNews： 2013 IDEAS SHOW展場報導─自造者社群創業專場
+  subtitle:
+    - 2013
+  cover: 
+  meta:
+  label:
+    - title: 媒體報導
+      color: 
+  description: 
+  link: 
+    - title: 新聞連結
+      url: http://technews.tw/2013/07/26/2013-ideas-show-3d-printing/#more-10796
