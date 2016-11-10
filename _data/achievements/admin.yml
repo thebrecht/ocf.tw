@@ -1,4 +1,3 @@
-
 "20161025":
   title: 拜會行政院數位政務委員唐鳳
   subtitle:
@@ -141,6 +140,14 @@ g0v20160618:
   contributor_id:
   donors:
 
+intl20160522:
+  project_id: intl
+  achievement_id: 20160522
+
+intl20160519:
+  project_id: intl
+  achievement_id: 20160519
+
 g0vsummit2016:
   project_id: g0vsummit
   year: 2016
@@ -167,6 +174,10 @@ g0vsummit2016:
   coordinator_id:
   contributor_id:
   donors:
+
+intl20160501:
+  project_id: intl
+  achievement_id: 20160501
 
 "20160429":
   title: 參與智慧財產局 TPP 與智慧財產權修法配套公聽會
@@ -420,6 +431,10 @@ g0v20160305:
   contributor_id:
   donors:
 
+intl20151209:
+  project_id: intl
+  achievement_id: 20151209
+
 jcconf2015:
   title: JCConf
   subtitle:
@@ -469,6 +484,14 @@ opensuse2015:
   coordinator_id:
   contributor_id:
   donors:
+
+intl20151130:
+  project_id: intl
+  achievement_id: 20151130
+
+intl20151127:
+  project_id: intl
+  achievement_id: 20151127
 
 "20151121":
   title: 開源獸拳 — 《四招六式》祕訣大公開
@@ -591,6 +614,10 @@ opensuse2015:
   contributor_id:
   donors:
 
+intl20151004:
+  project_id: intl
+  achievement_id: 20151004
+
 "20151002":
   title: 2015 國會改革與監督國際會議
   subtitle:
@@ -636,6 +663,14 @@ sotm2015:
   coordinator_id:
   contributor_id:
   donors:
+
+intl20150827:
+  project_id: intl
+  achievement_id: 20150827
+
+intl20150821:
+  project_id: intl
+  achievement_id: 20150821
 
 coscup2015:
   title: COSCUP 2015
@@ -739,6 +774,10 @@ sitconcamp201507:
   contributor_id:
   donors:
 
+intl20150614:
+  project_id: intl
+  achievement_id: 20150614
+
 pycon2015:
   title: PyCON APAC
   subtitle:
@@ -763,6 +802,10 @@ pycon2015:
   coordinator_id:
   contributor_id:
   donors:
+
+intl20150604:
+  project_id: intl
+  achievement_id: 20150604
 
 "20150525":
   title: 出席 著作權法修正草案第二稿公聽會
@@ -799,6 +842,10 @@ pycon2015:
   coordinator_id:
   contributor_id:
   donors:
+
+intl20150524:
+  project_id: intl
+  achievement_id: 20150524
 
 "20150523":
   title: 臺北市政府開放資料黑客松
@@ -872,6 +919,10 @@ pycon2015:
   coordinator_id:
   contributor_id:
   donors:
+
+intl20150319:
+  project_id: intl
+  achievement_id: 20150319
 
 "20150312":
   title: 董事會
@@ -969,6 +1020,10 @@ sitcon2015:
   coordinator_id:
   contributor_id:
   donors:
+
+intl20141212:
+  project_id: intl
+  achievement_id: 20141212
 
 "20141031":
   title: 董事會
