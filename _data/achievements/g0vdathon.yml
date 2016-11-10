@@ -1,4 +1,3 @@
-
 "20161015":
   title: g0v hackath21n | 台灣零時政府第貳拾壹次根留台灣黑客松
   subtitle:
@@ -63,7 +62,7 @@
 "20160618":
   title: g0v hackath19n | 台灣零時政府第拾玖次飛彈試射黑客松
   meta:
-  link: 
+  link:
     - title: 活動頁
       url: http://g0v-jothon.kktix.cc/events/g0v-hackath19n
     - title: 活動共筆集
@@ -74,7 +73,7 @@
       url: https://www.youtube.com/playlist?list=PLdwQWxpS513D4WE6U2hU7hRq9g_LdElFq
     - title: 影音記錄：成果報告
       url: https://www.youtube.com/playlist?list=PLdwQWxpS513DKvfCymlwLJGnohlnXBNUt
-  description: g0v Summit 2016 年會結束後，是不是有滿滿強烈挖坑、填坑的動力呢？不要錯過 6/18 週六，第拾玖次飛彈試射黑客松來吧！來提新專案、來做舊專案、來認識新朋友！
+  description: g0v Summit 2016 年會結束後，是不是有滿滿強烈挖坑、填坑的動力呢？不要錯過 6/18 週六，第拾玖次飛彈試射黑客松來吧！來提新專案、來做舊專案、來認識新朋友！
   year: 2016
   month: 6
   start: 6/18
@@ -94,7 +93,7 @@
 "20160305":
   title: g0v hackath18n | 台灣零時政府第拾捌次亞太營運黑客松
   meta:
-  link: 
+  link:
     - title: 活動頁
       url: http://g0v-jothon.kktix.cc/events/g0v-hackath18n
     - title: 活動共筆集
