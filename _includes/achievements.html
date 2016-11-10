@@ -1,6 +1,24 @@
 <div class="ui divided items">
 
-{% for item in achievements %}
+{% for achievement in achievements %}
+
+  {% if achievement[1].achievement_id %}
+  {% assign type = "meetup" %}
+  {% assign project_id = achievement[1].project_id | append: "" %}
+  {% assign achievement_id = achievement[1].achievement_id | append: "" %}
+  {% assign item = site.data.achievements[project_id][achievement_id] %}
+
+  {% elsif achievement[1].project_id %}
+  {% assign type = "project" %}
+  {% assign year = achievement[1].year | append: "" %}
+  {% assign project_id = achievement[1].project_id | append: "" %}
+  {% assign item = site.data.projects[year][project_id] %}
+
+  {% else %}
+  {% assign type = "meetup" %}
+  {% assign item = achievement[1] %}
+
+  {% endif %}
 
   <div class="item">
 
@@ -11,13 +29,19 @@
   {% endif %}
 
     <div class="content">
+  {% if item.name %}
+      <h3 class="ui header">{{ item.name }}
+  {% elsif item.title %}
       <h3 class="ui header">{{ item.title }}
+  {% endif %}
 
-      {% if item.subtitle %}
-        {% for subtitle in item.subtitle %}
+  {% if item.tagline %}
+        <span class="sub header">{{ item.tagline }}</span>
+  {% elsif item.subtitle %}
+    {% for subtitle in item.subtitle %}
         <span class="sub header">{{ subtitle }}</span>
-        {% endfor %}
-      {% endif %}
+    {% endfor %}
+  {% endif %}
 
       </h3>
 
@@ -33,14 +57,107 @@
       </div>
   {% endif %}
 
+  {% if item.start %}
+    <div class="meta">
+      {{ year }}/{{ item.start }}
+  {% if item.end and item.start != item.end %}
+      ~ {{ item.end }}
+  {% endif %}
+    </div>
+  {% endif %}
 
-  {% for meta in item.meta %}
-      <div class="meta">{{ meta }}</div>
-  {% endfor %}
+  {% if item.coordinator_id %}
+    <div class="meta">
+    {% for coordinator_id in item.coordinator_id %}
+    {% assign person = site.data.people.individuals[coordinator_id] %}
+      {{ person.name }} ({{ person.nick }})
+      {% if forloop.rindex > 1 %}
+      ,
+      {% endif %}
+    {% endfor %}
+    召集
+    </div>
+  {% endif %}
 
+  {% if item.contributor_id %}
+    <div class="meta">
+    {% for contributor_id in item.contributor_id %}
+    {% assign person = site.data.people.individuals[contributor_id] %}
+      {{ person.name }} ({{ person.nick }})
+      {% if forloop.rindex > 1 %}
+      ,
+      {% endif %}
+    {% endfor %}
+    共同參與
+    </div>
+  {% endif %}
+
+  {% if item.organizer_id %}
+    <div class="meta">
+    {% for organizer_id in item.organizer_id %}
+    {% assign organizer = site.data.people.orgs[organizer_id] %}
+      {{ organizer.name }} 
+      {% if forloop.rindex > 1 %}
+      ,
+      {% endif %}
+    {% endfor %}
+    主辦
+    </div>
+  {% endif %}
+
+  {% if item.co-organizer_id %}
+    <div class="meta">
+    {% for co-organizer_id in item.co-organizer_id %}
+    {% assign organizer = site.data.people.orgs[co-organizer_id] %}
+      {{ organizer.name }}
+      {% if forloop.rindex > 1 %}
+      ,
+      {% endif %}
+    {% endfor %}
+    協辦
+    </div>
+  {% endif %}
+
+  {% if item.implementer_id %}
+    <div class="meta">
+    {% for implementer_id in item.implementer_id %}
+    {% assign organizer = site.data.people.orgs[implementer_id] %}
+      {{ organizer.name }}
+      {% if forloop.rindex > 1 %}
+      ,
+      {% endif %}
+    {% endfor %}
+    承辦
+    </div>
+  {% endif %}
+
+  {% if item.sponsor_id %}
+    <div class="meta">
+    {% for sponsor_id in item.sponsor_id %}
+    {% assign organizer = site.data.people.orgs[sponsor_id] %}
+      {{ organizer.name }}
+      {% if forloop.rindex > 1 %}
+      ,
+      {% endif %}
+    {% endfor %}
+    贊助
+    </div>
+  {% endif %}
+
+  {% if type == "meetup" %}
+    {% for meta in item.meta %}
+    <div class="meta">
+      {{ meta }}
+    </div>
+    {% endfor %}
+  {% endif %}
+
+  {% if item.description %}
       <div class="description">
         <p>{{ item.description }}</p>
       </div>
+  {% endif %}
+
       <div class="extra">
 
   {% for link in item.link %}

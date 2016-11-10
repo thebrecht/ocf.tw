@@ -1,22 +1,7 @@
-hct:
-  name: 新竹物流
-  name_en: 
-  abbr: 
-  type: cooperation
-  description: 
-  logo: /people/sponsors/hct_logistics_logo.png
-  link:
-    - title: 官方網站
-      url: https://www.hct.com.tw
-
-rc:
-  name: 財團法人RC文化藝術基金會
-  name_en: 
-  abbr: 
-  type: non-profit
-  description: 
-  logo: /people/sponsors/rc_logo.png
-  link:
-    - title: 
-      url: 
-
+- coscup
+- pycon
+- osdc
+- g0v
+- netivism
+- mopcon
+- izero

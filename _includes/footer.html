@@ -6,8 +6,8 @@
         <h2 class="ui inverted small center aligned header">
           <img src="/img/logo.png" />
           <div class="content">
-            財團法人開放文化基金會
-            <div class="sub header">Open Culture Foundation
+            {{ site.data.people.orgs.ocf.name }}
+            <div class="sub header">{{ site.data.people.orgs.ocf.name_en }}
             </div>
           </div>
         </h2>
@@ -18,14 +18,14 @@
 
       <div class="column">
 
-        <p>2014 年，由多個台灣開源社群共同發起，在開放源碼、開放資料、開放政府等領域，提供社群支援、顧問諮詢、海外交流等服務。期待以法人組織的力量推廣開放文化，在產、官、學、民之間激起開放協作的火花。</p>
+        <p>{{ site.data.people.orgs.ocf.description }}</p>
         <p>
         </p>
         <div class="ui inverted list">
           <a class="item" href="http://ocf.tw/">
             <i class="globe icon"></i>
             <div class="content">
-          http://ocf.tw/
+            {{ site.data.people.orgs.ocf.link[0].url }}
             </div>
           </a>
           <a class="item">

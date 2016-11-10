@@ -2,14 +2,9 @@
 <img class="ui fluid image" src="{{ page.logo }}">
 <h2 class="ui center aligned small header">
 
-{% elsif project.partner_id %}
-{% assign partner = project.partner_id[0] %}
-<img class="ui fluid image" src="{{ site.data.people.partners[partner].logo }}">
-<h2 class="ui center aligned small header">
-
-{% elsif project.coordinator_id %}
-{% assign coordinator = project.coordinator_id[0] %}
-<img class="ui fluid image" src="{{ site.data.people.coordinators[coordinator].logo }}">
+{% elsif project.organizer_id %}
+{% assign organizer_id = project.organizer_id[0] %}
+<img class="ui fluid image" src="{{ site.data.people.orgs[organizer_id].logo }}">
 <h2 class="ui center aligned small header">
 
 {% else %}
@@ -21,40 +16,40 @@
   <span class="sub header">小檔案</span>
 </h2>
 
-<div class="ui celled list">
+<div class="ui divided list">
 
-  {% if project.partner_id %}
+  {% if project.organizer_id %}
   <div class="item">
     <span class="ui horizontal label">主辦</span>
-    {% for partner_id in project.partner_id %}
-      {% assign item = site.data.people.partners[partner_id] %}
+    {% for organizer_id in project.organizer_id %}
+      {% assign item = site.data.people.orgs[organizer_id] %}
       {{ item.name }} 
     {% endfor %}
   </div>
   {% endif %}
 
+  {% if project.coordinator_id %}
   <div class="item">
     <span class="ui horizontal label">召集人</span>
-  {% if project.coordinator_id %}
     {% for coordinator_id in project.coordinator_id %}
-      {% assign item = site.data.people.coordinators[coordinator_id] %}
+      {% assign item = site.data.people.individuals[coordinator_id] %}
       {{ item.name }} ({{ item.nick }}) 
+      {% if forloop.rindex > 1 %}
+      ,
+      {% endif %}
     {% endfor %}
-
-  {% else %}
-    {% for board_id in project.board_id %}
-      {% assign item = site.data.people.board[board_id] %}
-      {{ item.name }} ({{ item.nick }}) 
-    {% endfor %}
-  {% endif %}
   </div>
+  {% endif %}
 
   {% if project.staff_id %}
   <div class="item">
     <span class="ui horizontal label">工作夥伴</span>
     {% for staff_id in project.staff_id %}
-      {% assign item = site.data.people.staff[staff_id] %}
+      {% assign item = site.data.people.individuals[staff_id] %}
       {{ item.name }} ({{ item.nick }}) 
+      {% if forloop.rindex > 1 %}
+      ,
+      {% endif %}
     {% endfor %}
   </div>
   {% endif %}

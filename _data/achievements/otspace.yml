@@ -1,4 +1,6 @@
-- title: 自由時報：〈全球觀測站〉自造工坊 傳承銀髮族技藝
+
+"201604":
+  title: 自由時報：〈全球觀測站〉自造工坊 傳承銀髮族技藝
   subtitle:
   label:
     - title: 媒體報導
@@ -6,11 +8,25 @@
   meta:
     - 2016
   description: 
+  year: 201
+  month: 
+  start: 
+  end: 
   link: 
     - title: 新聞連結
       url: http://news.ltn.com.tw/news/supplement/paper/963407
+  cover:
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  contributor_id:
+  donors:
 
-- title: 赤皮仔藝術 maker自學課程
+"201603":
+  title: 赤皮仔藝術 maker自學課程
   subtitle:
   label:
     - title: 活動
@@ -18,9 +34,23 @@
   meta:
     - 2016
   description: 
+  year: 201
+  month: 
+  start: 
+  end: 
   link: 
+  cover:
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  contributor_id:
+  donors:
 
-- title: 劍人工作坊
+"201602":
+  title: 劍人工作坊
   subtitle:
   label:
     - title: 活動
@@ -28,11 +58,25 @@
   meta:
     - 2016
   description: 
+  year: 201
+  month: 
+  start: 
+  end: 
   link: 
     - title: 工作坊介紹
       url: http://taipeiartistvillage.tumblr.com/post/138539880813/%E5%B7%A5%E4%BD%9C%E5%9D%8A%E4%BB%8B%E7%B4%B9%E9%84%AD%E9%B4%BB%E6%97%97-openlabtaipei-%E5%8A%8D%E4%BA%BA%E5%85%89%E5%8A%8D%E5%B7%A5%E4%BD%9C%E5%9D%8A
+  cover:
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  contributor_id:
+  donors:
 
-- title: 再生藝術工坊合作活動
+"201601":
+  title: 再生藝術工坊合作活動
   subtitle:
   label:
     - title: 活動
@@ -40,11 +84,25 @@
   meta:
     - 2016
   description: 
+  year: 201
+  month: 
+  start: 
+  end: 
   link: 
     - title: 敲敲打打再生派對
       url: http://www.lovelytaiwan.org.tw/web/news_detail.php?id=278
+  cover:
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  contributor_id:
+  donors:
 
-- title: "Openlab Taipei: Connecting the Maker Community"
+"201510":
+  title: "Openlab Taipei: Connecting the Maker Community"
   subtitle:
   label:
     - title: 媒體報導
@@ -52,11 +110,25 @@
   meta:
     - 2015
   description: 
+  year: 201
+  month: 
+  start: 
+  end: 
   link: 
     - title: 專訪連結
       url: https://medium.com/@yahsinhuangtw/openlab-taipei-connecting-the-maker-community-611ee54acd9c#.l6hc6g3s9
+  cover:
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  contributor_id:
+  donors:
 
-- title: 數位時代：台灣 Maker 來了
+"201509":
+  title: 數位時代：台灣 Maker 來了
   subtitle:
   label:
     - title: 媒體報導
@@ -64,11 +136,25 @@
   meta:
     - 2015
   description: 
+  year: 201
+  month: 
+  start: 
+  end: 
   link: 
     - title: 專訪連結
       url: http://www.bnext.com.tw/article/view/id/36407
+  cover:
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  contributor_id:
+  donors:
 
-- title: 108大眼仔、轉不停機器人
+"201508":
+  title: 108大眼仔、轉不停機器人
   subtitle:
   label:
     - title: 活動
@@ -76,9 +162,23 @@
   meta:
     - 2015
   description: 
+  year: 201
+  month: 
+  start: 
+  end: 
   link: 
+  cover:
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  contributor_id:
+  donors:
 
-- title: Arduino Day
+"201507":
+  title: Arduino Day
   subtitle:
   label:
     - title: 活動
@@ -86,9 +186,23 @@
   meta:
     - 2015
   description: 
+  year: 201
+  month: 
+  start: 
+  end: 
   link: 
+  cover:
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  contributor_id:
+  donors:
 
-- title: IBM Watson Humix 分享
+"201506":
+  title: IBM Watson Humix 分享
   subtitle:
   label:
     - title: 活動
@@ -96,9 +210,23 @@
   meta:
     - 2015
   description: 
+  year: 201
+  month: 
+  start: 
+  end: 
   link: 
+  cover:
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  contributor_id:
+  donors:
 
-- title: 國美館展覽：蛋生音
+"201505":
+  title: 國美館展覽：蛋生音
   subtitle:
   label:
     - title: 活動
@@ -106,9 +234,23 @@
   meta:
     - 2015
   description: 
+  year: 201
+  month: 
+  start: 
+  end: 
   link: 
+  cover:
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  contributor_id:
+  donors:
 
-- title: 3D列印媽媽展
+"201504":
+  title: 3D列印媽媽展
   subtitle:
   label:
     - title: 活動
@@ -116,11 +258,25 @@
   meta:
     - 2015
   description: 
+  year: 201
+  month: 
+  start: 
+  end: 
   link: 
     - title: 蘋果日報報導
       url: http://www.appledaily.com.tw/realtimenews/article/new/20150924/698317/
+  cover:
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  contributor_id:
+  donors:
 
-- title: Power Maker 搞飛機講座
+"201503":
+  title: Power Maker 搞飛機講座
   subtitle:
   label:
     - title: 活動
@@ -128,9 +284,23 @@
   meta:
     - 2015
   description: 
+  year: 201
+  month: 
+  start: 
+  end: 
   link: 
+  cover:
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  contributor_id:
+  donors:
 
-- title: 自造者國際論壇
+"201502":
+  title: 自造者國際論壇
   subtitle:
   label:
     - title: 活動
@@ -138,11 +308,25 @@
   meta:
     - 2015
   description: 
+  year: 201
+  month: 
+  start: 
+  end: 
   link: 
     - title: 自由時報報導
       url: http://news.ltn.com.tw/news/life/breakingnews/1327634
+  cover:
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  contributor_id:
+  donors:
 
-- title: 週二來一招
+"201501":
+  title: 週二來一招
   subtitle:
   label:
     - title: 活動
@@ -150,11 +334,25 @@
   meta:
     - 2015
   description: 
+  year: 201
+  month: 
+  start: 
+  end: 
   link: 
     - title: 2015 回顧與展望
       url: http://gogoprivateryan.blogspot.tw/2016/01/2015-ot-meetup.html
+  cover:
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  contributor_id:
+  donors:
 
-- title: 科技報橘：自爽經濟學：當 Maker 只是好玩！—— 專訪 OpenLab.Taipei 共同創辦人鄭鴻旗
+"201404":
+  title: 科技報橘：自爽經濟學：當 Maker 只是好玩！—— 專訪 OpenLab.Taipei 共同創辦人鄭鴻旗
   subtitle:
   label:
     - title: 媒體報導
@@ -162,11 +360,25 @@
   meta:
     - 2014
   description: 
+  year: 201
+  month: 
+  start: 
+  end: 
   link: 
     - title: 專訪連結
       url: http://buzzorange.com/techorange/2014/03/17/openlab-taipei-arduino/
+  cover:
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  contributor_id:
+  donors:
 
-- title: MakerConf
+"201403":
+  title: MakerConf
   subtitle:
   label:
     - title: 活動
@@ -174,11 +386,25 @@
   meta:
     - 2014
   description: 
+  year: 201
+  month: 
+  start: 
+  end: 
   link: 
     - title: 自由軟體鑄造廠報導
       url: http://www.openfoundry.org/tw/foss-news/9270-makerconf
+  cover:
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  contributor_id:
+  donors:
 
-- title: 太陽花鋁罐燈
+"201402":
+  title: 太陽花鋁罐燈
   subtitle:
   label:
     - title: 活動
@@ -186,11 +412,25 @@
   meta:
     - 2014
   description: 
+  year: 201
+  month: 
+  start: 
+  end: 
   link: 
     - title: 活動照片
       url: https://hackpad-attachments.s3.amazonaws.com/hackpad.com_rNjkp2kzMVH_p.211398_1428569241633_1957724_10152031230381375_1740066020_o.jpg
+  cover:
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  contributor_id:
+  donors:
 
-- title: 寫字機器人、Plotclock
+"201401":
+  title: 寫字機器人、Plotclock
   subtitle:
   label:
     - title: 活動
@@ -198,9 +438,23 @@
   meta:
     - 2014
   description: 
+  year: 201
+  month: 
+  start: 
+  end: 
   link: 
+  cover:
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  contributor_id:
+  donors:
 
-- title: TechNews： 2013 IDEAS SHOW展場報導─自造者社群創業專場
+"201301":
+  title: TechNews： 2013 IDEAS SHOW展場報導─自造者社群創業專場
   subtitle:
   label:
     - title: 媒體報導
@@ -208,6 +462,19 @@
   meta:
     - 2013
   description: 
+  year: 201
+  month: 
+  start: 
+  end: 
   link: 
     - title: 新聞連結
       url: http://technews.tw/2013/07/26/2013-ideas-show-3d-printing/#more-10796
+  cover:
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  contributor_id:
+  donors:

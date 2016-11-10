@@ -1,0 +1,340 @@
+clkao: 
+  name: 高嘉良
+  name_en: Chia-liang Kao
+  nick: clkao
+  role: 村長
+  position: 
+  description: clkao (Chia-liang Kao) has been an active open source software developer since 2000. He is best known for creating SVK, a distributed version control system based on Subversion. He co-founded the g0v.tw initiative in 2012. g0v.tw is an online community that advocates information transparency, focusing on developing tools for improving citizen participation.
+  avatar: /people/board/clkao.jpg
+  link:
+    - title: Unwire.pro 專訪
+      url: http://unwire.pro/2014/04/11/opendata_hktw/feature/
+    - title: TechTalk 專訪
+      url: http://www.techtalk.tw/2013/09/episode-21-g0v.html
+    - title: O'Reilly 專訪
+      url: http://www.oreillynet.com/pub/a/network/2005/09/20/painless-merging-with-svk.html
+  log: 
+    - date: 
+      action: 到職
+
+bobchao: 
+  name: 趙柏強
+  name_en: Bob Chao
+  nick: bobchao
+  role: King Bob
+  position: 
+  description: Bob Chao is the KKITX (part of KKBOX) project manager now, and he is best known as an active contributor in MozTW community and the chief coordinator of COSCUP.
+  avatar: /people/board/bobchao.jpg
+  link:
+    - title: OpenFoundry 專訪
+      url: http://www.openfoundry.org/tw/foss-news/8982-coscup2013-organizer-bobchao-interview
+    - title: 中國時報專訪
+      url: http://mepopedia.com/forum/read.php?148,1403
+  log: 
+    - date: 
+      action: 到職
+
+honki: 
+  name: 鄭鴻旗
+  name_en: 
+  nick: honki
+  role: 開源藝術家
+  position: 
+  description: honki 是台灣早期推廣 arduino 與三維印表機的先驅。他創立了 OpenLab Taipei 並致力提供一個給愛好新媒體藝術、數位藝術創作的同好互相交流的場域。
+  avatar: /people/board/honki.jpg
+  link:
+    - title: Tech Orange 專訪
+      url: http://techorange.com/2014/03/17/openlab-taipei-arduino/
+    - title: Make 國際中文版專訪
+      url: http://www.makezine.com.tw/openlab-taipei.html
+  log: 
+    - date: 
+      action: 到職
+
+jimyhuang: 
+  name: 黃雋
+  name_en: Jimmy Huang
+  nick: jimyhuang
+  role: 小黃狗的主人
+  position: 
+  description: 黃雋是網絡行動科技 (NETivism) 的共同創辦人。網絡行動科技是台灣社會企業的先驅之一， 並致力成為非營利組織的軍火庫，讓非營利組織有足夠的資源，在網路戰場上衝鋒陷陣。
+  avatar: /people/board/jimmy.jpg
+  link:
+    - title: 社企流專訪
+      url: http://www.seinsights.asia/story/250/11/1155
+    - title: iTHome 專訪
+      url: http://www.ithome.com.tw/tech/96945
+    - title: Cheers 專訪
+      url: http://m.cheers.com.tw/article/article.action?id=5043984
+  log: 
+    - date: 
+      action: 到職
+
+pofeng: 
+  name: 李柏鋒
+  name_en: Pofeng Lee
+  nick: pofeng
+  role: 宅醫
+  position: 
+  description: 李柏鋒是一位立志成為鋼鐵人，但一直被 ipa 叫做綠巨人的阿宅兒科醫師。他常在空閒時幫忙推廣開放源碼的相關活動，並設立了科斯高有限公司來幫忙 COSCUP, PyCON Taiwan, MOPCON 等會議處理金流問題，現在希望能協調科斯高與開放文化基金會共同推廣開放源碼與開放文化的相關活動。
+  avatar: /people/board/pofeng.jpg
+  link:
+    - title: WIRED 專訪
+      url: https://docs.google.com/viewer?a=v&pid=sites&srcid=cG9mZW5nLm9yZ3x3ZWJ8Z3g6NDYxZWIyZjI4ZjFmYzkxYg
+  log: 
+    - date: 
+      action: 到職
+
+lucien:
+  name: 林誠夏
+  name_en: Lucien Cheng-hsia Lin
+  nick: lucien
+  role: 法制顧問
+  position: 
+  description: 林誠夏（Lucien C.H. Lin），知識背景為科技法律，05-16 年間任職於中央研究院從事公眾授權模式的研究，近年的研究成果包括：擔任自由開源軟體法律參考書台灣專章的編撰作者，並協助各界參與者，釐清 Open Source、Open Data，以及 CC 授權等智慧財產權及公眾授權應用問題。目前已轉任民間事務所，及於開放文化基金會擔任法制顧問，撥付工作之餘的心力營建國內開源授權知識的分享網絡 (Open Source Legal Network, Taiwan)。
+  avatar: /people/consultants/lucien.jpg
+  link:
+    - title: 香港獨立媒體網 報導
+      url: http://www.inmediahk.net/node/g0v-1
+    - title: 數位時代專文
+      url: http://www.bnext.com.tw/column/view/id/39754
+    - title: 香港端傳媒專訪
+      url: https://lucien.hackpad.com/20160309--EEsd8UsJ84y
+    - title: iTHome CC4.0 專題訪問
+      url: http://www.ithome.com.tw/news/97922
+    - title: 個人部落格
+      url: http://lucien.cc/
+  log: 
+    - date: 
+      action: 到職
+
+singing: 
+  name: 李欣穎
+  name_en: Singing Li
+  nick: singing
+  role: 專業貓奴
+  position: 執行秘書
+  description: 一位專業的貓奴，喜好自由與分享的文化。2009年開始參與 COSCUP 與 MozTW 至今，擔任過 COSCUP, HITCON, MOPCON, OSDC..等技術社群研討會的志工。2015 加入 OCF，希望能與志同道合的朋友一起為開放文化貢獻心力。
+  avatar: /people/staff/singing.jpg
+  link:
+  log: 
+    - date: 
+      action: 到職
+
+rock: 
+  name: 洪華超
+  name_en: Rock
+  nick: rock
+  role: 墨菲斯
+  position: 
+  description: 曾任職於中央研究院自由軟體鑄造場 (Open Source Software Foundry)，國內唯一針對全台大專院校以上的學校進行自由軟體推廣的研究與推廣型計畫，專注於開源軟體概念推廣、開源社群協力有十年的歷史。ROCK 自 2009 年進入開放軟體社群的領域，秉持著對於開放文化的興趣和理念，自黑髮做到白髮，數年如一日不離不棄。
+  avatar: /people/staff/rock.jpg
+  link:
+  log: 
+    - date: 
+      action: 到職
+
+ttcat: 
+  name: 吳銘軒
+  name_en: 
+  nick: ttcat
+  role: 二當家
+  position: 
+  description: 阿端，前綠黨中執委，社運份子，參與多年廢核、性別與人權運動。專長為創意企劃、溝通設計與 PHP 程式設計。在 g0v 社群提供社運觀點與橫向聯繫。
+  avatar: /people/staff/ttcat.jpg
+  link:
+  log: 
+    - date: 
+      action: 到職
+
+mglee: 
+  name: 李梅君
+  name_en: mglee
+  nick: mglee
+  role: 田野研究員
+  position: 
+  description: 美國加州大學戴維斯分校人類學博士候選人。擅長觀察路人、挖掘八卦、寫寫廢文，在 g0v 當沒有人。關注公民科技、開放文化，為了做研究而潛入 OCF 擔任掃地僧。
+  avatar: /people/staff/mglee.jpg
+  link:
+  log: 
+    - date: 
+      action: 到職
+
+afi: 
+  name: 曾柏瑜
+  name_en: 
+  nick: afi
+  role: 
+  position: 
+  description: 
+  avatar: /people/staff/
+  link:
+  log: 
+    - date: 
+      action: 到職
+
+shiashia: 
+  name: 
+  name_en: 
+  role: 蝦委員長
+  position: 
+  description: 
+  avatar: http://ocf.tw/images/
+  link:
+  log: 
+    - date: 
+      action: 到職
+    - date: 
+      action: 離職
+
+muka:
+  name: 
+  name_en: Muka Wang
+  nick: muka
+  role: 設計神燈
+  description: 
+  avatar: /people/volunteers/muka.jpg
+  link: 
+  log: 
+    - date: 
+      action: 到職
+
+etblue:
+  name: 藍一婷
+  name_en: ET Blue
+  nick: etblue
+  role: 召喚獸
+  description: 遵循源碼大明神的旨意擔任 OCF 召喚獸，主要用途是做紀錄跟修網站。討厭社交，不受拘束，喜歡 g0v。每隔幾年就會改變人生目標，因此曾在醫療、視傳、企管、資訊等領域打工。最近立志成為前端工程師，不過失敗了，所以 fall back 成 UI 設計師。
+  avatar: /people/volunteers/etblue.jpg
+  link: 
+    - title: 中央社報導
+      url: http://www.epochtimes.com/b5/13/11/23/n4017905.htm
+    - title: 商業週刊報導
+      url: http://imgur.com/YXK7jp5
+    - title: NPOst 活動採訪
+      url: http://npost.tw/archives/19342
+    - title: 個人部落格
+      url: http://etblue.blogspot.tw/
+  log: 
+    - date: 
+      action: 到職
+
+ipa:
+  name: 瞿筱葳
+  name_en: 
+  nick: ipa
+  role: 開源文青
+  description: 文化工作者、紀錄片導演、報導者文化基金會董事、作家，也是 g0v 活躍參與者，也是憲餅廚房共同發起人。可以用關鍵字：社運、媒體、紀錄片找到她的蹤影。
+  avatar: /people/volunteers/ipa.jpg
+  link: 
+    - title: 園藝會線上誌報導
+      url: http://www.ncafroc.org.tw/mobile/news_content.asp?id=186&pid=150
+    - title: INSIDE 專訪
+      url: http://www.inside.com.tw/2014/04/24/g0v-hsiao-wei-chiu-interview
+    - title: 明日誌專訪
+      url: http://www.mottimes.com/cht/interview_detail.php?serial=42
+    - title: 個人部落格
+      url: http://ipaway.org/
+  log: 
+    - date: 
+      action: 到職
+
+poga:
+  name: 柏傑
+  name_en: Poga 
+  nick: poga
+  role: 全端刺客
+  description: Software Developer, storyteller, g0v participant.
+  avatar: /people/volunteers/poga.jpg
+  link: 
+    - title: 個人部落格
+      url: https://medium.com/@poga
+  log: 
+    - date: 
+      action: 到職
+
+yayared:
+  name: 洪千堉
+  name_en: 
+  nick: yayared
+  role: 開源小夥伴
+  description: Yaya，對什麼都很好奇的網頁設計師，熱愛思考，喜歡把想法與點子實作出來。因為想要讓網站可以讓手機上也好好用，而開始學 SASS 和 bootsrap；因為想在網頁上擺放 fancy 的動畫，而開始學著怎麼寫 js。因為不想每次要用 git 就麻煩工程師，而開始學怎麼用 command line 操作 git。對很多新玩意兒都有興趣，但東摸摸西摸摸最愛的還是設計。
+  avatar: /people/volunteers/yayared.png
+  link: 
+    - title: 個人部落格
+      url: http://yayared.tw
+  log: 
+    - date: 
+      action: 到職
+
+jserv:
+  name: 黃敬群
+  name_en: Jim Huang
+  nick: jserv
+  type: 
+  description: 
+  avatar: 
+  link: 
+
+mouse:
+  name: 郭杰穎
+  name_en: Mouse Kuo
+  nick: mousems
+  type: 
+  description: 
+  avatar: 
+  link: 
+
+au:
+  name: 唐鳳
+  name_en: Audrey Tang
+  nick: audreyt
+  type: 
+  description: 
+  avatar: 
+  link: 
+
+chiahua:
+  name: 呂家華
+  name_en: Chiahua Lu
+  nick: chiahua
+  type: 
+  description: 
+  avatar: 
+  link: 
+
+hcchien:
+  name: 簡信昌
+  name_en: HC Chien
+  nick: hcchien
+  type: 
+  description: 
+  avatar: 
+  link: 
+
+yhsiang:
+  name: 鄭遠祥
+  name_en: yhsiang
+  nick: yhsiang
+  type: 
+  description: 
+  avatar: 
+  link: 
+
+soidid:
+  name: 黃莉婷
+  name_en: Li-Ting Shirly Huang
+  nick: soidid
+  type: 
+  description: 
+  avatar: 
+  link: 
+
+aokman:
+  name: 奧克曼
+  name_en: 
+  nick: aokman
+  type: 
+  description: 
+  avatar: 
+  link: 

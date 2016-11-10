@@ -53,8 +53,8 @@ css: /assets/people.css
   <div class="ui stripe container">
     <h2 class="ui header">工作人員</h2>
     <div class="ui three stackable cards">
-      {% for person_hash in site.data.people.staff %}
-      {% assign person = person_hash[1] %}
+      {% for person_id in site.data.people.staff %}
+      {% assign person = site.data.people.individuals[person_id] %}
       <div class="card">
         <div class="avatar image">
           <img src="{{ person.avatar }}">
@@ -95,8 +95,8 @@ css: /assets/people.css
   <div class="ui stripe container">
     <h2 class="ui header">顧問</h2>
     <div class="ui three stackable cards">
-      {% for person_hash in site.data.people.consultants %}
-      {% assign person = person_hash[1] %}
+      {% for person_id in site.data.people.consultants %}
+      {% assign person = site.data.people.individuals[person_id] %}
       <div class="card">
         <div class="avatar image">
           <img src="{{ person.avatar }}">
@@ -137,8 +137,8 @@ css: /assets/people.css
   <div class="ui stripe container">
     <h2 class="ui header">校友</h2>
     <div class="ui three stackable cards">
-      {% for person_hash in site.data.people.alumni %}
-      {% assign person = person_hash[1] %}
+      {% for person_id in site.data.people.alumni %}
+      {% assign person = site.data.people.individuals[person_id] %}
       <div class="card">
         <div class="avatar image">
           <img src="{{ person.avatar }}">
@@ -179,8 +179,8 @@ css: /assets/people.css
   <div class="ui stripe container">
     <h2 class="ui header">熱血志工</h2>
     <div class="ui three stackable cards">
-      {% for person_hash in site.data.people.volunteers %}
-      {% assign person = person_hash[1] %}
+      {% for person_id in site.data.people.volunteers %}
+      {% assign person = site.data.people.individuals[person_id] %}
       <div class="card">
         <div class="avatar image">
           <img src="{{ person.avatar }}">
@@ -221,8 +221,8 @@ css: /assets/people.css
   <div class="ui stripe container">
     <h2 class="ui header">董事</h2>
     <div class="ui three stackable cards">
-      {% for person_hash in site.data.people.board %}
-      {% assign person = person_hash[1] %}
+      {% for person_id in site.data.people.board %}
+      {% assign person = site.data.people.individuals[person_id] %}
       <div class="card">
         <div class="avatar image">
           <img src="{{ person.avatar }}">
@@ -263,7 +263,8 @@ css: /assets/people.css
   <div class="ui stripe container">
     <h2 class="ui header">合作夥伴</h2>
     <div class="ui horizontal center aligned list">
-      {% for org in site.data.people.partners %}
+      {% for org_id in site.data.people.partners %}
+      {% assign org = site.data.people.orgs[org_id] %}
       <a class="item" target="_blank" href="{{ org.link[1].url }}">
         <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
       </a>
@@ -276,7 +277,8 @@ css: /assets/people.css
   <div class="ui stripe container">
     <h2 class="ui header">贊助夥伴</h2>
     <div class="ui horizontal center aligned list">
-      {% for org in site.data.people.sponsors %}
+      {% for org_id in site.data.people.sponsors %}
+      {% assign org = site.data.people.orgs[org_id] %}
       <a class="item" target="_blank" href="{{ org.link[1].url }}">
         <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
       </a>

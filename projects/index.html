@@ -118,18 +118,14 @@ js: /assets/projects.js
 
           <a class="item" target="{{ link.target }}" href="{{ link.url }}">
 
-    {% if link.target == "_blank" %}
-
+    {% if link.target != "_self" %}
             <i class="globe icon"></i>
-
     {% endif %}
 
             {{ link.title }}
 
     {% if link.target == "_self" %}
-
             <i class="right arrow icon"></i>
-
     {% endif %}
 
           </a>

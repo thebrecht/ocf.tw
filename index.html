@@ -6,6 +6,13 @@ og_description: 2014 年 6 月，多個台灣開源社群共同發起開放文�
 head: head-slick.html
 script: script-slick.html
 css: /assets/homepage.css
+partners: true
+sponsors: true
+donors: false
+ongoing:
+  - admin
+  - intl
+  - movie
 ---
 
 {% assign current = site.data.settings.current %}
@@ -241,43 +248,67 @@ css: /assets/homepage.css
   </div>
 </section>
 
+{% if page.partners %}
 <section id="partners" class="ui vertical segment">
   <div class="ui stripe container">
-    <h2 class="ui header">合作與贊助夥伴</h2>
+    <h2 class="ui header">合作夥伴</h2>
     <div class="ui horizontal center aligned list">
 
-{% for org in site.data.people.partners %}
+  {% for org_id in site.data.people.partners %}
+  {% assign org = site.data.people.orgs[org_id] %}
 
-      <a class="item" target="_blank" href="{{ org.link[1].url }}">
+      <a class="item" target="_blank" href="{{ org.link[0].url }}">
         <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
       </a>
 
-{% endfor %}
-{% for org in site.data.people.sponsors %}
+  {% endfor %}
 
-      <a class="item" target="_blank" href="{{ org.link[1].url }}">
-        <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
-      </a>
-
-{% endfor %}
-
-      <!--
-      <a class="item" target="_blank" href="">
-        <img class="logo" src="/people/partners/" alt="" />
-      </a>-->
     </div>
   </div>
 </section>
+{% endif %}
 
+{% if page.sponsors %}
+<section id="sponsors" class="ui vertical segment">
+  <div class="ui stripe container">
+    <h2 class="ui header">贊助夥伴</h2>
+    <div class="ui horizontal center aligned list">
+
+  {% for org_id in site.data.people.sponsors %}
+  {% assign org = site.data.people.orgs[org_id] %}
+      <a class="item" target="_blank" href="{{ org.link[0].url }}">
+        <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
+      </a>
+  {% endfor %}
+
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.donors %}
+<section id="donors" class="ui vertical segment">
+  <div class="ui stripe container">
+    <h2 class="ui header">捐助人</h2>
+    <div class="ui center aligned labels">
+
+  {% for donor in site.data.people.donors %}
+      <span class="ui label">{{ donor }}</span>
+  {% endfor %}
+
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.ongoing %}
 <section id="what_is_happening" class="ui vertical segment">
   <div class="ui stripe container">
     <h2 class="ui header">正在加速進行中</h2>
     <div class="ui three column stackable cards">
 
-{% for project_hash in site.data.projects[current] %}
-  {% assign project = project_hash[1] %}
-  {% if project.host_id[0] == "ocf" %}
-
+  {% for project_id in page.ongoing %}
+    {% assign project = site.data.projects[current][project_id] %}
       <div class="card">
         <div class="image">
           <img src="{{ project.cover }}">
@@ -290,24 +321,18 @@ css: /assets/homepage.css
         <div class="extra content">
 
     {% for link in project.link %}
-
           <a class="item" target="{{ link.target }}" href="{{ link.url }}">
             {{ link.title }}
             <i class="right arrow icon"></i>
           </a>
-
     {% endfor %}
 
         </div>
       </div>
-
-  {% endif %}
-{% endfor %}
+  {% endfor %}
 
     </div>
-
   </div>
-
   <div class="ui center aligned stripe container">
     <a class="ui button" href="/projects">
       瀏覽所有專案
@@ -315,6 +340,7 @@ css: /assets/homepage.css
     </a>
   </div>
 </section>
+{% endif %}
 
 <section id="ads" class="ui vertical segment">
   <div class="ui stripe container">

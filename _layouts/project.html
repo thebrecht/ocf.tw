@@ -54,6 +54,35 @@ layout: page
       </div>
       {% endif %}
 
+      {% if project.sponsor_id %}
+      <h2 class="ui dividing header">贊助單位</h2>
+      <div id="sponsors" class="ui horizontal center aligned list">
+
+        {% for org_id in project.sponsor_id %}
+        {% assign org = site.data.people.orgs[org_id] %}
+        <a class="item" target="_blank" href="{{ org.link[1].url }}">
+          {% if org.logo %}
+          <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
+          {% else %}
+          {{ org.name }}
+          {% endif %}
+        </a>
+        {% endfor %}
+
+      </div>
+      {% endif %}
+
+      {% if project.donors %}
+      <h2 class="ui dividing header">捐助人</h2>
+      <div id="donors" class="ui center aligned labels">
+
+        {% for donor in project.donors %}
+          <span class="ui label">{{ donor }}</span>
+        {% endfor %}
+
+      </div>
+      {% endif %}
+
       {{ content }}
 
     </div>

@@ -1,0 +1,355 @@
+ocf:
+  name: 財團法人開放文化基金會
+  name_en: Open Culture Foundation
+  abbr: OCF
+  type: non-profit
+  description: 2014 年，由多個台灣開源社群共同發起，在開放源碼、開放資料、開放政府等領域，提供社群支援、顧問諮詢、海外交流等服務。期待以法人組織的力量推廣開放文化，在產、官、學、民之間激起開放協作的火花。
+  logo: /mediakit/ocf-logo-512x512.jpg
+  link:
+    - title: 官方網站
+      url: http://ocf.tw/
+
+coscup:
+  name: COSCUP 開源人年會
+  name_en: Conference for Open Source Coders, Users and Promoters
+  abbr: COSCUP
+  type: community
+  description: COSCUP 希望藉由每一屆的年度會議，讓世界各地的 FLOSS 愛好者齊聚一堂，並邀請世界各地的專家上台分享經驗，想法與新的技術，來共同的激發國內外的愛好者更加踴躍投入 FLOSS 的開發與使用。
+  logo: /people/partners/coscup_logo.png
+  link:
+    - title: 官方網站
+      url: http://coscup.org/
+
+g0v:
+  name: g0v 零時政府
+  name_en: g0v
+  abbr: 
+  type: community
+  description: 
+  logo: /people/partners/g0v_logo.png
+  link:
+    - title: 官方網站
+      url: http://g0v.tw/
+
+g0vsummit:
+  name: g0v summit 零時政府高峰會
+  name_en: G0V Summit
+  abbr: 
+  type: community
+  description: g0v.tw 2012年底 g0v 社群運作逐漸成形，從那時起 g0v 零時政府社群便以數位世代的思維，以開源方式號召群眾參與著手開發新工具、新組織型態、新合作關係。經過多方共同努力，透過 g0v 的開放特性作為平台，與 NGO 和政府建立了多方互動，但需要更長遠的跨領域交流，為此籌辦 g0v.tw summit 零時政府高峰會，希望有更多深入的溝通與交流，與有志運用科技改變社會的各界共同參與，期待開放力量成為實際改變的動能。
+  logo: /people/partners/g0v_logo.png
+  link:
+    - title: 官方網站
+      url: http://summit.g0v.tw/
+
+g0vjothon:
+  name: g0v jothon 零時政府揪松團
+  name_en: g0v jothon
+  abbr: 
+  type: community
+  description: g0v 揪松團是舉辦大松的工作小組（task force），2012 年底開始舉辦雙月大松，由 clkao ipa 處理大松行政事務。2014 年後取名為「揪松團」，並於 2016 年增加人手，重啟社群基礎建設計畫，希望大黑客松之餘，線上線下跨界協作更為順暢。
+  logo: /people/partners/g0v_logo.png
+  link:
+    - title: 官方網站
+      url: http://hack.g0v.tw/
+
+pycon:
+  name: PyCON 台灣
+  name_en:
+  abbr: 
+  type: community
+  description: 
+  logo: /people/partners/pycontw_logo_2016.png
+  link:
+    - title: 官方網站
+      url: http://pycon.tw/
+
+osdc:
+  name: OSDC
+  name_en:
+  abbr: 
+  type: community
+  description: 
+  logo: /people/partners/osdc_logo.png
+  link:
+    - title:
+      url: 
+
+sitcon:
+  name: SITCON 學生計算機年會
+  name_en: Students’ Information Technology Conference
+  abbr: SITCON
+  type: community
+  description: 
+  logo: /people/partners/sitcon_logo.png
+  link:
+    - title: 官方網站
+      url: http://sitcon.org/
+
+jcconf:
+  name: Java Community Conference Taiwan
+  name_en:
+  abbr: JCConf
+  type: community
+  description: 
+  logo: /people/partners/jcconf_logo.png
+  link:
+    - title: 官方網站
+      url: http://jcconf.tw/
+
+sotm:
+  name: 台灣開放街圖研討會 SotM Taiwan
+  name_en:
+  abbr: 
+  type: community
+  description: 
+  logo: /people/partners/sotm_tw_logo.png
+  link:
+    - title: 官方網站
+      url: http://openstreetmap.tw/
+
+suse:
+  name: openSUSE Taiwan
+  name_en:
+  abbr: 
+  type: community
+  description: 
+  logo: /people/partners/opensuse_taiwan_cover.png
+  link:
+    - title: 官方網站
+      url: https://zh-tw.opensuse.org
+
+makerconf:
+  name: MakerConf
+  name_en:
+  abbr: 
+  type: community
+  description: 
+  logo: /people/partners/makerconf_logo.png
+  link:
+    - title: 官方網站
+      url: http://www.makerconf.tw/
+
+mopcon:
+  name: MOPCON 行動科技年會
+  name_en: Mobile / Open / Platform CONference
+  abbr: MOPCON
+  type: community
+  description: 堅持在濁水溪以南的行動科技研討會，每年十月份於台灣南部舉行，為目前大台北地區以外，規模最大的科技社群研討會。
+  logo: /people/partners/mopcon_logo.png
+  link:
+    - title: 官方網站
+      url: http://mopcon.org/
+
+steps:
+  name: 智新資通
+  name_en:
+  abbr: 
+  type: cooperation
+  description: 
+  logo: /people/partners/steps_logo.png
+  link:
+    - title: 官方網站
+      url: http://www.steps.com.tw/
+
+cctw:
+  name: 台灣創用 CC 計畫
+  name_en:
+  abbr: 
+  type: non-profit
+  description: 
+  logo: /people/partners/cctw_logo.png
+  link:
+    - title: 官方網站
+      url: http://creativecommons.tw/
+
+openlab:
+  name: OpenLab. Taipei 社群
+  name_en: OpenLab. Taipei
+  abbr: 
+  type: community
+  description: 
+  logo: /people/partners/openlab_logo.jpg
+  link:
+    - title: 臉書社團
+      url: https://www.facebook.com/groups/openlab.taipei/
+
+hadoop:
+  name: Hadoop.tw 社群
+  name_en: 
+  abbr: 
+  type: community
+  description: 
+  logo: /people/partners/hadoop_logo.jpg
+  link:
+    - title: 
+      url: 
+
+raspberrypi:
+  name: 台灣樹莓派
+  name_en: Raspberry Pi Taiwan
+  abbr: 
+  type: cooperation
+  description: 
+  logo: /people/partners/raspberrypi_logo_horizontal.png
+  link:
+    - title: 官方網站
+      url: https://www.raspberrypi.com.tw/
+    - title: 官方臉書粉絲頁
+      url: https://www.facebook.com/RaspberryPiTaiwan/
+
+hct:
+  name: 新竹物流
+  name_en: 
+  abbr: 
+  type: cooperation
+  description: 
+  logo: /people/sponsors/hct_logistics_logo.png
+  link:
+    - title: 官方網站
+      url: https://www.hct.com.tw
+
+rc:
+  name: 財團法人RC文化藝術基金會
+  name_en: 
+  abbr: 
+  type: non-profit
+  description: 
+  logo: /people/sponsors/rc_logo.png
+  link:
+    - title: 
+      url: 
+
+ncucc:
+  name: 中央大學電子計算機中心
+  name_en: National Central University Computer Center
+  abbr: NCUCC
+  type: cooperation
+  description: 
+  logo: 
+  link:
+    - title: 官方網站
+      url: http://www.cc.ncu.edu.tw/
+
+netivism:
+  name: 網絡行動科技有限公司
+  name_en: 
+  abbr: NETivism
+  type: cooperation
+  description: 「Netivism 」衍生自「網路（Net）」與「行動主義（Activism）」的結合，也是我們的自我期許和公司的營運宗旨。希望能運用網際網路/行動網路，激勵人們產生行動，帶來娛樂與商業行為之外的社會變革。
+  logo: /people/partners/netivism_logo.jpg
+  link:
+    - title: 官方網站
+      url: http://netivism.com.tw/
+
+izero:
+  name: 李明哲 (iZero)
+  name_en: iZero Lee
+  nick: izero
+  type: 
+  description: 
+  avatar: /people/sponsors/izero.jpg
+  link: 
+    - title: 個人臉書
+      url: https://www.facebook.com/izero
+
+ndc:
+  name: 國家發展委員會
+  name_en: National Development Council
+  abbr: NDC
+  type: government
+  description: 
+  logo: /people/partners/ndc_logo.png
+  link:
+    - title: 官方網站
+      url: http://www.ndc.gov.tw/
+
+ey:
+  name: 行政院
+  name_en: Executive Yuan
+  abbr: EY
+  type: government
+  description: 
+  logo: /people/partners/ey_logo.png
+  link:
+    - title: 官方網站
+      url: http://www.ey.gov.tw/
+
+asios:
+  name: 中央研究院社會科學研究所
+  name_en: Institute of Social Sciences of the Academia Sinica
+  abbr: IOS
+  type: government
+  description: 
+  logo: /people/partners/as_logo.png
+  link:
+    - title: 官方網站
+      url: http://www.ios.sinica.edu.tw/
+
+asiii:
+  name: 中央研究院資訊科學研究所
+  name_en: Institute of Information Science of the Academia Sinica
+  abbr: III
+  type: government
+  description: 
+  logo: /people/partners/as_logo.png
+  link:
+    - title: 官方網站
+      url: http://www.iis.sinica.edu.tw/
+
+bft:
+  name: 法國在台協會
+  name_en: French Office In Taipei
+  name_fr: Bureau Français de Taipei
+  abbr: 
+  type: non-profit
+  description: 
+  logo: /people/partners/bft_logo_square.jpg
+  link:
+    - title: 官方網站
+      url: http://www.france-taipei.org/
+
+tncomu:
+  name: 台南社區大學
+  name_en: Tainan Community University
+  abbr: tncomu
+  type: education
+  description: 
+  logo: /people/partners/tncomu_logo.jpg
+  link:
+    - title: 官方網站
+      url: http://tncomu.tw/
+
+5philo:
+  name: 哲學星期五
+  name_en: Cafe Philo
+  abbr: 5philo
+  type: cooperation
+  description: 
+  logo: /people/partners/5philo_logo.png
+  link:
+    - title: 官方網站
+      url: http://www.5philo.com/
+
+gss:
+  name: 叡揚資訊
+  name_en: Galaxy Software Services
+  abbr: GSS
+  type: cooperation
+  description: 
+  logo: /people/partners/gss_logo.jpg
+  link:
+    - title: 官方網站
+      url: http://www.gss.com.tw/
+
+sample:
+  name: 
+  name_en: 
+  abbr: 
+  type: cooperation
+  description: 
+  logo: 
+  link:
+    - title: 官方網站
+      url: 
+
