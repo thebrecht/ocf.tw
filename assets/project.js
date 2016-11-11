@@ -1,3 +1,0 @@
-$(function(){
-  $('.ui.sticky').sticky();
-});

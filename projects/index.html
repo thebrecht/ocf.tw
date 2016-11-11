@@ -18,7 +18,7 @@ js: /assets/projects.js
     專案與成果
   </h1>
 
-  <div id="submenu">
+  <div id="submenu" class="ui sticky">
 
     <nav data-context="desktop" class="ui pagination borderless menu">
 
@@ -83,7 +83,14 @@ js: /assets/projects.js
           <img src="{{ project.cover }}">
         </div>
         <div class="content">
-          <h3 class="header">{{ project.name }}</h3>
+          <h3 class="header">
+            <a href="{{ project.link[0].url }}"
+            {% if project.link[0].target != '_self' %}
+            target="_blank"
+            {% endif %}>
+            {{ project.name }}
+            </a>
+          </h3>
           <div class="meta ui horizontal labels">
 
   {% for id in project.type_id %}
@@ -116,7 +123,10 @@ js: /assets/projects.js
 
   {% for link in project.link %}
 
-          <a class="item" target="{{ link.target }}" href="{{ link.url }}">
+          <a class="item" href="{{ link.url }}"
+          {% if link.target != '_self' %}
+          target="_blank"
+          {% endif %}>
 
     {% if link.target != "_self" %}
             <i class="globe icon"></i>

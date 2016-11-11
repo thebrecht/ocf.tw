@@ -144,7 +144,7 @@ html.ios body {
 
 #submenu .ui.menu {
   margin-top: 1rem;
-  background-color: rgba(0,0,0,0.03);
+  background-color: rgba(240,240,240,0.8);
 }
 
 #submenu [data-context="mobile"] {
