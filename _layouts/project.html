@@ -10,8 +10,8 @@ layout: page
 <div id="project">
 
 <section id="hero" class="ui inverted {{ page.color }} center aligned basic segment marginless">
-  <img class="cover image" src="{{ project.cover }}" />
-  <div class="cover"></div>
+  <img class="cover image" src="{{ project.cover }}" style="opacity: {{ page.image_opacity }}" />
+  <div class="cover" style="opacity: {{ page.veil_opacity }}"></div>
   <hr class="ui hidden section divider" />
   <div class="ui stripe relative container">
     <h1 class="ui inverted header">
