@@ -52,7 +52,7 @@ css: /assets/people.css
 <section id="staff">
   <div class="ui stripe container">
     <h2 class="ui header">工作人員</h2>
-    <div class="ui three stackable cards">
+    <div class="ui three doubling stackable cards">
       {% for person_id in site.data.people.staff %}
       {% assign person = site.data.people.individuals[person_id] %}
       <div class="card">
@@ -94,7 +94,7 @@ css: /assets/people.css
 <section id="consultants">
   <div class="ui stripe container">
     <h2 class="ui header">顧問</h2>
-    <div class="ui three stackable cards">
+    <div class="ui three doubling stackable cards">
       {% for person_id in site.data.people.consultants %}
       {% assign person = site.data.people.individuals[person_id] %}
       <div class="card">
@@ -136,7 +136,7 @@ css: /assets/people.css
 <section id="alumni">
   <div class="ui stripe container">
     <h2 class="ui header">校友</h2>
-    <div class="ui three stackable cards">
+    <div class="ui three doubling stackable cards">
       {% for person_id in site.data.people.alumni %}
       {% assign person = site.data.people.individuals[person_id] %}
       <div class="card">
@@ -178,7 +178,7 @@ css: /assets/people.css
 <section id="volunteers">
   <div class="ui stripe container">
     <h2 class="ui header">熱血志工</h2>
-    <div class="ui three stackable cards">
+    <div class="ui three doubling stackable cards">
       {% for person_id in site.data.people.volunteers %}
       {% assign person = site.data.people.individuals[person_id] %}
       <div class="card">
@@ -220,7 +220,7 @@ css: /assets/people.css
 <section id="board">
   <div class="ui stripe container">
     <h2 class="ui header">董事</h2>
-    <div class="ui three stackable cards">
+    <div class="ui three doubling stackable cards">
       {% for person_id in site.data.people.board %}
       {% assign person = site.data.people.individuals[person_id] %}
       <div class="card">

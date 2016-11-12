@@ -31,7 +31,7 @@ og_image: /img/cover.png
         {% for news in site.data.news reversed %}
         {% assign year = news[0] %}
 
-        <h3 class="ui horizontal divider">{{ year }}</h3>
+        <h2 class="ui dividing header">{{ year }} 年</h2>
         <div class="ui divided items">
 
           {% for item in news[1] reversed %}
