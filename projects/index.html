@@ -1,7 +1,7 @@
 ---
 layout: page
-og_title: 專案總覽
-og_description: 
+og_title: 專案與成果
+og_description: OCF 平時都在做什麼呢？請看這個年度正在加速進行中的專案們、以及歷年的成果報告。
 og_image: /img/og.png
 css: /assets/projects.css
 js: /assets/projects.js
@@ -22,47 +22,39 @@ js: /assets/projects.js
 
     <nav data-context="desktop" class="ui pagination borderless menu">
 
-{% for filter in site.data.projects.filters %}
-
+      {% for filter in site.data.projects.filters %}
       <div class="ui dropdown item">
         <span data-content="{{ filter[0] }}">所有{{ filter[1].name }}</span>
         <i class="dropdown icon"></i>
         <div class="menu">
           <a class="item" data-{{ filter[0] }}="all">所有{{ filter[1].name }}</a>
 
-  {% for item in filter[1].items %}
-
+          {% for item in filter[1].items %}
           <a class="item" data-{{ filter[0] }}="{{ item[0] }}">{{ item[1] }}</a>
-
-  {% endfor %}
+          {% endfor %}
 
         </div>
       </div>
-
-{% endfor %}
+      {% endfor %}
 
     </nav>
 
     <nav data-context="mobile" class="ui one item menu">
 
-{% for filter in site.data.projects.filters %}
-
+      {% for filter in site.data.projects.filters %}
       <div class="ui dropdown item">
         <span data-content="{{ filter[0] }}">所有{{ filter[1].name }}</span>
         <i class="dropdown icon"></i>
         <div class="menu">
           <a class="item" data-{{ filter[0] }}="all">所有{{ filter[1].name }}</a>
 
-  {% for item in filter[1].items %}
-
+          {% for item in filter[1].items %}
           <a class="item" data-{{ filter[0] }}="{{ item[0] }}">{{ item[1] }}</a>
-
-  {% endfor %}
+          {% endfor %}
 
         </div>
       </div>
-
-{% endfor %}
+      {% endfor %}
 
     </nav>
 
@@ -75,10 +67,22 @@ js: /assets/projects.js
 <section id="current" class="ui stripe container">
     <div class="ui three stackable cards">
 
-{% for project_hash in site.data.projects[current] %}
-  {% assign project = project_hash[1] %}
+      {% for project_hash in site.data.projects[current] %}
+      {% assign project = project_hash[1] %}
 
-      <div class="card" data-type="{% for id in project.type_id %}{{ id }} {% endfor %}" data-topic="{% for id in project.topic_id %}{{ id }} {% endfor %}" data-field="{% for id in project.field_id %}{{ id }} {% endfor %}">
+      <div class="card" data-type="
+      {% for id in project.type_id %}
+      {{ id }}
+      {% endfor %}
+      " data-topic="
+      {% for id in project.topic_id %}
+      {{ id }}
+      {% endfor %}
+      " data-field="
+      {% for id in project.field_id %}
+      {{ id }}
+      {% endfor %}
+      ">
         <div class="image">
           <img src="{{ project.cover }}">
         </div>
@@ -87,33 +91,55 @@ js: /assets/projects.js
             <a href="{{ project.link[0].url }}"
             {% if project.link[0].target != '_self' %}
             target="_blank"
-            {% endif %}>
+            {% endif %}
+            >
             {{ project.name }}
             </a>
           </h3>
+
+          {% if project.organizer_id %}
+          <div class="meta">
+          {% for organizer_id in project.organizer_id %}
+            {{ site.data.people.orgs[organizer_id].name }}
+            {% if forloop.rindex > 1 %}
+            ,
+            {% endif %}
+          {% endfor %}
+          主辦
+          </div>
+          {% endif %}
+
+          {% if project.coordinator_id %}
+          <div class="meta">
+          {% for coordinator_id in project.coordinator_id %}
+            {{ site.data.people.individuals[coordinator_id].name }} ({{ site.data.people.individuals[coordinator_id].nick }})
+            {% if forloop.rindex > 1 %}
+            ,
+            {% endif %}
+          {% endfor %}
+          召集
+          </div>
+          {% endif %}
+
           <div class="meta ui horizontal labels">
 
-  {% for id in project.type_id %}
-    {% if id != "misc" %}
+            {% for id in project.type_id %}
+            {% if id != "misc" %}
+            <span class="ui label">{{ site.data.projects.filters.type.items[id] }}</span>
+            {% endif %}
+            {% endfor %}
 
-              <span class="ui label">{{ site.data.projects.filters.type.items[id] }}</span>
+            {% for id in project.topic_id %}
+            {% if id != "misc" %}
+            <span class="ui label">{{ site.data.projects.filters.topic.items[id] }}</span>
+            {% endif %}
+            {% endfor %}
 
-    {% endif %}
-  {% endfor %}
-  {% for id in project.topic_id %}
-    {% if id != "misc" %}
-
-              <span class="ui label">{{ site.data.projects.filters.topic.items[id] }}</span>
-
-    {% endif %}
-  {% endfor %}
-  {% for id in project.field_id %}
-    {% if id != "misc" %}
-
-              <span class="ui label">{{ site.data.projects.filters.field.items[id] }}</span>
-
-    {% endif %}
-  {% endfor %}
+            {% for id in project.field_id %}
+            {% if id != "misc" %}
+            <span class="ui label">{{ site.data.projects.filters.field.items[id] }}</span>
+            {% endif %}
+            {% endfor %}
 
           </div>
           <div class="description">{{ project.description }}
@@ -121,31 +147,29 @@ js: /assets/projects.js
         </div>
         <div class="extra content">
 
-  {% for link in project.link %}
-
+          {% for link in project.link %}
           <a class="item" href="{{ link.url }}"
           {% if link.target != '_self' %}
           target="_blank"
           {% endif %}>
 
-    {% if link.target != "_self" %}
+            {% if link.target != "_self" %}
             <i class="globe icon"></i>
-    {% endif %}
+            {% endif %}
 
             {{ link.title }}
 
-    {% if link.target == "_self" %}
+            {% if link.target == "_self" %}
             <i class="right arrow icon"></i>
-    {% endif %}
+            {% endif %}
 
           </a>
-
-  {% endfor %}
+          {% endfor %}
 
         </div>
       </div>
 
-{% endfor %}
+      {% endfor %}
 
     </div>
 
@@ -222,19 +246,6 @@ js: /assets/projects.js
       </div>
 
       <div class="card">
-        <a href="/donate/sysprog-incubation.html" target="_blank" class="image"><img src="../images/embedded-os.png"></a>
-        <div class="content">
-          <a href="/donate/sysprog-incubation.html" target="_blank" class="header">系統軟體走向國際<i class="right floated icon external square"></i></a>
-          <div class="meta">2015秋季/進階嵌入式系統開發與實作</div>
-          <div class="description">秉持「為納稅人而教」的使命，親身帶領學生投入開放原始碼專案的開發，希望能為學生徵求到課程用品，如：嵌入式硬體開發板、 最新的原文書籍、專題製作材料費補助，減少學習負擔，使學生能全心參與開源專案，累積實力迎戰未來的大舞台！</div>
-        </div>
-        <div class="ui bottom attached two stackable buttons">
-          <a href="https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=13" class="ui green button"><i class="icon money"></i>捐款贊助</a>
-          <a href="/donate/sysprog-incubation.html" class="ui yellow button"><i class="disk outline icon"></i>捐物贊助</a>
-        </div>
-      </div>
-
-      <div class="card">
         <a href="https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=16" target="_blank" class="image"><img src="../images/osmtw.png"></a>
         <div class="content">
           <a href="https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=16" target="_blank" class="header">OpenStreetMap Taiwan<i class="right floated icon external square"></i></a>
@@ -299,21 +310,6 @@ js: /assets/projects.js
           </div>
           <div class="ui bottom attached fluid buttons">
             <a href="https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=21" class="ui green button"><i class="icon money"></i>贊助專案</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <a href="http://ocf.tw/donate/otspace.html" target="_blank" class="image"><img src="../images/openlabtaipei.jpg"></a>
-          <div class="content">
-            <a href="http://ocf.tw/donate/otspace.html" target="_blank" class="header">OpenLab. Taipei 空間營運計劃<i class="right floated icon external square"></i></a>
-          <div class="meta">OpenLab. Taipei 社群</div>
-          <div class="description">
-             OpenLab. Taipei 是以開放程式碼和自由軟體為創作工具的藝術家聚集之地，本次與開放文化基金會合作線上募款活動，希望能延續空間未來的基本經營與維護費用。同時，也期待著有一天能住進更大的空間，擁有各式神奇的工具設備，共創更多 FLOSS + Art 的數位藝術。
-            </div>
-          </div>
-          <div class="ui bottom attached two fluid buttons">
-            <a href="http://ocf.tw/donate/otspace.html" class="ui green button"><i class="icon money"></i>贊助專案</a>
-            <a href="https://www.facebook.com/groups/openlab.taipei/?fref=ts" class="ui yellow button"><i class="icon pointing right"></i>加入社群</a>
           </div>
         </div>
 
