@@ -1,0 +1,19 @@
+card:
+  - id: staff
+    name: 工作人員
+  - id: consultants
+    name: 顧問
+  - id: alumni
+    name: 校友
+  - id: volunteers
+    name: 熱血志工
+  - id: board
+    name: 董事
+logo:
+  - id: partners
+    name: 合作夥伴
+  - id: sponsors
+    name: 贊助夥伴
+label:
+  - id: donors
+    name: 捐助人

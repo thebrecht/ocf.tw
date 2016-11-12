@@ -2,7 +2,7 @@
 layout: page
 og_title: 工作夥伴
 og_image: /img/cover.png
-og_description: 2014 年 6 月，多個台灣開源社群共同發起開放文化基金會（Open Culture Foundation，簡稱 OCF），以法人組織的力量推廣開放文化。除了支援民間社群舉辦活動外，也協助企業、政府、非營利及學術單位導入開放文化的知識及精神，期望在產、官、學之間激起開放協作的火花。
+og_description: 從 2014 到 2016 的短短兩年內，我們的工作人員從一位成長到五位，熱血的志工們以及合作或贊助夥伴們也不斷增加，很開心有這麼多高手來和我們一起並肩前進。有哪些開源開放之友呢？快來認識他們！
 css: /assets/people.css
 ---
 
@@ -18,14 +18,11 @@ css: /assets/people.css
   <div id="submenu" class="ui sticky">
 
     <nav data-context="desktop" class="ui pagination borderless menu">
-      <a class="item" href="#staff">工作人員</a>
-      <a class="item" href="#consultants">顧問</a>
-      <a class="item" href="#alumni">校友</a>
-      <a class="item" href="#volunteers">志工</a>
-      <a class="item" href="#board">董事</a>
-      <a class="item" href="#partners">合作夥伴</a>
-      <a class="item" href="#sponsors">贊助夥伴</a>
-      <a class="item" href="#donors">捐助人</a>
+      {% for type in site.data.people.settings %}
+      {% for item in type[1] %}
+      <a class="item" href="#{{ item.id }}">{{ item.name }}</a>
+      {% endfor %}
+      {% endfor %}
     </nav>
 
     <nav data-context="mobile" class="ui one item menu">
@@ -33,14 +30,11 @@ css: /assets/people.css
         <span data-content="current">跳至...</span>
         <i class="dropdown icon"></i>
         <div class="menu">
-          <a class="item" href="#staff">工作人員</a>
-          <a class="item" href="#consultants">顧問</a>
-          <a class="item" href="#alumni">校友</a>
-          <a class="item" href="#volunteers">志工</a>
-          <a class="item" href="#board">董事</a>
-          <a class="item" href="#partners">合作夥伴</a>
-          <a class="item" href="#sponsors">贊助夥伴</a>
-          <a class="item" href="#donors">捐助人</a>
+          {% for type in site.data.people.settings %}
+          {% for item in type[1] %}
+          <a class="item" href="#{{ item.id }}">{{ item.name }}</a>
+          {% endfor %}
+          {% endfor %}
         </div>
       </div>
     </nav>
@@ -49,32 +43,47 @@ css: /assets/people.css
 
 </div>
 
-<section id="staff">
+{% for item in site.data.people.settings.card %}
+<section id="{{ item.id }}">
   <div class="ui stripe container">
-    <h2 class="ui header">工作人員</h2>
+    <h2 class="ui header">{{ item.name }}</h2>
     <div class="ui three doubling stackable cards">
-      {% for person_id in site.data.people.staff %}
+      {% for person_id in site.data.people[item.id] %}
       {% assign person = site.data.people.individuals[person_id] %}
       <div class="card">
+
+        {% if person.avatar %}
         <div class="avatar image">
           <img src="{{ person.avatar }}">
         </div>
+        {% endif %}
+
         <div class="content">
+
+          {% if person.role %}
           <span class="ui pointing below horizontal label">
             {{ person.role }}
           </span>
+          {% endif %}
+
           <h3 class="header">{{ person.name }} 
             <span class="small">
-              ({{ person.name_en }})
+              ({{ person.nick }})
             </span>
           </h3>
+
+          {% if person.name_en %}
           <div class="meta">
-            <div>{{ person.id }}</div>
+            <div>{{ person.name_en }}</div>
           </div>
+          {% endif %}
+
           <div class="description">
             <p>{{ person.description }}</p>
           </div>
         </div>
+
+        {% if person.link %}
         <div class="extra content">
           <div class="ui link divided relaxed list">
           {% for link in person.link %}
@@ -85,185 +94,21 @@ css: /assets/people.css
           {% endfor %}
           </div>
         </div>
+        {% endif %}
+
       </div>
       {% endfor %}
     </div>
   </div>
 </section>
+{% endfor %}
 
-<section id="consultants">
+{% for item in site.data.people.settings.logo %}
+<section id="{{ item.id }}">
   <div class="ui stripe container">
-    <h2 class="ui header">顧問</h2>
-    <div class="ui three doubling stackable cards">
-      {% for person_id in site.data.people.consultants %}
-      {% assign person = site.data.people.individuals[person_id] %}
-      <div class="card">
-        <div class="avatar image">
-          <img src="{{ person.avatar }}">
-        </div>
-        <div class="content">
-          <span class="ui pointing below horizontal label">
-            {{ person.role }}
-          </span>
-          <h3 class="header">{{ person.name }} 
-            <span class="small">
-              ({{ person.name_en }})
-            </span>
-          </h3>
-          <div class="meta">
-            <div>{{ person.id }}</div>
-          </div>
-          <div class="description">
-            <p>{{ person.description }}</p>
-          </div>
-        </div>
-        <div class="extra content">
-          <div class="ui link divided relaxed list">
-            {% for link in person.link %}
-            <a class="item" target="_blank" href="{{ link.url }}">
-              <i class="icon globe"></i>
-              {{ link.title }}
-            </a>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<section id="alumni">
-  <div class="ui stripe container">
-    <h2 class="ui header">校友</h2>
-    <div class="ui three doubling stackable cards">
-      {% for person_id in site.data.people.alumni %}
-      {% assign person = site.data.people.individuals[person_id] %}
-      <div class="card">
-        <div class="avatar image">
-          <img src="{{ person.avatar }}">
-        </div>
-        <div class="content">
-          <span class="ui pointing below horizontal label">
-            {{ person.role }}
-          </span>
-          <h3 class="header">{{ person.name }} 
-            <span class="small">
-              ({{ person.name_en }})
-            </span>
-          </h3>
-          <div class="meta">
-            <div>{{ person.id }}</div>
-          </div>
-          <div class="description">
-            <p>{{ person.description }}</p>
-          </div>
-        </div>
-        <div class="extra content">
-          <div class="ui link divided relaxed list">
-            {% for link in person.link %}
-            <a class="item" target="_blank" href="{{ link.url }}">
-              <i class="icon globe"></i>
-              {{ link.title }}
-            </a>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<section id="volunteers">
-  <div class="ui stripe container">
-    <h2 class="ui header">熱血志工</h2>
-    <div class="ui three doubling stackable cards">
-      {% for person_id in site.data.people.volunteers %}
-      {% assign person = site.data.people.individuals[person_id] %}
-      <div class="card">
-        <div class="avatar image">
-          <img src="{{ person.avatar }}">
-        </div>
-        <div class="content">
-          <span class="ui pointing below horizontal label">
-            {{ person.role }}
-          </span>
-          <h3 class="header">{{ person.name }} 
-            <span class="small">
-              ({{ person.name_en }})
-            </span>
-          </h3>
-          <div class="meta">
-            <div>{{ person.id }}</div>
-          </div>
-          <div class="description">
-            <p>{{ person.description }}</p>
-          </div>
-        </div>
-        <div class="extra content">
-          <div class="ui link divided relaxed list">
-            {% for link in person.link %}
-            <a class="item" target="_blank" href="{{ link.url }}">
-              <i class="icon globe"></i>
-              {{ link.title }}
-            </a>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<section id="board">
-  <div class="ui stripe container">
-    <h2 class="ui header">董事</h2>
-    <div class="ui three doubling stackable cards">
-      {% for person_id in site.data.people.board %}
-      {% assign person = site.data.people.individuals[person_id] %}
-      <div class="card">
-        <div class="avatar image">
-          <img src="{{ person.avatar }}">
-        </div>
-        <div class="content">
-          <span class="ui pointing below horizontal label">
-            {{ person.role }}
-          </span>
-          <h3 class="header">{{ person.name }} 
-            <span class="small">
-              ({{ person.name_en }})
-            </span>
-          </h3>
-          <div class="meta">
-            <div>{{ person.id }}</div>
-          </div>
-          <div class="description">
-            <p>{{ person.description }}</p>
-          </div>
-        </div>
-        <div class="extra content">
-          <div class="ui link divided relaxed list">
-            {% for link in person.link %}
-            <a class="item" target="_blank" href="{{ link.url }}">
-              <i class="icon globe"></i>
-              {{ link.title }}
-            </a>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<section id="partners">
-  <div class="ui stripe container">
-    <h2 class="ui header">合作夥伴</h2>
+    <h2 class="ui header">{{ item.name }}</h2>
     <div class="ui horizontal center aligned list">
-      {% for org_id in site.data.people.partners %}
+      {% for org_id in site.data.people[item.id] %}
       {% assign org = site.data.people.orgs[org_id] %}
       <a class="item" target="_blank" href="{{ org.link[1].url }}">
         <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
@@ -272,30 +117,19 @@ css: /assets/people.css
     </div>
   </div>
 </section>
+{% endfor %}
 
-<section id="sponsors">
+{% for item in site.data.people.settings.label %}
+<section id="{{ item.id }}">
   <div class="ui stripe container">
-    <h2 class="ui header">贊助夥伴</h2>
-    <div class="ui horizontal center aligned list">
-      {% for org_id in site.data.people.sponsors %}
-      {% assign org = site.data.people.orgs[org_id] %}
-      <a class="item" target="_blank" href="{{ org.link[1].url }}">
-        <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
-      </a>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<section id="donors">
-  <div class="ui stripe container">
-    <h2 class="ui header">捐助人</h2>
+    <h2 class="ui header">{{ item.name }}</h2>
     <div class="ui center aligned labels">
-      {% for person in site.data.people.donors %}
+      {% for person in site.data.people[item.id] %}
       <span class="ui label">{{ person }}</span>
       {% endfor %}
     </div>
   </div>
 </section>
+{% endfor %}
 
 </div>
