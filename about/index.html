@@ -1,0 +1,81 @@
+---
+layout: page
+og_title: 關於我們
+og_description: 你我的每天生活，背後其實都有看不見的一隻手？開放文化二十年秘辛大爆卦，真相讓十三億人都驚呆了！
+og_image: /img/cover.png
+toc:
+  what_is_ocf: 什麼是開放文化基金會？
+  what_is_open_culture: 什麼是開放文化？跟我有什麼關係？
+  how_is_open_culture_in_taiwan: 台灣的開放文化發展得如何？
+  how_and_why_we_start: 為什麼會成立 OCF？怎麼開始的？
+  what_we_good_at_and_care_about: OCF 擅長什麼？有特別關心的議題嗎？
+  how_we_work: OCF 用什麼方式推廣上述的議題？
+  what_we_have_done: 目前有取得哪些進展？
+  how_we_survive: OCF 怎麼養活自己？
+  contact_us: OCF 的聯絡方式
+  in_the_news: 新聞集錦
+---
+
+<div id="about">
+
+<div class="ui center aligned stripe container">
+  <h1 class="ui icon header">
+    <i class="circular fire icon"></i>
+    關於我們
+  </h1>
+  <p>(sample slogan) 開源協作改造社會！</p>
+
+  <nav id="submenu" data-context="mobile" class="ui sticky one item menu">
+    <div class="ui dropdown item">
+      <span data-content="current">跳至...</span>
+      <i class="dropdown icon"></i>
+      <div class="menu">
+
+        {% for article in page.toc %}
+        <a href="#{{ article[0] }}" class="item">{{ article[1] }}</a>
+        {% endfor %}
+
+      </div>
+    </div>
+  </nav>
+
+</div>
+
+<hr class="ui hidden divider" />
+
+<div class="ui stripe container">
+  <div class="ui two column stackable grid">
+
+    <div id="toc" data-context="desktop" class="six wide column">
+      <nav class="ui secondary sticky vertical pointing fluid menu">
+
+        {% for article in page.toc %}
+        <a href="#{{ article[0] }}" class="item">{{ article[1] }}</a>
+        {% endfor %}
+
+      </nav>
+    </div>
+
+    <div class="ten wide column">
+
+      {% for article in page.toc %}
+      {% assign id = article[0] %}
+
+      <h2 id="{{ article[0] }}" class="ui dividing header">{{ article[1] }}</h2>
+
+      {% markdown /about/{{ id }}.md %}
+
+      {% endfor %}
+
+    </div>
+
+  </div>
+</div>
+
+<section id="ads" class="ui vertical segment">
+  <div class="ui stripe container">
+    {% include cta.html %}
+  </div>
+</section>
+
+</div>

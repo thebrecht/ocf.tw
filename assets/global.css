@@ -147,21 +147,21 @@ html.ios body {
   background-color: rgba(240,240,240,0.8);
 }
 
-#submenu [data-context="mobile"] {
+#submenu [data-context="mobile"], #submenu[data-context="mobile"] {
   display: none;
 }
 
-#submenu [data-context="mobile"] .menu .item {
+#submenu [data-context="mobile"] .menu .item, #submenu[data-context="mobile"] .menu .item {
   text-align: center;
 }
 
 @media only screen and (max-width: 767px) {
 
-#submenu [data-context="desktop"] {
+#submenu [data-context="desktop"], #toc[data-context="desktop"] {
   display: none;
 }
 
-#submenu [data-context="mobile"] {
+#submenu [data-context="mobile"], #submenu[data-context="mobile"] {
   display: block;
 }
 
@@ -178,6 +178,10 @@ html.ios body {
 h2.ui.header {
   display: block;
   text-align: center;
+}
+
+#about h2.ui.header {
+  text-align: left;
 }
 
 }
@@ -212,5 +216,27 @@ h2.ui.header {
 #partners .logo, #sponsors .logo {
   width: auto;
   height: 5rem;
+}
+
+/* for youtube videos */
+
+.video_container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 0;
+  height: 0;
+}
+
+.video_container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
 }
 
