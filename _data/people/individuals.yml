@@ -167,7 +167,7 @@ afi:
   role: 
   position: 
   description: 
-  avatar: /people/staff/
+  avatar: 
   link:
   log: 
     - date: 
@@ -179,7 +179,7 @@ shiashia:
   role: 蝦委員長
   position: 
   description: 
-  avatar: http://ocf.tw/images/
+  avatar: 
   link:
   log: 
     - date: 

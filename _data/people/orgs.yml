@@ -342,6 +342,17 @@ gss:
     - title: 官方網站
       url: http://www.gss.com.tw/
 
+moztw:
+  name: 摩茲工寮
+  name_en: 
+  abbr: 
+  type: community
+  description: 
+  logo: 
+  link:
+    - title: 官方網站
+      url: 
+
 sample:
   name: 
   name_en: 
