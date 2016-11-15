@@ -1,22 +1,22 @@
 <div class="ui divided items">
 
-{% for achievement in achievements %}
+{% for event in events %}
 
-  {% if achievement[1].achievement_id %}
+  {% assign year = event.year | append: "" %}
+
+  {% if event.event_id %}
   {% assign type = "meetup" %}
-  {% assign project_id = achievement[1].project_id | append: "" %}
-  {% assign achievement_id = achievement[1].achievement_id | append: "" %}
-  {% assign item = site.data.achievements[project_id][achievement_id] %}
+  {% assign event_id = event.event_id %}
+  {% assign item = site.data.events[year][event_id] %}
 
-  {% elsif achievement[1].project_id %}
+  {% elsif event.project_id %}
   {% assign type = "project" %}
-  {% assign year = achievement[1].year | append: "" %}
-  {% assign project_id = achievement[1].project_id | append: "" %}
+  {% assign project_id = event.project_id %}
   {% assign item = site.data.projects[year][project_id] %}
 
   {% else %}
   {% assign type = "meetup" %}
-  {% assign item = achievement[1] %}
+  {% assign item = event %}
 
   {% endif %}
 

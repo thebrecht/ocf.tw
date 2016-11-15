@@ -1,0 +1,29 @@
+mmdd:
+  title: 
+  subtitle:
+  label:
+    - title:
+      color:
+  meta:
+    - 
+  description: 
+  month: m
+  start: m/dd
+  end: 
+  link:
+    - title: 
+      url: 
+    - title: 
+      url: 
+      target: _self
+  cover: 
+  project_id:
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  speaker_id:
+  coordinator_id:
+  contributor_id:
+  donors:

@@ -1,0 +1,36 @@
+id:
+  name: 
+  name_en: 
+  abbr: 
+  tagline: 
+  cover: 
+  description: 
+  month: m
+  start: m/dd
+  end: 
+  link:
+    - title: 
+      url: 
+    - title: 
+      url: 
+      target: _self
+  action:
+    - title: 
+      url: 
+      color: 
+      icon: 
+  tag:
+  type_id:
+  topic_id:
+  field_id:
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  board_id:
+  staff_id: 
+  consultant_id:
+  volunteer_id:
+  coordinator_id:
+  donors:

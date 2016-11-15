@@ -5,7 +5,7 @@ layout: page
 {% assign year = page.year | append: "" %}
 {% assign id = page.project_id | append: "" %}
 {% assign project = site.data.projects[year][id] %}
-{% assign achievements = site.data.achievements[id] %}
+{% assign events = site.data.events[id] %}
 
 <div id="project">
 
@@ -37,9 +37,9 @@ layout: page
 
       {% markdown {{ page.intro }} %}
 
-      {% if achievements %}
+      {% if events %}
       <h2 class="ui dividing header">計畫成果</h2>
-      {% include achievements.html %}
+      {% include events.html %}
       {% endif %}
 
       {% if page.budget %}

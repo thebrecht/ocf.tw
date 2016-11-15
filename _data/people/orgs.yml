@@ -108,7 +108,7 @@ sotm:
     - title: 官方網站
       url: http://openstreetmap.tw/
 
-suse:
+opensuse:
   name: openSUSE Taiwan
   name_en:
   abbr: 
@@ -353,14 +353,79 @@ moztw:
     - title: 官方網站
       url: 
 
-sample:
-  name: 
-  name_en: 
+sa:
+  name: Study Area 酷！學園
+  name_en: Study Area
   abbr: 
-  type: cooperation
+  type: community
   description: 
   logo: 
   link:
     - title: 官方網站
       url: 
 
+ntuecs:
+  name: 國立臺北教育大學資訊科學系
+  name_en: 
+  abbr: 
+  type: education
+  description: 
+  logo: 
+  link:
+    - title: 官方網站
+      url: http://www.cs.ntue.edu.tw/
+
+sju:
+  name: 聖約翰科技大學
+  name_en: St. John's University
+  abbr: 
+  type: education
+  description: 
+  logo: 
+  link:
+    - title: 官方網站
+      url: http://www.sju.edu.tw/
+
+doittp:
+  name: 台北市政府資訊局
+  name_en: 
+  abbr: 
+  type: 
+  description: 
+  logo: 
+  link:
+    - title: 官方網站
+      url: http://doit.gov.taipei/
+
+dsc:
+  name: 資料科學愛好者年會
+  name_en: 
+  abbr: 
+  type: 
+  description: 
+  logo: 
+  link:
+    - title: 官方網站
+      url: http://datasci.tw/
+
+coworking:
+  name: Coworking Taiwan 台灣共用工作空間交流協會
+
+worldbank:
+  name: 世界銀行
+
+idasg:
+  name: 新加坡通訊發展署
+  name_en: Infocomm Development Authority of Singapore
+
+datasciencesg:
+  name: Data Science SG
+
+datakindsg:
+  name: Datakind SG
+
+newsplexasia:
+  name:
+
+ossf:
+  name: 中研院資創中心 OSSF 自由軟體鑄造場

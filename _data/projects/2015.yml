@@ -6,6 +6,8 @@ dbootcamp:
   cover: /projects/2015/dbootcamp/og.png
   description: d|Bootcamp Taipei 由開放文化基金會與世界銀行共同主辦，邀請來自 Code4Africa、NPR、聯合國、南華早報的國際講者，分享全球新聞室所面臨的挑戰與創新。同時搭配國內多位具有跨領域經驗的技術講師，針對新聞工作者設計一系列入門但務實的課程，就算看到數字會頭痛、打開試算表會失去方向，你也有機會從無到有、動手完成一則完整的資料新聞。透過國際專家分享、密集實作訓練，讓新聞工作者快速學習資料新聞基礎技能。第一天的密集課程結束後，隔天直接到 g0v 零時政府黑客松提案挖坑填坑，保證精實！
   month: x
+  start:
+  end:
   link:
     - title: 官方網站
       url: http://dbootcamp.taipei/zh/
@@ -18,14 +20,18 @@ dbootcamp:
   field_id:
     - it
     - media
+  advisor_id:
+  organizer_id:
+    - ocf
+    - worldbank
+  co-organizer_id:
+  implementer_id:
   board_id:
     - pofeng
   staff_id: 
     - singing
-  partner_id:
-    - dbootcamp
-  host_id:
-    - ocf
+  consultant_id:
+  volunteer_id:
   coordinator_id:
     - clkao
 
@@ -36,7 +42,9 @@ jcconf:
   tagline: 
   cover: /projects/2015/jcconf/og.png
   description: Java Community Conference Taiwan 是由社群主辦的 Java 開發者年會，以提供更多機會讓開發人員之間能夠互相交流。分享內容的程度不論初階到進階，只要和 Java 程式語言、框架、JVM 及虛擬化相關技術、移動裝置、開發工具、開發流程...等等，任何你認為可以分享的主題都歡迎您的投稿，歡迎分享你的發現、研究或各種實際案例經驗給大家。 
-  month: x
+  month: 12
+  start: 12/4
+  end: 12/5
   link:
     - title: 官方網站
       url: http://jcconf.tw/2015/
@@ -49,29 +57,34 @@ jcconf:
     - source
   field_id:
     - it
+  advisor_id:
+  organizer_id:
+    - jcconf
+  co-organizer_id:
+    - ocf
+  implementer_id:
   board_id:
     - pofeng
   staff_id:
     - singing
-  partner_id:
-    - jcconf
-  host_id:
-    - ocf
+  consultant_id:
+  volunteer_id:
   coordinator_id:
     - clkao
 
 sotm:
-  name: SotM Taiwan 台灣開放街圖研討會
+  name: SotM Taiwan 台灣開放街圖研討會 2015
   name_en: SotM Taiwan
   abbr: SotM Taiwan
   tagline: 
   cover: /projects/2015/sotm/og.png
   description: 台灣開放街圖研討會(SotM Taiwan 2015)希望創造一個開放地理資訊與源碼的交流環境，期待對於地理空間資訊的技術發展、創新研發、和商業應用有深入淺出的討論與互動，讓以社群為主的地圖成為產官學界共同討論的目標，達到多方交流互視，進而協同合作。開放街圖研討會並著重於開放街圖平台的技術交流，可聚集許多空間地理資訊專業人員參與互動，不但可協助贊助商了解開放街圖平台之相關技術，且可協助贊助商與空間地理資訊開發之中高階人才接觸與交流，此外，也有助於贊助商推廣相關產品及服務，讓更多對於空間地理資訊開發者或使用者了解。
-  month: x
+  month: 9
+  start: 9/18
+  end: 9/19
   link:
     - title: 活動報名網站
       url: http://sotm2015.kktix.cc/
-      target: _blank
   tag:
   type_id:
     - community
@@ -79,29 +92,42 @@ sotm:
     - data
   field_id:
     - geo
+  advisor_id:
+  organizer_id:
+    - sotm
+    - ocf
+  co-organizer_id:
+  implementer_id:
   board_id:
     - pofeng
   staff_id: 
     - singing
-  partner_id:
-    - sotm
-  host_id:
-    - ocf
+  consultant_id:
+  volunteer_id:
   coordinator_id:
     - clkao
 
-project_id:
-  name: 
+opensuse:
+  name: openSUSE.Asia Summit 2015
   name_en: 
   abbr: 
   tagline: 
-  cover: /projects/2015/project_id/og.png
+  cover: 
   description: 
-  month: 
+  month: 12
+  start: 12/4
+  end: 12/6
   link:
-    - title: 官方網站
+    - title: 大會官方網站
+      url: https://events.opensuse.org/conference/summitasia15
+    - title: 
       url: 
-      target: _blank
+      target: _self
+  action:
+    - title: 
+      url: 
+      color: 
+      icon: 
   tag:
   type_id:
     - community
@@ -109,13 +135,162 @@ project_id:
     - source
   field_id:
     - it
+  advisor_id:
+  organizer_id:
+    - sa
+    - opensuse
+  co-organizer_id:
+    - ntuecs
+    - ocf
+  implementer_id:
+  sponsor_id:
   board_id:
-    - pofeng
+  staff_id: 
+  consultant_id:
+  volunteer_id:
+  coordinator_id:
+  donors:
+
+coscup:
+  name: COSCUP 開源人年會 2015
+  name_en: Conference for Open Source Coders, Users and Promoters
+  abbr: COSCUP 2015
+  tagline: 
+  cover: /projects/2015/coscup/og.png
+  description: 
+  month: 8
+  start: 8/15
+  end: 8/16
+  link:
+    - title: 官方網站
+      url: http://coscup.org/2015/
+  tag:
+    - 大型研討會
+    - 定期活動
+  type_id:
+    - community
+  topic_id:
+    - source
+  field_id:
+    - it
+  advisor_id:
+  organizer_id:
+    - coscup
+  co-organizer_id:
+    - ocf
+  implementer_id:
+  board_id:
+    - bobchao
   staff_id: 
     - singing
-  partner_id:
-    - project_id
-  host_id:
-    - ocf
+  consultant_id:
+  volunteer_id:
   coordinator_id:
-    - clkao
+
+sitconcamp:
+  name: SITCON 夏令營 2015
+  name_en: Students’ Information Technology Conference Camp
+  abbr: SITCON Camp 2015
+  tagline: 
+  cover: /projects/2015/sitcon/camp/og.png
+  description: 2015 年度，以「開源、創新、夥伴精神」為主軸，SITCON 夏令營將於聖約翰科技大學舉辦，延續新手村的概念，配合豐富的課程、座談會及社群闖關，讓學員在程式編寫管理、演算法思維、團隊合作等架構下學習；今年並將更進一步把故事和營隊整合，完整營造整體感，務求讓學員擁有截然不同的營隊體驗。
+  month: 7, 8
+  start: 7/20
+  end: 8/6
+  link:
+    - title: 官方網站
+      url: http://sitcon.camp/2015/
+  tag:
+  type_id:
+    - community
+  topic_id:
+    - source
+  field_id:
+    - it
+  advisor_id:
+  organizer_id:
+    - sitcon
+  co-organizer_id:
+    - sju
+    - ossf
+    - ocf
+  implementer_id:
+  board_id:
+    - pofeng
+  staff_id:
+    - singing
+  consultant_id:
+  volunteer_id:
+  coordinator_id:
+
+pycon:
+  name: PyCON APAC
+  name_en: PyCON APAC
+  abbr: PyCON APAC
+  tagline: 
+  cover: 
+  description: 
+  month: 6
+  start: 6/5
+  end: 6/7
+  link:
+    - title: 大會官方網站
+      url: https://tw.pycon.org/2015apac/zh/
+  action:
+    - title: 
+      url: 
+      color: 
+      icon: 
+  tag:
+  type_id:
+  topic_id:
+  field_id:
+  advisor_id:
+  organizer_id:
+    - pycon
+  co-organizer_id:
+    - ocf
+  implementer_id:
+  sponsor_id:
+  board_id:
+  staff_id: 
+  consultant_id:
+  volunteer_id:
+  coordinator_id:
+  donors:
+
+sitcon:
+  name: SITCON 學生計算機年會 2015
+  name_en: Students’ Information Technology Conference
+  abbr: SITCON 2015
+  tagline: 
+  cover: /projects/2015/sitcon/og.png
+  description: SITCON 學生計算機年會係一學生自發組成的研討會，秉持著以學生為主軸的核心價值，藉以凝聚與傳遞學生的力量。希望藉由提供一個經驗交流與資訊技術實務分享的平台，使已有成就者能夠傳承己身經驗，嶄露頭角者在激盪中獲得靈感與啟發，並同時讓初入茅廬者得以對資訊科學有更深入的了解；進而達到「學以致用、教學相長」的目標。
+  month: 3
+  start: 3/7
+  end: 
+  link:
+    - title: 官方網站
+      url: http://sitcon.org/2015/
+  tag:
+    - 大型研討會
+    - 定期活動
+  type_id:
+    - community
+  topic_id:
+    - source
+  field_id:
+    - it
+  advisor_id:
+  organizer_id:
+    - sitcon
+    - ocf
+  co-organizer_id:
+  implementer_id:
+  board_id:
+    - pofeng
+  staff_id:
+    - singing
+  consultant_id:
+  volunteer_id:
+  coordinator_id:

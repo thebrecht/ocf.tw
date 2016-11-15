@@ -1,0 +1,105 @@
+1212:
+  title: 跳躍吧！火燙燙的 g0v 美東松 功力灌頂！
+  subtitle:
+  label:
+    - title: 盤纏
+      color:
+    - title: 邀講
+      color:
+    - title: g0v 零時政府
+      color:
+  meta: 
+    - LY (yhsiang), 游知澔 (chihao) 主講
+    - 場地贊助：Coworking Taiwan 台灣共用工作空間交流協會
+  description: 
+  month: 12
+  start: 12/12
+  link: 
+    - title: 活動頁
+      url: http://ocftw.kktix.cc/events/1212ocf
+    - title: 影音紀錄
+      url: https://www.youtube.com/playlist?list=PLdwQWxpS513AwgH-wfEamTGP2dOAhKc-J
+  cover: /projects/2014/intl/g0vus1212.jpg
+  project_id:
+    - intl
+  advisor_id:
+  organizer_id:
+    - ocf
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+    - coworking
+  coordinator_id:
+    - shiashia
+  contributor_id:
+    - yhsiang
+    - chihao
+  donors:
+
+1031:
+  title: 董事會
+  month: 10
+  start: 10/31
+  link:
+    - title: 會議記錄
+      url: https://docs.google.com/document/d/1HekMPpwwlDK0VKqd_Rj8QfOyMVJ84h5scfj8U-4tkvY/edit?usp=sharing
+  project_id:
+    - admin
+
+0924:
+  title: Introduction to Apache Spark 演講
+  description: Apache Spark 出身在 UC Berkely AMPLab 實驗室，他是目前 Big Data 界最受歡迎的 Big Data Platform 。Apache Spark 最強大的地方是在於運算速度跟使用的簡易性。在 許多資料學習的使用案例上，他的 RDD cache 機制，比 Hadoop MapReduce 快 10 ~ 100 倍的時間，他支援的 DAG Engine 讓他可以輕易的寫出更多可能性的 Big Data 程式。並且Apache Spark 擁有彈性的 API，讓程式設計師可以直接使用 Python, Java , Scala 等熟悉的語言來寫 Big Data 程式。
+  month: 9
+  start: 9/24
+  link:
+    - title: 活動頁
+      url: http://ocftw.kktix.cc/events/0924spark
+    - title: 活動錄影
+      url: https://www.youtube.com/watch?v=HV5UecjI4hI&feature=youtu.be&list=PLuW7NCGvKlyVGjKlW9w8oxDiQFMaJ0JZN
+  project_id:
+    - admin
+  organizer_id:
+    - ossf
+    - ocf
+
+0806:
+  title: 董事會
+  month: 8
+  start: 8/6
+  link:
+    - title: 會議記錄
+      url: https://docs.google.com/document/d/1T0lR9Lcthqw1d2UOXBBEyOgDAA6b5JyGX-3p8aLcK8U/edit?usp=sharing
+  project_id:
+    - admin
+
+0610:
+  title: 工作會議
+  month: 6
+  start: 6/10
+  link:
+    - title: 會議記錄
+      url: https://ocf-tw.hackpad.com/610-OCF--px6TtlvptWv
+  project_id:
+    - admin
+
+0528:
+  title: 工作會議
+  month: 5
+  start: 5/28
+  link:
+    - title: 會議記錄
+      url: https://ocf-tw.hackpad.com/528-OCF--GXbbUNYBtuS
+  project_id:
+    - admin
+
+0407:
+  title: 籌備會議
+  month: 4
+  start: 4/7
+  link: 
+    - title: 捐助人會議記錄
+      url: https://ocf-tw.hackpad.com/MYzSdIkHe0X
+    - title: 董事籌備會紀錄
+      url: https://ocf-tw.hackpad.com/hX7x0JLv1sb
+  project_id:
+    - admin

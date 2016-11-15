@@ -1,0 +1,612 @@
+1212:
+  title: CONCOM X OCF 2015
+  subtitle:
+  label:
+  meta:
+    - 2015-12-12
+    - 開放文化基金會主辦
+  description: 
+  month: 
+  start: 
+  end: 
+  link: 
+    - title: 活動頁
+      url: http://ocftw.kktix.cc/events/concom2015
+    - title: 活動共筆集
+      url: http://beta.hackfoldr.org/concom2015
+    - title: 影音紀錄
+      url: https://www.youtube.com/playlist?list=PLFuYOsppHDrnsAEqOdBTJ5QXyXkq2I_Lj
+  cover: 
+  project_id:
+    - admin
+
+1209:
+  title: Loomio、審議、動民主
+  label:
+    - title: 邀講
+      color:
+    - title: Loomio 創辦人來台
+      color:
+  meta: 
+    - 2015/12/9
+    - Benjamin Knight, Richard Bartlett, 呂家華, ETBlue
+  description: 
+  month: 
+  start: 
+  end: 
+  link: 
+    - title: 活動頁
+      url: http://ocftw.kktix.cc/events/blulu
+    - title: 共筆
+      url: https://ocf-tw.hackpad.com/Loomio-l8fikCsKHiG
+    - title: 影音紀錄
+      url: https://www.youtube.com/playlist?list=PLFuYOsppHDrnsqfUhKAs9tFkqyCVIoaSy
+    - title: 活動照片
+      url: https://www.facebook.com/www.ocf.tw/posts/1657544684521461
+  cover: /projects/2015/intl/blulu1209.png
+  project_id:
+    - intl
+
+1130:
+  title: 工作坊：身份識別、隱私權與自由
+  subtitle:
+    - Workshop：Identity, Privacy and Freedom
+    - Seth Schoen 訪台系列
+  label:
+    - title: 邀講
+      color:
+    - title: 電子前鋒基金會 (EFF)
+      color:
+    - title: 中研院資訊所
+      color:
+    - title: 台灣人權促進會
+      color:
+  meta: 
+    - 2015/11/30
+    - Seth Schoen, 莊庭瑞, 唐鳳 (audreyt), 邱伊翎 (E-Ling Chiu), 何明諠
+    - "主辦單位: 中研院法律所、中研院資訊所、台灣人權促進會、開放文化基金會"
+  description: 
+  month: 
+  start: 
+  end: 
+  link: 
+    - title: 活動頁
+      url: http://ocftw.kktix.cc/events/ipf
+    - title: 影音紀錄
+      url: https://www.youtube.com/playlist?list=PLFuYOsppHDrlHvIPzWAWxPLqdxtuIJnqm
+  cover: /projects/2015/intl/ipf1130_og.png
+  project_id:
+    - intl
+
+1127:
+  title: 專家講座：資訊與人權的交會
+  subtitle:
+    - Seth Schoen 訪台系列
+  label:
+    - title: 邀講
+      color:
+    - title: 電子前鋒基金會 (EFF)
+      color:
+  meta: 
+    - 2015/11/27
+  description: 
+  month: 
+  start: 
+  end: 
+  link: 
+    - title: 活動頁
+      url: http://ocftw.kktix.cc/events/imhp
+  cover: /projects/2015/intl/ipf1130_og.png
+  project_id:
+    - intl
+
+1121:
+  title: 開源獸拳 — 《四招六式》祕訣大公開
+  subtitle:
+  label:
+  meta:
+    - 2015-11-21
+  description: 
+  month: 
+  start: 
+  end: 
+  link: 
+    - title: 活動頁
+      url: http://ocftw.kktix.cc/events/ocf-cc-1121
+    - title: 影音記錄
+      url: https://www.youtube.com/playlist?list=PLFuYOsppHDrliLgmxGQA50JE6BmiAWdBq
+  cover: 
+  project_id:
+    - admin
+
+1117:
+  title: 參與司法陽光網記者會
+  subtitle:
+  label:
+  meta:
+    - 2015-11-17 
+  description: 
+  month: 
+  start: 
+  end: 
+  link: 
+  cover: 
+  project_id:
+    - admin
+
+1115:
+  title: 創用 CC 好愛聚 2（CC Global Summit 分享）
+  subtitle:
+  label:
+  meta:
+    - 2015-11-15
+  description: 
+  month: 
+  start: 
+  end: 
+  link: 
+    - title: 活動頁
+      url: http://ocftw.kktix.cc/events/ccgs
+    - title: 活動共筆
+      url: https://cctw.hackpad.com/20151115
+    - title: 影音記錄
+      url: https://www.youtube.com/playlist?list=PLFuYOsppHDrmEvr7A-vgQGELCZsm2sKtJ
+  cover: 
+  project_id:
+    - admin
+
+1021:
+  title: OCF X CCTW：創用 CC 好愛聚
+  subtitle:
+  label:
+  meta:
+    - 2015-10-21
+  description: 
+  link:
+    - title: 活動頁
+      url: http://ocftw.kktix.cc/events/cccomm
+  cover: 
+  project_id:
+    - admin
+
+1007:
+  title: 嘉義大學資訊管理系專題演講「開源人生指南 - 如何不慎豐富人脈與經驗」
+  subtitle:
+  label:
+  meta:
+    - 2015-10-7
+    - 董事 趙柏強 主講
+  description: 
+  month: 
+  start: 
+  end: 
+  link: 
+    - title: 投影片
+      url: http://www.slideshare.net/bobchao/ss-54725827
+  cover: 
+  project_id:
+    - admin
+
+intl20151004:
+  project_id: intl
+  achievement_id: 20151004
+
+1004:
+  title: 新科技新民主
+  subtitle:
+    - New Technologies and New Democracy
+  label:
+    - title: 邀講
+      color:
+  meta: 
+    - 2015/10/4
+  description: 
+  month: 
+  start: 
+  end: 
+  link: 
+    - title: 活動頁
+      url: http://ocftw.kktix.cc/events/ntnd
+    - title: 影音紀錄
+      url: https://www.youtube.com/playlist?list=PLFuYOsppHDrnXBJdYpf4BoNfY-vhBoRYC
+    - title: 活動照片
+      url: http://bit.ly/ntnd-album
+  cover: /projects/2015/intl/ntnd1004.png
+  project_id:
+    - intl
+
+1002:
+  title: 2015 國會改革與監督國際會議
+  subtitle:
+  label:
+  meta:
+    - 2015-10-02~2015-10-03
+    - 主辦：公民監督國會聯盟。協辦：台灣環境資訊協會、國會調查兵團、開放文化基金會、割闌尾計劃、監票者聯盟
+  description: 
+  month: 
+  start: 
+  end: 
+  link: 
+  cover: 
+  project_id:
+    - admin
+
+0827:
+  title: 民主直接點？數位空間
+  subtitle:
+    - Democracy à la Carte? Digital spaces
+  label:
+    - title: 合作
+      color:
+    - title: 法國在台協會
+      color:
+  meta: 
+    - 2015/8/27
+    - Julien Antelin, 台北市政府資訊局  李維斌 局長
+    - 開放文化基金會、法國在台協會共同舉辦
+  description: 
+  month: 
+  start: 
+  end: 
+  link: 
+    - title: 活動頁
+      url: http://ocftw.kktix.cc/events/dalc
+    - title: 影音紀錄
+      url: https://www.youtube.com/playlist?list=PLFuYOsppHDrmLoqdOHON3dpRWsUNB8Png
+    - title: 活動共筆集
+      url: http://beta.hackfoldr.org/1VsRaGZpVYXxDwcQ2zPvt1YMLC8O0lNZop1lB6VtmCzs/https%253A%252F%252Fhackpad.com%252F2015824--ACmtQLJJt6p
+  cover: /projects/2015/intl/dalc0827.jpg
+  project_id:
+    - intl
+
+0821:
+  title: d|Bootcamp Taipei 資料新聞實戰營 
+  label:
+    - title: 合作
+      color:
+    - title: Code for Africa
+      color:
+    - title: 世銀集團
+      color:
+  meta: 
+    - 2015/8/21
+    - dBootcamp主辦
+    - "合作夥伴: g0v 零時政府、Code for Africa、台灣資料科學愛好者年會、開放文化基金會"
+  description: 
+  month: 
+  start: 
+  end: 
+  link: 
+    - title: 官方網站
+      url: http://dbootcamp.taipei/zh/
+  cover: /projects/2015/intl/dbootcamp0821.png
+  project_id:
+    - intl
+
+0803:
+  title: SITCON Camp 學生計算機年會夏令營 2015（第二梯次）
+  subtitle: SITCON Camp 2015
+  label:
+    - title:
+      color:
+  meta:
+    - 
+  description: 
+  month: 8
+  start: 8/3
+  end: 8/6
+  link:
+    - title: 活動頁
+      url: http://sitcon.kktix.cc/events/camp-2015-second-1
+  cover: /projects/2015/sitcon/camp/og.png
+  project_id:
+    - sitconcamp
+
+0720:
+  title: SITCON Camp 學生計算機年會夏令營 2015（第一梯次）
+  subtitle: SITCON Camp 2015
+  label:
+    - title:
+      color:
+  meta:
+    - 
+  description: 
+  month: 7
+  start: 7/20
+  end: 7/23
+  link:
+    - title: 活動頁
+      url: http://sitcon.kktix.cc/events/camp-2015-first-1
+  cover: /projects/2015/sitcon/camp/og.png
+  project_id:
+    - sitconcamp
+
+0703:
+  title: 「開放資料(Open Data)：機會、挑戰與發展策略」論壇
+  subtitle: 董事長 李柏鋒 主講：從開放源碼到開放資料
+  label:
+    - title:
+      color:
+  meta:
+    - 
+  description: 
+  month: 7
+  start: 7/3
+  end: 
+  link:
+    - title: 投影片
+      url: https://docs.google.com/presentation/d/1nVjLm4ABDBFuGk6Hv7yumLUtuleFkH9WHwphKfm9aaA/edit#slide=id.ga19855402_0_28
+  cover: 
+  project_id:
+    - admin
+  contributor_id:
+    - pofeng
+  donors:
+
+0614:
+  title: 公民參與大亂鬥
+  subtitle:
+    - State of Citizen Participation
+  label:
+    - title: 邀講
+      color:
+    - title: 美國國務院講者訪台
+      color:
+  meta: 
+    - 2015/6/14
+    - "共同主辦: 開放文化基金會, 美國在台協會, 國發會, 台灣微軟"
+  description: 
+  month: 
+  start: 
+  end: 
+  link: 
+    - title: 活動頁
+      url: http://ocftw.kktix.cc/events/socp
+    - title: 活動共筆
+      url: https://hackpad.com/96UmigzgUaQ
+    - title: 影音紀錄
+      url: https://www.youtube.com/playlist?list=PLFuYOsppHDrljeF9tUWJR9nrY2CfIqP0k
+    - title: 活動照片
+      url: https://www.facebook.com/media/set/?set=a.1601440363465227.1073741832.1502561953353069&type=3
+  cover: /projects/2015/intl/socp0614.jpg
+  project_id:
+    - intl
+
+0604:
+  title: Embedded Linux Conference（ELC）- Linux Foundation 會後分享
+  subtitle:
+    - 新竹場
+  label:
+    - title: 盤纏
+      color:
+  meta: 
+    - 2015/6/4
+    - Jeff Liaw / 廖健富 (National Cheng Kung University)
+    - 演講主題：Optimize uClinux for ARM Cortex-M4
+    - "開放文化基金會主辦, OSSF 協辦, skymier , VMFive 贊助"
+  description: 
+  month: 
+  start: 
+  end: 
+  link: 
+    - title: 活動頁
+      url: http://ocftw.kktix.cc/events/elc2015-hsz
+  cover: /projects/2015/elc/elc0524.jpg
+  project_id:
+    - intl
+
+0525:
+  title: 出席 著作權法修正草案第二稿公聽會
+  subtitle:
+  label:
+    - title:
+      color:
+  meta:
+    - 
+  description: 
+  month: 5
+  start: 5/25
+  end: 
+  link:
+    - title: 公聽會資訊
+      url: https://www.tipo.gov.tw/ct.asp?xItem=549150&ctNode=7127&mp=1
+    - title: 活動錄影
+      url: https://youtu.be/vR4wQc0Hpfc
+    - title: 智慧局報告投影片
+      url: https://drive.google.com/file/d/0B1uXLsanO-xAN3VsZ19xRTB1X2M/view?usp=sharing
+    - title: Lucien 第一次發言
+      url: https://youtu.be/vR4wQc0Hpfc?t=1h7m6s
+    - title: nchild 第一次發言
+      url: https://youtu.be/vR4wQc0Hpfc?t=2h17m5s
+    - title: pofeng 第一次發言
+      url: https://youtu.be/vR4wQc0Hpfc?t=2h47m30s
+    - title: nchild 第二次發言
+      url: https://youtu.be/vR4wQc0Hpfc?t=3h23m18s
+  cover: 
+  project_id:
+    - admin
+  contributor_id:
+    - lucien
+    - nchild
+    - pofeng
+  donors:
+
+0524:
+  title: Embedded Linux Conference（ELC）- Linux Foundation 會後分享
+  subtitle:
+    - 台北場
+  label:
+    - title: 盤纏
+      color:
+  meta: 
+    - 2015/5/24
+    - Jeff Liaw / 廖健富 (National Cheng Kung University)
+    - jserv, ggm, Peter Chang
+    - 演講主題：Optimize uClinux for ARM Cortex-M4
+    - "開放文化基金會主辦, OSSF 協辦, skymier , VMFive 贊助"
+  description: 
+  month: 
+  start: 
+  end: 
+  link: 
+    - title: 活動頁
+      url: http://ocftw.kktix.cc/events/elc2015
+  cover: /projects/2015/elc/elc0604.jpg
+  project_id:
+    - intl
+
+0523:
+  title: 臺北市政府開放資料黑客松
+  subtitle:
+  label:
+    - title:
+      color:
+  meta:
+    - 
+  description: 
+  month: 5
+  start: 5/23
+  end: 
+  link:
+    - title: 活動官方網站
+      url: http://hackathon.data.taipei/
+    - title: 
+      url: 
+      target: _self
+  cover: 
+  project_id:
+    - admin
+  advisor_id:
+  organizer_id:
+    - doittp
+    - netivism
+  co-organizer_id:
+    - ocf
+    - dsc
+    - g0vjothon
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  contributor_id:
+  donors:
+
+0514:
+  title: 出席 中央研究院 人文社會科學研究中心 健康統計區建置-專家會議
+  subtitle:
+  label:
+    - title:
+      color:
+  meta:
+    - 
+  description: 
+  month: 5
+  start: 5/14
+  end: 
+  link:
+    - title: 
+      url: 
+    - title: 
+      url: 
+      target: _self
+  cover: 
+  project_id:
+    - admin
+
+0420:
+  title: 出席 104 年「非營利組織資訊科技運用」座談會
+  subtitle: 董事 黃雋 主講：網路科技於社會倡議
+  label:
+    - title:
+      color:
+  meta:
+    - 
+  description: 
+  month: 4
+  start: 4/20
+  end: 
+  link:
+    - title: 活動資訊
+      url: http://apply.frontier.org.tw/2015/introduce.htm
+  cover: 
+  project_id:
+    - admin
+  contributor_id:
+    - jimyhuang
+  donors:
+
+0319:
+  title: 點燃開放資料之夜
+  subtitle:
+    - Ignite Open Data
+  label:
+    - title: 合作
+      color:
+    - title: 英國開放資料訪台
+      color:
+  meta: 
+    - 2015/3/19
+    - "開放文化基金會、英國在台辦事處 (原: 英國貿易文化辦事處)、經濟部工業局、COSCUP 開源人年會共同舉辦"
+  description: 
+  month: 
+  start: 
+  end: 
+  link: 
+    - title: 活動頁
+      url: http://ocftw.kktix.cc/events/ignite-od
+    - title: 投稿頁
+      url: http://ocftw.kktix.cc/events/ignite-od-cft
+    - title: 影音紀錄
+      url: https://www.youtube.com/playlist?list=PLFuYOsppHDrlzoWQ0G8Txt545FXEm6pBR
+    - title: 活動照片
+      url: https://www.facebook.com/media/set/?set=a.1568447143431216.1073741830.1502561953353069&type=3
+  cover: /projects/2015/intl/ignite0319.jpg
+  project_id:
+    - intl
+
+0312:
+  title: 董事會
+  subtitle:
+  label:
+    - title:
+      color:
+  meta:
+    - 
+  description: 
+  month: 3
+  start: 3/12
+  end: 
+  link:
+    - title: 會議記錄
+      url: https://drive.google.com/file/d/0B3LuzeRY0rWtM3ZsRGVCbTRKTVE/view?usp=sharing
+  cover: 
+  project_id:
+    - admin
+
+0207:
+  title: 烤山豬募款餐會
+  subtitle:
+  label:
+    - title:
+      color:
+  meta:
+    - 
+  description: 
+  month: 2
+  start: 2/7
+  end: 
+  link:
+    - title: 活動共筆
+      url: https://ocf-tw.hackpad.com/2015-02-07-Party--REAMH2Ulrbx
+  cover: 
+  project_id:
+    - admin
+
+0205:
+  title: 新境界文教基金會：地方政府 open data 策略建議 (草稿)
+  month: 2
+  start: 2/5
+  link: 
+    - title: 會議記錄
+      url: https://smartcity.hackpad.com/A.-Hackathon--VEDXba5WDu4
+  project_id:
+    - admin
