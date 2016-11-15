@@ -1,7 +1,7 @@
-id: 
-  name: 
+person_id: 
+  name: # required
   name_en: 
-  nick: 
+  nick: # required
   role: 
   position: 
   description: 
@@ -13,14 +13,14 @@ id:
     - date: 
       action: 
 
-id:
-  name: 
+org_id:
+  name: # required
   name_en: 
   abbr: 
   type: 
   description: 
   logo: 
   link:
-    - title: 官方網站
+    - title: 
       url: 
 

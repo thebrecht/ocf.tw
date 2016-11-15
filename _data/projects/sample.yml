@@ -1,20 +1,20 @@
 id:
-  name: 
+  name: # required
   name_en: 
   abbr: 
   tagline: 
   cover: 
   description: 
-  month: m
+  month: m # 在年度成果報告中要算做哪個月份
   start: m/dd
-  end: 
+  end: # 留空時視為跟 start 相同
   link:
     - title: 
       url: 
     - title: 
       url: 
-      target: _self
-  action:
+      target: _self # 沒特別標註 target 的都會以 _blank 打開
+  action: 
     - title: 
       url: 
       color: 

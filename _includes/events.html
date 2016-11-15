@@ -5,7 +5,7 @@
   {% assign year = event.year | append: "" %}
 
   {% if event.event_id %}
-  {% assign type = "meetup" %}
+  {% assign type = "event" %}
   {% assign event_id = event.event_id %}
   {% assign item = site.data.events[year][event_id] %}
 
@@ -15,8 +15,8 @@
   {% assign item = site.data.projects[year][project_id] %}
 
   {% else %}
-  {% assign type = "meetup" %}
-  {% assign item = event %}
+  {% assign type = "event" %}
+  {% assign item = event[1] %}
 
   {% endif %}
 
@@ -67,6 +67,32 @@
       </div>
       {% endif %}
 
+      {% if item.host_id %}
+      <div class="meta">
+        {% for host_id in item.host_id %}
+        {% assign person = site.data.people.individuals[host_id] %}
+        {{ person.name }} ({{ person.nick }})
+        {% if forloop.rindex > 1 %}
+        ,
+        {% endif %}
+        {% endfor %}
+      主持
+      </div>
+      {% endif %}
+
+      {% if item.speaker_id %}
+      <div class="meta">
+        {% for speaker_id in item.speaker_id %}
+        {% assign person = site.data.people.individuals[speaker_id] %}
+        {{ person.name }} ({{ person.nick }})
+        {% if forloop.rindex > 1 %}
+        ,
+        {% endif %}
+        {% endfor %}
+      主講
+      </div>
+      {% endif %}
+
       {% if item.coordinator_id %}
       <div class="meta">
         {% for coordinator_id in item.coordinator_id %}
@@ -90,6 +116,19 @@
         {% endif %}
         {% endfor %}
       共同參與
+      </div>
+      {% endif %}
+
+      {% if item.advisor_id %}
+      <div class="meta">
+        {% for advisor_id in item.advisor_id %}
+        {% assign advisor = site.data.people.orgs[advisor_id] %}
+        {{ advisor.name }} 
+        {% if forloop.rindex > 1 %}
+        ,
+        {% endif %}
+        {% endfor %}
+      指導
       </div>
       {% endif %}
 
@@ -145,7 +184,7 @@
       </div>
       {% endif %}
 
-      {% if type == "meetup" %}
+      {% if type == "event" %}
       {% for meta in item.meta %}
       <div class="meta">
         {{ meta }}

@@ -1,5 +1,5 @@
 mmdd:
-  title: 
+  title: # required
   subtitle:
   label:
     - title:
@@ -23,6 +23,7 @@ mmdd:
   co-organizer_id:
   implementer_id:
   sponsor_id:
+  host_id:
   speaker_id:
   coordinator_id:
   contributor_id:
