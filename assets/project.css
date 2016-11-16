@@ -29,6 +29,19 @@
   margin-top: 1rem;
 }
 
+#project #meta .list .item .ui.label {
+  width: 5em;
+  padding: 0.25em 0;
+  float: left;
+  background: none;
+  text-align: left;
+}
+
+#project #meta .list .item .text {
+  display: block;
+  margin-left: 5em;
+}
+
 #project iframe {
   width: 100%;
   height: 30rem;

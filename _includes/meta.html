@@ -19,21 +19,24 @@
   <span class="sub header">小檔案</span>
 </h2>
 
-<div class="ui divided list">
+<div class="ui divided relaxed list">
 
   {% if project.organizer_id %}
   <div class="item">
     <span class="ui horizontal label">主辦</span>
+    <span class="text">
     {% for organizer_id in project.organizer_id %}
       {% assign item = site.data.people.orgs[organizer_id] %}
       {{ item.name }} 
     {% endfor %}
+    </span>
   </div>
   {% endif %}
 
   {% if project.coordinator_id %}
   <div class="item">
     <span class="ui horizontal label">召集人</span>
+    <span class="text">
     {% for coordinator_id in project.coordinator_id %}
       {% assign item = site.data.people.individuals[coordinator_id] %}
       {{ item.name }} ({{ item.nick }}) 
@@ -41,12 +44,14 @@
       ,
       {% endif %}
     {% endfor %}
+    </span>
   </div>
   {% endif %}
 
   {% if project.staff_id %}
   <div class="item">
     <span class="ui horizontal label">工作夥伴</span>
+    <span class="text">
     {% for staff_id in project.staff_id %}
       {% assign item = site.data.people.individuals[staff_id] %}
       {{ item.name }} ({{ item.nick }}) 
@@ -54,13 +59,14 @@
       ,
       {% endif %}
     {% endfor %}
+    </span>
   </div>
   {% endif %}
 
   {% for item in project.meta %}
   <div class="item">
     <span class="ui horizontal label">{{ item.label }}</span>
-    {{ item.content }}
+    <span class="text">{{ item.content }}</span>
   </div>
   {% endfor %}
 
@@ -108,8 +114,7 @@
   {% endfor %}
 {% endif %}
 {% elsif site.data.projects[current][project_id] %}
-<div class="ui horizontal icon divider">
-  <i class="archive icon"></i>
+<div class="ui divider">
 </div>
 <a class="center aligned" href="/projects/{{ current }}/{{ project_id }}">前往本年度頁面
 <i class="right arrow icon"></i>

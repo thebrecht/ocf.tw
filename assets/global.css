@@ -6,6 +6,10 @@ html, body, h1, h2, h3, h4, h5, h6, button {
   font-family: Lato, Noto sans, "Helvetica Neue" ,Arial,Helvetica, '微軟正黑體', 'Microsoft JhengHei', sans-serif;
 }
 
+p, li {
+  line-height: 1.7em;
+}
+
 .ui.cards {
   margin-top: 0;
   margin-bottom: 0;
@@ -67,6 +71,19 @@ html, body, h1, h2, h3, h4, h5, h6, button {
 .horizontal.padding {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.ui.header .sub.header, .header .sub.header {
+  margin: 0.2em 0;
+  line-height: 1.3em;
+}
+
+.ui.items>.item .meta {
+  line-height: 1.3em;
+}
+
+.ui.list .list>.item, .ui.list>.item, ol.ui.list li, ul.ui.list li {
+  line-height: 1.3em;
 }
 
 /* for container */
