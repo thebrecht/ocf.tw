@@ -251,6 +251,7 @@ intl20151004:
   link: 
     - title: 入口頁
       url: /projects/2015/intl/dalc
+      target: _self
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/dalc
     - title: 影音紀錄

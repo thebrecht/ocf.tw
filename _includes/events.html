@@ -205,7 +205,13 @@
 
       <div class="extra">
         {% for link in item.link %}
-        <a href="{{ link.url }}" target="_blank">
+        <a href="{{ link.url }}" 
+          {% if link.target %}
+          target="{{ link.target }}"
+          {% else %}
+          target="_blank"
+          {% endif %}
+          ">
           <i class="globe icon"></i>
           {{ link.title }}
         </a>
