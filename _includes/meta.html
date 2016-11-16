@@ -13,6 +13,9 @@
 {% endif %}
 
   {{ project.name }}
+  {% if page.year != site.data.settings.current %}
+  ( {{ page.year }} 年度)
+  {% endif %}
   <span class="sub header">小檔案</span>
 </h2>
 
@@ -79,6 +82,7 @@
 </div>
 {% endif %}
 
+{% if page.year == site.data.settings.current %}
 {% if project.action %}
 <div class="ui horizontal divider">
   <i class="heart icon"></i>
@@ -102,4 +106,13 @@
     {% endif %}
 
   {% endfor %}
+{% endif %}
+{% elsif site.data.projects[current][project_id] %}
+<div class="ui horizontal icon divider">
+  <i class="archive icon"></i>
+</div>
+<a class="center aligned" href="/projects/{{ current }}/{{ project_id }}">前往本年度頁面
+<i class="right arrow icon"></i>
+</a>
+
 {% endif %}

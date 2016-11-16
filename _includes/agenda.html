@@ -1,0 +1,17 @@
+<h2 class="ui header">
+議程 / Agenda
+</h2>
+<div class="ui center aligned list">
+  {% for item in page.agenda %}
+  <div class="item">
+    <div class="header">
+    {{ item.time }}
+    {% if item.speaker %}
+    - {{ item.speaker }}
+    {% endif %}
+    </div>
+    {{ item.title }}
+  </div>
+  {% endfor %}
+</div>
+

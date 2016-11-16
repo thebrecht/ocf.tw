@@ -2,10 +2,11 @@
 layout: page
 ---
 
+{% assign current = site.data.settings.current | append: "" %}
 {% assign year = page.year | append: "" %}
-{% assign id = page.project_id | append: "" %}
-{% assign project = site.data.projects[year][id] %}
-{% assign events = site.data.events[id] %}
+{% assign project_id = page.project_id | append: "" %}
+{% assign project = site.data.projects[year][project_id] %}
+{% assign events = site.data.events[project_id] %}
 
 <div id="project">
 
@@ -16,6 +17,9 @@ layout: page
   <div class="ui stripe relative container">
     <h1 class="ui inverted header">
       {{ project.name }}
+      {% if page.year != site.data.settings.current %}
+      ( {{ page.year }} 年度)
+      {% endif %}
     </h1>
     <p>
       {{ project.tagline }}

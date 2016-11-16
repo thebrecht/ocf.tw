@@ -5,20 +5,28 @@ layout: compress
 <html>
 <head>
 
-{% if page.layout == "report" %}
-  {% assign year = page.year | append: "" %}
-  {% assign og_url = page.url %}
-  {% assign og_title = site.data.reports[year].title %}
-  {% assign og_image = site.data.reports[year].cover %}
-  {% assign og_description = site.data.reports[year].description %}
-
-{% elsif page.layout == "project" %}
+{% if page.layout == "project" %}
   {% assign year = page.year | append: "" %}
   {% assign id = page.project_id | append: "" %}
   {% assign og_url = page.url %}
   {% assign og_title = site.data.projects[year][id].name %}
   {% assign og_image = site.data.projects[year][id].cover %}
   {% assign og_description = site.data.projects[year][id].description %}
+
+{% elsif page.layout == "event" %}
+  {% assign year = page.year | append: "" %}
+  {% assign id = page.event_id | append: "" %}
+  {% assign og_url = page.url %}
+  {% assign og_title = site.data.events[year][id].title %}
+  {% assign og_image = site.data.events[year][id].cover %}
+  {% assign og_description = site.data.events[year][id].description %}
+
+{% elsif page.layout == "report" %}
+  {% assign year = page.year | append: "" %}
+  {% assign og_url = page.url %}
+  {% assign og_title = site.data.reports[year].title %}
+  {% assign og_image = site.data.reports[year].cover %}
+  {% assign og_description = site.data.reports[year].description %}
 
 {% elsif page.layout == "redirect" %}
   {% assign og_url = page.og_url %}
@@ -91,12 +99,12 @@ layout: compress
 
   <link rel="stylesheet" href="/assets/global.css"/>
 
-  {% if page.layout == "report" %}
-  <link rel="stylesheet" href="/assets/report.css"/>
-  {% endif %}
-
   {% if page.layout == "project" %}
   <link rel="stylesheet" href="/assets/project.css"/>
+  {% elsif page.layout == "event" %}
+  <link rel="stylesheet" href="/assets/event.css"/>
+  {% elsif page.layout == "report" %}
+  <link rel="stylesheet" href="/assets/report.css"/>
   {% endif %}
 
   {% if page.css %}

@@ -1,0 +1,94 @@
+<h2 class="ui header">
+講者 / Speakers
+</h2>
+
+<div id="speakers" class="ui divided items">
+
+  {% for item in page.speakers %}
+  <div class="item">
+    <div class="content">
+
+      {% if item.avatar %}
+      <div class="ui small circular image">
+        <img src="{{ item.avatar }}" />
+      </div>
+      {% endif %}
+
+      <h3 class="ui header">
+        {{ item.name }}
+        {% if item.nick %}
+        <span class="small">({{ item.nick }})</span>
+        {% endif %}
+      </h3>
+
+      {% if item.title %}
+      <p class="meta">
+        {{ item.title }}
+      </p>
+      {% endif %}
+
+      {% if item.description %}
+      <div class="description">
+        {% for paragraph in item.description %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      {% if item.specialty %}
+      <div class="extra">
+      <div class="ui divided list">
+        {% for specialty in item.specialty %}
+        <div class="item">
+          <i class="icon wizard"></i>
+          {{ specialty }}
+        </div>
+        {% endfor %}
+      </div>
+      </div>
+      {% endif %}
+
+      {% if item.experience %}
+      <div class="extra">
+      <div class="ui divided list">
+        {% for experience in item.experience %}
+        <div class="item">
+          <i class="icon suitcase"></i>
+          {{ experience }}
+        </div>
+        {% endfor %}
+      </div>
+      </div>
+      {% endif %}
+
+      {% if item.education %}
+      <div class="extra">
+      <div class="ui divided list">
+        {% for education in item.education %}
+        <div class="item">
+          <i class="icon student"></i>
+          {{ education }}
+        </div>
+        {% endfor %}
+      </div>
+      </div>
+      {% endif %}
+
+      {% if item.link %}
+      <div class="extra">
+      <div class="ui list">
+        {% for link in item.link %}
+        <a class="item" href="{{ link.url }}" target="_blank">
+          <i class="icon globe"></i>
+          {{ link.title }}
+        </a>
+        {% endfor %}
+      </div>
+      </div>
+      {% endif %}
+
+    </div>
+  </div>
+  {% endfor %}
+
+</div>

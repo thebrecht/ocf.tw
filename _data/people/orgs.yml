@@ -4,7 +4,7 @@ ocf:
   abbr: OCF
   type: non-profit
   description: 2014 年，由多個台灣開源社群共同發起，在開放源碼、開放資料、開放政府等領域，提供社群支援、顧問諮詢、海外交流等服務。期待以法人組織的力量推廣開放文化，在產、官、學、民之間激起開放協作的火花。
-  logo: /mediakit/ocf-logo-512x512.jpg
+  logo: /mediakit/ocf-logo-640x156.png
   link:
     - title: 官方網站
       url: http://ocf.tw/
@@ -300,11 +300,11 @@ asiii:
 bft:
   name: 法國在台協會
   name_en: French Office In Taipei
-  name_fr: Bureau Français de Taipei
+  name_origin: Le Bureau Français de Taipei
   abbr: 
   type: non-profit
   description: 
-  logo: /people/partners/bft_logo_square.jpg
+  logo: /people/partners/bft_logo.jpg
   link:
     - title: 官方網站
       url: http://www.france-taipei.org/

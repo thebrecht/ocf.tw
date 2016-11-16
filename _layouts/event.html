@@ -1,0 +1,68 @@
+---
+layout: page
+---
+
+{% assign year = page.year | append: "" %}
+{% assign project_id = page.project_id | append: "" %}
+{% assign project = site.data.projects[year][project_id] %}
+{% assign event_id = page.event_id | append: "" %}
+{% assign event = site.data.events[year][event_id] %}
+
+<div id="event">
+
+<section id="hero" class="ui inverted {{ page.color }} basic segment marginless">
+  <img class="cover image" src="{{ project.cover }}" style="opacity: {{ page.image_opacity }}" />
+  <div class="cover" style="opacity: {{ page.veil_opacity }}"></div>
+  <div class="ui container">
+    <a href="{{ project.link[0].url }}" class="ui inverted small header relative">
+      <i class="left arrow icon"></i>
+      返回 {{ project.name }}
+      {% if page.year != site.data.settings.current %}
+      ( {{ page.year }} 年度)
+      {% endif %}
+    </a>
+  </div>
+</section>
+
+<div class="ui container">
+  <div class="ui hidden divider"></div>
+
+  <div class="ui two column stackable grid">
+
+    <div class="six wide column">
+      <div class="ui sticky basic paddingless segment">
+
+        {% if event.banner %}
+        <img class="ui fluid image" src="{{ event.banner }}">
+        {% elsif event.cover %}
+        <img class="ui fluid image" src="{{ event.cover }}">
+        {% elsif event.logo %}
+        <img class="ui fluid image" src="{{ event.logo }}">
+        {% endif %}
+
+      </div>
+    </div>
+
+    <div class="ten wide column">
+
+      <h1 class="ui header">
+        {{ event.title }}
+
+        {% if event.subtitle %}
+        {% for subtitle in event.subtitle %}
+        <span class="sub header">{{ subtitle }}</span>
+        {% endfor %}
+        {% endif %}
+      </h1>
+
+      {% include summary.html %}
+
+      {{ content }}
+
+    </div>
+
+  </div>
+  <div class="ui hidden divider"></div>
+</div>
+
+</div>

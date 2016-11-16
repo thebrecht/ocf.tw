@@ -1,0 +1,36 @@
+#event #hero {
+  overflow: hidden;
+}
+#event #hero .cover {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  opacity: 0.1;
+  background-color: #000;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+#event #hero .cover.image {
+  opacity: 0.98;
+}
+#event .relative {
+  position: relative;
+}
+
+#speakers .ui.image {
+  float: right;
+}
+
+@media only screen and (max-width: 767px) {
+
+#speakers .ui.image {
+  float: none;
+  display: block;
+  margin: 1rem auto;
+}
+
+}

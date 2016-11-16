@@ -43,7 +43,7 @@
       url: https://www.youtube.com/playlist?list=PLFuYOsppHDrnsqfUhKAs9tFkqyCVIoaSy
     - title: 活動照片
       url: https://www.facebook.com/www.ocf.tw/posts/1657544684521461
-  cover: /projects/2015/intl/blulu1209.png
+  cover: /projects/2015/intl/blulu/cover.png
   project_id:
     - intl
 
@@ -74,7 +74,8 @@
       url: http://ocftw.kktix.cc/events/ipf
     - title: 影音紀錄
       url: https://www.youtube.com/playlist?list=PLFuYOsppHDrlHvIPzWAWxPLqdxtuIJnqm
-  cover: /projects/2015/intl/ipf1130_og.png
+  cover: /projects/2015/intl/ipf/cover.png
+  banner: /projects/2015/intl/ipf/banner.png
   project_id:
     - intl
 
@@ -96,7 +97,8 @@
   link: 
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/imhp
-  cover: /projects/2015/intl/ipf1130_og.png
+  cover: /projects/2015/intl/ipf/cover.png
+  banner: /projects/2015/intl/ipf/banner.png
   project_id:
     - intl
 
@@ -211,7 +213,7 @@ intl20151004:
       url: https://www.youtube.com/playlist?list=PLFuYOsppHDrnXBJdYpf4BoNfY-vhBoRYC
     - title: 活動照片
       url: http://bit.ly/ntnd-album
-  cover: /projects/2015/intl/ntnd1004.png
+  cover: /projects/2015/intl/ntnd/cover.png
   project_id:
     - intl
 
@@ -241,23 +243,27 @@ intl20151004:
     - title: 法國在台協會
       color:
   meta: 
-    - 2015/8/27
-    - Julien Antelin, 台北市政府資訊局  李維斌 局長
-    - 開放文化基金會、法國在台協會共同舉辦
-  description: 
-  month: 
-  start: 
+    - Julien Antelin, 台北市政府資訊局  李維斌 局長 主講
+  description: 你知道巴黎市5%的預算是由市民決定嗎？台北市資訊局為何有點宅？開放文化基金會與法國在台協會邀請巴黎與台北市政府講者，分享第一手的經驗，探討開放資料與新興模式對政府內部的衝擊，以及網路民主的展望。
+  month: 8
+  start: 8/27
   end: 
   link: 
+    - title: 入口頁
+      url: /projects/2015/intl/dalc
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/dalc
     - title: 影音紀錄
       url: https://www.youtube.com/playlist?list=PLFuYOsppHDrmLoqdOHON3dpRWsUNB8Png
     - title: 活動共筆集
       url: http://beta.hackfoldr.org/1VsRaGZpVYXxDwcQ2zPvt1YMLC8O0lNZop1lB6VtmCzs/https%253A%252F%252Fhackpad.com%252F2015824--ACmtQLJJt6p
-  cover: /projects/2015/intl/dalc0827.jpg
+  cover: /projects/2015/intl/dalc/cover.jpg
+  banner: /projects/2015/intl/dalc/banner.png
   project_id:
     - intl
+  organizer_id:
+    - ocf
+    - bft
 
 0821:
   title: d|Bootcamp Taipei 資料新聞實戰營 
@@ -368,7 +374,7 @@ intl20151004:
       url: https://www.youtube.com/playlist?list=PLFuYOsppHDrljeF9tUWJR9nrY2CfIqP0k
     - title: 活動照片
       url: https://www.facebook.com/media/set/?set=a.1601440363465227.1073741832.1502561953353069&type=3
-  cover: /projects/2015/intl/socp0614.jpg
+  cover: /projects/2015/intl/socp/cover.jpg
   project_id:
     - intl
 
@@ -391,7 +397,7 @@ intl20151004:
   link: 
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/elc2015-hsz
-  cover: /projects/2015/elc/elc0524.jpg
+  cover: /projects/2015/intl/elc/cover.png
   project_id:
     - intl
 
@@ -451,7 +457,7 @@ intl20151004:
   link: 
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/elc2015
-  cover: /projects/2015/elc/elc0604.jpg
+  cover: /projects/2015/intl/elc/cover.png
   project_id:
     - intl
 
@@ -559,7 +565,7 @@ intl20151004:
       url: https://www.youtube.com/playlist?list=PLFuYOsppHDrlzoWQ0G8Txt545FXEm6pBR
     - title: 活動照片
       url: https://www.facebook.com/media/set/?set=a.1568447143431216.1073741830.1502561953353069&type=3
-  cover: /projects/2015/intl/ignite0319.jpg
+  cover: /projects/2015/intl/ignite/cover.jpg
   project_id:
     - intl
 

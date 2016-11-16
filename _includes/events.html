@@ -1,6 +1,7 @@
 <div class="ui divided items">
 
 {% for event in events %}
+{% if event.year <= page.year %}
 
   {% assign year = event.year | append: "" %}
 
@@ -22,11 +23,15 @@
 
   <div class="item">
 
-    {% if item.cover %}
     <div class="image">
+      {% if item.cover %}
       <img src="{{ item.cover }}">
+      {% elsif item.logo %}
+      <img src="{{ item.logo }}">
+      {% elsif item.banner %}
+      <img src="{{ item.banner }}">
+      {% endif %}
     </div>
-    {% endif %}
 
     <div class="content">
 
@@ -210,5 +215,6 @@
     </div>
   </div>
 
+{% endif %}
 {% endfor %}
 </div>

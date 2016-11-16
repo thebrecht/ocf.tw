@@ -11,6 +11,10 @@ html, body, h1, h2, h3, h4, h5, h6, button {
   margin-bottom: 0;
 }
 
+.small {
+  font-size: 0.8em;
+}
+
 .ui.marginless.segment {
   margin: 0;
 }
@@ -209,11 +213,11 @@ h2.ui.header {
 
 /* for semantic ui list in partner sections */
 
-#partners .ui.horizontal.list, #sponsors .ui.horizontal.list {
+#partners .ui.horizontal.list, #sponsors .ui.horizontal.list, #orgs .ui.horizontal.list {
   text-align: center;
 }
 
-#partners .logo, #sponsors .logo {
+#partners .logo, #sponsors .logo, #orgs .logo {
   width: auto;
   height: 5rem;
 }

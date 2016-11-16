@@ -17,6 +17,8 @@ mmdd:
       url: 
       target: _self
   cover: 
+  banner: 
+  logo: 
   project_id:
   advisor_id:
   organizer_id:
