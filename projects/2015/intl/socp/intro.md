@@ -1,0 +1,14 @@
+## 國際 X 在地：公民參與產官學宅首度同台
+
+同時我們也邀請到來自本地的多個公民參與推動計畫，分享實際的經驗與遇到的挑戰，並深入交流。本活動也將開放現場報名的五分鐘閃電短講。
+
+註：本活動以講者母語（英文與中文）進行，英語演講及座談部分，將由逐步口譯員摘要為中文。
+
+We are delighted to have Mr Steven Clift, honored as a White House Champion of Change for Open Government, to share his experiences of engaging communities over the past two decades. We also invite leaders of numerous citizen participation efforts here in Taiwan, to share and exchange their experiences and challenges in the global context. 5-minute lightning talks are open for attendees.
+
+Note: The talks will be in the speaker's respective native language (English and Mandarin). Summary in Mandarin will be provided for Mr Clift’s talk.
+
+<div class="video_container">
+<iframe allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://player.vimeo.com/video/29829017" webkitallowfullscreen="">
+</iframe>
+</div>

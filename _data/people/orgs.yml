@@ -259,7 +259,8 @@ ndc:
   abbr: NDC
   type: government
   description: 
-  logo: /people/partners/ndc_logo.png
+  logo: /people/partners/ndc_logo.jpg
+  avatar: /people/partners/ndc_avatar.png
   link:
     - title: 官方網站
       url: http://www.ndc.gov.tw/
@@ -429,3 +430,19 @@ newsplexasia:
 
 ossf:
   name: 中研院資創中心 OSSF 自由軟體鑄造場
+
+ait:
+  name: 美國在台協會
+  name_en: American Institute in Taiwan
+  logo: /people/partners/ait_logo.jpg
+  avatar: /people/partners/ait_avatar.jpg
+  link:
+    - title: 官方網站
+      url: https://www.ait.org.tw/
+
+ms:
+  name: 台灣微軟
+  logo: /people/partners/ms_logo.jpg
+  link:
+    - title: 官方網站
+      url: https://www.microsoft.com/zh-tw/

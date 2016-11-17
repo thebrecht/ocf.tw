@@ -1,4 +1,11 @@
-<section id="orgs" class="ui center aligned horizontal list">
+{% assign year = page.year | append: "" %}
+{% assign project_id = page.project_id | append: "" %}
+{% assign project = site.data.projects[year][project_id] %}
+{% assign event_id = page.event_id %}
+{% assign event = site.data.events[year][event_id] %}
+
+<section id="orgs">
+<div class="ui center aligned horizontal list">
 
 {% if event.advisor_id %}
   {% for org_id in event.advisor_id %}
@@ -54,4 +61,5 @@
   {% endfor %}
 {% endif %}
 
+</div>
 </section>

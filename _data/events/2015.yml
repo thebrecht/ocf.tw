@@ -354,19 +354,21 @@ intl20151004:
   title: 公民參與大亂鬥
   subtitle:
     - State of Citizen Participation
+    - 美國開放政府改革先鋒．來台最大講座
   label:
     - title: 邀講
       color:
     - title: 美國國務院講者訪台
       color:
   meta: 
-    - 2015/6/14
-    - "共同主辦: 開放文化基金會, 美國在台協會, 國發會, 台灣微軟"
-  description: 
-  month: 
-  start: 
+  description: 本活動很榮幸邀請到來自美國的 Steven Clift，他在 2013 獲頒白宮「開放政府」改革先鋒獎項。他將分享二十年來建構活躍的線上社群的秘訣與經驗。
+  month: 6
+  start: 6/14
   end: 
   link: 
+    - title: 入口頁
+      url: /projects/2015/intl/socp
+      target: _self
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/socp
     - title: 活動共筆
@@ -376,8 +378,15 @@ intl20151004:
     - title: 活動照片
       url: https://www.facebook.com/media/set/?set=a.1601440363465227.1073741832.1502561953353069&type=3
   cover: /projects/2015/intl/socp/cover.jpg
+  banner: /projects/2015/intl/socp/banner.jpg
+  logo: 
   project_id:
     - intl
+  organizer_id:
+    - ocf
+    - ait
+    - ndc
+    - ms
 
 0604:
   title: Embedded Linux Conference（ELC）- Linux Foundation 會後分享

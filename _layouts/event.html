@@ -5,7 +5,7 @@ layout: page
 {% assign year = page.year | append: "" %}
 {% assign project_id = page.project_id | append: "" %}
 {% assign project = site.data.projects[year][project_id] %}
-{% assign event_id = page.event_id | append: "" %}
+{% assign event_id = page.event_id %}
 {% assign event = site.data.events[year][event_id] %}
 
 <div id="event">

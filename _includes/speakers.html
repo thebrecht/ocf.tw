@@ -78,10 +78,12 @@
       <div class="extra">
       <div class="ui list">
         {% for link in item.link %}
-        <a class="item" href="{{ link.url }}" target="_blank">
+        <div class="item">
+          <a  href="{{ link.url }}" target="_blank">
           <i class="icon globe"></i>
           {{ link.title }}
-        </a>
+          </a>
+        </div>
         {% endfor %}
       </div>
       </div>
