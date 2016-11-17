@@ -8,20 +8,31 @@ html, body, h1, h2, h3, h4, h5, h6, button {
 
 /* adjust default semantic ui line height */
 
-p, a, li, h1, h2, h3, h4, h5, h6, .header, .ui.header, .ui.list .item, .ui.list .item .content, .ui.items>.item, .ui.items>.item .description, .ui.cards>.card .description {
+p, a, li, h1, h2, h3, h4, h5, h6, 
+.header, .ui.header, .ui.header .sub.header, .header .sub.header,
+.ui.list .item, .ui.list .item .content, 
+.ui.items>.item, .ui.items>.item .meta, .ui.items>.item .description, 
+.ui.cards>.card, .ui.cards>.card .meta, .ui.cards>.card .description {
   line-height: 1.7em;
+}
+
+.ui.horizontal.list>.item>i.icon, .ui.horizontal.list>.item>.content {
+  vertical-align: initial;
 }
 
 .en {
   line-height: 1.5em;
 }
 
-.ui.header .sub.header, .header .sub.header, .ui.items>.item .meta, .ui.cards>.card .meta {
-  margin: 0;
-  line-height: 1.7em;
+.ui.header .sub.header, .header .sub.header, 
+.ui.items>.item .meta, 
+.ui.cards>.card .meta {
+  margin-bottom: 0;
 }
 
-.ui.header .sub.header:first-child, .header .sub.header:first-child, .ui.items>.item .header+.meta, .ui.cards>.card .header+.meta  {
+.ui.header .sub.header:first-child, .header .sub.header:first-child, 
+.ui.items>.item .header+.meta, 
+.ui.cards>.card .header+.meta  {
   margin-top: 0.2em;
 }
 
