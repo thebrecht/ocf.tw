@@ -128,6 +128,10 @@ p, a, li, h1, h2, h3, h4, h5, h6, .header, .ui.header, .ui.list .item, .ui.list 
   border: none;
 }
 
+#header .ui.secondary.pointing.menu .item {
+  margin-bottom: 0;
+}
+
 #header .ui.menu .logo.item {
   padding-top: 0.6em;
   padding-bottom: 0.6em;
