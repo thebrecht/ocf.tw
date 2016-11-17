@@ -1,6 +1,9 @@
 #project #hero {
   overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
 }
+
 #project #hero .cover {
   object-fit: cover;
   object-position: center;
@@ -14,9 +17,11 @@
   bottom: 0;
   right: 0;
 }
+
 #project #hero .cover.image {
   opacity: 0.98;
 }
+
 #project .relative {
   position: relative;
 }

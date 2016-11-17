@@ -8,7 +8,7 @@ html, body, h1, h2, h3, h4, h5, h6, button {
 
 /* adjust default semantic ui line height */
 
-p, a, li, h1, h2, h3, h4, h5, h6, .header, .ui.header, .ui.list .item, .ui.items>.item .description, .ui.cards>.card .description {
+p, a, li, h1, h2, h3, h4, h5, h6, .header, .ui.header, .ui.list .item, .ui.list .item .content, .ui.items>.item, .ui.items>.item .description, .ui.cards>.card .description {
   line-height: 1.7em;
 }
 
@@ -207,7 +207,7 @@ html.ios body {
 
 @media only screen and (max-width: 767px) {
 
-h2.ui.header {
+h2.ui.header, h2, h1.ui.header, h1 {
   display: block;
   text-align: center;
 }
@@ -243,6 +243,7 @@ h2.ui.header {
 
 #partners .ui.horizontal.list, #sponsors .ui.horizontal.list, #orgs .ui.horizontal.list {
   text-align: center;
+  display: block;
 }
 
 #partners .logo, #sponsors .logo, #orgs .logo {

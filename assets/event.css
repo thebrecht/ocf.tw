@@ -1,6 +1,14 @@
+#event #hero .ui.header>.icon {
+  font-size: 1em;
+  vertical-align: initial;
+}
+
 #event #hero {
   overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
 }
+
 #event #hero .cover {
   object-fit: cover;
   object-position: center;
@@ -14,20 +22,22 @@
   bottom: 0;
   right: 0;
 }
+
 #event #hero .cover.image {
   opacity: 0.98;
 }
+
 #event .relative {
   position: relative;
 }
 
-#speakers .ui.image {
+#event #speakers .ui.image {
   float: right;
 }
 
 @media only screen and (max-width: 767px) {
 
-#speakers .ui.image {
+#event #speakers .ui.image {
   float: none;
   display: block;
   margin: 1rem auto;
