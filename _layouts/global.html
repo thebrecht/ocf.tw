@@ -15,7 +15,7 @@ layout: compress
 
 {% elsif page.layout == "event" %}
   {% assign year = page.year | append: "" %}
-  {% assign id = page.event_id | append: "" %}
+  {% assign id = page.event_id %}
   {% assign og_url = page.url %}
   {% assign og_title = site.data.events[year][id].title %}
   {% assign og_image = site.data.events[year][id].cover %}
