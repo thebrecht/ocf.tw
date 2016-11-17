@@ -57,7 +57,7 @@ orgs:
 {% assign event_id = page.event_id | append: "" %}
 {% assign event = site.data.events[year][event_id] %}
 
-{% markdown /projects/2015/intl/dalc/intro.md %}
+{% include_relative intro.html %}
 <div class="ui horizontal divider">
   <i class="icon announcement"></i>
 </div>

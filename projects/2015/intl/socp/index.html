@@ -88,7 +88,7 @@ orgs:
 {% assign event_id = page.event_id | append: "" %}
 {% assign event = site.data.events[year][event_id] %}
 
-{% markdown /projects/2015/intl/socp/intro.md %}
+{% include_relative intro.html %}
 <div class="ui horizontal divider">
   <i class="icon announcement"></i>
 </div>
@@ -126,11 +126,11 @@ STEVEN CLIFT 訪台系列活動：(需另外報名）
     </div>
     <div class="description">
     Engaging Times: The Next Generation, Democracy, and the Digital Era
-    </div>
     <a target="_blank" href="https://www.facebook.com/AIT.Social.Media/photos/a.195935878489.126209.193725958489/10153283026613490/?type=1&theater">
     <i class="icon globe"></i>
     活動資訊
     </a>
+    </div>
   </div>
   <div class="item">
     <div class="header">
@@ -141,11 +141,11 @@ STEVEN CLIFT 訪台系列活動：(需另外報名）
     </div>
     <div class="description">
     Engaging Times: Building Vibrant Democracy in the Digital Era
-    </div>
     <a target="_blank" href="https://www.facebook.com/AIT.Social.Media/photos/a.195935878489.126209.193725958489/10153289417773490/?type=1">
     <i class="icon globe"></i>
     活動資訊
     </a>
+    </div>
   </div>
   <div class="item">
     <div class="header">
