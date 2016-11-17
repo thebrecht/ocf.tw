@@ -1,10 +1,18 @@
-{% if project.logo %}
-<img class="ui fluid image" src="{{ project.logo }}">
+{% if project.avatar %}
+<img class="ui fluid image" src="{{ project.avatar }}">
 <h2 class="ui center aligned small header">
 
 {% elsif project.organizer_id %}
 {% assign organizer_id = project.organizer_id[0] %}
+
+{% if site.data.people.orgs[organizer_id].avatar %}
+<img class="ui fluid image" src="{{ site.data.people.orgs[organizer_id].avatar }}">
+{% elsif site.data.people.orgs[organizer_id].logo %}
 <img class="ui fluid image" src="{{ site.data.people.orgs[organizer_id].logo }}">
+{% elsif site.data.people.orgs[organizer_id].cover %}
+<img class="ui fluid image" src="{{ site.data.people.orgs[organizer_id].cover }}">
+{% endif %}
+
 <h2 class="ui center aligned small header">
 
 {% else %}
@@ -21,6 +29,21 @@
 
 <div class="ui divided list">
 
+  {% if project.advisor_id %}
+  <div class="item">
+    <span class="ui horizontal label">指導</span>
+    <span class="text">
+    {% for advisor_id in project.advisor_id %}
+      {% assign item = site.data.people.orgs[advisor_id] %}
+      {{ item.name }} 
+      {% if forloop.rindex > 1 %}
+      ,
+      {% endif %}
+    {% endfor %}
+    </span>
+  </div>
+  {% endif %}
+
   {% if project.organizer_id %}
   <div class="item">
     <span class="ui horizontal label">主辦</span>
@@ -28,6 +51,39 @@
     {% for organizer_id in project.organizer_id %}
       {% assign item = site.data.people.orgs[organizer_id] %}
       {{ item.name }} 
+      {% if forloop.rindex > 1 %}
+      ,
+      {% endif %}
+    {% endfor %}
+    </span>
+  </div>
+  {% endif %}
+
+  {% if project.co-organizer_id %}
+  <div class="item">
+    <span class="ui horizontal label">協辦</span>
+    <span class="text">
+    {% for co-organizer_id in project.co-organizer_id %}
+      {% assign item = site.data.people.orgs[co-organizer_id] %}
+      {{ item.name }} 
+      {% if forloop.rindex > 1 %}
+      ,
+      {% endif %}
+    {% endfor %}
+    </span>
+  </div>
+  {% endif %}
+
+  {% if project.implementer_id %}
+  <div class="item">
+    <span class="ui horizontal label">承辦</span>
+    <span class="text">
+    {% for implementer_id in project.implementer_id %}
+      {% assign item = site.data.people.orgs[implementer_id] %}
+      {{ item.name }} 
+      {% if forloop.rindex > 1 %}
+      ,
+      {% endif %}
     {% endfor %}
     </span>
   </div>

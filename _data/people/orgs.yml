@@ -191,6 +191,7 @@ raspberrypi:
   abbr: 
   type: cooperation
   description: 
+  avatar: /people/partners/raspberrypi_avatar.png
   logo: /people/partners/raspberrypi_logo_horizontal.png
   link:
     - title: 官方網站
