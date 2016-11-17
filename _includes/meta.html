@@ -1,5 +1,5 @@
-{% if page.logo %}
-<img class="ui fluid image" src="{{ page.logo }}">
+{% if project.logo %}
+<img class="ui fluid image" src="{{ project.logo }}">
 <h2 class="ui center aligned small header">
 
 {% elsif project.organizer_id %}
@@ -19,7 +19,7 @@
   <span class="sub header">小檔案</span>
 </h2>
 
-<div class="ui divided relaxed list">
+<div class="ui divided list">
 
   {% if project.organizer_id %}
   <div class="item">
