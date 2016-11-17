@@ -6,14 +6,38 @@ html, body, h1, h2, h3, h4, h5, h6, button {
   font-family: Lato, Noto sans, "Helvetica Neue" ,Arial,Helvetica, '微軟正黑體', 'Microsoft JhengHei', sans-serif;
 }
 
-p, li {
+/* adjust default semantic ui line height */
+
+p, a, li, h1, h2, h3, h4, h5, h6, .header, .ui.header, .ui.list .item, .ui.items>.item .description, .ui.cards>.card .description {
   line-height: 1.7em;
 }
 
-.ui.cards {
-  margin-top: 0;
-  margin-bottom: 0;
+.en {
+  line-height: 1.5em;
 }
+
+.ui.header .sub.header, .header .sub.header, .ui.items>.item .meta, .ui.cards>.card .meta {
+  margin: 0;
+  line-height: 1.7em;
+}
+
+.ui.header .sub.header:first-child, .header .sub.header:first-child, .ui.items>.item .header+.meta, .ui.cards>.card .header+.meta  {
+  margin-top: 0.2em;
+}
+
+.ui.list .list>.item, .ui.list>.item, ol.ui.list li, ul.ui.list li {
+}
+
+.ui.items .item .meta .ui.labels {
+  margin-top: 0.5em;
+}
+
+/* for cards margin */
+
+.ui.cards {
+}
+
+/* universal */
 
 .small {
   font-size: 0.8em;
@@ -71,19 +95,6 @@ p, li {
 .horizontal.padding {
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.ui.header .sub.header, .header .sub.header {
-  margin: 0.2em 0;
-  line-height: 1.3em;
-}
-
-.ui.items>.item .meta {
-  line-height: 1.3em;
-}
-
-.ui.list .list>.item, .ui.list>.item, ol.ui.list li, ul.ui.list li {
-  line-height: 1.3em;
 }
 
 /* for container */

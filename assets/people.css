@@ -26,3 +26,7 @@
   display: inline-block;
   border-radius: 0;
 }
+
+.ui[class*="bottom pointing"].label, .ui[class*="pointing below"].label {
+  margin-bottom: 1.5em;
+}
