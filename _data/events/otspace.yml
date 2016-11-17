@@ -1,5 +1,4 @@
-"201604":
-  title: 自由時報：〈全球觀測站〉自造工坊 傳承銀髮族技藝
+- title: 自由時報：〈全球觀測站〉自造工坊 傳承銀髮族技藝
   subtitle:
   label:
     - title: 媒體報導
@@ -7,7 +6,7 @@
   meta:
   description: 
   year: 2016
-  month: 
+  month: 4
   start: 
   end: 
   link: 
@@ -23,8 +22,7 @@
   contributor_id:
   donors:
 
-"201603":
-  title: 赤皮仔藝術 maker自學課程
+- title: 赤皮仔藝術 maker自學課程
   subtitle:
   label:
     - title: 活動
@@ -32,7 +30,7 @@
   meta:
   description: 
   year: 2016
-  month: 
+  month: 3
   start: 
   end: 
   link: 
@@ -46,8 +44,7 @@
   contributor_id:
   donors:
 
-"201602":
-  title: 劍人工作坊
+- title: 劍人工作坊
   subtitle:
   label:
     - title: 活動
@@ -55,7 +52,7 @@
   meta:
   description: 
   year: 2016
-  month: 
+  month: 2
   start: 
   end: 
   link: 
@@ -71,8 +68,7 @@
   contributor_id:
   donors:
 
-"201601":
-  title: 再生藝術工坊合作活動
+- title: 再生藝術工坊合作活動
   subtitle:
   label:
     - title: 活動
@@ -80,7 +76,7 @@
   meta:
   description: 
   year: 2016
-  month: 
+  month: 1
   start: 
   end: 
   link: 
@@ -96,8 +92,7 @@
   contributor_id:
   donors:
 
-"201510":
-  title: "Openlab Taipei: Connecting the Maker Community"
+- title: "Openlab Taipei: Connecting the Maker Community"
   subtitle:
   label:
     - title: 媒體報導
@@ -105,7 +100,7 @@
   meta:
   description: 
   year: 2015
-  month: 
+  month: 10
   start: 
   end: 
   link: 
@@ -121,8 +116,7 @@
   contributor_id:
   donors:
 
-"201509":
-  title: 數位時代：台灣 Maker 來了
+- title: 數位時代：台灣 Maker 來了
   subtitle:
   label:
     - title: 媒體報導
@@ -130,7 +124,7 @@
   meta:
   description: 
   year: 2015
-  month: 
+  month: 9
   start: 
   end: 
   link: 
@@ -146,8 +140,7 @@
   contributor_id:
   donors:
 
-"201508":
-  title: 108大眼仔、轉不停機器人
+- title: 108大眼仔、轉不停機器人
   subtitle:
   label:
     - title: 活動
@@ -155,7 +148,7 @@
   meta:
   description: 
   year: 2015
-  month: 
+  month: 8
   start: 
   end: 
   link: 
@@ -169,8 +162,7 @@
   contributor_id:
   donors:
 
-"201507":
-  title: Arduino Day
+- title: Arduino Day
   subtitle:
   label:
     - title: 活動
@@ -178,7 +170,7 @@
   meta:
   description: 
   year: 2015
-  month: 
+  month: 7
   start: 
   end: 
   link: 
@@ -192,8 +184,7 @@
   contributor_id:
   donors:
 
-"201506":
-  title: IBM Watson Humix 分享
+- title: IBM Watson Humix 分享
   subtitle:
   label:
     - title: 活動
@@ -201,7 +192,7 @@
   meta:
   description: 
   year: 2015
-  month: 
+  month: 6
   start: 
   end: 
   link: 
@@ -215,8 +206,7 @@
   contributor_id:
   donors:
 
-"201505":
-  title: 國美館展覽：蛋生音
+- title: 國美館展覽：蛋生音
   subtitle:
   label:
     - title: 活動
@@ -224,7 +214,7 @@
   meta:
   description: 
   year: 2015
-  month: 
+  month: 5
   start: 
   end: 
   link: 
@@ -238,8 +228,7 @@
   contributor_id:
   donors:
 
-"201504":
-  title: 3D列印媽媽展
+- title: 3D列印媽媽展
   subtitle:
   label:
     - title: 活動
@@ -247,7 +236,7 @@
   meta:
   description: 
   year: 2015
-  month: 
+  month: 4
   start: 
   end: 
   link: 
@@ -263,8 +252,7 @@
   contributor_id:
   donors:
 
-"201503":
-  title: Power Maker 搞飛機講座
+- title: Power Maker 搞飛機講座
   subtitle:
   label:
     - title: 活動
@@ -272,7 +260,7 @@
   meta:
   description: 
   year: 2015
-  month: 
+  month: 3
   start: 
   end: 
   link: 
@@ -286,8 +274,7 @@
   contributor_id:
   donors:
 
-"201502":
-  title: 自造者國際論壇
+- title: 自造者國際論壇
   subtitle:
   label:
     - title: 活動
@@ -295,7 +282,7 @@
   meta:
   description: 
   year: 2015
-  month: 
+  month: 2
   start: 
   end: 
   link: 
@@ -311,8 +298,7 @@
   contributor_id:
   donors:
 
-"201501":
-  title: 週二來一招
+- title: 週二來一招
   subtitle:
   label:
     - title: 活動
@@ -320,7 +306,7 @@
   meta:
   description: 
   year: 2015
-  month: 
+  month: 1
   start: 
   end: 
   link: 
@@ -336,8 +322,7 @@
   contributor_id:
   donors:
 
-"201404":
-  title: 科技報橘：自爽經濟學：當 Maker 只是好玩！—— 專訪 OpenLab.Taipei 共同創辦人鄭鴻旗
+- title: 科技報橘：自爽經濟學：當 Maker 只是好玩！—— 專訪 OpenLab.Taipei 共同創辦人鄭鴻旗
   subtitle:
   label:
     - title: 媒體報導
@@ -345,7 +330,7 @@
   meta:
   description: 
   year: 2014
-  month: 
+  month: 4
   start: 
   end: 
   link: 
@@ -361,8 +346,7 @@
   contributor_id:
   donors:
 
-"201403":
-  title: MakerConf
+- title: MakerConf
   subtitle:
   label:
     - title: 活動
@@ -370,7 +354,7 @@
   meta:
   description: 
   year: 2014
-  month: 
+  month: 3
   start: 
   end: 
   link: 
@@ -386,8 +370,7 @@
   contributor_id:
   donors:
 
-"201402":
-  title: 太陽花鋁罐燈
+- title: 太陽花鋁罐燈
   subtitle:
   label:
     - title: 活動
@@ -395,7 +378,7 @@
   meta:
   description: 
   year: 2014
-  month: 
+  month: 2
   start: 
   end: 
   link: 
@@ -411,8 +394,7 @@
   contributor_id:
   donors:
 
-"201401":
-  title: 寫字機器人、Plotclock
+- title: 寫字機器人、Plotclock
   subtitle:
   label:
     - title: 活動
@@ -420,7 +402,7 @@
   meta:
   description: 
   year: 2014
-  month: 
+  month: 1
   start: 
   end: 
   link: 
@@ -434,8 +416,7 @@
   contributor_id:
   donors:
 
-"201301":
-  title: TechNews： 2013 IDEAS SHOW展場報導─自造者社群創業專場
+- title: TechNews： 2013 IDEAS SHOW展場報導─自造者社群創業專場
   subtitle:
   label:
     - title: 媒體報導
@@ -443,7 +424,7 @@
   meta:
   description: 
   year: 2013
-  month: 
+  month: 1
   start: 
   end: 
   link: 
