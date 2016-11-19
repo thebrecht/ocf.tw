@@ -31,7 +31,7 @@
           <a class="item">
             <i class="mail icon"></i>
             <div class="content">
-          hi@ocf.tw
+            {{ site.data.people.orgs.ocf.contact.email.general }}
             </div>
           </a>
         </div>
@@ -58,7 +58,7 @@
         <div class="ui list inverted">
           <div class="item">
             <div class="content">
-              (10058) 台北市中正區八德路一段 94 號 4F
+            {{ site.data.people.orgs.ocf.contact.address.taipei }}
             </div>
           </div>
         </div>
@@ -68,19 +68,19 @@
         <div class="ui list inverted">
           <div class="item">
             <div class="content">
-              (33059) 桃園市桃園區中山路 807 號
+            {{ site.data.people.orgs.ocf.contact.address.taoyuan }}
             </div>
           </div>
           <div class="item">
             <i class="phone icon"></i>
             <div class="content">
-              +886 3 220 7480
+            {{ site.data.people.orgs.ocf.contact.tel.taoyuan }}
             </div>
           </div>
           <div class="item">
             <i class="fax icon"></i>
             <div class="content">
-              +886 3 220 1542
+            {{ site.data.people.orgs.ocf.contact.fax.taoyuan }}
             </div>
           </div>
         </div>
@@ -99,25 +99,33 @@
             電子報
             </div>
           </a>
-          <a target="_blank" href="http://blog.ocf.tw/" class="item">
+          <a target="_blank" href="
+          {{ site.data.people.orgs.ocf.social.blog }}
+          " class="item">
             <i class="rss icon"></i>
             <div class="content">
             部落格
             </div>
           </a>
-          <a class="item" href="https://www.facebook.com/www.ocf.tw">
+          <a class="item" href="
+          {{ site.data.people.orgs.ocf.social.facebook }}
+          ">
             <i class="facebook icon"></i>
             <div class="content">
             Facebook
             </div>
           </a>
-          <a class="item" href="https://www.google.com/+OcfTw">
+          <a class="item" href="
+          {{ site.data.people.orgs.ocf.social.google+ }}
+          ">
             <i class="google plus icon"></i>
             <div class="content">
             Google+
             </div>
           </a>
-          <a class="item" href="https://www.youtube.com/c/OcfTw">
+          <a class="item" href="
+          {{ site.data.people.orgs.ocf.social.youtube }}
+          ">
             <i class="youtube play icon"></i>
             <div class="content">
             YouTube
@@ -128,19 +136,25 @@
         <h3 class="ui small inverted header">參與</h3>
 
         <div class="ui horizontal inverted list">
-          <a class="item" target="_blank" href="https://groups.google.com/forum/#!forum/ocf-general">
+          <a class="item" target="_blank" href="
+          {{ site.data.people.orgs.ocf.social.googlegroups }}
+          ">
             <i class="comments icon"></i>
             <div class="content">
             Google Group
             </div>
           </a>
-          <a class="item" target="_blank" href="https://ocf-tw.hackpad.com">
+          <a class="item" target="_blank" href="
+          {{ site.data.people.orgs.ocf.social.hackpad }}
+          ">
             <i class="text file icon"></i>
             <div class="content">
             Hackpad
             </div>
           </a>
-          <a class="item" target="_blank" href="https://github.com/ocftw">
+          <a class="item" target="_blank" href="
+          {{ site.data.people.orgs.ocf.social.github }}
+          ">
             <i class="github icon"></i>
             <div class="content">
             GitHub

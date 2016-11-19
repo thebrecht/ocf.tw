@@ -55,7 +55,11 @@ layout: compress
   {% else %}
     {% assign og_title = page.og_title %}
     {% assign og_image = page.og_image %}
-    {% assign og_description = page.og_description %}
+    {% if page.og_description %}
+      {% assign og_description = page.og_description %}
+    {% else %}
+      {% assign og_description = {{ site.data.people.orgs.ocf.context_description }} %}
+    {% endif %}
 
   <meta http-equiv="refresh" content="0; url={{ og_url }}" />
 
@@ -66,7 +70,11 @@ layout: compress
   {% assign og_url = page.og_url %}
   {% assign og_title = page.og_title %}
   {% assign og_image = page.og_image %}
-  {% assign og_description = page.og_description %}
+  {% if page.og_description %}
+    {% assign og_description = page.og_description %}
+  {% else %}
+    {% assign og_description = {{ site.data.people.orgs.ocf.context_description }} %}
+  {% endif %}
 
 {% endif %}
 
