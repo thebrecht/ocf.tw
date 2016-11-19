@@ -1,0 +1,74 @@
+---
+layout: page
+og_title: 媒體專區
+og_description: 媒體朋友、合作夥伴請進！相關資源都在這裡，歡迎取用 :D
+og_image: /img/cover.png
+toc:
+  download: 下載所有資源
+  name: 組織名稱
+  intro: 介紹文案
+  branding: 品牌識別
+  contact: 聯絡方式
+  misc: 其他合作資訊
+  term: 附錄：詞彙解釋
+---
+
+<div id="mediakit">
+
+<div class="ui center aligned stripe container">
+  <h1 class="ui icon header">
+    <i class="announcement circular icon"></i>
+    媒體專區
+  </h1>
+  <p>歡迎！媒體朋友與合作夥伴們，請自由取用以下資源</p>
+
+  <nav id="submenu" data-context="mobile" class="ui sticky one item menu">
+    <div class="ui dropdown item">
+      <span data-content="current">跳至...</span>
+      <i class="dropdown icon"></i>
+      <div class="menu">
+
+        {% for article in page.toc %}
+        <a href="#{{ article[0] }}" class="item">{{ article[1] }}</a>
+        {% endfor %}
+
+      </div>
+    </div>
+  </nav>
+
+</div>
+
+<hr class="ui hidden divider" />
+
+<div class="ui stripe container">
+  <div class="ui two column stackable grid">
+
+    <div id="toc" data-context="desktop" class="six wide column">
+      <nav class="ui secondary sticky vertical pointing fluid menu">
+
+        {% for article in page.toc %}
+        <a href="#{{ article[0] }}" class="item">{{ article[1] }}</a>
+        {% endfor %}
+
+      </nav>
+    </div>
+
+    <div class="ten wide column">
+
+      {% for article in page.toc %}
+      {% assign id = article[0] %}
+
+      <h2 id="{{ article[0] }}" class="ui dividing header">{{ article[1] }}</h2>
+
+      {% include_relative {{ id }}.html %}
+
+      {% endfor %}
+
+    </div>
+
+  </div>
+</div>
+
+<hr class="ui hidden divider" />
+
+</div>
