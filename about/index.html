@@ -14,6 +14,7 @@ toc:
   how_we_survive: OCF 怎麼養活自己？
   contact_us: OCF 的聯絡方式
   in_the_news: 新聞集錦
+  website: 關於本網站
 ---
 
 <div id="about">
@@ -23,7 +24,7 @@ toc:
     <i class="circular fire icon"></i>
     關於我們
   </h1>
-  <p>(sample slogan) 開源協作改造社會！</p>
+  <p>(sample slogan) {{ site.data.people.orgs.ocf.slogan }}</p>
 
   <nav id="submenu" data-context="mobile" class="ui sticky one item menu">
     <div class="ui dropdown item">
@@ -63,7 +64,7 @@ toc:
 
       <h2 id="{{ article[0] }}" class="ui dividing header">{{ article[1] }}</h2>
 
-      {% markdown /about/{{ id }}.md %}
+      {% include_relative {{ id }}.html %}
 
       {% endfor %}
 

@@ -1,0 +1,35 @@
+<h3 class="ui header">OCF 相關報導</h3>
+
+<div class="ui list">
+{% for item in site.data.in_news.ocf %}
+  <div class="item">
+    <i class="icon newspaper"></i>
+    <div class="content">
+      <div class="header">
+      {{ item.date }} / {{ item.media }}
+      </div>
+      <a href="{{ item.url }}" target="_blank">
+      {{ item.title }}
+      </a>
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+<h3 class="ui header">開源 / 開放文化相關報導</h3>
+
+<div class="ui list">
+{% for item in site.data.in_news.floss %}
+  <div class="item">
+    <i class="icon newspaper"></i>
+    <div class="content">
+      <div class="header">
+      {{ item.date }} / {{ item.media }}
+      </div>
+      <a href="{{ item.url }}" target="_blank">
+      {{ item.title }}
+      </a>
+    </div>
+  </div>
+{% endfor %}
+</div>
