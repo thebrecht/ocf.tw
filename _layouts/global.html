@@ -41,16 +41,27 @@ layout: compress
     {% assign og_title = site.data.projects[year][id].name %}
     {% assign og_image = site.data.projects[year][id].cover %}
     {% assign og_description = site.data.projects[year][id].description %}
+    <meta http-equiv="refresh" content="0; url=/projects/{{ year }}/{{ id }}" />
 
-  <meta http-equiv="refresh" content="0; url=/projects/{{ year }}/{{id}}" />
+  {% elsif page.data == "events" %}
+    {% assign year = page.year | append: "" %}
+    {% assign project_id = page.project_id | append: "" %}
+    {% assign id = page.event_id %}
+    {% assign og_title = site.data.events[year][id].title %}
+    {% assign og_image = site.data.events[year][id].cover %}
+    {% assign og_description = site.data.events[year][id].description %}
+    <meta http-equiv="refresh" content="0; url={{ og_url }}" />
 
   {% elsif page.data == "reports" %}
-    {% assign year = page.year | append: "" %}
+    {% if page.year == "current" %}
+      {% assign year = site.data.settings.current | append: "" %}
+    {% else %}
+      {% assign year = page.year | append: "" %}
+    {% endif %}
     {% assign og_title = site.data.reports[year].title %}
     {% assign og_image = site.data.reports[year].cover %}
     {% assign og_description = site.data.reports[year].description %}
-
-  <meta http-equiv="refresh" content="0; url=/projects/{{ year }}" />
+    <meta http-equiv="refresh" content="0; url={{ og_url }}" />
 
   {% else %}
     {% assign og_title = page.og_title %}
@@ -64,8 +75,7 @@ layout: compress
     {% else %}
       {% assign og_description = {{ site.data.people.orgs.ocf.context_description }} %}
     {% endif %}
-
-  <meta http-equiv="refresh" content="0; url={{ og_url }}" />
+    <meta http-equiv="refresh" content="0; url={{ og_url }}" />
 
   {% endif %}
 
