@@ -1,0 +1,25 @@
+<a class="logo item" href="/">
+  <img class="ui logo image" src="/img/logo.png">
+</a>
+<div class="right menu">
+
+{% for item in site.data.settings.menu %}
+<a href="{{ item.url }}" class="item 
+{% if page.url contains item.url %}
+active
+{% endif %}
+" data-display="desktop">
+{{ item.title }}
+</a>
+{% endfor %}
+
+<a href="/en{{ page.en }}" class="item
+{% if page.url contains item.url %}
+active
+{% endif %}
+" data-display="desktop">En</a>
+<a class="item" data-display="mobile" data-toggle="sidebar">
+  <i class="sidebar icon"></i>
+</a>
+
+</div>

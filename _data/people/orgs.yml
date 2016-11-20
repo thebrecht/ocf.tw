@@ -19,15 +19,36 @@ ocf:
     address:
       taipei: (10058) 台北市中正區八德路一段 94 號 4F
       taoyuan: (33059) 桃園市桃園區中山路 807 號
-  social:
-    blog: http://blog.ocf.tw/
-    facebook: https://www.facebook.com/www.ocf.tw
-    google+: https://www.google.com/+OcfTw
-    youtube: https://www.youtube.com/c/OcfTw
-    googlegroups: https://groups.google.com/forum/#!forum/ocf-general
-    hackpad: https://ocf-tw.hackpad.com
-    github: https://github.com/ocftw
+  subscribe:
+    - title: News
+      url: /news
+      icon: newspaper
+      target: _self
+    - title: Blog
+      url: http://blog.ocf.tw/
+      icon: rss
+    - title: Facebook
+      url: https://www.facebook.com/www.ocf.tw
+      icon: facebook
+    - title: Google+
+      url: https://www.google.com/+OcfTw
+      icon: google plus
+    - title: YouTube
+      url: https://www.youtube.com/c/OcfTw
+      icon: youtube play
+  join:
+    - title: Google Groups
+      url: https://groups.google.com/forum/#!forum/ocf-general
+      icon: comments
+    - title: Hackpad
+      url: https://ocf-tw.hackpad.com
+      icon: text file outline
+    - title: GitHub
+      url: https://github.com/ocftw
+      icon: github
   logo: /mediakit/ocf-logo-640x156.png
+  avatar: /img/logo.jpg
+  cover: /img/og.png
   link:
     - title: 官方網站
       url: http://ocf.tw/

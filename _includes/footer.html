@@ -3,14 +3,14 @@
 
   <div class="ui stripe container">
 
-        <h2 class="ui inverted small center aligned header">
-          <img src="/img/logo.png" />
-          <div class="content">
-            {{ site.data.people.orgs.ocf.name }}
-            <div class="sub header">{{ site.data.people.orgs.ocf.name_en }}
-            </div>
-          </div>
-        </h2>
+    <h2 class="ui inverted small center aligned header">
+      <img src="/img/logo.png" />
+      <div class="content">
+        {{ site.data.people.orgs.ocf.name }}
+        <div class="sub header">{{ site.data.people.orgs.ocf.name_en }}
+        </div>
+      </div>
+    </h2>
 
     <hr class="ui divider" />
 
@@ -57,9 +57,7 @@
         </h3>
         <div class="ui list inverted">
           <div class="item">
-            <div class="content">
-            {{ site.data.people.orgs.ocf.contact.address.taipei }}
-            </div>
+          {{ site.data.people.orgs.ocf.contact.address.taipei }}
           </div>
         </div>
 
@@ -67,9 +65,7 @@
         </h3>
         <div class="ui list inverted">
           <div class="item">
-            <div class="content">
-            {{ site.data.people.orgs.ocf.contact.address.taoyuan }}
-            </div>
+          {{ site.data.people.orgs.ocf.contact.address.taoyuan }}
           </div>
           <div class="item">
             <i class="phone icon"></i>
@@ -89,94 +85,32 @@
 
       <div class="column">
 
-
         <h3 class="ui small inverted header">訂閱</h3>
 
         <div class="ui horizontal list inverted">
-          <a href="/news" class="item">
-            <i class="newspaper icon"></i>
-            <div class="content">
-            電子報
-            </div>
-          </a>
-          <a target="_blank" href="
-          {{ site.data.people.orgs.ocf.social.blog }}
-          " class="item">
-            <i class="rss icon"></i>
-            <div class="content">
-            部落格
-            </div>
-          </a>
-          <a class="item" href="
-          {{ site.data.people.orgs.ocf.social.facebook }}
-          ">
-            <i class="facebook icon"></i>
-            <div class="content">
-            Facebook
-            </div>
-          </a>
-          <a class="item" href="
-          {{ site.data.people.orgs.ocf.social.google+ }}
-          ">
-            <i class="google plus icon"></i>
-            <div class="content">
-            Google+
-            </div>
-          </a>
-          <a class="item" href="
-          {{ site.data.people.orgs.ocf.social.youtube }}
-          ">
-            <i class="youtube play icon"></i>
-            <div class="content">
-            YouTube
-            </div>
-          </a>
+        {% include subscribe.html %}
         </div>
 
         <h3 class="ui small inverted header">參與</h3>
 
         <div class="ui horizontal inverted list">
-          <a class="item" target="_blank" href="
-          {{ site.data.people.orgs.ocf.social.googlegroups }}
-          ">
-            <i class="comments icon"></i>
-            <div class="content">
-            Google Group
-            </div>
-          </a>
-          <a class="item" target="_blank" href="
-          {{ site.data.people.orgs.ocf.social.hackpad }}
-          ">
-            <i class="text file icon"></i>
-            <div class="content">
-            Hackpad
-            </div>
-          </a>
-          <a class="item" target="_blank" href="
-          {{ site.data.people.orgs.ocf.social.github }}
-          ">
-            <i class="github icon"></i>
-            <div class="content">
-            GitHub
-            </div>
-          </a>
+        {% include join.html %}
         </div>
 
       </div>
 
       <div class="column">
 
+        <h3 class="ui small inverted header">本站授權</h3>
+        <div class="ui inverted divided link list">
+          <a href="/about/#website" class="item">源碼 MIT / 內容 CC</a>
+        </div>
+
         <h3 class="ui small inverted header">網站導覽</h3>
 
         <div class="ui inverted divided link list">
-          <a href="/" class="item">首頁</a>
-          <a href="/about" class="item">關於</a>
-          <a href="/people" class="item">工作夥伴</a>
-          <a href="/projects" class="item">專案與成果</a>
-          <a href="/mediakit" class="item">媒體專區</a>
-          <a class="item">En</a>
+        {% include menu.html %}
         </div>
-
 
       </div>
 

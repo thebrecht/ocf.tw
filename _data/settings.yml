@@ -1,1 +1,10 @@
 current: 2016
+menu:
+- title: 關於
+  url: /about
+- title: 工作夥伴
+  url: /people
+- title: 專案與成果
+  url: /projects
+- title: 媒體專區
+  url: /mediakit

@@ -1,0 +1,17 @@
+{% for item in site.data.people.orgs.ocf.join %}
+
+<a class="item"
+{% if item.target %}
+target="{{ item.target }}"
+{% else %}
+target="_blank"
+{% endif %}
+href="
+{{ item.ur. }}
+">
+  <i class="{{ item.icon }} icon"></i>
+  <div class="content">
+  {{ item.title }}
+  </div>
+</a>
+{% endfor %}
