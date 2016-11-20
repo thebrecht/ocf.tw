@@ -54,7 +54,11 @@ layout: compress
 
   {% else %}
     {% assign og_title = page.og_title %}
-    {% assign og_image = page.og_image %}
+    {% if page.og_image %}
+      {% assign og_image = page.og_image %}
+    {% else %}
+      {% assign og_image = {{ site.data.people.orgs.ocf.cover }} %}
+    {% endif %}
     {% if page.og_description %}
       {% assign og_description = page.og_description %}
     {% else %}
@@ -65,11 +69,18 @@ layout: compress
 
   {% endif %}
 
-
 {% else %}
-  {% assign og_url = page.og_url %}
+  {% if page.og_url %}
+    {% assign og_url = page.og_url %}
+  {% else %}
+    {% assign og_url = page.url %}
+  {% endif %}
   {% assign og_title = page.og_title %}
-  {% assign og_image = page.og_image %}
+  {% if page.og_image %}
+    {% assign og_image = page.og_image %}
+  {% else %}
+    {% assign og_image = {{ site.data.people.orgs.ocf.cover }} %}
+  {% endif %}
   {% if page.og_description %}
     {% assign og_description = page.og_description %}
   {% else %}
