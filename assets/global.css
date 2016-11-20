@@ -6,11 +6,19 @@ html, body, h1, h2, h3, h4, h5, h6, button {
   font-family: Lato, Noto sans, "Helvetica Neue" ,Arial,Helvetica, '微軟正黑體', 'Microsoft JhengHei', sans-serif;
 }
 
-pre {
+pre, code {
   background-color: rgba(0,0,0,0.05);
   color: rgba(0,0,0,0.5);
+}
+
+pre {
   padding: 1rem;
   white-space: pre-wrap;
+}
+
+code {
+  padding: 0 0.5em;
+  margin: 0 0.5em;
 }
 
 /* adjust default semantic ui line height */
