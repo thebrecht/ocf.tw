@@ -41,7 +41,12 @@ layout: compress
     {% assign og_title = site.data.projects[year][id].name %}
     {% assign og_image = site.data.projects[year][id].cover %}
     {% assign og_description = site.data.projects[year][id].description %}
+
+    {% if page.refresh %}
+    <meta http-equiv="refresh" content="0; url={{ page.refresh }}" />
+    {% else %}
     <meta http-equiv="refresh" content="0; url=/projects/{{ year }}/{{ id }}" />
+    {% endif %}
 
   {% elsif page.data == "events" %}
     {% assign year = page.year | append: "" %}
@@ -50,7 +55,11 @@ layout: compress
     {% assign og_title = site.data.events[year][id].title %}
     {% assign og_image = site.data.events[year][id].cover %}
     {% assign og_description = site.data.events[year][id].description %}
-    <meta http-equiv="refresh" content="0; url={{ og_url }}" />
+    {% if page.refresh %}
+    <meta http-equiv="refresh" content="0; url={{ page.refresh }}" />
+    {% else %}
+    <meta http-equiv="refresh" content="0; url=/projects/{{ year }}/{{ project_id }}/{{ id }}" />
+    {% endif %}
 
   {% elsif page.data == "reports" %}
     {% if page.year == "current" %}
@@ -62,6 +71,24 @@ layout: compress
     {% assign og_image = site.data.reports[year].cover %}
     {% assign og_description = site.data.reports[year].description %}
     <meta http-equiv="refresh" content="0; url={{ og_url }}" />
+
+  {% elsif page.data == "page" %}
+    {% for source_page in site.pages %}
+    {% assign ending = og_url | slice: -1 %}
+    {% if ending != "/" %}
+    {% assign og_url = og_url | append: "/" %}
+    {% endif %}
+    {% if source_page.url == og_url %}
+      {% assign og_title = source_page.og_title %}
+      {% assign og_image = source_page.og_image %}
+      {% assign og_description = source_page.og_description %}
+    {% endif %}
+    {% endfor %}
+    {% if page.refresh %}
+    <meta http-equiv="refresh" content="0; url={{ page.refresh }}" />
+    {% else %}
+    <meta http-equiv="refresh" content="0; url={{ og_url }}" />
+    {% endif %}
 
   {% else %}
     {% assign og_title = page.og_title %}
@@ -75,7 +102,11 @@ layout: compress
     {% else %}
       {% assign og_description = {{ site.data.people.orgs.ocf.context_description }} %}
     {% endif %}
+    {% if page.refresh %}
+    <meta http-equiv="refresh" content="0; url={{ page.refresh }}" />
+    {% else %}
     <meta http-equiv="refresh" content="0; url={{ og_url }}" />
+    {% endif %}
 
   {% endif %}
 
@@ -103,7 +134,7 @@ layout: compress
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://ocf.tw{{ og_url }}" />
+  <meta property="og:url" content="{{ site.config_url }}{{ og_url }}" />
 
   <meta name="description" content="{{ og_description }}" />
   <meta property="og:description" content="{{ og_description}}" /> 
