@@ -466,15 +466,21 @@ idasg:
 
 datasciencesg:
   name: Data Science SG
+  logo:
 
 datakindsg:
   name: Datakind SG
+  logo:
 
 newsplexasia:
   name:
+  logo:
 
 ossf:
-  name: 中研院資創中心 OSSF 自由軟體鑄造場
+  name: 中研院資創中心自由軟體鑄造場
+  abbr: OSSF
+  logo: /people/partners/ossf_logo.png
+  avatar: ossf_avatar.jpg
 
 ait:
   name: 美國在台協會
@@ -491,3 +497,17 @@ ms:
   link:
     - title: 官方網站
       url: https://www.microsoft.com/zh-tw/
+
+skymizer:
+  name: 台灣發展軟體科技股份有限公司
+  abbr: Skymizer
+  logo: /people/sponsors/skymizer_logo.png
+  avatar: /people/sponsors/skymizer_avatar_black.png
+  cover: /people/sponsors/Skymizer_cover.jpg
+
+vmfive:
+  name: 第五代虛擬科技股份有限公司
+  abbr: VMFive
+  logo: /people/sponsors/vmfive_logo.png
+  avatar: /people/sponsors/vmfive_avatar.png
+
