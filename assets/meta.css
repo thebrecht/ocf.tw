@@ -1,0 +1,12 @@
+#meta {
+  font-size: 0.8rem;
+}
+
+#meta table td {
+  word-break: break-all;
+}
+
+#meta table td pre, #meta table td code {
+  margin: 0;
+  padding: 0;
+}

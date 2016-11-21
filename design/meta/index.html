@@ -1,0 +1,40 @@
+---
+layout: page
+og_title: 全站頁面 meta 總覽
+og_image: /img/cover.png
+og_description: 
+script: script-tablesort.html
+css: /assets/meta.css
+js: /assets/meta.js
+---
+
+<div id="meta">
+
+<table class="ui sortable table">
+  <thead>
+  <tr>
+    <th class="three wide">url</th>
+    <th class="three wide">title</th>
+    <th class="seven wide">description</th>
+    <th class="three wide">image</th>
+  </tr>
+  </thead>
+  <tbody>
+  {% for p in site.pages %}
+  <tr class="top aligned" data-url="{{ p.url }}">
+    <td class="three wide">
+    <pre class="paddingless marginless">{{ p.url }}</pre>
+    </td>
+    <td class="three wide" data-value="title">
+    </td>
+    <td class="seven wide" data-value="description">
+    </td>
+    <td class="three wide" data-value="image">
+      <img class="ui fluid image" src="" />
+    </td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+</div>
