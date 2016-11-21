@@ -130,7 +130,7 @@
 - project_id: sotm
   year: 2015
 
-- event_id: 0827
+- event_id: dalc
   year: 2015
 
 - event_id: 0821
@@ -148,7 +148,7 @@
 - event_id: 0703
   year: 2015
 
-- event_id: 0614
+- event_id: socp
   year: 2015
 
 - project_id: pycon
@@ -160,7 +160,7 @@
 - event_id: 0525
   year: 2015
 
-- event_id: 0524
+- event_id: elc
   year: 2015
 
 - event_id: 0523

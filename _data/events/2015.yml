@@ -233,7 +233,7 @@ intl20151004:
   project_id:
     - admin
 
-0827:
+dalc:
   title: 民主直接點？數位空間
   subtitle:
     - Democracy à la Carte? Digital spaces
@@ -350,7 +350,7 @@ intl20151004:
     - pofeng
   donors:
 
-0614:
+socp:
   title: 公民參與大亂鬥
   subtitle:
     - State of Citizen Participation
@@ -447,7 +447,7 @@ intl20151004:
     - pofeng
   donors:
 
-0524:
+elc:
   title: Embedded Linux Conference（ELC）- Linux Foundation 會後分享
   subtitle:
     - 台北場
@@ -455,21 +455,35 @@ intl20151004:
     - title: 盤纏
       color:
   meta: 
-    - 2015/5/24
     - Jeff Liaw / 廖健富 (National Cheng Kung University)
     - jserv, ggm, Peter Chang
     - 演講主題：Optimize uClinux for ARM Cortex-M4
-    - "開放文化基金會主辦, OSSF 協辦, skymier , VMFive 贊助"
   description: 
-  month: 
-  start: 
+  month: 5
+  start: 5/24
   end: 
   link: 
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/elc2015
   cover: /projects/2015/intl/elc/cover.png
+  banner: 
+  logo: 
   project_id:
     - intl
+  advisor_id:
+  organizer_id:
+    - ocf
+  co-organizer_id:
+    - ossf
+  implementer_id:
+  sponsor_id:
+    - skymizer
+    - vmfive
+  host_id:
+  speaker_id:
+  coordinator_id:
+  contributor_id:
+  donors:
 
 0523:
   title: 臺北市政府開放資料黑客松
