@@ -1,8 +1,7 @@
 ---
 layout: page
 og_title: 全站頁面 meta 總覽
-og_image: /img/cover.png
-og_description: 
+og_description: 這頁是 OCF.tw 官網改版 2016 年度結案驗收文件之一，列出全站所有頁面的 open graph 資料，包括 url, title, description, image，用來確認資料有沒有缺漏或文案風格有沒有保持一致。
 script: script-tablesort.html
 css: /assets/meta.css
 js: /assets/meta.js
@@ -10,6 +9,13 @@ js: /assets/meta.js
 
 <div id="meta">
 
+<section class="ui stripe center aligned container">
+<h1 class="ui icon header">
+<i class="icon code circular"></i>
+{{ page.og_title }}</h1>
+</section>
+
+<section class="ui stripe container">
 <table class="ui sortable table">
   <thead>
   <tr>
@@ -22,19 +28,21 @@ js: /assets/meta.js
   <tbody>
   {% for p in site.pages %}
   <tr class="top aligned" data-url="{{ p.url }}">
-    <td class="three wide">
-    <pre class="paddingless marginless">{{ p.url }}</pre>
+    <td>
+    <pre>{{ p.url }}</pre>
     </td>
-    <td class="three wide" data-value="title">
+    <td data-value="title">
     </td>
-    <td class="seven wide" data-value="description">
+    <td data-value="description">
     </td>
-    <td class="three wide" data-value="image">
+    <td data-value="image">
       <img class="ui fluid image" src="" />
     </td>
   </tr>
   {% endfor %}
   </tbody>
 </table>
+</section>
 
+<hr class="ui hidden divider" />
 </div>
