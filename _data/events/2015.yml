@@ -290,6 +290,44 @@ dalc:
   project_id:
     - intl
 
+0815:
+  title: 開放文化影展〈第一場〉 The Internet's Own Boy
+  subtitle:
+  meta:
+    - 開放文化影展工作小組 籌畫執行
+  description: 開放文化影展第一場就在熱鬧滾滾的 COSCUP2015 晚上舉辦，透過紀錄片我們認識網路之子（Aaron Swartz）的一生，看到了他對於資訊與資料揭露苦心的追求，以及對於開放資料的⼀⼤支柱—公眾授權條款的推廣。
+  month: 8
+  start: 8/15
+  end: 
+  link:
+    - title: 活動宣傳貼文
+      url: https://www.facebook.com/www.ocf.tw/photos/a.1535385736737357.1073741828.1502561953353069/1622242241385039/?type=3&theater
+    - title: 中文字幕線上協作區
+      url: https://github.com/bobchao/theinternetsownboy-zhtw
+    - title: 摩茲字幕組翻譯活動
+      url: http://moztw.kktix.cc/events/aaronswartzdoc
+    - title: 活動共筆暨簽到區
+      url: https://docs.google.com/document/d/1MqTVx2ff-HyCG1zqgGqQJbt9dhgnH0pW0wPtG6r2W38/edit#heading=h.gbvvxtv67s3i
+    - title: 活動照片
+      url: https://www.facebook.com/pg/www.ocf.tw/photos/?tab=album&album_id=1636118323330764
+  cover: /projects/2015/movie/ying_zhan_-01.jpg
+  banner: 
+  logo: 
+  project_id:
+  advisor_id:
+  organizer_id:
+    - ocf
+    - coscup
+  co-organizer_id:
+    - moeaidb
+  implementer_id:
+  sponsor_id:
+  host_id:
+  speaker_id:
+  coordinator_id:
+  contributor_id:
+  donors:
+
 0803:
   title: SITCON Camp 學生計算機年會夏令營 2015（第二梯次）
   subtitle: SITCON Camp 2015

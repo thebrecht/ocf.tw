@@ -512,3 +512,10 @@ vmfive:
   logo: /people/sponsors/vmfive_logo.png
   avatar: /people/sponsors/vmfive_avatar.png
 
+moeaidb:
+  name: 經濟部工業局
+  abbr:
+  logo: /people/partners/idb_logo.png
+  link:
+    - title: 官方網站
+      url: https://www.moeaidb.gov.tw/
