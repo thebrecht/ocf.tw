@@ -1,3 +1,28 @@
 source:      .
 destination: _deploy
 config_url: http://beta.ocf.tw
+defaults:
+  - scope:
+      path: ""
+    values:
+      og_title: "test default title"
+      og_image: /mediakit/cover.png
+      og_description: "test default description"
+readme:
+  folders:
+    about/: 關於我們頁面
+    people/: 工作夥伴頁面與圖檔們
+    projects/: 專案與成果頁面
+    projects/2015/: 2015 專案資料夾與年度報告頁面
+    projects/2016/: 2016 專案資料夾與年度報告頁面
+    mediakit/: 放媒體專區頁面的地方
+    en/: 放英文版頁面的地方
+    news/: 放新聞頁的地方
+    design/: 網站驗收與交接所需的各種文件
+    _data/: 所有結構化資料都在這
+    _includes/: 所有頁面之間的共用零件都在這
+    _layouts/: 所有頁面的版型都在這
+    _samples/: 所有 .yml 檔案跟 .html 檔案的範例都在這
+  layouts:
+  includes:
+  data:
