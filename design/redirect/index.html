@@ -1,0 +1,47 @@
+---
+layout: page
+og_title: 全站 redirect 頁面總覽
+og_description: 這頁是 OCF.tw 官網改版 2016 年度結案驗收文件之一，列出全站所有自動導向頁面的 redirect 資訊，包括跳板頁及目的頁的 url，用來和手工編輯的的 google spreadsheet 比對，確認實做結果和原訂目標是否一致。
+script: script-tablesort.html
+css: /assets/redirect.css
+js: /assets/redirect.js
+---
+
+<div id="redirect">
+
+<section class="ui stripe center aligned container">
+<h1 class="ui icon header">
+<i class="icon code circular"></i>
+{{ page.og_title }}</h1>
+</section>
+
+<section class="ui stripe container">
+<table class="ui sortable table">
+  <thead>
+  <tr>
+    <th class="five wide">url</th>
+    <th class="six wide">title</th>
+    <th class="five wide">redirect to</th>
+  </tr>
+  </thead>
+  <tbody>
+  {% for p in site.pages %}
+  {% if p.layout == "redirect" %}
+  <tr class="top aligned" data-url="{{ p.url }}">
+    <td>
+    <pre>{{ p.url }}</pre>
+    </td>
+    <td data-value="title">
+    </td>
+    <td data-value="redirect url">
+    <pre></pre>
+    </td>
+  </tr>
+  {% endif %}
+  {% endfor %}
+  </tbody>
+</table>
+</section>
+
+<hr class="ui hidden divider" />
+</div>

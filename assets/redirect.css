@@ -1,0 +1,12 @@
+#redirect {
+  font-size: 0.8rem;
+}
+
+#redirect table td {
+  word-break: break-all;
+}
+
+#redirect table td pre, #redirect table td code {
+  margin: 0;
+  padding: 0;
+}
