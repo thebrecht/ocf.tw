@@ -46,9 +46,10 @@ ocf:
     - title: GitHub
       url: https://github.com/ocftw
       icon: github
-  logo: /mediakit/ocf-logo-640x156.png
-  avatar: /img/logo.jpg
-  cover: /img/og.png
+  icon: /mediakit/icon_white.png
+  logo: /mediakit/logo.png
+  avatar: /mediakit/avatar.jpg
+  cover: /mediakit/cover.png
   link:
     - title: 官方網站
       url: http://ocf.tw/
