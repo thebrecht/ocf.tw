@@ -3,8 +3,8 @@ admin:
   name_en: OCF Administration Center
   abbr: 
   tagline: 
-  cover: /projects/2016/admin/og.png
-  avatar: /mediakit/ocf-square.jpg
+  cover: /mediakit/cover_bg.png
+  avatar: /mediakit/avatar.jpg
   description: 開設獨立帳戶、收款取款、對帳、製作報表、開立收據、流程諮詢、彙整資料、成果發表、活動規劃、網站維護……一點都不迷人的繁瑣的行政庶務，卻是在幕後默默支援所有專案、不可或缺的基礎建設。行政中心奠定營運基石，讓所有專案共同受益。
   month: 
   start: 
