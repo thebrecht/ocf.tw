@@ -42,17 +42,17 @@ layout: page
       {{ content }}
 
       {% if events %}
-      <h2 class="ui dividing header">計畫成果</h2>
+      <h2 id="events" class="ui dividing header">計畫成果</h2>
       {% include events.html %}
       {% endif %}
 
       {% if page.budget %}
-      <h2 class="ui header">預算表</h2>
+      <h2 id="budget" class="ui header">預算表</h2>
       {% include_relative {{ page.budget }} %}
       {% endif %}
 
       {% if page.gsheet %}
-      <h2 class="ui header">收支明細</h2>
+      <h2 id="payments" class="ui dividing header">收支明細</h2>
       <div class="ui basic paddingless segment">
         <iframe src="{{ page.gsheet }}"></iframe>
       </div>
