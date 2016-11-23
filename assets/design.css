@@ -1,0 +1,9 @@
+table th, table td {
+  word-break: break-all;
+  font-size: 0.8rem;
+}
+
+table td pre, table td code {
+  margin: 0;
+  padding: 0;
+}
