@@ -1,0 +1,37 @@
+name: OSDC
+name_en: 
+abbr: OSDC
+tagline: 
+cover: /p/2014/osdc/og.png
+description: 
+month: 
+start: 
+end: 
+link:
+  - title: 官方網站
+    url: 
+    target: _blank
+tag:
+  - 大型研討會
+  - 定期活動
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - it
+advisor_id:
+organizer_id:
+  - osdc
+co-organizer_id:
+  - ocf
+implementer_id:
+sponsor_id:
+board_id:
+  - pofeng
+staff_id: 
+  - singing
+coordinator_id:
+  - clkao
+contributor_id:
+donors:

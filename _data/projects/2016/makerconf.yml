@@ -1,0 +1,34 @@
+name: MakerConf 2016
+name_en: 
+abbr: MakerConf 2016
+tagline: 
+cover: /p/2016/makerconf/og.png
+description: MakerConf 自 2014 年開始，呼應國內外吹起的自造者風氣，籌辦了第一屆的 MakerConf，廣結台灣在地的自造者聚集起來，彼此交流關於開放硬體與自造經驗分享。但是 Conf 畢竟只是 Conf，身為一個 Maker，沒有動手做一切都是，假的。所以！今年！Conf 不再只是 Conf，讓我們一起帶著電腦和雙手，到 MakerConf，一起動起來自造吧！
+month: 9
+start: 9/3
+end: 9/3
+link: 
+  - title: 大會官方部落格
+    url: http://www.makerconf.tw/?p=207
+tag:
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - it
+advisor_id:
+organizer_id:
+  - raspberrypi
+co-organizer_id:
+  - ocf
+implementer_id:
+board_id:
+  - pofeng
+staff_id: 
+  - singing
+partner_id:
+  - makerconf
+consultant_id:
+volunteer_id:
+coordinator_id:

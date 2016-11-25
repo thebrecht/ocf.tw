@@ -1,0 +1,35 @@
+name: COSCUP 開源人年會 2015
+name_en: Conference for Open Source Coders, Users and Promoters
+abbr: COSCUP 2015
+tagline: 
+cover: /p/2015/coscup/og.png
+description: 
+month: 8
+start: 8/15
+end: 8/16
+link:
+  - title: 官方網站
+    url: http://coscup.org/2015/
+tag:
+  - 大型研討會
+  - 定期活動
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - it
+advisor_id:
+organizer_id:
+  - coscup
+co-organizer_id:
+  - ocf
+implementer_id:
+board_id:
+  - bobchao
+staff_id: 
+  - singing
+consultant_id:
+volunteer_id:
+coordinator_id:
+

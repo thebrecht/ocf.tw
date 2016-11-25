@@ -43,7 +43,7 @@
       url: https://www.youtube.com/playlist?list=PLFuYOsppHDrnsqfUhKAs9tFkqyCVIoaSy
     - title: 活動照片
       url: https://www.facebook.com/www.ocf.tw/posts/1657544684521461
-  cover: /projects/2015/intl/blulu/cover.png
+  cover: /p/2015/intl/blulu/cover.png
   project_id:
     - intl
 
@@ -74,8 +74,8 @@
       url: http://ocftw.kktix.cc/events/ipf
     - title: 影音紀錄
       url: https://www.youtube.com/playlist?list=PLFuYOsppHDrlHvIPzWAWxPLqdxtuIJnqm
-  cover: /projects/2015/intl/ipf/cover.png
-  banner: /projects/2015/intl/ipf/banner.png
+  cover: /p/2015/intl/ipf/cover.png
+  banner: /p/2015/intl/ipf/banner.png
   project_id:
     - intl
 
@@ -97,8 +97,8 @@
   link: 
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/imhp
-  cover: /projects/2015/intl/ipf/cover.png
-  banner: /projects/2015/intl/ipf/banner.png
+  cover: /p/2015/intl/ipf/cover.png
+  banner: /p/2015/intl/ipf/banner.png
   project_id:
     - intl
 
@@ -189,10 +189,6 @@
   project_id:
     - admin
 
-intl20151004:
-  project_id: intl
-  achievement_id: 20151004
-
 1004:
   title: 新科技新民主
   subtitle:
@@ -213,7 +209,7 @@ intl20151004:
       url: https://www.youtube.com/playlist?list=PLFuYOsppHDrnXBJdYpf4BoNfY-vhBoRYC
     - title: 活動照片
       url: http://bit.ly/ntnd-album
-  cover: /projects/2015/intl/ntnd/cover.png
+  cover: /p/2015/intl/ntnd/cover.png
   project_id:
     - intl
 
@@ -250,7 +246,7 @@ dalc:
   end: 
   link: 
     - title: 入口頁
-      url: /projects/2015/intl/dalc
+      url: /p/2015/intl/dalc
       target: _self
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/dalc
@@ -258,8 +254,8 @@ dalc:
       url: https://www.youtube.com/playlist?list=PLFuYOsppHDrmLoqdOHON3dpRWsUNB8Png
     - title: 活動共筆集
       url: http://beta.hackfoldr.org/1VsRaGZpVYXxDwcQ2zPvt1YMLC8O0lNZop1lB6VtmCzs/https%253A%252F%252Fhackpad.com%252F2015824--ACmtQLJJt6p
-  cover: /projects/2015/intl/dalc/cover.jpg
-  banner: /projects/2015/intl/dalc/banner.png
+  cover: /p/2015/intl/dalc/cover.jpg
+  banner: /p/2015/intl/dalc/banner.png
   project_id:
     - intl
   organizer_id:
@@ -286,7 +282,7 @@ dalc:
   link: 
     - title: 官方網站
       url: http://dbootcamp.taipei/zh/
-  cover: /projects/2015/intl/dbootcamp0821.png
+  cover: /p/2015/intl/dbootcamp0821.png
   project_id:
     - intl
 
@@ -310,7 +306,7 @@ dalc:
       url: https://docs.google.com/document/d/1MqTVx2ff-HyCG1zqgGqQJbt9dhgnH0pW0wPtG6r2W38/edit#heading=h.gbvvxtv67s3i
     - title: 活動照片
       url: https://www.facebook.com/pg/www.ocf.tw/photos/?tab=album&album_id=1636118323330764
-  cover: /projects/2015/movie/ying_zhan_-01.jpg
+  cover: /p/2015/movie/ying_zhan_-01.jpg
   banner: 
   logo: 
   project_id:
@@ -343,7 +339,7 @@ dalc:
   link:
     - title: 活動頁
       url: http://sitcon.kktix.cc/events/camp-2015-second-1
-  cover: /projects/2015/sitcon/camp/og.png
+  cover: /p/2015/sitcon/camp/og.png
   project_id:
     - sitconcamp
 
@@ -362,7 +358,7 @@ dalc:
   link:
     - title: 活動頁
       url: http://sitcon.kktix.cc/events/camp-2015-first-1
-  cover: /projects/2015/sitcon/camp/og.png
+  cover: /p/2015/sitcon/camp/og.png
   project_id:
     - sitconcamp
 
@@ -405,7 +401,7 @@ socp:
   end: 
   link: 
     - title: 入口頁
-      url: /projects/2015/intl/socp
+      url: /p/2015/intl/socp
       target: _self
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/socp
@@ -415,8 +411,8 @@ socp:
       url: https://www.youtube.com/playlist?list=PLFuYOsppHDrljeF9tUWJR9nrY2CfIqP0k
     - title: 活動照片
       url: https://www.facebook.com/media/set/?set=a.1601440363465227.1073741832.1502561953353069&type=3
-  cover: /projects/2015/intl/socp/cover.jpg
-  banner: /projects/2015/intl/socp/banner.jpg
+  cover: /p/2015/intl/socp/cover.jpg
+  banner: /p/2015/intl/socp/banner.jpg
   logo: 
   project_id:
     - intl
@@ -445,7 +441,7 @@ socp:
   link: 
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/elc2015-hsz
-  cover: /projects/2015/intl/elc/cover.png
+  cover: /p/2015/intl/elc/cover.png
   project_id:
     - intl
 
@@ -503,7 +499,7 @@ elc:
   link: 
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/elc2015
-  cover: /projects/2015/intl/elc/cover.png
+  cover: /p/2015/intl/elc/cover.png
   banner: 
   logo: 
   project_id:
@@ -627,7 +623,7 @@ elc:
       url: https://www.youtube.com/playlist?list=PLFuYOsppHDrlzoWQ0G8Txt545FXEm6pBR
     - title: 活動照片
       url: https://www.facebook.com/media/set/?set=a.1568447143431216.1073741830.1502561953353069&type=3
-  cover: /projects/2015/intl/ignite/cover.jpg
+  cover: /p/2015/intl/ignite/cover.jpg
   project_id:
     - intl
 

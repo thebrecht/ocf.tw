@@ -1,0 +1,311 @@
+Searching 34 files for "/projects/"
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/2014/dbootcamp.yml:
+    3  abbr: 
+    4  tagline: 
+    5: cover: /projects/2014/intl/dbootcampsg1026.png
+    6  description: 
+    7  month: 10
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/2014/g0vsummit.yml:
+    3  abbr: G0V Summit 2014
+    4  tagline: 
+    5: cover: /projects/2014/g0vsummit/og.png
+    6  description: 從開放資料出發，透過開源社群促進開放政府的可能。在這條路上，g0v 社群與 NGO 、政府建立了多方互動。但改變需要更長遠的跨界交流，因此在今年初，我們開始籌備 g0v.tw Summit 零時政府年會，希望從多元面向探討運用科技與開源精神改變社會的可能。
+    7  month: 11
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/2014/osdc.yml:
+    3  abbr: OSDC
+    4  tagline: 
+    5: cover: /projects/2014/osdc/og.png
+    6  description: 
+    7  month: 
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/2015/coscup.yml:
+    3  abbr: COSCUP 2015
+    4  tagline: 
+    5: cover: /projects/2015/coscup/og.png
+    6  description: 
+    7  month: 8
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/2015/dbootcamp.yml:
+    3  abbr: d|Bootcamp Taipei
+    4  tagline: 
+    5: cover: /projects/2015/dbootcamp/og.png
+    6  description: d|Bootcamp Taipei 由開放文化基金會與世界銀行共同主辦，邀請來自 Code4Africa、NPR、聯合國、南華早報的國際講者，分享全球新聞室所面臨的挑戰與創新。同時搭配國內多位具有跨領域經驗的技術講師，針對新聞工作者設計一系列入門但務實的課程，就算看到數字會頭痛、打開試算表會失去方向，你也有機會從無到有、動手完成一則完整的資料新聞。透過國際專家分享、密集實作訓練，讓新聞工作者快速學習資料新聞基礎技能。第一天的密集課程結束後，隔天直接到 g0v 零時政府黑客松提案挖坑填坑，保證精實！
+    7  month: x
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/2015/intl.yml:
+    3  abbr: 
+    4  tagline: 邀請講者訪台交流　贊助青年國際盤纏
+    5: cover: /projects/2016/intl/og.jpg
+    6: logo: /projects/2016/intl/logo.jpg
+    7  description: 廣結高手、搭橋牽線、舉辦活動、補助旅費……透過多樣的交流形式，建立本地社群與國際社群的連結，催生相互認識與合作的機會，同時也希望能協助更多學生開拓國際視野，站上國際舞台，主動分享開源成果，並於回國後分享心得，為下一位受益者募集旅費，擴善計劃效益。
+    8  month: 
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/2015/jcconf.yml:
+    3  abbr: JCConf Taiwan 2015
+    4  tagline: 
+    5: cover: /projects/2015/jcconf/og.png
+    6  description: Java Community Conference Taiwan 是由社群主辦的 Java 開發者年會，以提供更多機會讓開發人員之間能夠互相交流。分享內容的程度不論初階到進階，只要和 Java 程式語言、框架、JVM 及虛擬化相關技術、移動裝置、開發工具、開發流程...等等，任何你認為可以分享的主題都歡迎您的投稿，歡迎分享你的發現、研究或各種實際案例經驗給大家。 
+    7  month: 12
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/2015/sitcon.yml:
+    3  abbr: SITCON 2015
+    4  tagline: 
+    5: cover: /projects/2015/sitcon/og.png
+    6  description: SITCON 學生計算機年會係一學生自發組成的研討會，秉持著以學生為主軸的核心價值，藉以凝聚與傳遞學生的力量。希望藉由提供一個經驗交流與資訊技術實務分享的平台，使已有成就者能夠傳承己身經驗，嶄露頭角者在激盪中獲得靈感與啟發，並同時讓初入茅廬者得以對資訊科學有更深入的了解；進而達到「學以致用、教學相長」的目標。
+    7  month: 3
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/2015/sitconcamp.yml:
+    3  abbr: SITCON Camp 2015
+    4  tagline: 
+    5: cover: /projects/2015/sitcon/camp/og.png
+    6  description: 2015 年度，以「開源、創新、夥伴精神」為主軸，SITCON 夏令營將於聖約翰科技大學舉辦，延續新手村的概念，配合豐富的課程、座談會及社群闖關，讓學員在程式編寫管理、演算法思維、團隊合作等架構下學習；今年並將更進一步把故事和營隊整合，完整營造整體感，務求讓學員擁有截然不同的營隊體驗。
+    7  month: 7, 8
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/2015/sotm.yml:
+    3  abbr: SotM Taiwan
+    4  tagline: 
+    5: cover: /projects/2015/sotm/og.png
+    6  description: 台灣開放街圖研討會(SotM Taiwan 2015)希望創造一個開放地理資訊與源碼的交流環境，期待對於地理空間資訊的技術發展、創新研發、和商業應用有深入淺出的討論與互動，讓以社群為主的地圖成為產官學界共同討論的目標，達到多方交流互視，進而協同合作。開放街圖研討會並著重於開放街圖平台的技術交流，可聚集許多空間地理資訊專業人員參與互動，不但可協助贊助商了解開放街圖平台之相關技術，且可協助贊助商與空間地理資訊開發之中高階人才接觸與交流，此外，也有助於贊助商推廣相關產品及服務，讓更多對於空間地理資訊開發者或使用者了解。
+    7  month: 9
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/2016/coscup.yml:
+    3  abbr: COSCUP 2016
+    4  tagline: 
+    5: cover: /projects/2016/coscup/og.png
+    6  description: “ It’s BETTER when it’s SHARED. ” 「分享」一直以來都是 COSCUP 的主軸，我們相信，唯有透過分享、討論與眾人的再創造，才能真正落實 open source 的精神與信念，帶給這個世界更多的可能。 人生不該被侷限在任何規則裡。除去你想像中的限制與框架，你會驚訝地發現，被激發的火花也許比你想像要多很多。不管你是迫不及待分享你過去試圖打破產業／方法間界限的貢獻與經驗，，亦或想在此盛會中聆聽交流、激發自己更多潛力，將未成形的想法付諸實現，甚至是以一個新手的身份體驗何謂 open source 的分享精神，從老手身上交接一個新的世代，我們都歡迎你前來共襄盛舉，參與一年一度 COSCUP 開源人年會。
+    7  month: 8
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/2016/g0vdathon.yml:
+    3  abbr: 
+    4  tagline: 
+    5: cover: /projects/2016/g0vdathon/og.png
+    6  description: g0v 零時政府發源地——固定雙月月底舉辦的 g0v 大黑客松，聚集了工程師、設計師、律師、學者、NGO 工作者、公務員... 一起動手改變世界，現場提供源源不絕的食物，讓大家盡情 hack、eat、hack！
+    7  month: 
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/2016/g0vsummit.yml:
+    3  abbr: G0V Summit 2016
+    4  tagline: 
+    5: cover: /projects/2016/g0vsummit/og.png
+    6  description: g0v.tw 2012 年底 g0v 社群運作逐漸成形，從那時起 g0v 零時政府社群便以數位世代的思維，以開源方式號召群眾參與著手開發新工具、新組織型態、新合作關係。經過多方共同努力，透過 g0v 的開放特性作為平台，與 NGO 和政府建立了多方互動，但需要更長遠的跨領域交流，為此籌辦 g0v.tw summit 零時政府高峰會，希望有更多深入的溝通與交流，與有志運用科技改變社會的各界共同參與，期待開放力量成為實際改變的動能。
+    7  month: 5
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/2016/hadoopcon.yml:
+    3  abbr: HadoopCon 2016
+    4  tagline: 
+    5: cover: /projects/2016/hadoopcon/og.jpg
+    6  description: 
+    7  month: 9
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/2016/intl.yml:
+    3  abbr: 
+    4  tagline: 邀請講者訪台交流　贊助青年國際盤纏
+    5: cover: /projects/2016/intl/og.jpg
+    6: avatar: /projects/2016/intl/logo.jpg
+    7  description: 廣結高手、搭橋牽線、舉辦活動、補助旅費……透過多樣的交流形式，建立本地社群與國際社群的連結，催生相互認識與合作的機會，同時也希望能協助更多學生開拓國際視野，站上國際舞台，主動分享開源成果，並於回國後分享心得，為下一位受益者募集旅費，擴善計劃效益。
+    8  month: 
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/2016/jcconf.yml:
+    3  abbr: JCConf Taiwan 2016
+    4  tagline: 
+    5: cover: /projects/2016/jcconf/og.png
+    6  description: Java Community Conference Taiwan 是由社群主辦的 Java 開發者年會，以提供更多機會讓開發人員之間能夠互相交流。分享內容的程度不論初階到進階，只要和 Java 程式語言、框架、JVM 及虛擬化相關技術、移動裝置、開發工具、開發流程...等等，任何你認為可以分享的主題都歡迎您的投稿，歡迎分享你的發現、研究或各種實際案例經驗給大家。 
+    7  month: 10
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/2016/makerconf.yml:
+    3  abbr: MakerConf 2016
+    4  tagline: 
+    5: cover: /projects/2016/makerconf/og.png
+    6  description: MakerConf 自 2014 年開始，呼應國內外吹起的自造者風氣，籌辦了第一屆的 MakerConf，廣結台灣在地的自造者聚集起來，彼此交流關於開放硬體與自造經驗分享。但是 Conf 畢竟只是 Conf，身為一個 Maker，沒有動手做一切都是，假的。所以！今年！Conf 不再只是 Conf，讓我們一起帶著電腦和雙手，到 MakerConf，一起動起來自造吧！
+    7  month: 9
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/2016/movie.yml:
+    3  abbr: 
+    4  tagline: 
+    5: cover: /projects/2016/movie/og.png
+    6  description: 資訊自由鬥士 Aaron Swartz 精彩生平、開源之源、開放的自造世界...，開放文化的風在全球各地吹起，精心拍攝的電影、紀錄片，凝聚了箇中精華。本計畫洽談影片授權、翻譯成正體中文、製作字幕並上映，讓國人一睹開放文化的風采。
+    7  month: 
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/2016/otspace.yml:
+    3  abbr: OT Space
+    4  tagline: FLOSS + Art = OpenLab. Taipei
+    5: cover: /projects/2016/otspace/og.jpg
+    6  description: OpenLab. Taipei 可以說是臺灣自造者空間最一開始的雛形，提供一個空間讓大家可以在這裡製作東西、一起討論、交流。2013、2014以來自造者運動（Maker Movement）於台灣漸成規模，各地自造者空間如雨後春筍般出現；作為台灣自造者運動的先驅，OpenLab.Taipei 從 2010 年座落寶藏巖，可謂篳路藍縷地見證著了國內自造者圈的成長。 
+    7  month: 
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/2016/pycon.yml:
+    3  abbr: PyCon TW 2016
+    4  tagline: 
+    5: cover: /projects/2016/pycon/og.png
+    6  description: PyCon Taiwan 為一年一度由愛好者舉辦、討論並提倡使用 Python 程式語言的會議，聚焦在 Python 技術與其多樣的可能應用的交流。我們歡迎所有對 Python 有興趣的朋友一同加入 PyCon Taiwan 來分享所學、交換想法、並且認識更多同好。
+    7  month: 6
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/2016/sitcon.yml:
+    3  abbr: SITCON 2016
+    4  tagline: 
+    5: cover: /projects/2016/sitcon/og.png
+    6  description: SITCON 學生計算機年會係一學生自發組成的研討會，秉持著以學生為主軸的核心價值，藉以凝聚與傳遞學生的力量。希望藉由提供一個經驗交流與資訊技術實務分享的平台，使已有成就者能夠傳承己身經驗，嶄露頭角者在激盪中獲得靈感與啟發，並同時讓初入茅廬者得以對資訊科學有更深入的了解；進而達到「學以致用、教學相長」的目標。
+    7  month: 2
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/2016/sitconcamp.yml:
+    3  abbr: SITCON Camp 2016
+    4  tagline: 墜入資訊夢，喚醒開源魂
+    5: cover: /projects/2016/sitconcamp/og.png
+    6  description: 2016 年度，以「墜入資訊夢，喚醒開源魂」為主軸，SITCON 夏令營將於中央大學舉辦，新創開源鄉的概念，配合豐富的課程、座談會及社群闖關，讓學員在程式編寫管理、演算法思維、團隊合作等架構下學習；今年將更進一步把故事和營隊整合，完整營造整體感，務求讓學員擁有截然不同的營隊體驗。
+    7  month: 8
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/2016/sysprogram.yml:
+    3  abbr: 
+    4  tagline: 添購課程教材　補助期末專案　更新儀器設備
+    5: cover: /projects/2016/sysprogram/og.jpg
+    6: avatar: /projects/2016/sysprogram/logo.png
+    7  description: 秉持「為納稅人而教」的使命，親身帶領學生投入開放原始碼專案的開發，希望能為學生徵求到課程用品，如：嵌入式硬體開發板、 最新的原文書籍、專題製作材料費補助，減少學習負擔，使學生能全心參與開源專案，累積實力迎戰未來的大舞台！
+    8  month: 
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/_archive/2014.yml:
+    4    abbr: OSDC
+    5    tagline: 
+    6:   cover: /projects/2014/osdc/og.png
+    7    description: 
+    8    month: 
+    .
+   43    abbr: G0V Summit 2014
+   44    tagline: 
+   45:   cover: /projects/2014/g0vsummit/og.png
+   46    description: 從開放資料出發，透過開源社群促進開放政府的可能。在這條路上，g0v 社群與 NGO 、政府建立了多方互動。但改變需要更長遠的跨界交流，因此在今年初，我們開始籌備 g0v.tw Summit 零時政府年會，希望從多元面向探討運用科技與開源精神改變社會的可能。
+   47    month: 11
+   ..
+   86    abbr: 
+   87    tagline: 
+   88:   cover: /projects/2014/intl/dbootcampsg1026.png
+   89    description: 
+   90    month: 10
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/_archive/2015.yml:
+    4    abbr: 
+    5    tagline: 邀請講者訪台交流　贊助青年國際盤纏
+    6:   cover: /projects/2016/intl/og.jpg
+    7:   logo: /projects/2016/intl/logo.jpg
+    8    description: 廣結高手、搭橋牽線、舉辦活動、補助旅費……透過多樣的交流形式，建立本地社群與國際社群的連結，催生相互認識與合作的機會，同時也希望能協助更多學生開拓國際視野，站上國際舞台，主動分享開源成果，並於回國後分享心得，為下一位受益者募集旅費，擴善計劃效益。
+    9    month: 
+   ..
+   53    abbr: d|Bootcamp Taipei
+   54    tagline: 
+   55:   cover: /projects/2015/dbootcamp/og.png
+   56    description: d|Bootcamp Taipei 由開放文化基金會與世界銀行共同主辦，邀請來自 Code4Africa、NPR、聯合國、南華早報的國際講者，分享全球新聞室所面臨的挑戰與創新。同時搭配國內多位具有跨領域經驗的技術講師，針對新聞工作者設計一系列入門但務實的課程，就算看到數字會頭痛、打開試算表會失去方向，你也有機會從無到有、動手完成一則完整的資料新聞。透過國際專家分享、密集實作訓練，讓新聞工作者快速學習資料新聞基礎技能。第一天的密集課程結束後，隔天直接到 g0v 零時政府黑客松提案挖坑填坑，保證精實！
+   57    month: x
+   ..
+   90    abbr: JCConf Taiwan 2015
+   91    tagline: 
+   92:   cover: /projects/2015/jcconf/og.png
+   93    description: Java Community Conference Taiwan 是由社群主辦的 Java 開發者年會，以提供更多機會讓開發人員之間能夠互相交流。分享內容的程度不論初階到進階，只要和 Java 程式語言、框架、JVM 及虛擬化相關技術、移動裝置、開發工具、開發流程...等等，任何你認為可以分享的主題都歡迎您的投稿，歡迎分享你的發現、研究或各種實際案例經驗給大家。 
+   94    month: 12
+   ..
+  127    abbr: SotM Taiwan
+  128    tagline: 
+  129:   cover: /projects/2015/sotm/og.png
+  130    description: 台灣開放街圖研討會(SotM Taiwan 2015)希望創造一個開放地理資訊與源碼的交流環境，期待對於地理空間資訊的技術發展、創新研發、和商業應用有深入淺出的討論與互動，讓以社群為主的地圖成為產官學界共同討論的目標，達到多方交流互視，進而協同合作。開放街圖研討會並著重於開放街圖平台的技術交流，可聚集許多空間地理資訊專業人員參與互動，不但可協助贊助商了解開放街圖平台之相關技術，且可協助贊助商與空間地理資訊開發之中高階人才接觸與交流，此外，也有助於贊助商推廣相關產品及服務，讓更多對於空間地理資訊開發者或使用者了解。
+  131    month: 9
+  ...
+  206    abbr: COSCUP 2015
+  207    tagline: 
+  208:   cover: /projects/2015/coscup/og.png
+  209    description: 
+  210    month: 8
+  ...
+  242    abbr: SITCON Camp 2015
+  243    tagline: 
+  244:   cover: /projects/2015/sitcon/camp/og.png
+  245    description: 2015 年度，以「開源、創新、夥伴精神」為主軸，SITCON 夏令營將於聖約翰科技大學舉辦，延續新手村的概念，配合豐富的課程、座談會及社群闖關，讓學員在程式編寫管理、演算法思維、團隊合作等架構下學習；今年並將更進一步把故事和營隊整合，完整營造整體感，務求讓學員擁有截然不同的營隊體驗。
+  246    month: 7, 8
+  ...
+  314    abbr: SITCON 2015
+  315    tagline: 
+  316:   cover: /projects/2015/sitcon/og.png
+  317    description: SITCON 學生計算機年會係一學生自發組成的研討會，秉持著以學生為主軸的核心價值，藉以凝聚與傳遞學生的力量。希望藉由提供一個經驗交流與資訊技術實務分享的平台，使已有成就者能夠傳承己身經驗，嶄露頭角者在激盪中獲得靈感與啟發，並同時讓初入茅廬者得以對資訊科學有更深入的了解；進而達到「學以致用、教學相長」的目標。
+  318    month: 3
+
+/Users/etblue/GitHub/ocftw/ocf.tw/_data/projects/_archive/2016.yml:
+   74    abbr: 
+   75    tagline: 邀請講者訪台交流　贊助青年國際盤纏
+   76:   cover: /projects/2016/intl/og.jpg
+   77:   avatar: /projects/2016/intl/logo.jpg
+   78    description: 廣結高手、搭橋牽線、舉辦活動、補助旅費……透過多樣的交流形式，建立本地社群與國際社群的連結，催生相互認識與合作的機會，同時也希望能協助更多學生開拓國際視野，站上國際舞台，主動分享開源成果，並於回國後分享心得，為下一位受益者募集旅費，擴善計劃效益。
+   79    month: 
+   ..
+  136    abbr: 
+  137    tagline: 
+  138:   cover: /projects/2016/movie/og.png
+  139    description: 資訊自由鬥士 Aaron Swartz 精彩生平、開源之源、開放的自造世界...，開放文化的風在全球各地吹起，精心拍攝的電影、紀錄片，凝聚了箇中精華。本計畫洽談影片授權、翻譯成正體中文、製作字幕並上映，讓國人一睹開放文化的風采。
+  140    month: 
+  ...
+  181    abbr: 
+  182    tagline: 
+  183:   cover: /projects/2016/g0vdathon/og.png
+  184    description: g0v 零時政府發源地——固定雙月月底舉辦的 g0v 大黑客松，聚集了工程師、設計師、律師、學者、NGO 工作者、公務員... 一起動手改變世界，現場提供源源不絕的食物，讓大家盡情 hack、eat、hack！
+  185    month: 
+  ...
+  236    abbr: 
+  237    tagline: 添購課程教材　補助期末專案　更新儀器設備
+  238:   cover: /projects/2016/sysprogram/og.jpg
+  239:   avatar: /projects/2016/sysprogram/logo.png
+  240    description: 秉持「為納稅人而教」的使命，親身帶領學生投入開放原始碼專案的開發，希望能為學生徵求到課程用品，如：嵌入式硬體開發板、 最新的原文書籍、專題製作材料費補助，減少學習負擔，使學生能全心參與開源專案，累積實力迎戰未來的大舞台！
+  241    month: 
+  ...
+  320    abbr: OT Space
+  321    tagline: FLOSS + Art = OpenLab. Taipei
+  322:   cover: /projects/2016/otspace/og.jpg
+  323    description: OpenLab. Taipei 可以說是臺灣自造者空間最一開始的雛形，提供一個空間讓大家可以在這裡製作東西、一起討論、交流。2013、2014以來自造者運動（Maker Movement）於台灣漸成規模，各地自造者空間如雨後春筍般出現；作為台灣自造者運動的先驅，OpenLab.Taipei 從 2010 年座落寶藏巖，可謂篳路藍縷地見證著了國內自造者圈的成長。 
+  324    month: 
+  ...
+  371    abbr: COSCUP 2016
+  372    tagline: 
+  373:   cover: /projects/2016/coscup/og.png
+  374    description: “ It’s BETTER when it’s SHARED. ” 「分享」一直以來都是 COSCUP 的主軸，我們相信，唯有透過分享、討論與眾人的再創造，才能真正落實 open source 的精神與信念，帶給這個世界更多的可能。 人生不該被侷限在任何規則裡。除去你想像中的限制與框架，你會驚訝地發現，被激發的火花也許比你想像要多很多。不管你是迫不及待分享你過去試圖打破產業／方法間界限的貢獻與經驗，，亦或想在此盛會中聆聽交流、激發自己更多潛力，將未成形的想法付諸實現，甚至是以一個新手的身份體驗何謂 open source 的分享精神，從老手身上交接一個新的世代，我們都歡迎你前來共襄盛舉，參與一年一度 COSCUP 開源人年會。
+  375    month: 8
+  ...
+  407    abbr: G0V Summit 2016
+  408    tagline: 
+  409:   cover: /projects/2016/g0vsummit/og.png
+  410    description: g0v.tw 2012 年底 g0v 社群運作逐漸成形，從那時起 g0v 零時政府社群便以數位世代的思維，以開源方式號召群眾參與著手開發新工具、新組織型態、新合作關係。經過多方共同努力，透過 g0v 的開放特性作為平台，與 NGO 和政府建立了多方互動，但需要更長遠的跨領域交流，為此籌辦 g0v.tw summit 零時政府高峰會，希望有更多深入的溝通與交流，與有志運用科技改變社會的各界共同參與，期待開放力量成為實際改變的動能。
+  411    month: 5
+  ...
+  451    abbr: PyCon TW 2016
+  452    tagline: 
+  453:   cover: /projects/2016/pycon/og.png
+  454    description: PyCon Taiwan 為一年一度由愛好者舉辦、討論並提倡使用 Python 程式語言的會議，聚焦在 Python 技術與其多樣的可能應用的交流。我們歡迎所有對 Python 有興趣的朋友一同加入 PyCon Taiwan 來分享所學、交換想法、並且認識更多同好。
+  455    month: 6
+  ...
+  487    abbr: SITCON 2016
+  488    tagline: 
+  489:   cover: /projects/2016/sitcon/og.png
+  490    description: SITCON 學生計算機年會係一學生自發組成的研討會，秉持著以學生為主軸的核心價值，藉以凝聚與傳遞學生的力量。希望藉由提供一個經驗交流與資訊技術實務分享的平台，使已有成就者能夠傳承己身經驗，嶄露頭角者在激盪中獲得靈感與啟發，並同時讓初入茅廬者得以對資訊科學有更深入的了解；進而達到「學以致用、教學相長」的目標。
+  491    month: 2
+  ...
+  523    abbr: SITCON Camp 2016
+  524    tagline: 墜入資訊夢，喚醒開源魂
+  525:   cover: /projects/2016/sitconcamp/og.png
+  526    description: 2016 年度，以「墜入資訊夢，喚醒開源魂」為主軸，SITCON 夏令營將於中央大學舉辦，新創開源鄉的概念，配合豐富的課程、座談會及社群闖關，讓學員在程式編寫管理、演算法思維、團隊合作等架構下學習；今年將更進一步把故事和營隊整合，完整營造整體感，務求讓學員擁有截然不同的營隊體驗。
+  527    month: 8
+  ...
+  563    abbr: JCConf Taiwan 2016
+  564    tagline: 
+  565:   cover: /projects/2016/jcconf/og.png
+  566    description: Java Community Conference Taiwan 是由社群主辦的 Java 開發者年會，以提供更多機會讓開發人員之間能夠互相交流。分享內容的程度不論初階到進階，只要和 Java 程式語言、框架、JVM 及虛擬化相關技術、移動裝置、開發工具、開發流程...等等，任何你認為可以分享的主題都歡迎您的投稿，歡迎分享你的發現、研究或各種實際案例經驗給大家。 
+  567    month: 10
+  ...
+  598    abbr: HadoopCon 2016
+  599    tagline: 
+  600:   cover: /projects/2016/hadoopcon/og.jpg
+  601    description: 
+  602    month: 9
+  ...
+  668    abbr: MakerConf 2016
+  669    tagline: 
+  670:   cover: /projects/2016/makerconf/og.png
+  671    description: MakerConf 自 2014 年開始，呼應國內外吹起的自造者風氣，籌辦了第一屆的 MakerConf，廣結台灣在地的自造者聚集起來，彼此交流關於開放硬體與自造經驗分享。但是 Conf 畢竟只是 Conf，身為一個 Maker，沒有動手做一切都是，假的。所以！今年！Conf 不再只是 Conf，讓我們一起帶著電腦和雙手，到 MakerConf，一起動起來自造吧！
+  672    month: 9
+
+52 matches across 26 files

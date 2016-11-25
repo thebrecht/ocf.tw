@@ -1,0 +1,38 @@
+name: Asia Data BootCamp, Singapore
+name_en: Asia Data BootCamp, Singapore
+abbr: 
+tagline: 
+cover: /p/2014/intl/dbootcampsg1026.png
+description: 
+month: 10
+start: 10/26
+end: 10/27
+link:
+  - title: 大會官方網站
+    url: http://singapore.dbootcamp.org/
+tag:
+type_id:
+  - community
+topic_id:
+  - data
+field_id:
+  - it
+  - media
+advisor_id:
+organizer_id:
+  - idasg
+  - worldbank
+co-organizer_id:
+  - ocf
+  - datasciencesg
+  - datakindsg
+  - newsplexasia
+implementer_id:
+board_id:
+  - pofeng
+staff_id: 
+  - singing
+consultant_id:
+volunteer_id:
+coordinator_id:
+  - clkao

@@ -11,7 +11,7 @@ css: /assets/people.css
 
   <h1 class="ui icon header">
     <i class="circular users icon"></i>
-    工作夥伴
+    {{ page.og_title }}
   </h1>
 
   <div id="submenu" class="ui sticky">
@@ -47,7 +47,7 @@ css: /assets/people.css
   <div class="ui stripe container">
     <h2 class="ui header">{{ item.name }}</h2>
     <div class="ui three doubling stackable cards">
-      {% for person_id in site.data.people[item.id] %}
+      {% for person_id in site.data.people.relations[item.id] %}
       {% assign person = site.data.people.individuals[person_id] %}
       <div class="card">
 
@@ -107,7 +107,7 @@ css: /assets/people.css
   <div class="ui stripe container">
     <h2 class="ui header">{{ item.name }}</h2>
     <div class="ui horizontal center aligned list">
-      {% for org_id in site.data.people[item.id] %}
+      {% for org_id in site.data.people.relations[item.id] %}
       {% assign org = site.data.people.orgs[org_id] %}
       <a class="item" target="_blank" href="{{ org.link[1].url }}">
         <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
@@ -123,7 +123,7 @@ css: /assets/people.css
   <div class="ui stripe container">
     <h2 class="ui header">{{ item.name }}</h2>
     <div class="ui center aligned labels">
-      {% for person in site.data.people[item.id] %}
+      {% for person in site.data.people.relations[item.id] %}
       <span class="ui label">{{ person }}</span>
       {% endfor %}
     </div>

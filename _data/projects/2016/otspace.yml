@@ -1,0 +1,49 @@
+name: OpenLab. Taipei 空間營運計劃
+name_en: 
+abbr: OT Space
+tagline: FLOSS + Art = OpenLab. Taipei
+cover: /p/2016/otspace/og.jpg
+description: OpenLab. Taipei 可以說是臺灣自造者空間最一開始的雛形，提供一個空間讓大家可以在這裡製作東西、一起討論、交流。2013、2014以來自造者運動（Maker Movement）於台灣漸成規模，各地自造者空間如雨後春筍般出現；作為台灣自造者運動的先驅，OpenLab.Taipei 從 2010 年座落寶藏巖，可謂篳路藍縷地見證著了國內自造者圈的成長。 
+month: 
+link:
+  - title: 專案介紹
+    url: /p/2016/otspace
+    target: _self
+action:
+  - title: 贊助專案
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=15&_ga=1.131472073.715222481.1473081200
+    color: green
+    icon: dollar
+  - 如果你有全新或二手的工具設備想轉贈給社群空間共同使用，請與 OCF 聯絡 ( hi@ocf.tw )。
+tag:
+type_id:
+  - community
+topic_id:
+  - hardware
+field_id:
+  - art
+advisor_id:
+organizer_id:
+  - openlab
+co-organizer_id:
+implementer_id:
+board_id:
+  - pofeng
+staff_id: 
+  - singing
+consultant_id:
+volunteer_id:
+coordinator_id:
+  - honki
+meta:
+  - label: 募款期間
+    content: 2016/10 - 2017/09
+  - label: 募款目標
+    content: NT$ 132,000
+  - label: 已募款金額
+    content: NT$ 31,174
+  - label: 支持人數
+    content: 16 捐款人
+progress:
+  percent: 24
+  updated: 

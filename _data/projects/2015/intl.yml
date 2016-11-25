@@ -1,0 +1,47 @@
+name: 國際交流計畫
+name_en: 
+abbr: 
+tagline: 邀請講者訪台交流　贊助青年國際盤纏
+cover: /p/2016/intl/og.jpg
+logo: /p/2016/intl/logo.jpg
+description: 廣結高手、搭橋牽線、舉辦活動、補助旅費……透過多樣的交流形式，建立本地社群與國際社群的連結，催生相互認識與合作的機會，同時也希望能協助更多學生開拓國際視野，站上國際舞台，主動分享開源成果，並於回國後分享心得，為下一位受益者募集旅費，擴善計劃效益。
+month: 
+start: 
+end: 
+link:
+  - title: 專案介紹
+    url: /p/2015/intl
+    target: _self
+action:
+  - title: 贊助專案
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=11&_ga=1.194098027.715222481.1473081200
+    color: green
+    icon: dollar
+  - title: 申請學生方案
+    url: https://ocftw.typeform.com/to/e9i57X
+    color: blue
+    icon: hand paper
+tag:
+  - 盤纏申請
+type_id:
+  - overseas
+topic_id:
+  - government
+  - source
+field_id: 
+  - misc
+advisor_id:
+organizer_id:
+  - ocf
+co-organizer_id:
+implementer_id:
+board_id:
+  - clkao
+staff_id: 
+  - singing
+consultant_id:
+volunteer_id:
+coordinator_id:
+  - clkao
+meta:
+progress:

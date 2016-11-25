@@ -1,0 +1,42 @@
+name: openSUSE.Asia Summit 2015
+name_en: 
+abbr: 
+tagline: 
+cover: 
+description: 
+month: 12
+start: 12/4
+end: 12/6
+link:
+  - title: 大會官方網站
+    url: https://events.opensuse.org/conference/summitasia15
+  - title: 
+    url: 
+    target: _self
+action:
+  - title: 
+    url: 
+    color: 
+    icon: 
+tag:
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - it
+advisor_id:
+organizer_id:
+  - sa
+  - opensuse
+co-organizer_id:
+  - ntuecs
+  - ocf
+implementer_id:
+sponsor_id:
+board_id:
+staff_id: 
+consultant_id:
+volunteer_id:
+coordinator_id:
+donors:

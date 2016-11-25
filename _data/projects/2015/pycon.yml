@@ -1,0 +1,35 @@
+name: PyCON APAC
+name_en: PyCON APAC
+abbr: PyCON APAC
+tagline: 
+cover: 
+description: 
+month: 6
+start: 6/5
+end: 6/7
+link:
+  - title: 大會官方網站
+    url: https://tw.pycon.org/2015apac/zh/
+action:
+  - title: 
+    url: 
+    color: 
+    icon: 
+tag:
+type_id:
+topic_id:
+field_id:
+advisor_id:
+organizer_id:
+  - pycon
+co-organizer_id:
+  - ocf
+implementer_id:
+sponsor_id:
+board_id:
+staff_id: 
+consultant_id:
+volunteer_id:
+coordinator_id:
+donors:
+

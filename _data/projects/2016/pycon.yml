@@ -1,0 +1,35 @@
+name: PyCon 台灣 2016
+name_en: PyCon Taiwan 2016
+abbr: PyCon TW 2016
+tagline: 
+cover: /p/2016/pycon/og.png
+description: PyCon Taiwan 為一年一度由愛好者舉辦、討論並提倡使用 Python 程式語言的會議，聚焦在 Python 技術與其多樣的可能應用的交流。我們歡迎所有對 Python 有興趣的朋友一同加入 PyCon Taiwan 來分享所學、交換想法、並且認識更多同好。
+month: 6
+start: 6/3
+end: 6/5
+link:
+  - title: 官方網站
+    url: https://tw.pycon.org/2016/
+tag:
+  - 大型研討會
+  - 定期活動
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - it
+advisor_id:
+organizer_id:
+  - pycon
+co-organizer_id:
+  - ocf
+implementer_id:
+board_id:
+  - pofeng
+staff_id:
+  - rock
+consultant_id:
+volunteer_id:
+coordinator_id:
+

@@ -1,0 +1,33 @@
+name: HadoopCon 2016
+name_en:
+abbr: HadoopCon 2016
+tagline: 
+cover: /p/2016/hadoopcon/og.jpg
+description: 
+month: 9
+start: 9/9
+end: 9/10
+link: 
+  - title: 大會官方部落格
+    url: http://2016.hadoopcon.org/wp/
+tag:
+  - language
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - it
+advisor_id:
+organizer_id:
+  - hadoop
+co-organizer_id:
+  - ocf
+implementer_id:
+board_id:
+  - pofeng
+staff_id:
+  - singing
+consultant_id:
+volunteer_id:
+coordinator_id:

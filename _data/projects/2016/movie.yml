@@ -1,0 +1,44 @@
+name: 開放文化影展
+name_en: 
+abbr: 
+tagline: 
+cover: /p/2016/movie/og.png
+description: 資訊自由鬥士 Aaron Swartz 精彩生平、開源之源、開放的自造世界...，開放文化的風在全球各地吹起，精心拍攝的電影、紀錄片，凝聚了箇中精華。本計畫洽談影片授權、翻譯成正體中文、製作字幕並上映，讓國人一睹開放文化的風采。
+month: 
+start: 
+end: 
+link:
+  - title: 專案介紹
+    url: /p/2016/movie
+    target: _self
+action:
+  - title: 贊助專案
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=10
+    color: green
+    icon: dollar
+  - title: 加入志工
+    url: https://ocf.neticrm.tw/civicrm/profile/create?gid=23&reset=1
+    color: blue
+    icon: hand paper
+tag:
+  - 電影
+type_id:
+  - misc
+topic_id:
+  - misc
+field_id: 
+  - it
+advisor_id:
+organizer_id:
+  - ocf
+co-organizer_id:
+implementer_id:
+board_id:
+  - bobchao
+staff_id: 
+  - singing
+consultant_id:
+volunteer_id:
+coordinator_id:
+  - bobchao
+

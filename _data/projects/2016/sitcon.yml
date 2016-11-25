@@ -1,0 +1,34 @@
+name: SITCON 學生計算機年會
+name_en: Students’ Information Technology Conference
+abbr: SITCON 2016
+tagline: 
+cover: /p/2016/sitcon/og.png
+description: SITCON 學生計算機年會係一學生自發組成的研討會，秉持著以學生為主軸的核心價值，藉以凝聚與傳遞學生的力量。希望藉由提供一個經驗交流與資訊技術實務分享的平台，使已有成就者能夠傳承己身經驗，嶄露頭角者在激盪中獲得靈感與啟發，並同時讓初入茅廬者得以對資訊科學有更深入的了解；進而達到「學以致用、教學相長」的目標。
+month: 2
+start: 2/27
+end: 
+link:
+  - title: 官方網站
+    url: http://sitcon.org/2016/
+tag:
+  - 大型研討會
+  - 定期活動
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - it
+advisor_id:
+organizer_id:
+  - sitcon
+  - ocf
+co-organizer_id:
+implementer_id:
+board_id:
+  - pofeng
+staff_id:
+  - singing
+consultant_id:
+volunteer_id:
+coordinator_id:

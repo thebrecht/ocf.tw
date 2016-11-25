@@ -1,0 +1,47 @@
+name: 系統軟體走向國際
+name_en: System Program Incubation
+abbr: 
+tagline: 添購課程教材　補助期末專案　更新儀器設備
+cover: /p/2016/sysprogram/og.jpg
+avatar: /p/2016/sysprogram/logo.png
+description: 秉持「為納稅人而教」的使命，親身帶領學生投入開放原始碼專案的開發，希望能為學生徵求到課程用品，如：嵌入式硬體開發板、 最新的原文書籍、專題製作材料費補助，減少學習負擔，使學生能全心參與開源專案，累積實力迎戰未來的大舞台！
+month: 
+start: 
+end: 
+link:
+  - title: 專案介紹
+    url: /p/2016/sysprogram
+    target: _self
+action:
+  - title: 贊助專案
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=13&_ga=1.194098027.715222481.1473081200
+    color: green
+    icon: dollar
+  - 如果你想捐贈我們正需要的教材、儀器設備，請與我們聯絡 ( hi@ocf.tw)。
+tag:
+type_id:
+  - community
+topic_id:
+  - source
+field_id: 
+  - it
+advisor_id:
+organizer_id:
+co-organizer_id:
+implementer_id:
+board_id:
+  - pofeng
+staff_id: 
+  - singing
+consultant_id:
+volunteer_id:
+coordinator_id:
+  - jserv
+meta:
+  - label: 募款目標
+    content: NT$ 200,000
+  - label: 已募款金額
+    content: NT$ 350,600
+progress:
+  percent: 100
+  updated: 2016/10/19

@@ -1,0 +1,53 @@
+name: g0v 雙月定期大黑客松
+name_en: G0V Hackathons
+abbr: 
+tagline: 
+cover: /p/2016/g0vdathon/og.png
+description: g0v 零時政府發源地——固定雙月月底舉辦的 g0v 大黑客松，聚集了工程師、設計師、律師、學者、NGO 工作者、公務員... 一起動手改變世界，現場提供源源不絕的食物，讓大家盡情 hack、eat、hack！
+month: 
+start: 
+end: 
+link:
+  - title: 專案介紹
+    url: /p/2016/g0vdathon
+    target: _self
+action:
+  - title: 購買黑客松香油票
+    url: http://g0v-jothon.kktix.cc/events/g0v-dathon
+    color: green
+    icon: dollar
+  - title: 單次贊助
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=23
+    color: teal
+    icon: dollar
+  - title: 長期認養：成為六百壯士
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=18
+    color: blue
+    icon: dollar
+tag:
+  - 定期活動
+type_id:
+  - community
+topic_id:
+  - data
+  - government
+  - source
+field_id:
+  - legal
+  - it
+advisor_id:
+organizer_id:
+  - g0vjothon
+co-organizer_id:
+implementer_id:
+sponsor_id:
+  - hct
+  - rc
+board_id:
+  - clkao
+staff_id:
+  - ttcat
+consultant_id:
+volunteer_id:
+coordinator_id:
+  - ipa

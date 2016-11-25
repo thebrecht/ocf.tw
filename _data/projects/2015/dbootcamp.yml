@@ -1,0 +1,34 @@
+name: d|Bootcamp Taipei / 資料新聞實戰營
+name_en: d|Bootcamp Taipei
+abbr: d|Bootcamp Taipei
+tagline: 
+cover: /p/2015/dbootcamp/og.png
+description: d|Bootcamp Taipei 由開放文化基金會與世界銀行共同主辦，邀請來自 Code4Africa、NPR、聯合國、南華早報的國際講者，分享全球新聞室所面臨的挑戰與創新。同時搭配國內多位具有跨領域經驗的技術講師，針對新聞工作者設計一系列入門但務實的課程，就算看到數字會頭痛、打開試算表會失去方向，你也有機會從無到有、動手完成一則完整的資料新聞。透過國際專家分享、密集實作訓練，讓新聞工作者快速學習資料新聞基礎技能。第一天的密集課程結束後，隔天直接到 g0v 零時政府黑客松提案挖坑填坑，保證精實！
+month: x
+start:
+end:
+link:
+  - title: 官方網站
+    url: http://dbootcamp.taipei/zh/
+    target: _blank
+tag:
+type_id:
+  - community
+topic_id:
+  - data
+field_id:
+  - it
+  - media
+advisor_id:
+organizer_id:
+  - ocf
+  - worldbank
+co-organizer_id:
+implementer_id:
+board_id:
+  - pofeng
+staff_id: 
+  - singing
+consultant_id:
+volunteer_id:
+coordinator_id:

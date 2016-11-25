@@ -1,0 +1,33 @@
+name: openSUSE Taiwan
+name_en:
+abbr: 
+tagline: 
+cover: 
+description: 
+month: 
+start: 
+end: 
+link:
+  - title: 官方網站
+    url: https://zh-tw.opensuse.org
+tag:
+  - 
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - it
+advisor_id:
+organizer_id:
+co-organizer_id:
+implementer_id:
+board_id:
+  - pofeng
+staff_id:
+  - singing
+partner_id:
+  - opensuse
+consultant_id:
+volunteer_id:
+coordinator_id:

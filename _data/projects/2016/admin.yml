@@ -1,0 +1,68 @@
+name: 基金會行政中心
+name_en: OCF Administration Center
+abbr: 
+tagline: 
+cover: /mediakit/cover_bg.png
+avatar: /mediakit/avatar.jpg
+description: 開設獨立帳戶、收款取款、對帳、製作報表、開立收據、流程諮詢、彙整資料、成果發表、活動規劃、網站維護……一點都不迷人的繁瑣的行政庶務，卻是在幕後默默支援所有專案、不可或缺的基礎建設。行政中心奠定營運基石，讓所有專案共同受益。
+month: 
+start: 
+end: 
+link:
+  - title: 專案介紹
+    url: /p/2016/admin
+    target: _self
+action:
+  - title: 單次捐款
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=8
+    color: yellow
+    icon: dollar
+  - title: 長期認養：成為三百壯士
+    url: /p/2016/admin/300
+    color: green
+    icon: dollar
+tag:
+type_id:
+  - misc
+topic_id:
+  - misc
+field_id:
+  - misc
+advisor_id:
+organizer_id:
+  - ocf
+co-organizer_id:
+implementer_id:
+sponsor_id:
+  - coscup
+  - pycon
+  - osdc
+  - g0v
+  - netivism
+  - mopcon
+  - izero
+board_id:
+  - pofeng
+  - jimyhuang
+staff_id: 
+  - singing
+  - rock
+  - ttcat
+  - mglee
+  - afi
+consultant_id:
+volunteer_id:
+coordinator_id:
+  - pofeng
+  - jimyhuang
+donors:
+  - 李○鋒
+  - 高○良
+  - 黃○雋
+  - 趙○強
+  - 鄭○旗
+  - 李○穎
+  - 洪○超
+  - 吳○軒
+  - 李○君
+  - 曾○瑜

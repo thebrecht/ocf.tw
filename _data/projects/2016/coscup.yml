@@ -1,0 +1,35 @@
+name: COSCUP 開源人年會 2016
+name_en: Conference for Open Source Coders, Users and Promoters
+abbr: COSCUP 2016
+tagline: 
+cover: /p/2016/coscup/og.png
+description: “ It’s BETTER when it’s SHARED. ” 「分享」一直以來都是 COSCUP 的主軸，我們相信，唯有透過分享、討論與眾人的再創造，才能真正落實 open source 的精神與信念，帶給這個世界更多的可能。 人生不該被侷限在任何規則裡。除去你想像中的限制與框架，你會驚訝地發現，被激發的火花也許比你想像要多很多。不管你是迫不及待分享你過去試圖打破產業／方法間界限的貢獻與經驗，，亦或想在此盛會中聆聽交流、激發自己更多潛力，將未成形的想法付諸實現，甚至是以一個新手的身份體驗何謂 open source 的分享精神，從老手身上交接一個新的世代，我們都歡迎你前來共襄盛舉，參與一年一度 COSCUP 開源人年會。
+month: 8
+start: 8/20
+end: 8/21
+link:
+  - title: 官方網站
+    url: http://coscup.org/2016/
+tag:
+  - 大型研討會
+  - 定期活動
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - it
+advisor_id:
+organizer_id:
+  - coscup
+co-organizer_id:
+  - ocf
+implementer_id:
+board_id:
+  - bobchao
+staff_id: 
+  - singing
+consultant_id:
+volunteer_id:
+coordinator_id:
+

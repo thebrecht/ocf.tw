@@ -46,7 +46,7 @@
       url: http://beta.hackfoldr.org/g0v-hackath21n
     - title: 影音記錄
       url: https://www.youtube.com/playlist?list=PLKTNqw9rDT-R9V2pDBTMdbbtKnQaQQrFd
-  cover: /projects/2016/g0vdathon/21n.png
+  cover: /p/2016/g0vdathon/21n.png
   project_id:
     - g0vdathon
   advisor_id:
@@ -76,7 +76,7 @@
   link: 
     - title: 活動頁
       url: https://www.facebook.com/events/1813037798952398/
-  cover: /projects/2016/intl/nantes1013.jpg
+  cover: /p/2016/intl/nantes1013.jpg
   project_id:
     - intl
   advisor_id:
@@ -106,7 +106,7 @@
   link: 
     - title: 活動頁
       url: https://www.facebook.com/events/684802825017963/
-  cover: /projects/2016/intl/nantes1012.jpg
+  cover: /p/2016/intl/nantes1012.jpg
   project_id:
     - intl
   advisor_id:
@@ -143,7 +143,7 @@
       url: https://www.youtube.com/watch?v=UsM7_veun4M
     - title: 活動共筆
       url: https://ocf-tw.hackpad.com/Citizen-Online--7PQf8kFCHNX
-  cover: /projects/2016/intl/co0929.jpg
+  cover: /p/2016/intl/co0929.jpg
   project_id:
     - intl
   advisor_id:
@@ -173,7 +173,7 @@
       url: https://www.youtube.com/playlist?list=PLdwQWxpS513BpEcMMBbKZIY7JJ2Zne5O-
     - title: 影音記錄：成果報告
       url: https://www.youtube.com/playlist?list=PLdwQWxpS513ANZmuCcMc12IZIcvMP-xtP
-  cover: /projects/2016/g0vdathon/20n.jpg
+  cover: /p/2016/g0vdathon/20n.jpg
   project_id:
     - g0vdathon
   advisor_id:
@@ -235,7 +235,7 @@
   link: 
     - title: 影音紀錄
       url: https://www.youtube.com/watch?v=iokv1yX-chU
-  cover: /projects/2016/intl/user0713.jpg
+  cover: /p/2016/intl/user0713.jpg
   project_id:
     - intl
   advisor_id:
@@ -265,7 +265,7 @@
   month: 6
   start: 6/18
   end: 
-  cover: /projects/2016/g0vdathon/19n.jpg
+  cover: /p/2016/g0vdathon/19n.jpg
   project_id:
     - g0vdathon
   advisor_id:
@@ -294,7 +294,7 @@
       url: http://ocftw.kktix.cc/events/osbeerparty2016
     - title: 活動照片
       url: https://www.facebook.com/www.ocf.tw/photos/?tab=album&album_id=1748318348777427
-  cover: /projects/2016/admin/osbeerparty.jpg
+  cover: /p/2016/admin/osbeerparty.jpg
   project_id:
     - admin
   advisor_id:
@@ -325,7 +325,7 @@
   start: 
   end: 
   link: 
-  cover: /projects/2016/intl/ons0519.jpg
+  cover: /p/2016/intl/ons0519.jpg
   project_id:
     - intl
   advisor_id:
@@ -361,7 +361,7 @@
       url: http://www.slideshare.net/FeiJiSiao/onos-sdn-ip-20160522
     - title: ONS 官方網站
       url: https://blog.night9.cc/open-networking-summit-2016
-  cover: /projects/2016/intl/ons0519.jpg
+  cover: /p/2016/intl/ons0519.jpg
   project_id:
     - intl
   advisor_id:
@@ -416,7 +416,7 @@
       url: https://www.youtube.com/watch?v=ORr-z4xTBjI
     - title: 會後心得
       url: http://blog.ocf.tw/2016/04/fossasia-2016.html
-  cover: /projects/2016/intl/fossasia0501.jpg
+  cover: /p/2016/intl/fossasia0501.jpg
   project_id:
     - intl
   advisor_id:
@@ -631,7 +631,7 @@
   month: 3
   start: 3/5
   end: 
-  cover: /projects/2016/g0vdathon/18n.png
+  cover: /p/2016/g0vdathon/18n.png
   project_id:
     - g0vdathon
   advisor_id:

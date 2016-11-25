@@ -1,0 +1,735 @@
+admin:
+  name: 基金會行政中心
+  name_en: OCF Administration Center
+  abbr: 
+  tagline: 
+  cover: /mediakit/cover_bg.png
+  avatar: /mediakit/avatar.jpg
+  description: 開設獨立帳戶、收款取款、對帳、製作報表、開立收據、流程諮詢、彙整資料、成果發表、活動規劃、網站維護……一點都不迷人的繁瑣的行政庶務，卻是在幕後默默支援所有專案、不可或缺的基礎建設。行政中心奠定營運基石，讓所有專案共同受益。
+  month: 
+  start: 
+  end: 
+  link:
+    - title: 專案介紹
+      url: /p/2016/admin
+      target: _self
+  action:
+    - title: 單次捐款
+      url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=8
+      color: yellow
+      icon: dollar
+    - title: 長期認養：成為三百壯士
+      url: /p/2016/admin/300
+      color: green
+      icon: dollar
+  tag:
+  type_id:
+    - misc
+  topic_id:
+    - misc
+  field_id:
+    - misc
+  advisor_id:
+  organizer_id:
+    - ocf
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+    - coscup
+    - pycon
+    - osdc
+    - g0v
+    - netivism
+    - mopcon
+    - izero
+  board_id:
+    - pofeng
+    - jimyhuang
+  staff_id: 
+    - singing
+    - rock
+    - ttcat
+    - mglee
+    - afi
+  consultant_id:
+  volunteer_id:
+  coordinator_id:
+    - pofeng
+    - jimyhuang
+  donors:
+    - 李○鋒
+    - 高○良
+    - 黃○雋
+    - 趙○強
+    - 鄭○旗
+    - 李○穎
+    - 洪○超
+    - 吳○軒
+    - 李○君
+    - 曾○瑜
+
+intl:
+  name: 國際交流計畫
+  name_en: 
+  abbr: 
+  tagline: 邀請講者訪台交流　贊助青年國際盤纏
+  cover: /p/2016/intl/og.jpg
+  avatar: /p/2016/intl/logo.jpg
+  description: 廣結高手、搭橋牽線、舉辦活動、補助旅費……透過多樣的交流形式，建立本地社群與國際社群的連結，催生相互認識與合作的機會，同時也希望能協助更多學生開拓國際視野，站上國際舞台，主動分享開源成果，並於回國後分享心得，為下一位受益者募集旅費，擴善計劃效益。
+  month: 
+  start: 
+  end: 
+  link:
+    - title: 專案介紹
+      url: /p/2016/intl
+      target: _self
+  action:
+    - title: 贊助專案
+      url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=11&_ga=1.194098027.715222481.1473081200
+      color: green
+      icon: dollar
+    - title: 申請學生方案
+      url: https://ocftw.typeform.com/to/e9i57X
+      color: blue
+      icon: hand paper
+  tag:
+    - 盤纏申請
+  type_id:
+    - overseas
+  topic_id:
+    - government
+    - source
+  field_id: 
+    - misc
+  advisor_id:
+  organizer_id:
+    - ocf
+  co-organizer_id:
+  implementer_id:
+  board_id:
+    - clkao
+  staff_id: 
+    - ttcat
+    - mglee
+    - afi
+    - singing
+  consultant_id:
+  volunteer_id:
+  coordinator_id:
+    - clkao
+  meta:
+    - label: 勸募字號
+      content: 衛部救字第 1040115594 號
+    - label: 募款期間
+      content: 2015 年
+    - label: 募款目標
+      content: NT$ 300,000
+    - label: 已募款金額
+      content: NT$ 224,622
+  progress:
+    percent: 74.8
+    updated: 2016/02/29
+
+movie:
+  name: 開放文化影展
+  name_en: 
+  abbr: 
+  tagline: 
+  cover: /p/2016/movie/og.png
+  description: 資訊自由鬥士 Aaron Swartz 精彩生平、開源之源、開放的自造世界...，開放文化的風在全球各地吹起，精心拍攝的電影、紀錄片，凝聚了箇中精華。本計畫洽談影片授權、翻譯成正體中文、製作字幕並上映，讓國人一睹開放文化的風采。
+  month: 
+  start: 
+  end: 
+  link:
+    - title: 專案介紹
+      url: /p/2016/movie
+      target: _self
+  action:
+    - title: 贊助專案
+      url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=10
+      color: green
+      icon: dollar
+    - title: 加入志工
+      url: https://ocf.neticrm.tw/civicrm/profile/create?gid=23&reset=1
+      color: blue
+      icon: hand paper
+  tag:
+    - 電影
+  type_id:
+    - misc
+  topic_id:
+    - misc
+  field_id: 
+    - it
+  advisor_id:
+  organizer_id:
+    - ocf
+  co-organizer_id:
+  implementer_id:
+  board_id:
+    - bobchao
+  staff_id: 
+    - singing
+  consultant_id:
+  volunteer_id:
+  coordinator_id:
+    - bobchao
+
+g0vdathon:
+  name: g0v 雙月定期大黑客松
+  name_en: G0V Hackathons
+  abbr: 
+  tagline: 
+  cover: /p/2016/g0vdathon/og.png
+  description: g0v 零時政府發源地——固定雙月月底舉辦的 g0v 大黑客松，聚集了工程師、設計師、律師、學者、NGO 工作者、公務員... 一起動手改變世界，現場提供源源不絕的食物，讓大家盡情 hack、eat、hack！
+  month: 
+  start: 
+  end: 
+  link:
+    - title: 專案介紹
+      url: /p/2016/g0vdathon
+      target: _self
+  action:
+    - title: 購買黑客松香油票
+      url: http://g0v-jothon.kktix.cc/events/g0v-dathon
+      color: green
+      icon: dollar
+    - title: 單次贊助
+      url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=23
+      color: teal
+      icon: dollar
+    - title: 長期認養：成為六百壯士
+      url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=18
+      color: blue
+      icon: dollar
+  tag:
+    - 定期活動
+  type_id:
+    - community
+  topic_id:
+    - data
+    - government
+    - source
+  field_id:
+    - legal
+    - it
+  advisor_id:
+  organizer_id:
+    - g0vjothon
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+    - hct
+    - rc
+  board_id:
+    - clkao
+  staff_id:
+    - ttcat
+  consultant_id:
+  volunteer_id:
+  coordinator_id:
+    - ipa
+
+sysprogram:
+  name: 系統軟體走向國際
+  name_en: System Program Incubation
+  abbr: 
+  tagline: 添購課程教材　補助期末專案　更新儀器設備
+  cover: /p/2016/sysprogram/og.jpg
+  avatar: /p/2016/sysprogram/logo.png
+  description: 秉持「為納稅人而教」的使命，親身帶領學生投入開放原始碼專案的開發，希望能為學生徵求到課程用品，如：嵌入式硬體開發板、 最新的原文書籍、專題製作材料費補助，減少學習負擔，使學生能全心參與開源專案，累積實力迎戰未來的大舞台！
+  month: 
+  start: 
+  end: 
+  link:
+    - title: 專案介紹
+      url: /p/2016/sysprogram
+      target: _self
+  action:
+    - title: 贊助專案
+      url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=13&_ga=1.194098027.715222481.1473081200
+      color: green
+      icon: dollar
+    - 如果你想捐贈我們正需要的教材、儀器設備，請與我們聯絡 ( hi@ocf.tw)。
+  tag:
+  type_id:
+    - community
+  topic_id:
+    - source
+  field_id: 
+    - it
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  board_id:
+    - pofeng
+  staff_id: 
+    - singing
+  consultant_id:
+  volunteer_id:
+  coordinator_id:
+    - jserv
+  meta:
+    - label: 募款目標
+      content: NT$ 200,000
+    - label: 已募款金額
+      content: NT$ 350,600
+  progress:
+    percent: 100
+    updated: 2016/10/19
+
+umaker:
+  name: 智新資通
+  name_en:
+  abbr: 
+  tagline: 
+  cover: 
+  description: 
+  month: 
+  start: 
+  end: 
+  link:
+    - title: 官方網站
+      url: http://www.steps.com.tw/
+  tag:
+    - 
+  type_id:
+    - organization
+  topic_id:
+    - hardware
+  field_id:
+    - it
+  advisor_id:
+  organizer_id:
+    - steps
+  co-organizer_id:
+  implementer_id:
+  board_id:
+    - pofeng
+  staff_id:
+    - singing
+  consultant_id:
+  volunteer_id:
+  coordinator_id:
+    - pofeng
+
+otspace:
+  name: OpenLab. Taipei 空間營運計劃
+  name_en: 
+  abbr: OT Space
+  tagline: FLOSS + Art = OpenLab. Taipei
+  cover: /p/2016/otspace/og.jpg
+  description: OpenLab. Taipei 可以說是臺灣自造者空間最一開始的雛形，提供一個空間讓大家可以在這裡製作東西、一起討論、交流。2013、2014以來自造者運動（Maker Movement）於台灣漸成規模，各地自造者空間如雨後春筍般出現；作為台灣自造者運動的先驅，OpenLab.Taipei 從 2010 年座落寶藏巖，可謂篳路藍縷地見證著了國內自造者圈的成長。 
+  month: 
+  link:
+    - title: 專案介紹
+      url: /p/2016/otspace
+      target: _self
+  action:
+    - title: 贊助專案
+      url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=15&_ga=1.131472073.715222481.1473081200
+      color: green
+      icon: dollar
+    - 如果你有全新或二手的工具設備想轉贈給社群空間共同使用，請與 OCF 聯絡 ( hi@ocf.tw )。
+  tag:
+  type_id:
+    - community
+  topic_id:
+    - hardware
+  field_id:
+    - art
+  advisor_id:
+  organizer_id:
+    - openlab
+  co-organizer_id:
+  implementer_id:
+  board_id:
+    - pofeng
+  staff_id: 
+    - singing
+  consultant_id:
+  volunteer_id:
+  coordinator_id:
+    - honki
+  meta:
+    - label: 募款期間
+      content: 2016/10 - 2017/09
+    - label: 募款目標
+      content: NT$ 132,000
+    - label: 已募款金額
+      content: NT$ 31,174
+    - label: 支持人數
+      content: 16 捐款人
+  progress:
+    percent: 24
+    updated: 
+
+coscup:
+  name: COSCUP 開源人年會 2016
+  name_en: Conference for Open Source Coders, Users and Promoters
+  abbr: COSCUP 2016
+  tagline: 
+  cover: /p/2016/coscup/og.png
+  description: “ It’s BETTER when it’s SHARED. ” 「分享」一直以來都是 COSCUP 的主軸，我們相信，唯有透過分享、討論與眾人的再創造，才能真正落實 open source 的精神與信念，帶給這個世界更多的可能。 人生不該被侷限在任何規則裡。除去你想像中的限制與框架，你會驚訝地發現，被激發的火花也許比你想像要多很多。不管你是迫不及待分享你過去試圖打破產業／方法間界限的貢獻與經驗，，亦或想在此盛會中聆聽交流、激發自己更多潛力，將未成形的想法付諸實現，甚至是以一個新手的身份體驗何謂 open source 的分享精神，從老手身上交接一個新的世代，我們都歡迎你前來共襄盛舉，參與一年一度 COSCUP 開源人年會。
+  month: 8
+  start: 8/20
+  end: 8/21
+  link:
+    - title: 官方網站
+      url: http://coscup.org/2016/
+  tag:
+    - 大型研討會
+    - 定期活動
+  type_id:
+    - community
+  topic_id:
+    - source
+  field_id:
+    - it
+  advisor_id:
+  organizer_id:
+    - coscup
+  co-organizer_id:
+    - ocf
+  implementer_id:
+  board_id:
+    - bobchao
+  staff_id: 
+    - singing
+  consultant_id:
+  volunteer_id:
+  coordinator_id:
+
+g0vsummit:
+  name: G0V Summit 零時政府高峰會 2016
+  name_en: G0V Summit 2016
+  abbr: G0V Summit 2016
+  tagline: 
+  cover: /p/2016/g0vsummit/og.png
+  description: g0v.tw 2012 年底 g0v 社群運作逐漸成形，從那時起 g0v 零時政府社群便以數位世代的思維，以開源方式號召群眾參與著手開發新工具、新組織型態、新合作關係。經過多方共同努力，透過 g0v 的開放特性作為平台，與 NGO 和政府建立了多方互動，但需要更長遠的跨領域交流，為此籌辦 g0v.tw summit 零時政府高峰會，希望有更多深入的溝通與交流，與有志運用科技改變社會的各界共同參與，期待開放力量成為實際改變的動能。
+  month: 5
+  start: 5/14
+  end: 5/15
+  link:
+    - title: 官方網站
+      url: http://summit.g0v.tw/2016/
+  tag:
+    - 大型研討會
+    - 定期活動
+  type_id:
+    - community
+  topic_id:
+    - data
+    - government
+    - source
+  field_id:
+    - legal
+    - it
+  advisor_id:
+  organizer_id:
+    - g0vsummit
+  co-organizer_id:
+    - asiii
+    - ocf
+  implementer_id:
+  board_id:
+    - clkao
+  staff_id:
+    - singing
+    - ttcat
+  consultant_id:
+  volunteer_id:
+  coordinator_id:
+    - yhsiang
+    - soidid
+    - aokman
+
+pycon:
+  name: PyCon 台灣 2016
+  name_en: PyCon Taiwan 2016
+  abbr: PyCon TW 2016
+  tagline: 
+  cover: /p/2016/pycon/og.png
+  description: PyCon Taiwan 為一年一度由愛好者舉辦、討論並提倡使用 Python 程式語言的會議，聚焦在 Python 技術與其多樣的可能應用的交流。我們歡迎所有對 Python 有興趣的朋友一同加入 PyCon Taiwan 來分享所學、交換想法、並且認識更多同好。
+  month: 6
+  start: 6/3
+  end: 6/5
+  link:
+    - title: 官方網站
+      url: https://tw.pycon.org/2016/
+  tag:
+    - 大型研討會
+    - 定期活動
+  type_id:
+    - community
+  topic_id:
+    - source
+  field_id:
+    - it
+  advisor_id:
+  organizer_id:
+    - pycon
+  co-organizer_id:
+    - ocf
+  implementer_id:
+  board_id:
+    - pofeng
+  staff_id:
+    - rock
+  consultant_id:
+  volunteer_id:
+  coordinator_id:
+
+sitcon:
+  name: SITCON 學生計算機年會
+  name_en: Students’ Information Technology Conference
+  abbr: SITCON 2016
+  tagline: 
+  cover: /p/2016/sitcon/og.png
+  description: SITCON 學生計算機年會係一學生自發組成的研討會，秉持著以學生為主軸的核心價值，藉以凝聚與傳遞學生的力量。希望藉由提供一個經驗交流與資訊技術實務分享的平台，使已有成就者能夠傳承己身經驗，嶄露頭角者在激盪中獲得靈感與啟發，並同時讓初入茅廬者得以對資訊科學有更深入的了解；進而達到「學以致用、教學相長」的目標。
+  month: 2
+  start: 2/27
+  end: 
+  link:
+    - title: 官方網站
+      url: http://sitcon.org/2016/
+  tag:
+    - 大型研討會
+    - 定期活動
+  type_id:
+    - community
+  topic_id:
+    - source
+  field_id:
+    - it
+  advisor_id:
+  organizer_id:
+    - sitcon
+    - ocf
+  co-organizer_id:
+  implementer_id:
+  board_id:
+    - pofeng
+  staff_id:
+    - singing
+  consultant_id:
+  volunteer_id:
+  coordinator_id:
+
+sitconcamp:
+  name: SITCON 夏令營 2016
+  name_en: Students’ Information Technology Conference Camp
+  abbr: SITCON Camp 2016
+  tagline: 墜入資訊夢，喚醒開源魂
+  cover: /p/2016/sitconcamp/og.png
+  description: 2016 年度，以「墜入資訊夢，喚醒開源魂」為主軸，SITCON 夏令營將於中央大學舉辦，新創開源鄉的概念，配合豐富的課程、座談會及社群闖關，讓學員在程式編寫管理、演算法思維、團隊合作等架構下學習；今年將更進一步把故事和營隊整合，完整營造整體感，務求讓學員擁有截然不同的營隊體驗。
+  month: 8
+  start: 8/2
+  end: 8/5
+  link:
+    - title: 官方網站
+      url: http://sitcon.camp/2016/
+  action: 
+    - title: 
+      url: 
+      color: 
+      icon: 
+  tag:
+  type_id:
+    - community
+  topic_id:
+    - source
+  field_id:
+    - it
+  advisor_id:
+  organizer_id:
+    - sitcon
+  co-organizer_id:
+    - ocf
+    - ncucc
+  implementer_id:
+  board_id:
+    - pofeng
+  staff_id:
+    - singing
+  consultant_id:
+  volunteer_id:
+  coordinator_id:
+
+jcconf:
+  name: Java Community Conference Taiwan 2016
+  name_en:
+  abbr: JCConf Taiwan 2016
+  tagline: 
+  cover: /p/2016/jcconf/og.png
+  description: Java Community Conference Taiwan 是由社群主辦的 Java 開發者年會，以提供更多機會讓開發人員之間能夠互相交流。分享內容的程度不論初階到進階，只要和 Java 程式語言、框架、JVM 及虛擬化相關技術、移動裝置、開發工具、開發流程...等等，任何你認為可以分享的主題都歡迎您的投稿，歡迎分享你的發現、研究或各種實際案例經驗給大家。 
+  month: 10
+  start: 10/14
+  end: 10/15
+  link:
+    - title: 官方網站
+      url: http://jcconf.tw/2016/
+  tag:
+    - language
+  type_id:
+    - community
+  topic_id:
+    - source
+  field_id:
+    - it
+  advisor_id:
+  organizer_id:
+    - jcconf
+  co-organizer_id:
+    - ocf
+  implementer_id:
+  board_id:
+    - pofeng
+  staff_id:
+    - singing
+  consultant_id:
+  volunteer_id:
+  coordinator_id:
+
+hadoopcon:
+  name: HadoopCon 2016
+  name_en:
+  abbr: HadoopCon 2016
+  tagline: 
+  cover: /p/2016/hadoopcon/og.jpg
+  description: 
+  month: 9
+  start: 9/9
+  end: 9/10
+  link: 
+    - title: 大會官方部落格
+      url: http://2016.hadoopcon.org/wp/
+  tag:
+    - language
+  type_id:
+    - community
+  topic_id:
+    - source
+  field_id:
+    - it
+  advisor_id:
+  organizer_id:
+    - hadoop
+  co-organizer_id:
+    - ocf
+  implementer_id:
+  board_id:
+    - pofeng
+  staff_id:
+    - singing
+  consultant_id:
+  volunteer_id:
+  coordinator_id:
+
+opensuse:
+  name: openSUSE Taiwan
+  name_en:
+  abbr: 
+  tagline: 
+  cover: 
+  description: 
+  month: 
+  start: 
+  end: 
+  link:
+    - title: 官方網站
+      url: https://zh-tw.opensuse.org
+  tag:
+    - 
+  type_id:
+    - community
+  topic_id:
+    - source
+  field_id:
+    - it
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  board_id:
+    - pofeng
+  staff_id:
+    - singing
+  partner_id:
+    - opensuse
+  consultant_id:
+  volunteer_id:
+  coordinator_id:
+
+makerconf:
+  name: MakerConf 2016
+  name_en: 
+  abbr: MakerConf 2016
+  tagline: 
+  cover: /p/2016/makerconf/og.png
+  description: MakerConf 自 2014 年開始，呼應國內外吹起的自造者風氣，籌辦了第一屆的 MakerConf，廣結台灣在地的自造者聚集起來，彼此交流關於開放硬體與自造經驗分享。但是 Conf 畢竟只是 Conf，身為一個 Maker，沒有動手做一切都是，假的。所以！今年！Conf 不再只是 Conf，讓我們一起帶著電腦和雙手，到 MakerConf，一起動起來自造吧！
+  month: 9
+  start: 9/3
+  end: 9/3
+  link: 
+    - title: 大會官方部落格
+      url: http://www.makerconf.tw/?p=207
+  tag:
+  type_id:
+    - community
+  topic_id:
+    - source
+  field_id:
+    - it
+  advisor_id:
+  organizer_id:
+    - raspberrypi
+  co-organizer_id:
+    - ocf
+  implementer_id:
+  board_id:
+    - pofeng
+  staff_id: 
+    - singing
+  partner_id:
+    - makerconf
+  consultant_id:
+  volunteer_id:
+  coordinator_id:
+
+cctw:
+  name: 台灣創用 CC 計畫
+  name_en:
+  abbr: 
+  tagline: 
+  cover: 
+  description: 
+  month: 
+  start: 
+  end: 
+  link:
+    - title: 官方網站
+      url: http://creativecommons.tw/
+  tag:
+    - 
+  type_id:
+    - organization
+  topic_id:
+    - misc
+  field_id:
+    - legal
+  advisor_id:
+  organizer_id:
+  co-organizer_id:
+  implementer_id:
+  board_id:
+    - pofeng
+  staff_id:
+    - singing
+  partner_id:
+    - cctw
+  consultant_id:
+  volunteer_id:
+  coordinator_id:
+

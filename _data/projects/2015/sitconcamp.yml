@@ -1,0 +1,35 @@
+name: SITCON 夏令營 2015
+name_en: Students’ Information Technology Conference Camp
+abbr: SITCON Camp 2015
+tagline: 
+cover: /p/2015/sitcon/camp/og.png
+description: 2015 年度，以「開源、創新、夥伴精神」為主軸，SITCON 夏令營將於聖約翰科技大學舉辦，延續新手村的概念，配合豐富的課程、座談會及社群闖關，讓學員在程式編寫管理、演算法思維、團隊合作等架構下學習；今年並將更進一步把故事和營隊整合，完整營造整體感，務求讓學員擁有截然不同的營隊體驗。
+month: 7, 8
+start: 7/20
+end: 8/6
+link:
+  - title: 官方網站
+    url: http://sitcon.camp/2015/
+tag:
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - it
+advisor_id:
+organizer_id:
+  - sitcon
+co-organizer_id:
+  - sju
+  - ossf
+  - ocf
+implementer_id:
+board_id:
+  - pofeng
+staff_id:
+  - singing
+consultant_id:
+volunteer_id:
+coordinator_id:
+

@@ -1,0 +1,32 @@
+name: SotM Taiwan 台灣開放街圖研討會 2015
+name_en: SotM Taiwan
+abbr: SotM Taiwan
+tagline: 
+cover: /p/2015/sotm/og.png
+description: 台灣開放街圖研討會(SotM Taiwan 2015)希望創造一個開放地理資訊與源碼的交流環境，期待對於地理空間資訊的技術發展、創新研發、和商業應用有深入淺出的討論與互動，讓以社群為主的地圖成為產官學界共同討論的目標，達到多方交流互視，進而協同合作。開放街圖研討會並著重於開放街圖平台的技術交流，可聚集許多空間地理資訊專業人員參與互動，不但可協助贊助商了解開放街圖平台之相關技術，且可協助贊助商與空間地理資訊開發之中高階人才接觸與交流，此外，也有助於贊助商推廣相關產品及服務，讓更多對於空間地理資訊開發者或使用者了解。
+month: 9
+start: 9/18
+end: 9/19
+link:
+  - title: 活動報名網站
+    url: http://sotm2015.kktix.cc/
+tag:
+type_id:
+  - community
+topic_id:
+  - data
+field_id:
+  - geo
+advisor_id:
+organizer_id:
+  - sotm
+  - ocf
+co-organizer_id:
+implementer_id:
+board_id:
+  - pofeng
+staff_id: 
+  - singing
+consultant_id:
+volunteer_id:
+coordinator_id:
