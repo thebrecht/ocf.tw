@@ -11,7 +11,13 @@ layout: page
 <div id="project">
 
 <section id="hero" class="ui inverted {{ page.color }} center aligned basic segment marginless">
-  <img class="cover image" src="{{ project.cover }}" style="opacity: {{ page.image_opacity }}" />
+  <img class="cover image"
+  {% if page.cover_image %}
+  src="{{ page.cover_image }}"
+  {% else %}
+  src="{{ project.cover }}"
+  {% endif %}
+  style="opacity: {{ page.image_opacity }}" />
   <div class="cover" style="opacity: {{ page.veil_opacity }}"></div>
   <hr class="ui hidden section divider" />
   <div class="ui stripe relative container">

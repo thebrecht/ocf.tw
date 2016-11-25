@@ -9,24 +9,60 @@ layout: compress
   {% assign year = page.year | append: "" %}
   {% assign id = page.project_id | append: "" %}
   {% assign og_url = page.url %}
-  {% assign og_title = site.data.projects[year][id].name %}
-  {% assign og_image = site.data.projects[year][id].cover %}
-  {% assign og_description = site.data.projects[year][id].description %}
+  {% if page.og_title %}
+    {% assign og_title = page.og_title %}
+  {% else %}
+    {% assign og_title = site.data.projects[year][id].name %}
+  {% endif %}
+  {% if page.og_image %}
+    {% assign og_image = page.og_image %}
+  {% else %}
+    {% assign og_image = site.data.projects[year][id].cover %}
+  {% endif %}
+  {% if page.og_description %}
+    {% assign og_description = page.og_description %}
+  {% else %}
+    {% assign og_description = site.data.projects[year][id].description %}
+  {% endif %}
 
 {% elsif page.layout == "event" %}
   {% assign year = page.year | append: "" %}
   {% assign id = page.event_id %}
   {% assign og_url = page.url %}
-  {% assign og_title = site.data.events[year][id].title %}
-  {% assign og_image = site.data.events[year][id].cover %}
-  {% assign og_description = site.data.events[year][id].description %}
+  {% if page.og_title %}
+    {% assign og_title = page.og_title %}
+  {% else %}
+    {% assign og_title = site.data.events[year][id].title %}
+  {% endif %}
+  {% if page.og_image %}
+    {% assign og_image = page.og_image %}
+  {% else %}
+    {% assign og_image = site.data.events[year][id].cover %}
+  {% endif %}
+  {% if page.og_description %}
+    {% assign og_description = page.og_description %}
+  {% else %}
+    {% assign og_description = site.data.events[year][id].description %}
+  {% endif %}
 
 {% elsif page.layout == "report" %}
   {% assign year = page.year | append: "" %}
   {% assign og_url = page.url %}
-  {% assign og_title = site.data.reports[year].title %}
-  {% assign og_image = site.data.reports[year].cover %}
-  {% assign og_description = site.data.reports[year].description %}
+  {% if page.og_title %}
+    {% assign og_title = page.og_title %}
+  {% else %}
+    {% assign og_title = site.data.reports[year].title %}
+  {% endif %}
+  {% if page.og_image %}
+    {% assign og_image = page.og_image %}
+  {% else %}
+    {% assign og_image = site.data.reports[year].cover %}
+  {% endif %}
+  {% if page.og_description %}
+    {% assign og_description = page.og_description %}
+  {% else %}
+    {% assign og_description = site.data.reports[year].description %}
+  {% endif %}
 
 {% elsif page.layout == "redirect" %}
   {% assign og_url = page.og_url %}

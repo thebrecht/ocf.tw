@@ -1,17 +1,21 @@
-{% if project.avatar %}
+{% if page.sidebar_image %}
+<img class="ui fluid image" src="{{ page.sidebar_image }}">
+<h2 class="ui center aligned small header">
+
+{% elsif project.avatar %}
 <img class="ui fluid image" src="{{ project.avatar }}">
 <h2 class="ui center aligned small header">
 
 {% elsif project.organizer_id %}
 {% assign organizer_id = project.organizer_id[0] %}
 
-{% if site.data.people.orgs[organizer_id].avatar %}
-<img class="ui fluid image" src="{{ site.data.people.orgs[organizer_id].avatar }}">
-{% elsif site.data.people.orgs[organizer_id].logo %}
-<img class="ui fluid image" src="{{ site.data.people.orgs[organizer_id].logo }}">
-{% elsif site.data.people.orgs[organizer_id].cover %}
-<img class="ui fluid image" src="{{ site.data.people.orgs[organizer_id].cover }}">
-{% endif %}
+  {% if site.data.people.orgs[organizer_id].avatar %}
+  <img class="ui fluid image" src="{{ site.data.people.orgs[organizer_id].avatar }}">
+  {% elsif site.data.people.orgs[organizer_id].logo %}
+  <img class="ui fluid image" src="{{ site.data.people.orgs[organizer_id].logo }}">
+  {% elsif site.data.people.orgs[organizer_id].cover %}
+  <img class="ui fluid image" src="{{ site.data.people.orgs[organizer_id].cover }}">
+  {% endif %}
 
 <h2 class="ui center aligned small header">
 
