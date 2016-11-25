@@ -3,63 +3,63 @@
   subtitle: 2015 年 2 月號
   description: 沒想到震撼的山豬就這樣吃完了！也多虧有你的參與，我們才能順利測試了這次OCF餐會 Beta。期待今年度繼續多多支持、在開源領域中一起努力。除了分食山豬，底下有一些最新進展，再次跟您分享：
   link: https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=7
-  cover: /projects/2015/admin/201502party.jpg
+  cover: /p/2015/admin/201502party.jpg
 
 "03":
   title: 03/19 邀請你一同來參與超越閃電講的閃燃講!
   subtitle: 2015 年 3 月號
   description: 適逢英國開放資料代表團訪台，這是促進和國際開放資料社群交流的大好時機，現場邀請了10名勇者挑戰全英文閃燃講 (Ignite Talks) ，究竟每位在只有「5分鐘20張投影片，15秒自動跳頁」的挑戰下，講者如何為大家帶來一個不一樣夜晚呢？
   link: https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=10
-  cover: /projects/2015/intl/ignite0319-square.png
+  cover: /p/2015/intl/ignite0319-square.png
 
 "04":
   title: "jserv: 「哥教的不是知識是 guts！」"
   subtitle: 2015 年 4 月號
   description: 今年3月份舉辦的 Embedded Linux Conference（ELC）， Jserv 帶著成大學生廖健富 (Jeff Liaw) 一同前往發表開放原始碼成果和演說，將會一同向大家分享 ELC 上所發表的研究成果與會議的見聞。  
   link: https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=11
-  cover: /projects/2015/intl/elc0323.png
+  cover: /p/2015/intl/elc0323.png
 
 "05":
   title: 北市府開放資料黑客松，開始報名！歡迎偷跑 ₍₍◝(･'ω'･)◟⁾⁾ 一人也可以組隊打怪，總獎金高達18萬元唷！
   subtitle: 2015 年 5 月號
   description: 05/23 臺北市政府開放資料黑客松，敬邀社群開發者與各領域的專業工作者，用行動與創意來應用臺北市政府的開放資料平台！歡迎1~4人組成一隊，一起 Open Data and Open Government！特別的是，黑客松活動的開發成果， 皆以開源 (open source) 方式對公眾釋出。所有樂愛開放文化、支持開放資料的朋友們，千萬別錯過這場黑客馬拉松。
   link: https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=12
-  cover: /projects/2015/admin/taipeigov0523.jpg
+  cover: /p/2015/admin/taipeigov0523.jpg
 
 "06":
   title: 06/14「公民參與大亂鬥」12:30~17:00 @台灣微軟，白宮開放政府改革先鋒訪台最大講座
   subtitle: 2015 年 6 月號
   description: 美國開放政府改革先鋒．來台最大講座，國際 x 在地：產官學宅首度同台，將分享精彩的公民參與推動經驗與挑戰，一同探討開放政府與數位民主等相關議題，現場開放 Lightning talks 報名，邀請公民一同來開講！
   link: https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=15
-  cover: /projects/2015/intl/socp0614.jpg
+  cover: /p/2015/intl/socp0614.jpg
 
 "07":
   title: 資料新聞正夯！d| Bootcamp Taipei - 8/21 ~8/23
   subtitle: 2015 年 7 月號
   description: 由 開放文化基金會 與 世界銀行 共同主辦，多位國際專家經驗分享與密集實作訓練課程
   link: https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=17
-  cover: /projects/2015/intl/dbootcamp0821.png
+  cover: /p/2015/intl/dbootcamp0821.png
 
 "08":
   title: 「民主直接點？」系列活動：民主的數位空間
   subtitle: 2015 年 8 月號
   description: 本場次邀請分別從產業與學界進入政府的法國巴黎市副市長市主任 Julien Antelin 與 台北市資訊局長 李維斌，分享開放資料與科技公民參與。
   link: https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=18
-  cover: /projects/2015/intl/dalc0827.jpg
+  cover: /p/2015/intl/dalc0827.jpg
 
 "09":
   title: 創用CC 民間講員招募
   subtitle: 2015 年 9 月號
   description: 「台灣創用CC計畫」(Creative Commons Taiwan) 長期推廣公眾授權條款，近期台灣創用CC計畫與開放文化基金會將進行短期合作，希望活絡台灣創用CC社群，進而培育、招募未來潛力講員，此次合作的範圍包含：(1)教學與學習資源 (2)講者培訓 (3)社群發展 (4)網站建置與經營。
   link: https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=20
-  cover: /projects/2015/cctw/cover.png
+  cover: /p/2015/cctw/cover.png
 
 "09sp":
   title: 新科技新民主 [ 國際大補帖 x 衛服部潛入日記 ]
   subtitle: 活動特刊
   description: 我們邀請到來自摩洛哥的 Andrew Mandelbaum 來分享芬蘭、摩洛哥、英國等地，使用新科技的一些民主案例；同場加映從民間進入衛福部的 Peggy，由她分享血淚交織的政府網路溝通經驗。
   link: https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=21
-  cover: /projects/2015/intl/ntnd1004.png
+  cover: /p/2015/intl/ntnd1004.png
 
 "10":
   title: OCF 好康相報：KKTIX 贊助 FLOSS 社群免費升級年約用戶
@@ -73,4 +73,4 @@
   subtitle: 2015 年 11 月號
   description: 本週開源獸將來傳授創用 CC 授權祕笈，介紹創用 CC 概念與授權方式，帶你了解如何「共創、共享」多達 8 億的創作品。
   link: https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=23
-  cover: /projects/2015/cctw/1121.png
+  cover: /p/2015/cctw/1121.png

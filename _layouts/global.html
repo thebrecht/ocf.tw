@@ -81,7 +81,7 @@ layout: compress
     {% if page.refresh %}
     <meta http-equiv="refresh" content="0; url={{ page.refresh }}" />
     {% else %}
-    <meta http-equiv="refresh" content="0; url=/projects/{{ year }}/{{ id }}" />
+    <meta http-equiv="refresh" content="0; url=/p/{{ year }}/{{ id }}" />
     {% endif %}
 
   {% elsif page.data == "events" %}
@@ -94,7 +94,7 @@ layout: compress
     {% if page.refresh %}
     <meta http-equiv="refresh" content="0; url={{ page.refresh }}" />
     {% else %}
-    <meta http-equiv="refresh" content="0; url=/projects/{{ year }}/{{ project_id }}/{{ id }}" />
+    <meta http-equiv="refresh" content="0; url=/p/{{ year }}/{{ project_id }}/{{ id }}" />
     {% endif %}
 
   {% elsif page.data == "reports" %}
