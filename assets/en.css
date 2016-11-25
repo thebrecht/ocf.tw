@@ -1,0 +1,36 @@
+#en #hero {
+  background-color: #333;
+  background: url(/mediakit/cover_bg.png) no-repeat center center;
+  background-size: cover;
+  margin: 0;
+}
+
+#en #header {
+  background-color: none;
+  background: none;
+}
+
+#en #header .ui.menu .logo.item {
+  margin: -0.85714286em -1.14285714em;
+}
+
+#en #header .ui.menu .logo.image {
+  height: 2.5rem;
+}
+
+#en .sentence {
+  display: inline-block;
+  margin: 0 0.5em;
+}
+
+#en cite {
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.5em;
+  opacity: 0.5;
+  display: block;
+}
+
+#en cite:hover {
+  opacity: 1;
+}
