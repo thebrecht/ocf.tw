@@ -17,8 +17,8 @@ layout: page
   {% else %}
   src="{{ project.cover }}"
   {% endif %}
-  style="opacity: {{ page.image_opacity }}" />
-  <div class="cover" style="opacity: {{ page.veil_opacity }}"></div>
+  style="opacity: {{ page.cover_image_opacity }}" />
+  <div class="cover" style="opacity: {{ page.cover_veil_opacity }}"></div>
   <hr class="ui hidden section divider" />
   <div class="ui stripe relative container">
     <h1 class="ui inverted header">
@@ -47,24 +47,24 @@ layout: page
 
       {{ content }}
 
-      {% if events %}
+      {% if events and page.show_events %}
       <h2 id="events" class="ui dividing header">計畫成果</h2>
       {% include events.html %}
       {% endif %}
 
-      {% if page.budget %}
+      {% if page.show_budget %}
       <h2 id="budget" class="ui header">預算表</h2>
-      {% include_relative {{ page.budget }} %}
+      {% include_relative budget.html %}
       {% endif %}
 
-      {% if page.gsheet %}
+      {% if page.gsheet_url %}
       <h2 id="payments" class="ui dividing header">收支明細</h2>
       <div class="ui basic paddingless segment">
-        <iframe src="{{ page.gsheet }}"></iframe>
+        <iframe src="{{ page.gsheet_url }}"></iframe>
       </div>
       {% endif %}
 
-      {% if project.sponsor_id %}
+      {% if project.sponsor_id and page.show_sponsors %}
       <h2 class="ui dividing header">贊助單位</h2>
       <div id="sponsors" class="ui horizontal center aligned list">
 
@@ -82,7 +82,7 @@ layout: page
       </div>
       {% endif %}
 
-      {% if project.donors %}
+      {% if project.donors and page.show_donors %}
       <h2 class="ui dividing header">捐助人</h2>
       <div id="donors" class="ui center aligned labels">
 

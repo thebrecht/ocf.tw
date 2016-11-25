@@ -1,22 +1,78 @@
 ---
 layout: project
-year:
-project_id:
+# 要套用哪寵版型，凡是專案頁都套用 project 版型，所以這行不用改
 
-# 以上必填，以下選填
+year: 
+# 要從哪個年份抓這頁所需的資料，如：2016
 
-color:
-# 填入 semantic ui inverted segment 的顏色 class name，空著的話會是黑色
+project_id: 
+# 要從哪個專案 id 抓這頁所需的資料，如：intl
 
-image_opacity:
-# 想要改變 cover 圖片透明度的話可以填這裡，0 到 1 之間的數字，空著的話會是預設值
+# ------ 以上為必要，以下為非必要 ------
 
-veil_opacity: 
-# 想要改變 cover 圖片混色濃度的話可以填這裡，0 到 1 之間的數字，空著的話會是預設值
+og_title: 
+# 這頁的 og title，若留空，會採用專案的 name 資料，也就是中文全名
 
-budget:
-# 預算表檔名（.html 格式）
+og_description: 
+# 這頁的 og description，若留空，會採用專案的 description 資料
 
-gsheet:
-# 想內嵌的 gsheet 網址
+og_image: 
+# 這頁的 og image 網址，若留空，會採用專案的 cover 資料
+
+cover_image: 
+# 這頁上方大標題區塊的背景圖網址，若留空，會採用專案的 cover 資料
+
+cover_image_opacity: 
+# 這頁上方大標題區塊的背景圖的透明度，可填入 0 到 1 之間的數字，若留空，預設是 0.95
+
+cover_veil_opacity: 
+# 這頁上方大標題區塊的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若留空，預設值是 0.1
+
+sidebar_image: 
+# 這頁右側邊欄的配圖，若留空，會採用專案的 avatar 資料，或主辦單位組織的 avatar / logo / cover 資料，或 semantic ui 的 info icon （以上順序即為採用資料的優先順位，若前一個無資料，則會去找下一個）
+
+color: 
+# 這頁上方大標題區塊的背景圖混色，以及緊接在大標題區塊之下的摘要區塊的背景顏色，填入 semantic ui inverted segment 的顏色 class name，如 teal / pink / blue ... 等。若留空，則會採用黑色。semantic ui 顏色名稱請參考： http://semantic-ui.com/elements/segment.html#colored
+
+show_events: yes
+# 是否顯示計畫成果，若填 yes 則會自動列出屬於這個專案的活動，若留空則不顯示計畫成果區塊
+
+show_budget: yes
+# 是否顯示預算表，若填 yes 則會自動抓取專案資料夾中的 budget.html 檔案做為預算表內容，若留空則不顯示預算表區塊
+
+gsheet_url:
+# 收知明細表的 google spreadsheet 網址，若留空則不顯示收支明細區塊
+
+show_sponsors: yes
+# 是否顯示贊助商，若填 yes 則會自動出現贊助商們的 logo，若留空則不顯示贊助商區塊
+
+show_donors: yes
+# 是否顯示捐助人，若填 yes 則會自動出現捐助人們的名單，若留空則不顯示捐助人區塊
+
 ---
+
+<h2 class="ui dividing header">計畫說明</h2>
+
+<h3 class="ui header">
+標題一
+</h3>
+
+<p>
+段落一
+</p>
+
+<div class="ui list">
+  <div class="item">
+    <i class="checkmark icon"></i>
+    <div class="content">
+    清單一
+    </div>
+  </div>
+</div>
+
+<p>
+<a href="" target="_blank">
+<i class="globe icon"></i>
+連結一
+</a>
+</p>
