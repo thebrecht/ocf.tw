@@ -116,8 +116,16 @@ layout: compress
     {% endif %}
     {% if source_page.url == og_url %}
       {% assign og_title = source_page.og_title %}
-      {% assign og_image = source_page.og_image %}
-      {% assign og_description = source_page.og_description %}
+      {% if source_page.og_image %}
+        {% assign og_image = source_page.og_image %}
+      {% else %}
+        {% assign og_image = site.data.people.orgs.ocf.cover %}
+      {% endif %}
+      {% if source_page.og_description %}
+        {% assign og_description = source_page.og_description %}
+      {% else %}
+        {% assign og_image = site.data.people.orgs.ocf.context_description %}
+      {% endif %}
     {% endif %}
     {% endfor %}
     {% if page.refresh %}
@@ -131,12 +139,12 @@ layout: compress
     {% if page.og_image %}
       {% assign og_image = page.og_image %}
     {% else %}
-      {% assign og_image = {{ site.data.people.orgs.ocf.cover }} %}
+      {% assign og_image = site.data.people.orgs.ocf.cover %}
     {% endif %}
     {% if page.og_description %}
       {% assign og_description = page.og_description %}
     {% else %}
-      {% assign og_description = {{ site.data.people.orgs.ocf.context_description }} %}
+      {% assign og_description = site.data.people.orgs.ocf.context_description %}
     {% endif %}
     {% if page.refresh %}
     <meta http-equiv="refresh" content="0; url={{ page.refresh }}" />
@@ -156,12 +164,12 @@ layout: compress
   {% if page.og_image %}
     {% assign og_image = page.og_image %}
   {% else %}
-    {% assign og_image = {{ site.data.people.orgs.ocf.cover }} %}
+    {% assign og_image = site.data.people.orgs.ocf.cover %}
   {% endif %}
   {% if page.og_description %}
     {% assign og_description = page.og_description %}
   {% else %}
-    {% assign og_description = {{ site.data.people.orgs.ocf.context_description }} %}
+    {% assign og_description = site.data.people.orgs.ocf.context_description %}
   {% endif %}
 
 {% endif %}
@@ -220,7 +228,11 @@ layout: compress
 
   <nav class="ui right inverted vertical menu sidebar">
 
+  {% if page.layout == "design" %}
+  {% include design_sidebar.html %}
+  {% else %}
   {% include sidebar.html %}
+  {% endif %}
 
   </nav>
   <div class="pusher">
