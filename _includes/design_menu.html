@@ -1,0 +1,11 @@
+<a href="/design" class="item">首頁</a>
+
+{% for item in site.data.design.settings.menu %}
+<a href="{{ item.url }}" class="item 
+{% if page.url contains item.url %}
+active
+{% endif %}
+">
+{{ item.title }}
+</a>
+{% endfor %}

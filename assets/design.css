@@ -7,3 +7,7 @@ table td pre, table td code {
   margin: 0;
   padding: 0;
 }
+
+#header {
+  background-image: none;
+}

@@ -1,17 +1,17 @@
 ---
 layout: design
-og_title: 全站 redirect 總覽
-og_description: 這頁是 OCF.tw 官網改版 2016 年度結案驗收文件之一，列出全站所有頁面的 redirect 資訊，包括跳板頁及目的頁的 url，用來和手工編輯的的 google spreadsheet 比對，確認實做結果和原訂目標是否一致。
+og_title: 全站 layouts 總覽
+og_description: 這頁是 OCF.tw 官網改版 2016 年度結案交接文件之一，列出全站所有頁面所使用的 html 模版及頁內零件，用來確認每頁的內容物是否完整。
 script: script-tablesort.html
 css: /assets/design.css
-js: /assets/redirect.js
+js: /assets/layout.js
 ---
 
-<div id="redirect">
+<div id="layout">
 
 <section class="ui stripe center aligned container">
 <h1 class="ui icon header">
-<i class="icon mail forward circular olive"></i>
+<i class="icon grid layout circular olive"></i>
 {{ page.og_title }}</h1>
 </section>
 
@@ -19,10 +19,10 @@ js: /assets/redirect.js
 <table class="ui sortable table">
   <thead>
   <tr>
-    <th class="four wide">url</th>
+    <th class="five wide">url</th>
     <th class="five wide">title</th>
     <th class="three wide">layout</th>
-    <th class="four wide">redirect to</th>
+    <th class="three wide">content</th>
   </tr>
   </thead>
   <tbody>
@@ -36,8 +36,10 @@ js: /assets/redirect.js
     <td data-value="layout">
     <pre>{{ p.layout }}</pre>
     </td>
-    <td data-value="redirect url">
-    <pre></pre>
+    <td data-value="content">
+    {% if p.content.size > 0 %}
+    <a target="_blank" href="{{ p.url }}">詳細內容</a>
+    {% endif %}
     </td>
   </tr>
   {% endfor %}

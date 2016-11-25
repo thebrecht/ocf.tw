@@ -1,0 +1,24 @@
+<a class="icon item
+{% if page.url == '/design/' %}
+active
+{% endif %}
+" href="/design">
+  <i class="icon paint brush"></i>
+</a>
+<div class="right menu">
+
+{% for item in site.data.design.settings.menu %}
+<a href="{{ item.url }}" class="item 
+{% if page.url contains item.url %}
+active
+{% endif %}
+" data-display="desktop">
+{{ item.title }}
+</a>
+{% endfor %}
+
+<a class="item" data-display="mobile" data-toggle="sidebar">
+  <i class="sidebar icon"></i>
+</a>
+
+</div>
