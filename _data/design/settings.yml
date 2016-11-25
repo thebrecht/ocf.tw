@@ -1,6 +1,6 @@
 menu:
-  - title: meta
-    url: /design/meta
+  - title: og
+    url: /design/og
   - title: redirect
     url: /design/redirect
   - title: layout
