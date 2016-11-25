@@ -77,10 +77,6 @@ ongoing:
         <div class="ui divided relaxed items">
 
           <div class="item">
-            <!--
-            <div class="image">
-              <img src="img/coscup2016.jpg" alt="CC BY-SA COSCUP 2016 team, downloaded from https://farm9.staticflickr.com/8336/28672262933_726400c424_z_d.jpg, https://www.flickr.com/photos/coscup/28672262933/in/">
-            </div> -->
             <div class="image">
               <i class="huge hand rock icon bordered"></i>
             </div>
@@ -125,10 +121,6 @@ ongoing:
         <div class="ui divided relaxed items">
 
           <div class="item">
-            <!--
-            <div class="image">
-              <img src="img/intl2015.JPG" alt="photo taken by [TODO] ___, owned by 財團法人開放文化基金會 Open Culture Foundation (OCF)">
-            </div> -->
             <div class="image">
               <i class="huge plane icon bordered"></i>
             </div>
@@ -148,10 +140,6 @@ ongoing:
           </div>
 
           <div class="item">
-            <!--
-            <div class="image">
-              <img src="img/ndc-it-managers-2016.jpg" alt="photo taken by [TODO] ___, owned by 財團法人開放文化基金會 Open Culture Foundation (OCF)">
-            </div> -->
             <div class="image">
               <i class="huge idea icon bordered"></i>
             </div>
@@ -254,7 +242,7 @@ ongoing:
     <h2 class="ui header">合作夥伴</h2>
     <div class="ui horizontal center aligned list">
 
-  {% for org_id in site.data.people.partners %}
+  {% for org_id in site.data.people.relations.partners %}
   {% assign org = site.data.people.orgs[org_id] %}
 
       <a class="item" target="_blank" href="{{ org.link[0].url }}">
@@ -274,7 +262,7 @@ ongoing:
     <h2 class="ui header">贊助夥伴</h2>
     <div class="ui horizontal center aligned list">
 
-  {% for org_id in site.data.people.sponsors %}
+  {% for org_id in site.data.people.relations.sponsors %}
   {% assign org = site.data.people.orgs[org_id] %}
       <a class="item" target="_blank" href="{{ org.link[0].url }}">
         <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
@@ -292,7 +280,7 @@ ongoing:
     <h2 class="ui header">捐助人</h2>
     <div class="ui center aligned labels">
 
-  {% for donor in site.data.people.donors %}
+  {% for donor in site.data.people.relations.donors %}
       <span class="ui label">{{ donor }}</span>
   {% endfor %}
 

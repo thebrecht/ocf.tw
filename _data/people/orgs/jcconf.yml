@@ -1,0 +1,9 @@
+name: Java Community Conference Taiwan
+name_en:
+abbr: JCConf
+type: community
+description: 
+logo: /people/partners/jcconf_logo.png
+link:
+  - title: 官方網站
+    url: http://jcconf.tw/

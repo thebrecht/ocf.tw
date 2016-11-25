@@ -1,0 +1,55 @@
+name: 財團法人開放文化基金會
+name_en: Open Culture Foundation
+abbr: 開放文化基金會
+abbr_en: OCF
+type: non-profit
+slogan: 陪伴開放生態系成長茁壯
+description: 2014 年，由多個台灣開源社群共同發起，在開放源碼、開放資料、開放政府等領域，提供社群支援、組織合作、海外交流、顧問諮詢等服務。期待以法人組織的力量推廣開放文化，在產、官、學、民之間激起開放協作的火花。
+context_description: 2014 年 6 月，多個台灣開源社群共同發起開放文化基金會（Open Culture Foundation，簡稱 OCF），以法人組織的力量推廣開放文化。除了支援民間社群舉辦活動外，也協助企業、政府、非營利及學術單位導入開放文化的知識及精神，期望在產、官、學之間激起開放協作的火花。
+contact:
+  email:
+    general: hi@ocf.tw
+  tel:
+    taipei:
+    taoyuan: +886 3 220 7480
+  fax:
+    taipei:
+    taoyuan: +886 3 220 1542
+  address:
+    taipei: (10058) 台北市中正區八德路一段 94 號 4F
+    taoyuan: (33059) 桃園市桃園區中山路 807 號
+subscribe:
+  - title: News
+    url: /news
+    icon: newspaper
+    target: _self
+  - title: Blog
+    url: http://blog.ocf.tw/
+    icon: rss
+  - title: Facebook
+    url: https://www.facebook.com/www.ocf.tw
+    icon: facebook
+  - title: Google+
+    url: https://www.google.com/+OcfTw
+    icon: google plus
+  - title: YouTube
+    url: https://www.youtube.com/c/OcfTw
+    icon: youtube play
+join:
+  - title: Google Groups
+    url: https://groups.google.com/forum/#!forum/ocf-general
+    icon: comments
+  - title: Hackpad
+    url: https://ocf-tw.hackpad.com
+    icon: text file outline
+  - title: GitHub
+    url: https://github.com/ocftw
+    icon: github
+icon: /mediakit/icon_white.png
+logo: /mediakit/logo.png
+avatar: /mediakit/avatar.jpg
+cover: /mediakit/cover.png
+link:
+  - title: 官方網站
+    url: http://ocf.tw/
+

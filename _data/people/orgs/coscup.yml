@@ -1,0 +1,10 @@
+name: COSCUP 開源人年會
+name_en: Conference for Open Source Coders, Users and Promoters
+abbr: COSCUP
+type: community
+description: COSCUP 希望藉由每一屆的年度會議，讓世界各地的 FLOSS 愛好者齊聚一堂，並邀請世界各地的專家上台分享經驗，想法與新的技術，來共同的激發國內外的愛好者更加踴躍投入 FLOSS 的開發與使用。
+logo: /people/partners/coscup_logo.png
+link:
+  - title: 官方網站
+    url: http://coscup.org/
+
