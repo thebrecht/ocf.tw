@@ -32,8 +32,15 @@ field_id:
 
 # ------ 以上必填，以下有專案獨立頁面才要填 ------
 
+progress:
+# 專案募款進度，會出現在專案列表頁右側邊欄
+  percent: integer
+  # 進度百分比
+  updated: text
+  # 資料更新日期
+
 action: 
-# 專案頁的 call to action 按鈕，會出現在右側邊藍
+# 專案頁的 call to action，可以是按鈕或一段文字，會出現在右側邊藍
   - title: text
     # 按鈕上的文字
     url: url
@@ -42,6 +49,8 @@ action:
     # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
     icon: text
     # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
+  - title: text
+    # 沒有設定 url 的狀況下，會單純以一段文字的形式顯示
 
 # ------ 以下有強迫症的人再填 ------
 
