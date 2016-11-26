@@ -1,14 +1,12 @@
 # 這個檔案用來存專案列表的的設定，包括
-# 1.filter 選單的內容
-# 2.專案卡片的順序
+# 1.filter: 選單的內容
+# 2.card: 專案在列表中的順序
 
-# 1.filter 選單
-# 如果在專案資料內有存入對應的 id 的話，在專案列表頁裡面按 filter 選單的時候，就會對該專案的卡片生效
 filter:
+# 如果在專案資料內有存入對應的 id 的話，在專案列表頁裡面按 filter 選單的時候，就會對該專案的卡片生效
 
-# type
-# 對應到首頁的 what we do 分類，也就是 ocf 的業務類型
   type:
+  # 對應到首頁的 what we do 分類，也就是 ocf 的業務類型
     name: 類型
     items:
       community: 社群支援
@@ -17,9 +15,8 @@ filter:
       consultanting: 顧問諮詢
       misc: 其他
 
-# topic
-# 對應到 ocf 介紹文案的關心的議題，也就是 2016/10 董事會的粗略共識
   topic:
+  # 對應到 ocf 介紹文案的關心的議題，也就是 2016/10 董事會的粗略共識
     name: 議題
     items:
       source: 開放源碼
@@ -28,9 +25,8 @@ filter:
       hardware: 開放硬體
       misc: 其他
 
-# field
-# 對應到一般學術領域的分類，主要是讓非資訊人找到看得懂得專案用的
   field:
+  # 對應到一般學術領域的分類，主要是讓非資訊人找到看得懂得專案用的
     name: 領域
     items:
       it: 資訊科技
@@ -41,11 +37,9 @@ filter:
       education: 教育
       misc: 其他
 
-# 2.專案卡片的順序: card
-
+card:
 # 專案列表頁上的專案卡片，會以這個清單的順序排列。
 # 每個清單項目的內容，是專案的 id，網頁會依 id 去抓當年度的專案資料，然後在網頁上呈現出卡片的樣子。
-card:
   - admin
   - intl
   - movie

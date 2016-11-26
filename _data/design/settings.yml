@@ -1,3 +1,5 @@
+# 這個檔案用來存 design 頁面的設定，對一般使用者沒有影響
+
 menu:
   - title: og
     url: /design/og

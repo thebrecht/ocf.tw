@@ -2,11 +2,10 @@
 # 1.people 頁的內容有哪幾塊、每塊的小標題是什麼
 # 2.people 頁上方的 menu 會出現哪些按鈕
 
-# card
+card:
 # 位於頁面的第一區，用 semantic ui 的 card 的方式呈現。在這裡調整順序，網頁上的順序也會跟著變。
 # id: 要從 individuals 內的哪個 .yml 檔案讀取這群人的名單
 # name: 網頁上的小標題要顯示什麼字
-card:
   - id: staff
     name: 工作人員
   - id: consultants
@@ -18,20 +17,18 @@ card:
   - id: board
     name: 董事
 
-# logo
+logo:
 # 位於頁面的第二區，用 logo 牆的方式呈現。在這裡調整順序，網頁上的順序也會跟著變。
 # id: 要從 orgs 內的哪個 .yml 檔案讀取這群組織的名單
 # name: 網頁上的小標題要顯示什麼字
-logo:
   - id: partners
     name: 合作夥伴
   - id: sponsors
     name: 贊助夥伴
 
-# label
+label:
 # 位於頁面的第三區，用 semantic ui 的 label 的方式呈現。
 # id: 要從 individuals 內的哪個 .yml 檔案讀取這群組織的名單
 # name: 網頁上的小標題要顯示什麼字
-label:
   - id: donors
     name: 捐助人

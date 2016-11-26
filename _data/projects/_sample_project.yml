@@ -1,0 +1,124 @@
+# 這個檔案是專案資料檔的範例
+
+name: text
+# 專案的中文正式名稱，會顯示在專案列表頁、專案頁、活動頁
+
+cover: url
+# 專案的封面圖，會出現在專案列表頁、專案頁、活動頁
+
+description: text
+# 專案描述，會出現在專案列表頁、專案頁
+
+link:
+# 專案網址，第一筆資料會被當成專案入口網址，出現在專案列表頁、活動頁、以及行政中心的計畫成果列表
+  - title: text
+    # 連結要顯示什麼名稱
+    url: url
+    # 連結要指向哪裡
+    target: _self
+    # 連結要怎麼打開，若沒標註 target: _self 則會以 _blank 打開
+
+type_id:
+# 專案採用的業務類型，會出現在專案列表頁，內容詳 settings
+  - id
+
+topic_id:
+# 專案牽涉的議題，會出現在專案列表頁，內容詳 settings
+  - id
+
+field_id:
+# 專案牽涉的專頁領域，會出現在專案列表頁，內容詳 settings
+  - id
+
+# ------ 以上必填，以下有專案獨立頁面才要填 ------
+
+action: 
+# 專案頁的 call to action 按鈕，會出現在右側邊藍
+  - title: text
+    # 按鈕上的文字
+    url: url
+    # 按下後會連去哪裡
+    color: text
+    # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
+    icon: text
+    # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
+
+# ------ 以下有強迫症的人再填 ------
+
+tagline: text
+# 專案的標語，若有，會出現在專案頁上方，顯示為副標
+
+avatar: url
+# 專案的 avatar 圖檔網址，圖檔長寬盡量接近一比一，若有，會出現在專案頁的右側邊欄
+
+organizer_id:
+# 主辦單位 id，若有，會出現在專案列表頁、專案頁右側邊欄、以及行政中心的「計畫成果」列表內
+  - id
+
+advisor_id:
+# 指導單位 id，若有，會出現在專案頁右側邊欄、以及行政中心的「計畫成果」列表內
+  - id
+
+co-organizer_id:
+# 協辦單位 id，若有，會出現在專案頁右側邊欄、以及行政中心的「計畫成果」列表內
+  - id
+
+implementer_id:
+# 承辦單位 id，若有，會出現在專案頁右側邊欄、以及行政中心的「計畫成果」列表內
+  - id
+
+sponsor_id:
+# 贊助單位 id，若有，會出現在專案頁最下方、以及行政中心的「計畫成果」列表內
+  - id
+
+coordinator_id:
+# 召集人 id，若有，會出現在專案頁右側邊欄、以及行政中心的「計畫成果」列表內
+  - id
+
+donors:
+# 捐助人名單，若有，會出現在專案頁最下方
+  - text
+
+meta:
+# 額外的 meta 資訊，若有，會出現在專案頁的右側邊欄
+  - label: text
+    # 標籤名稱，限五個中文字以內
+    content: text
+    # 標籤內容，長度不限
+
+start: m/dd
+# 專案開始日期，若有，會出現在行政中心專案頁的「計畫成果」列表內
+
+end: m/dd
+# 專案結束日期，若留空，視為跟 start 相同
+
+tag:
+# 專案關鍵字標籤，若有，會出現在專案列表頁
+  - text
+
+abbr: text
+# 專案的簡稱，若有，會出現在成果報告頁
+
+month: m
+# 專案所屬月份，若有，會出現在年度成果報告頁
+
+# ------ 以下資料最後沒用到，強迫症很嚴重的話再填 ------
+
+name_en: text
+# 專案的英文正式名稱，預定給將來英文版網頁用的，目前沒用到
+
+board_id:
+# 負責董事 id，目前不會出現在任何地方，可忽略
+  - id
+
+staff_id: 
+# 負責員工 id，目前不會出現在任何地方，可忽略
+  - id
+
+consultant_id:
+# 顧問 id，目前不會出現在任何地方，可忽略
+  - id
+
+volunteer_id:
+# 志工 id，目前不會出現在任何地方，可忽略
+  - id
