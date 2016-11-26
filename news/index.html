@@ -17,14 +17,6 @@ og_description: 開源開放大小事，搶鮮送到你家！OCF 電子報，每
   <div class="ui two column stackable grid">
     <div class="ten wide column">
 
-      {% if site.data.media.size > 0 %}
-      <section id="media">
-
-        <h2 class="ui header">媒體報導</h2>
-
-      </section>
-      {% endif %}
-
       <section id="newsletters">
 
         {% for news in site.data.news reversed %}
@@ -37,18 +29,18 @@ og_description: 開源開放大小事，搶鮮送到你家！OCF 電子報，每
 
           <div class="item">
             <div class="image">
-              <img src="{{ item[1].cover }}">
+              <img src="{{ item.cover }}">
             </div>
             <div class="content">
               <h4 class="ui header">
-                <a href="{{ item[1].link }}" target="_blank">
-                  {{ item[1].title }}
+                <a href="{{ item.link }}" target="_blank">
+                  {{ item.title }}
                 </a>
               </h4>
-              <div class="meta">{{ item[1].subtitle }}</div>
+              <div class="meta">{{ item.subtitle }}</div>
               <div class="description">
                 <p>
-                  {{ item[1].description }}
+                  {{ item.description }}
                 </p>
               </div>
             </div>
