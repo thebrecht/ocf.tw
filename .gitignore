@@ -2,6 +2,7 @@
 .DS_Store
 nbproject
 _site
+_deploy
 *.lock
 Gemfile
 
